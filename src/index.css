@@ -1,0 +1,9 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-lighttile: #995d31;
+  --color-darktile: #5e3a2b;
+  --color-slatetile: #332f47;
+  --font-display: 'Rubik', 'sans-serif';
+}
+
