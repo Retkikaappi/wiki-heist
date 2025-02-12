@@ -1,0 +1,2316 @@
+[
+  {
+    "name": "Banannabal",
+    "image": "https://thebazaar.wiki.gg/images/thumb/e/e5/Monster_Banannabal_Portrait.png/300px-Monster_Banannabal_Portrait.png",
+    "skills": [],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c2/Bluenanas.png/51px-Bluenanas.png",
+        "name": "Bluenanas",
+        "effects": "Heal 10/20/40/80.\nWhen you sell this, gain 20/60/120/200 Max Health",
+        "cooldown": "9.0 sec",
+        "ammo": "–",
+        "types": "Food",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/4/4e/Duct_Tape.png/51px-Duct_Tape.png",
+        "name": "Duct Tape",
+        "effects": "Slow 1 item for 1/2/3/4 seconds.\nWhen you use an adjacent item, Shield 5/10/15/20",
+        "cooldown": "6.0 sec",
+        "ammo": "–",
+        "types": "Tool",
+        "size": "Small"
+      }
+    ]
+  },
+  {
+    "name": "Fanged Inglet",
+    "image": "https://thebazaar.wiki.gg/images/thumb/5/5c/Monster_FangedInglet_Portrait.png/300px-Monster_FangedInglet_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/7/7a/Icon_Skill_DeadlyEye.png/100px-Icon_Skill_DeadlyEye.png",
+        "name": "Deadly Eye",
+        "effects": "Your Weapons have +4 / 6 / 8 / 10% Crit chance.",
+        "startingTier": "Bronze",
+        "types": "Weapon"
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/7/7a/Icon_Skill_DeadlyEye.png/100px-Icon_Skill_DeadlyEye.png",
+        "name": "Deadly Eye",
+        "effects": "Your Weapons have +4 / 6 / 8 / 10% Crit chance.",
+        "cooldown": "Bronze",
+        "ammo": "Weapon"
+      }
+    ]
+  },
+  {
+    "name": "Haunted Kimono",
+    "image": "https://thebazaar.wiki.gg/images/thumb/7/79/Haunted_Kimono_Portrait.png/300px-Haunted_Kimono_Portrait.png",
+    "skills": [],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/b/b8/Scrap.png/51px-Scrap.png",
+        "name": "Scrap",
+        "effects": "When you sell this, give your leftmost Shield item +4/8/12/16 Shield.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/8/83/Silk.png/119px-Silk.png",
+        "name": "Silk",
+        "effects": "Shield 10/20/40/80\nWhen you sell another non Weapon item, this gains +Shield 4/8/12/16 .",
+        "cooldown": "7.0 sec",
+        "ammo": "–",
+        "types": "",
+        "size": "Medium"
+      }
+    ]
+  },
+  {
+    "name": "Coconut Crab",
+    "image": "https://thebazaar.wiki.gg/images/thumb/2/28/Monster_CoconutCrab_Portrait.png/300px-Monster_CoconutCrab_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/1/13/Icon_Skill_MON_Withdraw_01.png/100px-Icon_Skill_MON_Withdraw_01.png",
+        "name": "Hard Shell",
+        "effects": "The first time you fall below half health each fight, Shield equal to 20 / 30 / 40 / 50% of your Max Health.",
+        "startingTier": "Bronze",
+        "types": ""
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/1/13/Icon_Skill_MON_Withdraw_01.png/100px-Icon_Skill_MON_Withdraw_01.png",
+        "name": "Hard Shell",
+        "effects": "The first time you fall below half health each fight, Shield equal to 20 / 30 / 40 / 50% of your Max Health.",
+        "cooldown": "Bronze",
+        "ammo": ""
+      }
+    ]
+  },
+  {
+    "name": "Giant Mosquito",
+    "image": "https://thebazaar.wiki.gg/images/thumb/8/8f/Monster_GiantMosquito_Portrait.png/300px-Monster_GiantMosquito_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c8/Icon_Skill_KeenEye.png/100px-Icon_Skill_KeenEye.png",
+        "name": "Keen Eye",
+        "effects": "Your items have 3/6/9/12% Crit Chance.",
+        "startingTier": "Bronze",
+        "types": ""
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/d/dc/Icon_Skill_MON_MegaDrain_01.png/100px-Icon_Skill_MON_MegaDrain_01.png",
+        "name": "Rush",
+        "effects": "At the start of each fight, Haste a weapon 3 / 5 / 7 / 9 second(s).",
+        "startingTier": "Bronze",
+        "types": "Weapon"
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c8/Icon_Skill_KeenEye.png/100px-Icon_Skill_KeenEye.png",
+        "name": "Keen Eye",
+        "effects": "Your items have 3/6/9/12% Crit Chance.",
+        "cooldown": "Bronze",
+        "ammo": ""
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/d/dc/Icon_Skill_MON_MegaDrain_01.png/100px-Icon_Skill_MON_MegaDrain_01.png",
+        "name": "Rush",
+        "effects": "At the start of each fight, Haste a weapon 3 / 5 / 7 / 9 second(s).",
+        "cooldown": "Bronze",
+        "ammo": "Weapon"
+      }
+    ]
+  },
+  {
+    "name": "Covetous Thief",
+    "image": "https://thebazaar.wiki.gg/images/thumb/c/c2/Monster_CovetousThief_Portrait.png/300px-Monster_CovetousThief_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c8/Icon_Skill_KeenEye.png/100px-Icon_Skill_KeenEye.png",
+        "name": "Keen Eye",
+        "effects": "Your items have 3/6/9/12% Crit Chance.",
+        "startingTier": "Bronze",
+        "types": ""
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/3/3f/Icon_Skill_MON_Greed_02.png/100px-Icon_Skill_MON_Greed_02.png",
+        "name": "Pickpocket",
+        "effects": "At the start of each fight, gain 1/2/3/4 Gold.",
+        "startingTier": "Bronze",
+        "types": ""
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c8/Icon_Skill_KeenEye.png/100px-Icon_Skill_KeenEye.png",
+        "name": "Keen Eye",
+        "effects": "Your items have 3/6/9/12% Crit Chance.",
+        "cooldown": "Bronze",
+        "ammo": ""
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/3/3f/Icon_Skill_MON_Greed_02.png/100px-Icon_Skill_MON_Greed_02.png",
+        "name": "Pickpocket",
+        "effects": "At the start of each fight, gain 1/2/3/4 Gold.",
+        "cooldown": "Bronze",
+        "ammo": ""
+      }
+    ]
+  },
+  {
+    "name": "Boarrior",
+    "image": "https://thebazaar.wiki.gg/images/thumb/2/23/Monster_Boarrior_Portrait.png/300px-Monster_Boarrior_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/4/4a/Icon_Skill_FrontalShielding.png/100px-Icon_Skill_FrontalShielding.png",
+        "name": "Frontal Shielding",
+        "effects": "Your leftmost Shield item has +5 / 15 / 30 / 50 Shield.",
+        "startingTier": "Bronze",
+        "types": ""
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/4/4a/Icon_Skill_FrontalShielding.png/100px-Icon_Skill_FrontalShielding.png",
+        "name": "Frontal Shielding",
+        "effects": "Your leftmost Shield item has +5 / 15 / 30 / 50 Shield.",
+        "cooldown": "Bronze",
+        "ammo": ""
+      }
+    ]
+  },
+  {
+    "name": "Rogue Scrapper",
+    "image": "https://thebazaar.wiki.gg/images/thumb/9/9c/Monster_RogueScraper_Portrait.png/300px-Monster_RogueScraper_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/b/b8/Icon_Skill_MON_RogueScrapper_01.png/100px-Icon_Skill_MON_RogueScrapper_01.png",
+        "name": "Rust",
+        "effects": "At the start of each fight, slow an item for 3 / 5 / 7 / 9 second(s).",
+        "startingTier": "Bronze",
+        "types": ""
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/b/b8/Icon_Skill_MON_RogueScrapper_01.png/100px-Icon_Skill_MON_RogueScrapper_01.png",
+        "name": "Rust",
+        "effects": "At the start of each fight, slow an item for 3 / 5 / 7 / 9 second(s).",
+        "cooldown": "Bronze",
+        "ammo": ""
+      }
+    ]
+  },
+  {
+    "name": "Dabbling Apprentice",
+    "image": "https://thebazaar.wiki.gg/images/thumb/5/5e/Monster_DabblingApprentice_Portrait.png/300px-Monster_DabblingApprentice_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/1/17/Icon_Skill_MON_DabblingApprentice_01.png/100px-Icon_Skill_MON_DabblingApprentice_01.png",
+        "name": "Panic",
+        "effects": "The first time you fall below 50% health each fight, reload 2 / 4 / 6 / 8 items.",
+        "startingTier": "Bronze",
+        "types": ""
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/1/17/Icon_Skill_MON_DabblingApprentice_01.png/100px-Icon_Skill_MON_DabblingApprentice_01.png",
+        "name": "Panic",
+        "effects": "The first time you fall below 50% health each fight, reload 2 / 4 / 6 / 8 items.",
+        "cooldown": "Bronze",
+        "ammo": ""
+      }
+    ]
+  },
+  {
+    "name": "Tempest Flamedancer",
+    "image": "https://thebazaar.wiki.gg/images/thumb/a/a9/Monster_TempestBravo_Portrait.png/300px-Monster_TempestBravo_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/8/8f/Icon_Skill_MON_FlameWall_01.png/100px-Icon_Skill_MON_FlameWall_01.png",
+        "name": "Flamedancer",
+        "effects": "Your Burn items have +2 / 4 / 6 / 8% Crit Chance.",
+        "startingTier": "Bronze",
+        "types": ""
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/8/8f/Icon_Skill_MON_FlameWall_01.png/100px-Icon_Skill_MON_FlameWall_01.png",
+        "name": "Flamedancer",
+        "effects": "Your Burn items have +2 / 4 / 6 / 8% Crit Chance.",
+        "cooldown": "Bronze",
+        "ammo": ""
+      }
+    ]
+  },
+  {
+    "name": "Frost Street Challenger",
+    "image": "https://thebazaar.wiki.gg/images/thumb/a/a4/Monster_FrostStreetChallenger_Portrait.png/300px-Monster_FrostStreetChallenger_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/4/47/Icon_Skill_MON_TheColdShoulder_01.png/100px-Icon_Skill_MON_TheColdShoulder_01.png",
+        "name": "Snowstorm",
+        "effects": "When you freeze, your weapons gain 2 / 4 / 6 / 8 damage for the fight.",
+        "startingTier": "Bronze",
+        "types": ""
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/4/47/Icon_Skill_MON_TheColdShoulder_01.png/100px-Icon_Skill_MON_TheColdShoulder_01.png",
+        "name": "Snowstorm",
+        "effects": "When you freeze, your weapons gain 2 / 4 / 6 / 8 damage for the fight.",
+        "cooldown": "Bronze",
+        "ammo": ""
+      }
+    ]
+  },
+  {
+    "name": "Eccentric Etherwright",
+    "image": "https://thebazaar.wiki.gg/images/thumb/0/0a/Monster_EccentricEtherwright_Portrait.png/300px-Monster_EccentricEtherwright_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/6/6a/Icon_Skill_MON_Rigged.png/100px-Icon_Skill_MON_Rigged.png",
+        "name": "Rigged",
+        "effects": "At the start of each fight, Haste 2 / 3 / 4 / 5 items for 3 second(s).",
+        "startingTier": "Bronze",
+        "types": ""
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/6/6a/Icon_Skill_MON_Rigged.png/100px-Icon_Skill_MON_Rigged.png",
+        "name": "Rigged",
+        "effects": "At the start of each fight, Haste 2 / 3 / 4 / 5 items for 3 second(s).",
+        "cooldown": "Bronze",
+        "ammo": ""
+      }
+    ]
+  },
+  {
+    "name": "Scout Trooper",
+    "image": "https://thebazaar.wiki.gg/images/thumb/2/2a/Monster_Scouttrooper_Portrait.png/300px-Monster_Scouttrooper_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/9/93/Icon_Skill_Gunner.png/100px-Icon_Skill_Gunner.png",
+        "name": "Gunner",
+        "effects": "Your items have +1 / 2 / 3 Max Ammo.",
+        "startingTier": "Silver",
+        "types": ""
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/8/8e/Icon_Skill_SmallWeaponry.png/100px-Icon_Skill_SmallWeaponry.png",
+        "name": "Small Weaponry",
+        "effects": "Your Small Weapons deal +3 / 9 / 18 / 30 Damage.",
+        "startingTier": "Bronze",
+        "types": "Weapon"
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/9/93/Icon_Skill_Gunner.png/100px-Icon_Skill_Gunner.png",
+        "name": "Gunner",
+        "effects": "Your items have +1 / 2 / 3 Max Ammo.",
+        "cooldown": "Silver",
+        "ammo": ""
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/8/8e/Icon_Skill_SmallWeaponry.png/100px-Icon_Skill_SmallWeaponry.png",
+        "name": "Small Weaponry",
+        "effects": "Your Small Weapons deal +3 / 9 / 18 / 30 Damage.",
+        "cooldown": "Bronze",
+        "ammo": "Weapon"
+      }
+    ]
+  },
+  {
+    "name": "Boilerroom Brawler",
+    "image": "https://thebazaar.wiki.gg/images/thumb/3/38/Monster_BoilerroomBrawler_Portrait.png/300px-Monster_BoilerroomBrawler_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/2/2b/Icon_Skill_FlashyMechanic.png/100px-Icon_Skill_FlashyMechanic.png",
+        "name": "Flashy Mechanic",
+        "effects": "When you use a Tool, items adjacent to it gain 3 / 5 / 10% Crit chance.",
+        "startingTier": "Silver",
+        "types": "Tool"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/1/11/Icon_Skill_MON_TimetoTinker01.png/100px-Icon_Skill_MON_TimetoTinker01.png",
+        "name": "Time to Tinker",
+        "effects": "When you Haste, Shield 10 / 20 / 30 / 40.",
+        "startingTier": "Bronze",
+        "types": ""
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/2/2b/Icon_Skill_FlashyMechanic.png/100px-Icon_Skill_FlashyMechanic.png",
+        "name": "Flashy Mechanic",
+        "effects": "When you use a Tool, items adjacent to it gain 3 / 5 / 10% Crit chance.",
+        "cooldown": "Silver",
+        "ammo": "Tool"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/1/11/Icon_Skill_MON_TimetoTinker01.png/100px-Icon_Skill_MON_TimetoTinker01.png",
+        "name": "Time to Tinker",
+        "effects": "When you Haste, Shield 10 / 20 / 30 / 40.",
+        "cooldown": "Bronze",
+        "ammo": ""
+      }
+    ]
+  },
+  {
+    "name": "Outlands Dervish",
+    "image": "https://thebazaar.wiki.gg/images/thumb/4/4b/Monster_OutlandsDervish_Portrait.png/300px-Monster_OutlandsDervish_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c8/Icon_Skill_KeenEye.png/100px-Icon_Skill_KeenEye.png",
+        "name": "Keen Eye",
+        "effects": "Your items have 3/6/9/12% Crit Chance.",
+        "startingTier": "Bronze",
+        "types": ""
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c8/Icon_Skill_KeenEye.png/100px-Icon_Skill_KeenEye.png",
+        "name": "Keen Eye",
+        "effects": "Your items have 3/6/9/12% Crit Chance.",
+        "cooldown": "Bronze",
+        "ammo": ""
+      }
+    ]
+  },
+  {
+    "name": "Bloodreef Raider",
+    "image": "https://thebazaar.wiki.gg/images/thumb/f/f6/Monster_BloodreefRaider_Portrait.png/300px-Monster_BloodreefRaider_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/2/2c/Icon_Skill_MON_ToxicAlacrity.png/100px-Icon_Skill_MON_ToxicAlacrity.png",
+        "name": "Ammo Stash",
+        "effects": "Your leftmost Ammo item has +1 / 2 / 3 / 4 Max Ammo.",
+        "startingTier": "Bronze",
+        "types": ""
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/2/2c/Icon_Skill_MON_ToxicAlacrity.png/100px-Icon_Skill_MON_ToxicAlacrity.png",
+        "name": "Ammo Stash",
+        "effects": "Your leftmost Ammo item has +1 / 2 / 3 / 4 Max Ammo.",
+        "cooldown": "Bronze",
+        "ammo": ""
+      }
+    ]
+  },
+  {
+    "name": "Retiree",
+    "image": "https://thebazaar.wiki.gg/images/e/e7/Monster_Retiree_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/b/b3/Icon_SKILL_MON_ExtremeComfort.png/100px-Icon_SKILL_MON_ExtremeComfort.png",
+        "name": "Extreme Comfort",
+        "effects": "When you Heal, your Shield items gain 1/2/3/4 Shield for the fight.",
+        "startingTier": "Bronze",
+        "types": "Heal, Shield"
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/b/b3/Icon_SKILL_MON_ExtremeComfort.png/100px-Icon_SKILL_MON_ExtremeComfort.png",
+        "name": "Extreme Comfort",
+        "effects": "When you Heal, your Shield items gain 1/2/3/4 Shield for the fight.",
+        "cooldown": "Bronze",
+        "ammo": "Heal, Shield"
+      }
+    ]
+  },
+  {
+    "name": "Deadly Crooner",
+    "image": "https://thebazaar.wiki.gg/images/e/e0/Monster_Deadly_Crooner_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/4/4d/Icon_Skill_LeftHanded.png/100px-Icon_Skill_LeftHanded.png",
+        "name": "Left-Handed",
+        "effects": "Your leftmost Weapon deals +4/12/24/40 Damage.",
+        "startingTier": "Bronze",
+        "types": "Weapon"
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/4/4d/Icon_Skill_LeftHanded.png/100px-Icon_Skill_LeftHanded.png",
+        "name": "Left-Handed",
+        "effects": "Your leftmost Weapon deals +4/12/24/40 Damage.",
+        "cooldown": "Bronze",
+        "ammo": "Weapon"
+      }
+    ]
+  },
+  {
+    "name": "Flame Juggler",
+    "image": "https://thebazaar.wiki.gg/images/thumb/e/ee/Monster_FlameJuggler_Portrait.png/300px-Monster_FlameJuggler_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/3/38/Icon_Skill_MON_LivingFlame_01.png/100px-Icon_Skill_MON_LivingFlame_01.png",
+        "name": "Burst of Flame",
+        "effects": "The first time your opponent falls below half health, Burn 10 / 15 / 20 / 25.",
+        "startingTier": "Bronze",
+        "types": ""
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/2/2f/Icon_Skill_Fiery.png/100px-Icon_Skill_Fiery.png",
+        "name": "Fiery",
+        "effects": "Your Burn items have +1 / 2 / 3 / 4 Burn.",
+        "startingTier": "Bronze",
+        "types": ""
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/3/38/Icon_Skill_MON_LivingFlame_01.png/100px-Icon_Skill_MON_LivingFlame_01.png",
+        "name": "Burst of Flame",
+        "effects": "The first time your opponent falls below half health, Burn 10 / 15 / 20 / 25.",
+        "cooldown": "Bronze",
+        "ammo": ""
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/2/2f/Icon_Skill_Fiery.png/100px-Icon_Skill_Fiery.png",
+        "name": "Fiery",
+        "effects": "Your Burn items have +1 / 2 / 3 / 4 Burn.",
+        "cooldown": "Bronze",
+        "ammo": ""
+      }
+    ]
+  },
+  {
+    "name": "Techno Virus",
+    "image": "https://thebazaar.wiki.gg/images/thumb/5/52/Monster_TechnoVirus_Portrait.png/300px-Monster_TechnoVirus_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c2/Icon_Skill_FlankingToxins.png/100px-Icon_Skill_FlankingToxins.png",
+        "name": "Flanking Toxins",
+        "effects": "The first time you use a Large item each fight, adjacent Poison items gain 4 / 6 / 8 Poison for the fight.",
+        "startingTier": "Silver",
+        "types": ""
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c2/Icon_Skill_FlankingToxins.png/100px-Icon_Skill_FlankingToxins.png",
+        "name": "Flanking Toxins",
+        "effects": "The first time you use a Large item each fight, adjacent Poison items gain 4 / 6 / 8 Poison for the fight.",
+        "cooldown": "Silver",
+        "ammo": ""
+      }
+    ]
+  },
+  {
+    "name": "Hydrodude",
+    "image": "https://thebazaar.wiki.gg/images/thumb/d/dc/Monster_Hydrodude_Portrait.png/299px-Monster_Hydrodude_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/8/8c/Icon_Skill_SlowandSteady.png/100px-Icon_Skill_SlowandSteady.png",
+        "name": "Slow and Steady",
+        "effects": "When you Slow, your weapons gain 3 / 6 damage for the fight.",
+        "startingTier": "Gold",
+        "types": "Weapon"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/d/d0/Icon_Skill_SlowedTargets.png/100px-Icon_Skill_SlowedTargets.png",
+        "name": "Slowed Targets",
+        "effects": "When you Slow, your items gain +2 / 3% Crit Chance for the fight.",
+        "startingTier": "Gold",
+        "types": ""
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/8/8c/Icon_Skill_SlowandSteady.png/100px-Icon_Skill_SlowandSteady.png",
+        "name": "Slow and Steady",
+        "effects": "When you Slow, your weapons gain 3 / 6 damage for the fight.",
+        "cooldown": "Gold",
+        "ammo": "Weapon"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/d/d0/Icon_Skill_SlowedTargets.png/100px-Icon_Skill_SlowedTargets.png",
+        "name": "Slowed Targets",
+        "effects": "When you Slow, your items gain +2 / 3% Crit Chance for the fight.",
+        "cooldown": "Gold",
+        "ammo": ""
+      }
+    ]
+  },
+  {
+    "name": "Preening Duelist",
+    "image": "https://thebazaar.wiki.gg/images/9/98/Monster_Preening_Duelist_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/8/8e/Icon_Skill_MON_AllTalk_02.png/100px-Icon_Skill_MON_AllTalk_02.png",
+        "name": "All Talk",
+        "effects": "While you have more than half Health, your weapons have +25 / 50 damage.",
+        "startingTier": "Gold",
+        "types": ""
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/8/8e/Icon_Skill_MON_AllTalk_02.png/100px-Icon_Skill_MON_AllTalk_02.png",
+        "name": "All Talk",
+        "effects": "While you have more than half Health, your weapons have +25 / 50 damage.",
+        "cooldown": "Gold",
+        "ammo": ""
+      }
+    ]
+  },
+  {
+    "name": "Sabretooth",
+    "image": "https://thebazaar.wiki.gg/images/thumb/f/f8/Monster_Sabretooth_Portrait.png/300px-Monster_Sabretooth_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/f/f7/Icon_Skill_MON_DiamondFangs.png/100px-Icon_Skill_MON_DiamondFangs.png",
+        "name": "Diamond Fangs",
+        "effects": "Your Small Diamond-tier items have their cooldowns reduced by 30 / 40 / 50%.",
+        "startingTier": "Bronze",
+        "types": ""
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/f/f7/Icon_Skill_MON_DiamondFangs.png/100px-Icon_Skill_MON_DiamondFangs.png",
+        "name": "Diamond Fangs",
+        "effects": "Your Small Diamond-tier items have their cooldowns reduced by 30 / 40 / 50%.",
+        "cooldown": "Bronze",
+        "ammo": ""
+      }
+    ]
+  },
+  {
+    "name": "Hakurvian Rocket Trooper",
+    "image": "https://thebazaar.wiki.gg/images/8/8c/Monster_Hakurvian_Rocket_Trooper_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/4/40/Icon_Skill_FlashyReload.png/100px-Icon_Skill_FlashyReload.png",
+        "name": "Flashy Reload",
+        "effects": "When you Crit with an item, reload another item +1 / 2 ammo.",
+        "startingTier": "Gold",
+        "types": ""
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/8/81/Icon_Skill_HeavyWeaponry.png/100px-Icon_Skill_HeavyWeaponry.png",
+        "name": "Heavy Weaponry",
+        "effects": "Your Large Weapons deal +12 / 36 / 72 / 120 Damage.",
+        "startingTier": "Bronze",
+        "types": "Weapon"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c8/Icon_Skill_KeenEye.png/100px-Icon_Skill_KeenEye.png",
+        "name": "Keen Eye",
+        "effects": "Your items have 3/6/9/12% Crit Chance.",
+        "startingTier": "Bronze",
+        "types": ""
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/4/40/Icon_Skill_FlashyReload.png/100px-Icon_Skill_FlashyReload.png",
+        "name": "Flashy Reload",
+        "effects": "When you Crit with an item, reload another item +1 / 2 ammo.",
+        "cooldown": "Gold",
+        "ammo": ""
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/8/81/Icon_Skill_HeavyWeaponry.png/100px-Icon_Skill_HeavyWeaponry.png",
+        "name": "Heavy Weaponry",
+        "effects": "Your Large Weapons deal +12 / 36 / 72 / 120 Damage.",
+        "cooldown": "Bronze",
+        "ammo": "Weapon"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c8/Icon_Skill_KeenEye.png/100px-Icon_Skill_KeenEye.png",
+        "name": "Keen Eye",
+        "effects": "Your items have 3/6/9/12% Crit Chance.",
+        "cooldown": "Bronze",
+        "ammo": ""
+      }
+    ]
+  },
+  {
+    "name": "Infernal Envoy",
+    "image": "https://thebazaar.wiki.gg/images/thumb/a/a5/Monster_InfernalEnvoy_Portrait.png/299px-Monster_InfernalEnvoy_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/7/70/Icon_Skill_Strenght.png/100px-Icon_Skill_Strenght.png",
+        "name": "Strength",
+        "effects": "Your Weapons deal +2 / 6 / 12 / 20 Damage.",
+        "startingTier": "Bronze",
+        "types": "Weapon"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/1/1d/Icon_Skill_MON_DeathWish_02.png/100px-Icon_Skill_MON_DeathWish_02.png",
+        "name": "Vengeance",
+        "effects": "Your leftmost and rightmost items have their cooldowns reduced by 5 / 10 / 15%.",
+        "startingTier": "Silver",
+        "types": ""
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/7/70/Icon_Skill_Strenght.png/100px-Icon_Skill_Strenght.png",
+        "name": "Strength",
+        "effects": "Your Weapons deal +2 / 6 / 12 / 20 Damage.",
+        "cooldown": "Bronze",
+        "ammo": "Weapon"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/1/1d/Icon_Skill_MON_DeathWish_02.png/100px-Icon_Skill_MON_DeathWish_02.png",
+        "name": "Vengeance",
+        "effects": "Your leftmost and rightmost items have their cooldowns reduced by 5 / 10 / 15%.",
+        "cooldown": "Silver",
+        "ammo": ""
+      }
+    ]
+  },
+  {
+    "name": "Gorgon Noble",
+    "image": "https://thebazaar.wiki.gg/images/thumb/3/3b/Monster_GorgonNoble_Portrait.png/300px-Monster_GorgonNoble_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c6/Icon_Skill_InitialDose.png/100px-Icon_Skill_InitialDose.png",
+        "name": "Initial Dose",
+        "effects": "Your leftmost Poison item has +2 / 4 / 6 / 8 Poison.",
+        "startingTier": "Bronze",
+        "types": ""
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/b/be/Icon_Skill_ParalyticPoison.png/100px-Icon_Skill_ParalyticPoison.png",
+        "name": "Paralytic Poison",
+        "effects": "The first time you Poison each fight, Freeze an item for 3 / 4 / 5 / 6 second(s).",
+        "startingTier": "Bronze",
+        "types": ""
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/9/9f/Icon_Skill_MON_PetrifyingGaze_01.png/100px-Icon_Skill_MON_PetrifyingGaze_01.png",
+        "name": "Petrifying Gaze",
+        "effects": "The first time you fall below half health each fight, Freeze all enemy items for 1 / 2 / 3 second(s).",
+        "startingTier": "Silver",
+        "types": ""
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c6/Icon_Skill_InitialDose.png/100px-Icon_Skill_InitialDose.png",
+        "name": "Initial Dose",
+        "effects": "Your leftmost Poison item has +2 / 4 / 6 / 8 Poison.",
+        "cooldown": "Bronze",
+        "ammo": ""
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/b/be/Icon_Skill_ParalyticPoison.png/100px-Icon_Skill_ParalyticPoison.png",
+        "name": "Paralytic Poison",
+        "effects": "The first time you Poison each fight, Freeze an item for 3 / 4 / 5 / 6 second(s).",
+        "cooldown": "Bronze",
+        "ammo": ""
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/9/9f/Icon_Skill_MON_PetrifyingGaze_01.png/100px-Icon_Skill_MON_PetrifyingGaze_01.png",
+        "name": "Petrifying Gaze",
+        "effects": "The first time you fall below half health each fight, Freeze all enemy items for 1 / 2 / 3 second(s).",
+        "cooldown": "Silver",
+        "ammo": ""
+      }
+    ]
+  },
+  {
+    "name": "Mod Squad",
+    "image": "https://thebazaar.wiki.gg/images/9/96/Monster_Mod_Squad_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/f/f9/Icon_Skill_DOO_BeautifulFriendship.png/100px-Icon_Skill_DOO_BeautifulFriendship.png",
+        "name": "Beautiful Friendship",
+        "effects": "When you use a Friend, your weapons gain 2 / 4 damage for the fight.",
+        "startingTier": "Gold",
+        "types": "Friend, Weapon"
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/f/f9/Icon_Skill_DOO_BeautifulFriendship.png/100px-Icon_Skill_DOO_BeautifulFriendship.png",
+        "name": "Beautiful Friendship",
+        "effects": "When you use a Friend, your weapons gain 2 / 4 damage for the fight.",
+        "cooldown": "Gold",
+        "ammo": "Friend, Weapon"
+      }
+    ]
+  },
+  {
+    "name": "Trashtown Mayor",
+    "image": "https://thebazaar.wiki.gg/images/thumb/4/4f/Monster_TentCityMayor_Portrait.png/300px-Monster_TentCityMayor_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/7/7c/Icon_SKILL_MON_AugmentedDefenses.png/100px-Icon_SKILL_MON_AugmentedDefenses.png",
+        "name": "Augmented Defenses",
+        "effects": "Your Shield items have +1 Shield. When you sell a small item, increase this bonus by +1/2/3/4 Shield.",
+        "startingTier": "Bronze",
+        "types": "Shield"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/4/4e/Icon_SKILL_MON_AugmentedWeaponry.png/100px-Icon_SKILL_MON_AugmentedWeaponry.png",
+        "name": "Augmented Weaponry",
+        "effects": "Your Weapons items have +1 Damage. When you sell a small item, increase this bonus by +1/2/3/4 Damage.",
+        "startingTier": "Bronze",
+        "types": "Weapon, Damage"
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/7/7c/Icon_SKILL_MON_AugmentedDefenses.png/100px-Icon_SKILL_MON_AugmentedDefenses.png",
+        "name": "Augmented Defenses",
+        "effects": "Your Shield items have +1 Shield. When you sell a small item, increase this bonus by +1/2/3/4 Shield.",
+        "cooldown": "Bronze",
+        "ammo": "Shield"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/4/4e/Icon_SKILL_MON_AugmentedWeaponry.png/100px-Icon_SKILL_MON_AugmentedWeaponry.png",
+        "name": "Augmented Weaponry",
+        "effects": "Your Weapons items have +1 Damage. When you sell a small item, increase this bonus by +1/2/3/4 Damage.",
+        "cooldown": "Bronze",
+        "ammo": "Weapon, Damage"
+      }
+    ]
+  },
+  {
+    "name": "Dire Inglet",
+    "image": "https://thebazaar.wiki.gg/images/thumb/e/ed/Monster_DireIngle_Portrait.png/300px-Monster_DireIngle_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/2/27/Icon_Skill_MON_PackLoyalty_04.png/100px-Icon_Skill_MON_PackLoyalty_04.png",
+        "name": "Aggressive",
+        "effects": "When you use a Weapon, give it +2 / 4 / 6 / 8% crit chance the fight.",
+        "startingTier": "Bronze",
+        "types": "Weapon"
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/2/27/Icon_Skill_MON_PackLoyalty_04.png/100px-Icon_Skill_MON_PackLoyalty_04.png",
+        "name": "Aggressive",
+        "effects": "When you use a Weapon, give it +2 / 4 / 6 / 8% crit chance the fight.",
+        "cooldown": "Bronze",
+        "ammo": "Weapon"
+      }
+    ]
+  },
+  {
+    "name": "Dire Mosquito",
+    "image": "https://thebazaar.wiki.gg/images/thumb/5/53/Monster_DireMosquito_Portrait.png/300px-Monster_DireMosquito_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/1/17/Paralyzing_Rush.png/100px-Paralyzing_Rush.png",
+        "name": "Paralyzing Rush",
+        "effects": "When you Slow, Haste a Weapon 1/2 second(s).",
+        "startingTier": "Gold",
+        "types": "Weapon"
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/1/17/Paralyzing_Rush.png/100px-Paralyzing_Rush.png",
+        "name": "Paralyzing Rush",
+        "effects": "When you Slow, Haste a Weapon 1/2 second(s).",
+        "cooldown": "Gold",
+        "ammo": "Weapon"
+      }
+    ]
+  },
+  {
+    "name": "Zookeeper",
+    "image": "https://thebazaar.wiki.gg/images/thumb/e/e9/Monster_Zookeeper_Portrait.png/300px-Monster_Zookeeper_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/0/0d/Icon_SKILL_MON_ToxicFriendship.png/100px-Icon_SKILL_MON_ToxicFriendship.png",
+        "name": "Toxic Friendship",
+        "effects": "When you use a Friend, Poison 1 / 2.",
+        "startingTier": "Gold",
+        "types": "Friend"
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/0/0d/Icon_SKILL_MON_ToxicFriendship.png/100px-Icon_SKILL_MON_ToxicFriendship.png",
+        "name": "Toxic Friendship",
+        "effects": "When you use a Friend, Poison 1 / 2.",
+        "cooldown": "Gold",
+        "ammo": "Friend"
+      }
+    ]
+  },
+  {
+    "name": "Foreman",
+    "image": "https://thebazaar.wiki.gg/images/thumb/e/e6/Monster_Foreman_Portrait.png/300px-Monster_Foreman_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/2/2b/Icon_Skill_FlashyMechanic.png/100px-Icon_Skill_FlashyMechanic.png",
+        "name": "Flashy Mechanic",
+        "effects": "When you use a Tool, items adjacent to it gain 3 / 5 / 10% Crit chance.",
+        "startingTier": "Silver",
+        "types": "Tool"
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/2/2b/Icon_Skill_FlashyMechanic.png/100px-Icon_Skill_FlashyMechanic.png",
+        "name": "Flashy Mechanic",
+        "effects": "When you use a Tool, items adjacent to it gain 3 / 5 / 10% Crit chance.",
+        "cooldown": "Silver",
+        "ammo": "Tool"
+      }
+    ]
+  },
+  {
+    "name": "Trash Golem",
+    "image": "https://thebazaar.wiki.gg/images/thumb/e/e6/Monster_TrashBandit_Portrait.png/300px-Monster_TrashBandit_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/0/03/Icon_Skill_MON_ALittleOfEverything_01.png/100px-Icon_Skill_MON_ALittleOfEverything_01.png",
+        "name": "Jury Rigger",
+        "effects": "When you use an ammo item, reload 1 / 2 / 3 the item to the left of it.",
+        "startingTier": "Silver",
+        "types": ""
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/0/03/Icon_Skill_MON_ALittleOfEverything_01.png/100px-Icon_Skill_MON_ALittleOfEverything_01.png",
+        "name": "Jury Rigger",
+        "effects": "When you use an ammo item, reload 1 / 2 / 3 the item to the left of it.",
+        "cooldown": "Silver",
+        "ammo": ""
+      }
+    ]
+  },
+  {
+    "name": "Enclave Weeper",
+    "image": "https://thebazaar.wiki.gg/images/7/7d/Monster_Enclave_Weeper_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c0/Icon_Skill_ExposingToxins.png/100px-Icon_Skill_ExposingToxins.png",
+        "name": "Exposing Toxins",
+        "effects": "When you Poison, your items gain +2 / 3% Crit Chance for the fight.",
+        "startingTier": "Gold",
+        "types": ""
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c0/Icon_Skill_ExposingToxins.png/100px-Icon_Skill_ExposingToxins.png",
+        "name": "Exposing Toxins",
+        "effects": "When you Poison, your items gain +2 / 3% Crit Chance for the fight.",
+        "cooldown": "Gold",
+        "ammo": ""
+      }
+    ]
+  },
+  {
+    "name": "Loan Shark",
+    "image": "https://thebazaar.wiki.gg/images/5/5c/Monster_Loan_Shark_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/a/a9/Icon_Skill_VAN_CrashingWaves.png/100px-Icon_Skill_VAN_CrashingWaves.png",
+        "name": "Crashing Waves",
+        "effects": "When you use an Aquatic item, Haste a weapon for 1 / 2 second(s).",
+        "startingTier": "Gold",
+        "types": "Weapon, Aquatic"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/7/77/Icon_Skill_MON_MoneyIsPower_02.png/100px-Icon_Skill_MON_MoneyIsPower_02.png",
+        "name": "Power Broker",
+        "effects": "Your weapons have + damage equal to 1x / 2x your income.",
+        "startingTier": "Gold",
+        "types": "Weapon"
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/a/a9/Icon_Skill_VAN_CrashingWaves.png/100px-Icon_Skill_VAN_CrashingWaves.png",
+        "name": "Crashing Waves",
+        "effects": "When you use an Aquatic item, Haste a weapon for 1 / 2 second(s).",
+        "cooldown": "Gold",
+        "ammo": "Weapon, Aquatic"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/7/77/Icon_Skill_MON_MoneyIsPower_02.png/100px-Icon_Skill_MON_MoneyIsPower_02.png",
+        "name": "Power Broker",
+        "effects": "Your weapons have + damage equal to 1x / 2x your income.",
+        "cooldown": "Gold",
+        "ammo": "Weapon"
+      }
+    ]
+  },
+  {
+    "name": "Infernal",
+    "image": "https://thebazaar.wiki.gg/images/thumb/9/90/Monster_Infernal_Portrait.png/300px-Monster_Infernal_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/2/27/Icon_Skill_MON_DisdainForLife_01.png/100px-Icon_Skill_MON_DisdainForLife_01.png",
+        "name": "Burning Rage",
+        "effects": "When you Burn, your Weapons gain +2 / 4 / 6 / 8 damage the fight.",
+        "startingTier": "Bronze",
+        "types": "Weapon"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/7/70/Icon_Skill_Strenght.png/100px-Icon_Skill_Strenght.png",
+        "name": "Strength",
+        "effects": "Your Weapons deal +2 / 6 / 12 / 20 Damage.",
+        "startingTier": "Bronze",
+        "types": "Weapon"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/6/64/Icon_Skill_TracerFire.png/100px-Icon_Skill_TracerFire.png",
+        "name": "Tracer Fire",
+        "effects": "When you burn, your items gain +2 / 3% Crit Chance for the fight.",
+        "startingTier": "Gold",
+        "types": ""
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/2/27/Icon_Skill_MON_DisdainForLife_01.png/100px-Icon_Skill_MON_DisdainForLife_01.png",
+        "name": "Burning Rage",
+        "effects": "When you Burn, your Weapons gain +2 / 4 / 6 / 8 damage the fight.",
+        "cooldown": "Bronze",
+        "ammo": "Weapon"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/7/70/Icon_Skill_Strenght.png/100px-Icon_Skill_Strenght.png",
+        "name": "Strength",
+        "effects": "Your Weapons deal +2 / 6 / 12 / 20 Damage.",
+        "cooldown": "Bronze",
+        "ammo": "Weapon"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/6/64/Icon_Skill_TracerFire.png/100px-Icon_Skill_TracerFire.png",
+        "name": "Tracer Fire",
+        "effects": "When you burn, your items gain +2 / 3% Crit Chance for the fight.",
+        "cooldown": "Gold",
+        "ammo": ""
+      }
+    ]
+  },
+  {
+    "name": "Lich",
+    "image": "https://thebazaar.wiki.gg/images/thumb/0/0a/Monster_Lich_Portrait.png/300px-Monster_Lich_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/b/b0/Icon_Skill_MON_ChillingTouch.png/100px-Icon_Skill_MON_ChillingTouch.png",
+        "name": "Chilling Touch",
+        "effects": "The first time you Freeze each fight, Slow all your opponent's items for 3 / 5 / 7 second(s).",
+        "startingTier": "Silver",
+        "types": ""
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/9/9f/Icon_Skill_MON_PetrifyingGaze_01.png/100px-Icon_Skill_MON_PetrifyingGaze_01.png",
+        "name": "Petrifying Gaze",
+        "effects": "The first time you fall below half health each fight, Freeze all enemy items for 1 / 2 / 3 second(s).",
+        "startingTier": "Silver",
+        "types": ""
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/b/b0/Icon_Skill_MON_ChillingTouch.png/100px-Icon_Skill_MON_ChillingTouch.png",
+        "name": "Chilling Touch",
+        "effects": "The first time you Freeze each fight, Slow all your opponent's items for 3 / 5 / 7 second(s).",
+        "cooldown": "Silver",
+        "ammo": ""
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/9/9f/Icon_Skill_MON_PetrifyingGaze_01.png/100px-Icon_Skill_MON_PetrifyingGaze_01.png",
+        "name": "Petrifying Gaze",
+        "effects": "The first time you fall below half health each fight, Freeze all enemy items for 1 / 2 / 3 second(s).",
+        "cooldown": "Silver",
+        "ammo": ""
+      }
+    ]
+  },
+  {
+    "name": "Sergeant Suds",
+    "image": "https://thebazaar.wiki.gg/images/4/42/Monster_Sergeant_Suds_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/b/b7/Icon_SKILL_MON_CleanStorefront.png/100px-Icon_SKILL_MON_CleanStorefront.png",
+        "name": "Clean Storefront",
+        "effects": "Your leftmost item has +15 / 30 / 50 value during combat.",
+        "startingTier": "Silver",
+        "types": ""
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/b/b7/Icon_SKILL_MON_CleanStorefront.png/100px-Icon_SKILL_MON_CleanStorefront.png",
+        "name": "Clean Storefront",
+        "effects": "Your leftmost item has +15 / 30 / 50 value during combat.",
+        "cooldown": "Silver",
+        "ammo": ""
+      }
+    ]
+  },
+  {
+    "name": "Viper Tyrant",
+    "image": "https://thebazaar.wiki.gg/images/thumb/c/ce/Monster_ViperTyrant_Portrait.png/300px-Monster_ViperTyrant_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/e/ee/Icon_Skill_MON_RevitalizingToxins.png/100px-Icon_Skill_MON_RevitalizingToxins.png",
+        "name": "Revitalizing Toxins",
+        "effects": "When you Poison, gain 2 / 4 / 6 / 8 Regeneration for the fight.",
+        "startingTier": "Bronze",
+        "types": ""
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/e/ee/Icon_Skill_MON_RevitalizingToxins.png/100px-Icon_Skill_MON_RevitalizingToxins.png",
+        "name": "Revitalizing Toxins",
+        "effects": "When you Poison, gain 2 / 4 / 6 / 8 Regeneration for the fight.",
+        "cooldown": "Bronze",
+        "ammo": ""
+      }
+    ]
+  },
+  {
+    "name": "Cosmic Roc",
+    "image": "https://thebazaar.wiki.gg/images/thumb/4/4f/Monster_CosmicRoc_Portrait.png/300px-Monster_CosmicRoc_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/1/1c/Icon_Skill_MON_Skyfall_01.png/100px-Icon_Skill_MON_Skyfall_01.png",
+        "name": "Cosmic Wind",
+        "effects": "When you Crit, Haste an item for 1 / 2 / 3 second(s).",
+        "startingTier": "Silver",
+        "types": ""
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c8/Icon_Skill_KeenEye.png/100px-Icon_Skill_KeenEye.png",
+        "name": "Keen Eye",
+        "effects": "Your items have 3/6/9/12% Crit Chance.",
+        "startingTier": "Bronze",
+        "types": ""
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/1/1c/Icon_Skill_MON_Skyfall_01.png/100px-Icon_Skill_MON_Skyfall_01.png",
+        "name": "Cosmic Wind",
+        "effects": "When you Crit, Haste an item for 1 / 2 / 3 second(s).",
+        "cooldown": "Silver",
+        "ammo": ""
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c8/Icon_Skill_KeenEye.png/100px-Icon_Skill_KeenEye.png",
+        "name": "Keen Eye",
+        "effects": "Your items have 3/6/9/12% Crit Chance.",
+        "cooldown": "Bronze",
+        "ammo": ""
+      }
+    ]
+  },
+  {
+    "name": "Joyful Jack",
+    "image": "https://thebazaar.wiki.gg/images/thumb/c/c1/Monster_JoyfulJack_Portrait.png/300px-Monster_JoyfulJack_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/7/75/Icon_Skill_CriticalAid.png/100px-Icon_Skill_CriticalAid.png",
+        "name": "Critical Aid",
+        "effects": "Your Heal items have +3 / 6 / 9 / 12% Crit chance.",
+        "startingTier": "Bronze",
+        "types": ""
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/3/3e/Icon_Skill_RapidReconstruction.png/100px-Icon_Skill_RapidReconstruction.png",
+        "name": "Rapid Thaw",
+        "effects": "When your opponent Freezes your items, reduce the duration by 1 second(s).",
+        "startingTier": "Diamond",
+        "types": ""
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/7/75/Icon_Skill_CriticalAid.png/100px-Icon_Skill_CriticalAid.png",
+        "name": "Critical Aid",
+        "effects": "Your Heal items have +3 / 6 / 9 / 12% Crit chance.",
+        "cooldown": "Bronze",
+        "ammo": ""
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/3/3e/Icon_Skill_RapidReconstruction.png/100px-Icon_Skill_RapidReconstruction.png",
+        "name": "Rapid Thaw",
+        "effects": "When your opponent Freezes your items, reduce the duration by 1 second(s).",
+        "cooldown": "Diamond",
+        "ammo": ""
+      }
+    ]
+  },
+  {
+    "name": "Thug",
+    "image": "https://thebazaar.wiki.gg/images/thumb/0/04/Monster_Mugger_Portrait.png/300px-Monster_Mugger_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c2/Icon_Skill_MON_TurnOutYourPockets_03.png/100px-Icon_Skill_MON_TurnOutYourPockets_03.png",
+        "name": "Bonk",
+        "effects": "Enemy cooldowns are increased by 1 second(s).",
+        "startingTier": "Diamond",
+        "types": ""
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/8/8e/Icon_Skill_SmallWeaponry.png/100px-Icon_Skill_SmallWeaponry.png",
+        "name": "Small Weaponry",
+        "effects": "Your Small Weapons deal +3 / 9 / 18 / 30 Damage.",
+        "startingTier": "Bronze",
+        "types": "Weapon"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/7/70/Icon_Skill_Strenght.png/100px-Icon_Skill_Strenght.png",
+        "name": "Strength",
+        "effects": "Your Weapons deal +2 / 6 / 12 / 20 Damage.",
+        "startingTier": "Bronze",
+        "types": "Weapon"
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c2/Icon_Skill_MON_TurnOutYourPockets_03.png/100px-Icon_Skill_MON_TurnOutYourPockets_03.png",
+        "name": "Bonk",
+        "effects": "Enemy cooldowns are increased by 1 second(s).",
+        "cooldown": "Diamond",
+        "ammo": ""
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/8/8e/Icon_Skill_SmallWeaponry.png/100px-Icon_Skill_SmallWeaponry.png",
+        "name": "Small Weaponry",
+        "effects": "Your Small Weapons deal +3 / 9 / 18 / 30 Damage.",
+        "cooldown": "Bronze",
+        "ammo": "Weapon"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/7/70/Icon_Skill_Strenght.png/100px-Icon_Skill_Strenght.png",
+        "name": "Strength",
+        "effects": "Your Weapons deal +2 / 6 / 12 / 20 Damage.",
+        "cooldown": "Bronze",
+        "ammo": "Weapon"
+      }
+    ]
+  },
+  {
+    "name": "Chilly Charles",
+    "image": "https://thebazaar.wiki.gg/images/2/25/Monster_Chilly_Charles_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/1/1e/Icon_Skill_ReachingTheSummit.png/100px-Icon_Skill_ReachingTheSummit.png",
+        "name": "Reaching the Summit",
+        "effects": "When you Freeze, your items gain +2 / 4% Crit Chance for the fight.",
+        "startingTier": "Gold",
+        "types": ""
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/1/1e/Icon_Skill_ReachingTheSummit.png/100px-Icon_Skill_ReachingTheSummit.png",
+        "name": "Reaching the Summit",
+        "effects": "When you Freeze, your items gain +2 / 4% Crit Chance for the fight.",
+        "cooldown": "Gold",
+        "ammo": ""
+      }
+    ]
+  },
+  {
+    "name": "Shock Trooper",
+    "image": "https://thebazaar.wiki.gg/images/thumb/b/b4/Monster_Shocktrooper_Portrait.png/300px-Monster_Shocktrooper_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/6/64/Icon_Skill_TracerFire.png/100px-Icon_Skill_TracerFire.png",
+        "name": "Tracer Fire",
+        "effects": "When you burn, your items gain +2 / 3% Crit Chance for the fight.",
+        "startingTier": "Gold",
+        "types": ""
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/6/64/Icon_Skill_TracerFire.png/100px-Icon_Skill_TracerFire.png",
+        "name": "Tracer Fire",
+        "effects": "When you burn, your items gain +2 / 3% Crit Chance for the fight.",
+        "cooldown": "Gold",
+        "ammo": ""
+      }
+    ]
+  },
+  {
+    "name": "Treasure Turtle",
+    "image": "https://thebazaar.wiki.gg/images/thumb/3/34/Monster_TreasureTurtle_Portrait.png/300px-Monster_TreasureTurtle_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/7/79/Icon_Skill_MON_GlidedShell_03.png/100px-Icon_Skill_MON_GlidedShell_03.png",
+        "name": "Hunker Down",
+        "effects": "The first time you fall below half health each fight, Shield equal to 30 / 50 / 80% of your Max Health.",
+        "startingTier": "Silver",
+        "types": ""
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/1/12/Toughness.png/100px-Toughness.png",
+        "name": "Toughness",
+        "effects": "Your Shield items have + Shield 2/6/12/20.",
+        "startingTier": "Bronze",
+        "types": ""
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/7/79/Icon_Skill_MON_GlidedShell_03.png/100px-Icon_Skill_MON_GlidedShell_03.png",
+        "name": "Hunker Down",
+        "effects": "The first time you fall below half health each fight, Shield equal to 30 / 50 / 80% of your Max Health.",
+        "cooldown": "Silver",
+        "ammo": ""
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/1/12/Toughness.png/100px-Toughness.png",
+        "name": "Toughness",
+        "effects": "Your Shield items have + Shield 2/6/12/20.",
+        "cooldown": "Bronze",
+        "ammo": ""
+      }
+    ]
+  },
+  {
+    "name": "Radiant Corsair",
+    "image": "https://thebazaar.wiki.gg/images/thumb/7/7b/Monster_RadiantCorsair_Portrait.png/300px-Monster_RadiantCorsair_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/5/5c/Skill_Fiery_Rebirth.png/100px-Skill_Fiery_Rebirth.png",
+        "name": "Fiery Rebirth",
+        "effects": "The first time you would die each fight, Heal to full, Cleanse your Burn and Poison, and Burn yourself 30.",
+        "startingTier": "Legendary",
+        "types": ""
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/8/8f/Icon_Skill_MON_FlameWall_01.png/100px-Icon_Skill_MON_FlameWall_01.png",
+        "name": "Flamedancer",
+        "effects": "Your Burn items have +2 / 4 / 6 / 8% Crit Chance.",
+        "startingTier": "Bronze",
+        "types": ""
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/5/5c/Skill_Fiery_Rebirth.png/100px-Skill_Fiery_Rebirth.png",
+        "name": "Fiery Rebirth",
+        "effects": "The first time you would die each fight, Heal to full, Cleanse your Burn and Poison, and Burn yourself 30.",
+        "cooldown": "Legendary",
+        "ammo": ""
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/8/8f/Icon_Skill_MON_FlameWall_01.png/100px-Icon_Skill_MON_FlameWall_01.png",
+        "name": "Flamedancer",
+        "effects": "Your Burn items have +2 / 4 / 6 / 8% Crit Chance.",
+        "cooldown": "Bronze",
+        "ammo": ""
+      }
+    ]
+  },
+  {
+    "name": "Infernal Frigate",
+    "image": "https://thebazaar.wiki.gg/images/thumb/2/24/Monster_InfernalFrigate_Portrait.png/300px-Monster_InfernalFrigate_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/7/7f/Icon_Skill_MON_Pyromania_01.png/100px-Icon_Skill_MON_Pyromania_01.png",
+        "name": "Firestarter",
+        "effects": "At the start of each fight, burn 17 / 25 / 35.",
+        "startingTier": "Silver",
+        "types": ""
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/7/7f/Icon_Skill_MON_Pyromania_01.png/100px-Icon_Skill_MON_Pyromania_01.png",
+        "name": "Firestarter",
+        "effects": "At the start of each fight, burn 17 / 25 / 35.",
+        "cooldown": "Silver",
+        "ammo": ""
+      }
+    ]
+  },
+  {
+    "name": "Oasis Guardian",
+    "image": "https://thebazaar.wiki.gg/images/thumb/d/d4/Monster_OasisGuardian_Portrait.png/300px-Monster_OasisGuardian_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/9/9a/Icon_Skill_MON_WatersofInfinity.png/100px-Icon_Skill_MON_WatersofInfinity.png",
+        "name": "Waters of Infinity",
+        "effects": "You have +8/?/? Regeneration.",
+        "startingTier": "Silver",
+        "types": ""
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/9/9a/Icon_Skill_MON_WatersofInfinity.png/100px-Icon_Skill_MON_WatersofInfinity.png",
+        "name": "Waters of Infinity",
+        "effects": "You have +8/?/? Regeneration.",
+        "cooldown": "Silver",
+        "ammo": ""
+      }
+    ]
+  },
+  {
+    "name": "Car Conductor",
+    "image": "https://thebazaar.wiki.gg/images/7/79/Monster_Car_Conductor_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/4/4c/Icon_Skill_CommandShip.png/100px-Icon_Skill_CommandShip.png",
+        "name": "Command Ship",
+        "effects": "If you have a vehicle, reduce your non-vehicle items' cooldowns by 5%.\nIf you have a vehicle, reduce your non-vehicle items' cooldowns by 10%.",
+        "startingTier": "Gold",
+        "types": "Vehicle"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/6/60/Icon_Skill_Flagship.png/100px-Icon_Skill_Flagship.png",
+        "name": "Expert Pilot",
+        "effects": "Your Shield Vehicles gain 30 / 60% Shield.\nYour Weapon Vehicles gain 30 / 60% Damage.",
+        "startingTier": "Gold",
+        "types": "Vehicle"
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/4/4c/Icon_Skill_CommandShip.png/100px-Icon_Skill_CommandShip.png",
+        "name": "Command Ship",
+        "effects": "If you have a vehicle, reduce your non-vehicle items' cooldowns by 5%.\nIf you have a vehicle, reduce your non-vehicle items' cooldowns by 10%.",
+        "cooldown": "Gold",
+        "ammo": "Vehicle"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/6/60/Icon_Skill_Flagship.png/100px-Icon_Skill_Flagship.png",
+        "name": "Expert Pilot",
+        "effects": "Your Shield Vehicles gain 30 / 60% Shield.\nYour Weapon Vehicles gain 30 / 60% Damage.",
+        "cooldown": "Gold",
+        "ammo": "Vehicle"
+      }
+    ]
+  },
+  {
+    "name": "Burninator Bot",
+    "image": "https://thebazaar.wiki.gg/images/thumb/3/33/Monster_IncinerationBot_Portrait.png/300px-Monster_IncinerationBot_Portrait.png",
+    "skills": [],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/a/ad/Flamethrower.png/126px-Flamethrower.png",
+        "name": "Flamethrower",
+        "effects": "Deal 2/4 Damage.\n Burn equal to 2x/3x of this item's Damage.",
+        "cooldown": "6.0 sec",
+        "ammo": "–",
+        "types": "Weapon, Tool",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/2/26/Induction_Aegis.png/51px-Induction_Aegis.png",
+        "name": "Induction Aegis",
+        "effects": "Shield 40 / 80.\nBurn 4 / 6.\nSlow your adjacent items for 1 / 1 seconds.",
+        "cooldown": "4.0 sec",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/1/11/Pylon.png/199px-Pylon.png",
+        "name": "Pylon",
+        "effects": "Slow 1 item for 1 / 2 / 3 seconds.\nWhen you Slow, Haste an item for 1 / 2 / 3 seconds.",
+        "cooldown": "3.0 sec",
+        "ammo": "–",
+        "types": "Property",
+        "size": "Large"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/a/a4/Thermal_Lance.png/126px-Thermal_Lance.png",
+        "name": "Thermal Lance",
+        "effects": "Burn 7\nWhen this gains Haste, this gains 1/2 for this fight.",
+        "cooldown": "7.0 sec",
+        "ammo": "–",
+        "types": "",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/5/5a/Weakpoint_Detector.png/126px-Weakpoint_Detector.png",
+        "name": "Weakpoint Detector",
+        "effects": "Your Weapons gain 3/6/9/12 Damage for the fight.\nWhen you slow, Charge this 1/2/3/4 seconds.",
+        "cooldown": "6.0 sec",
+        "ammo": "–",
+        "types": "Tool",
+        "size": "Medium"
+      }
+    ]
+  },
+  {
+    "name": "Dr. Vortex",
+    "image": "https://thebazaar.wiki.gg/images/thumb/e/ef/Monster_MadScientist_Portrait.png/300px-Monster_MadScientist_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/7/71/Icon_Skill_MON_Neophiliac.png/100px-Icon_Skill_MON_Neophiliac.png",
+        "name": "Neophiliac",
+        "effects": "The first time you freeze, burn, slow, poison, and haste each fight, charge an item 2.0 / 4.0 second(s).",
+        "startingTier": "Gold",
+        "types": ""
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/7/71/Icon_Skill_MON_Neophiliac.png/100px-Icon_Skill_MON_Neophiliac.png",
+        "name": "Neophiliac",
+        "effects": "The first time you freeze, burn, slow, poison, and haste each fight, charge an item 2.0 / 4.0 second(s).",
+        "cooldown": "Gold",
+        "ammo": ""
+      }
+    ]
+  },
+  {
+    "name": "Robo-Bouncer",
+    "image": "https://thebazaar.wiki.gg/images/7/79/Monster_Robo-Bouncer_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/f/f6/Icon_Skill_MON_SharpenedSteel.png/100px-Icon_Skill_MON_SharpenedSteel.png",
+        "name": "Sharpened Steel",
+        "effects": "When you use a Weapon, Adjacent items gain 4 / 8 / 12% Crit Chance the fight.",
+        "startingTier": "Silver",
+        "types": "Weapon"
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/f/f6/Icon_Skill_MON_SharpenedSteel.png/100px-Icon_Skill_MON_SharpenedSteel.png",
+        "name": "Sharpened Steel",
+        "effects": "When you use a Weapon, Adjacent items gain 4 / 8 / 12% Crit Chance the fight.",
+        "cooldown": "Silver",
+        "ammo": "Weapon"
+      }
+    ]
+  },
+  {
+    "name": "Wandering Shoal",
+    "image": "https://thebazaar.wiki.gg/images/thumb/d/d2/Monster_WanderingShoal_Portrait.png/300px-Monster_WanderingShoal_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/9/90/Icon_Skill_ImprovedToxins.png/100px-Icon_Skill_ImprovedToxins.png",
+        "name": "Improved Toxins",
+        "effects": "Your Poison items have +1 / 2 / 3 / 4 Poison.",
+        "startingTier": "Bronze",
+        "types": ""
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/1/18/Icon_Skill_MON_Smack_01.png/100px-Icon_Skill_MON_Smack_01.png",
+        "name": "Thick Hide",
+        "effects": "When you slow, charge an item 1 second(s).",
+        "startingTier": "Diamond",
+        "types": ""
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/9/90/Icon_Skill_ImprovedToxins.png/100px-Icon_Skill_ImprovedToxins.png",
+        "name": "Improved Toxins",
+        "effects": "Your Poison items have +1 / 2 / 3 / 4 Poison.",
+        "cooldown": "Bronze",
+        "ammo": ""
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/1/18/Icon_Skill_MON_Smack_01.png/100px-Icon_Skill_MON_Smack_01.png",
+        "name": "Thick Hide",
+        "effects": "When you slow, charge an item 1 second(s).",
+        "cooldown": "Diamond",
+        "ammo": ""
+      }
+    ]
+  },
+  {
+    "name": "Bloodreef Captain",
+    "image": "https://thebazaar.wiki.gg/images/thumb/9/9c/Monster_BloodreefCaptain_Portrait.png/300px-Monster_BloodreefCaptain_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/5/59/Icon_Skill_MON_HighImpact.png/100px-Icon_Skill_MON_HighImpact.png",
+        "name": "Full Arsenal",
+        "effects": "Your item's cooldowns are reduced by 5 / 10% if you have a Vehicle, reduced by 5 / 10% if you have a Weapon, and reduced by 5 / 10% if you have a Tool.",
+        "startingTier": "Gold",
+        "types": "Vehicle, Weapon, Tool"
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/5/59/Icon_Skill_MON_HighImpact.png/100px-Icon_Skill_MON_HighImpact.png",
+        "name": "Full Arsenal",
+        "effects": "Your item's cooldowns are reduced by 5 / 10% if you have a Vehicle, reduced by 5 / 10% if you have a Weapon, and reduced by 5 / 10% if you have a Tool.",
+        "cooldown": "Gold",
+        "ammo": "Vehicle, Weapon, Tool"
+      }
+    ]
+  },
+  {
+    "name": "Elite Duelist",
+    "image": "https://thebazaar.wiki.gg/images/thumb/f/f0/Monster_EliteDuelist_Portrait.png/300px-Monster_EliteDuelist_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/d/d8/Icon_Skill_MON_ThickSkin_03.png/100px-Icon_Skill_MON_ThickSkin_03.png",
+        "name": "Big Ego",
+        "effects": "Your Weapons have Lifesteal.",
+        "startingTier": "Diamond",
+        "types": "Weapon"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/8/8e/Icon_Skill_SmallWeaponry.png/100px-Icon_Skill_SmallWeaponry.png",
+        "name": "Small Weaponry",
+        "effects": "Your Small Weapons deal +3 / 9 / 18 / 30 Damage.",
+        "startingTier": "Bronze",
+        "types": "Weapon"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/7/70/Icon_Skill_Strenght.png/100px-Icon_Skill_Strenght.png",
+        "name": "Strength",
+        "effects": "Your Weapons deal +10/15/20/25 Damage.",
+        "startingTier": "Bronze",
+        "types": "Weapon"
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/d/d8/Icon_Skill_MON_ThickSkin_03.png/100px-Icon_Skill_MON_ThickSkin_03.png",
+        "name": "Big Ego",
+        "effects": "Your Weapons have Lifesteal.",
+        "cooldown": "Diamond",
+        "ammo": "Weapon"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/8/8e/Icon_Skill_SmallWeaponry.png/100px-Icon_Skill_SmallWeaponry.png",
+        "name": "Small Weaponry",
+        "effects": "Your Small Weapons deal +3 / 9 / 18 / 30 Damage.",
+        "cooldown": "Bronze",
+        "ammo": "Weapon"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/7/70/Icon_Skill_Strenght.png/100px-Icon_Skill_Strenght.png",
+        "name": "Strength",
+        "effects": "Your Weapons deal +10/15/20/25 Damage.",
+        "cooldown": "Bronze",
+        "ammo": "Weapon"
+      }
+    ]
+  },
+  {
+    "name": "Ferros Khan",
+    "image": "https://thebazaar.wiki.gg/images/5/5e/Monster_Ferros_Khan_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/4/4d/Icon_Skill_LeftHanded.png/100px-Icon_Skill_LeftHanded.png",
+        "name": "Left-Handed",
+        "effects": "Your leftmost Weapon deals +4/12/24/40 Damage.",
+        "startingTier": "Bronze",
+        "types": "Weapon"
+      },
+      {
+        "sprite": "No sprite",
+        "name": "One Shot",
+        "effects": "",
+        "startingTier": "Diamond",
+        "types": ""
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/9/98/Icon_Skill_RightHanded.png/100px-Icon_Skill_RightHanded.png",
+        "name": "Right-Handed",
+        "effects": "Your rightmost Weapon has +4 / 12 / 24 / 40 Damage.",
+        "startingTier": "Bronze",
+        "types": "Weapon"
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/4/4d/Icon_Skill_LeftHanded.png/100px-Icon_Skill_LeftHanded.png",
+        "name": "Left-Handed",
+        "effects": "Your leftmost Weapon deals +4/12/24/40 Damage.",
+        "cooldown": "Bronze",
+        "ammo": "Weapon"
+      },
+      {
+        "sprite": "No sprite",
+        "name": "One Shot",
+        "effects": "",
+        "cooldown": "Diamond",
+        "ammo": ""
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/9/98/Icon_Skill_RightHanded.png/100px-Icon_Skill_RightHanded.png",
+        "name": "Right-Handed",
+        "effects": "Your rightmost Weapon has +4 / 12 / 24 / 40 Damage.",
+        "cooldown": "Bronze",
+        "ammo": "Weapon"
+      }
+    ]
+  },
+  {
+    "name": "Roaming Isle",
+    "image": "https://thebazaar.wiki.gg/images/thumb/e/ea/Monster_RoamingIsle_Portrait.png/300px-Monster_RoamingIsle_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/b/b4/Icon_Skill_FirstResponder.png/100px-Icon_Skill_FirstResponder.png",
+        "name": "First Responder",
+        "effects": "Your leftmost Heal item has +6 / 18 / 36 / 60 Heal .",
+        "startingTier": "Bronze",
+        "types": ""
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c7/Icon_Skill_FollowUpCare.png/100px-Icon_Skill_FollowUpCare.png",
+        "name": "Follow-Up Care",
+        "effects": "Your rightmost Heal item has +6 / 18 / 36 / 60 Heal .",
+        "startingTier": "Bronze",
+        "types": ""
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/4/42/Icon_Skill_MON_RoamingIsle_01.png/100px-Icon_Skill_MON_RoamingIsle_01.png",
+        "name": "Shored Up",
+        "effects": "When you Heal , Shield 100.",
+        "startingTier": "Diamond",
+        "types": ""
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/b/b4/Icon_Skill_FirstResponder.png/100px-Icon_Skill_FirstResponder.png",
+        "name": "First Responder",
+        "effects": "Your leftmost Heal item has +6 / 18 / 36 / 60 Heal .",
+        "cooldown": "Bronze",
+        "ammo": ""
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c7/Icon_Skill_FollowUpCare.png/100px-Icon_Skill_FollowUpCare.png",
+        "name": "Follow-Up Care",
+        "effects": "Your rightmost Heal item has +6 / 18 / 36 / 60 Heal .",
+        "cooldown": "Bronze",
+        "ammo": ""
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/4/42/Icon_Skill_MON_RoamingIsle_01.png/100px-Icon_Skill_MON_RoamingIsle_01.png",
+        "name": "Shored Up",
+        "effects": "When you Heal , Shield 100.",
+        "cooldown": "Diamond",
+        "ammo": ""
+      }
+    ]
+  },
+  {
+    "name": "Weapons Platform",
+    "image": "https://thebazaar.wiki.gg/images/7/79/Monster_Weapons_Platform_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/b/b7/Icon_Skill_DistributedSystems.png/100px-Icon_Skill_DistributedSystems.png",
+        "name": "Distributed Systems",
+        "effects": "When you use a large item, haste 2 / 3 small items for 2 / 3 second(s)",
+        "startingTier": "Gold",
+        "types": ""
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c8/Icon_Skill_KeenEye.png/100px-Icon_Skill_KeenEye.png",
+        "name": "Keen Eye",
+        "effects": "Your items have 3/6/9/12% Crit Chance.",
+        "startingTier": "Bronze",
+        "types": ""
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/b/b7/Icon_Skill_DistributedSystems.png/100px-Icon_Skill_DistributedSystems.png",
+        "name": "Distributed Systems",
+        "effects": "When you use a large item, haste 2 / 3 small items for 2 / 3 second(s)",
+        "cooldown": "Gold",
+        "ammo": ""
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c8/Icon_Skill_KeenEye.png/100px-Icon_Skill_KeenEye.png",
+        "name": "Keen Eye",
+        "effects": "Your items have 3/6/9/12% Crit Chance.",
+        "cooldown": "Bronze",
+        "ammo": ""
+      }
+    ]
+  },
+  {
+    "name": "Enclave Revenant",
+    "image": "https://thebazaar.wiki.gg/images/2/22/Monster_Enclave_Revenant_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c0/Icon_Skill_ExposingToxins.png/100px-Icon_Skill_ExposingToxins.png",
+        "name": "Exposing Toxins",
+        "effects": "When you Poison, your items gain +2 / 3% Crit Chance for the fight.",
+        "startingTier": "Gold",
+        "types": ""
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/9/92/Icon_SKILL_MON_PurifyingFlame.png/100px-Icon_SKILL_MON_PurifyingFlame.png",
+        "name": "Purifying Flame",
+        "effects": "When you gain Regeneration, a Burn item gains 1 / 2 Burn.",
+        "startingTier": "Gold",
+        "types": ""
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c0/Icon_Skill_ExposingToxins.png/100px-Icon_Skill_ExposingToxins.png",
+        "name": "Exposing Toxins",
+        "effects": "When you Poison, your items gain +2 / 3% Crit Chance for the fight.",
+        "cooldown": "Gold",
+        "ammo": ""
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/9/92/Icon_SKILL_MON_PurifyingFlame.png/100px-Icon_SKILL_MON_PurifyingFlame.png",
+        "name": "Purifying Flame",
+        "effects": "When you gain Regeneration, a Burn item gains 1 / 2 Burn.",
+        "cooldown": "Gold",
+        "ammo": ""
+      }
+    ]
+  },
+  {
+    "name": "Death Knight Reaper",
+    "image": "https://thebazaar.wiki.gg/images/thumb/4/4a/Monster_Reaper_Portrait.png/300px-Monster_Reaper_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/7/7a/Icon_Skill_DeadlyEye.png/100px-Icon_Skill_DeadlyEye.png",
+        "name": "Deadly Eye",
+        "effects": "Your Weapons have +4 / 6 / 8 / 10% Crit chance.",
+        "startingTier": "Bronze",
+        "types": "Weapon"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/5/5f/Icon_Skill_DesperateFreeze.png/100px-Icon_Skill_DesperateFreeze.png",
+        "name": "Desperate Freeze",
+        "effects": "The first time you fall below half health each fight, remove Freeze and Slow from your items and Cleanse half your Burn and Poison.",
+        "startingTier": "Diamond",
+        "types": ""
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c4/Icon_Skill_FinesseWeapon.png/100px-Icon_Skill_FinesseWeapon.png",
+        "name": "Hypnotic Drain",
+        "effects": "When you use a weapon, Freeze a smaller item for 2 second(s).",
+        "startingTier": "Diamond",
+        "types": "Weapon"
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/7/7a/Icon_Skill_DeadlyEye.png/100px-Icon_Skill_DeadlyEye.png",
+        "name": "Deadly Eye",
+        "effects": "Your Weapons have +4 / 6 / 8 / 10% Crit chance.",
+        "cooldown": "Bronze",
+        "ammo": "Weapon"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/5/5f/Icon_Skill_DesperateFreeze.png/100px-Icon_Skill_DesperateFreeze.png",
+        "name": "Desperate Freeze",
+        "effects": "The first time you fall below half health each fight, remove Freeze and Slow from your items and Cleanse half your Burn and Poison.",
+        "cooldown": "Diamond",
+        "ammo": ""
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c4/Icon_Skill_FinesseWeapon.png/100px-Icon_Skill_FinesseWeapon.png",
+        "name": "Hypnotic Drain",
+        "effects": "When you use a weapon, Freeze a smaller item for 2 second(s).",
+        "cooldown": "Diamond",
+        "ammo": "Weapon"
+      }
+    ]
+  },
+  {
+    "name": "Boss Harrow",
+    "image": "https://thebazaar.wiki.gg/images/thumb/2/2a/Monster_BossHarrow_Portrait.png/300px-Monster_BossHarrow_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/d/de/Icon_Skill_MON_AssaultFocus.png/100px-Icon_Skill_MON_AssaultFocus.png",
+        "name": "Assault Focus",
+        "effects": "When any non-weapon item is used, slow it for 2 / 4 second(s).",
+        "startingTier": "Gold",
+        "types": ""
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c8/Icon_Skill_KeenEye.png/100px-Icon_Skill_KeenEye.png",
+        "name": "Keen Eye",
+        "effects": "Your items have 3/6/9/12% Crit Chance.",
+        "startingTier": "Bronze",
+        "types": ""
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/7/70/Icon_Skill_Strenght.png/100px-Icon_Skill_Strenght.png",
+        "name": "Strength",
+        "effects": "Your Weapons deal +2 / 6 / 12 / 20 Damage.",
+        "startingTier": "Bronze",
+        "types": "Weapon"
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/d/de/Icon_Skill_MON_AssaultFocus.png/100px-Icon_Skill_MON_AssaultFocus.png",
+        "name": "Assault Focus",
+        "effects": "When any non-weapon item is used, slow it for 2 / 4 second(s).",
+        "cooldown": "Gold",
+        "ammo": ""
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c8/Icon_Skill_KeenEye.png/100px-Icon_Skill_KeenEye.png",
+        "name": "Keen Eye",
+        "effects": "Your items have 3/6/9/12% Crit Chance.",
+        "cooldown": "Bronze",
+        "ammo": ""
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/7/70/Icon_Skill_Strenght.png/100px-Icon_Skill_Strenght.png",
+        "name": "Strength",
+        "effects": "Your Weapons deal +2 / 6 / 12 / 20 Damage.",
+        "cooldown": "Bronze",
+        "ammo": "Weapon"
+      }
+    ]
+  },
+  {
+    "name": "Hulking Experiment",
+    "image": "https://thebazaar.wiki.gg/images/thumb/3/39/Monster_HulkingExperiment_Portrait.png/300px-Monster_HulkingExperiment_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/d/dc/Icon_Skill_MON_HulkingExperiment_01.png/100px-Icon_Skill_MON_HulkingExperiment_01.png",
+        "name": "Adaptive Ordinance",
+        "effects": "You have ? / ? / ? / ? Regeneration for each Ammo item you have.",
+        "startingTier": "Silver",
+        "types": ""
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/7/72/Icon_Skill_VAN_PartingShot.png/100px-Icon_Skill_VAN_PartingShot.png",
+        "name": "Parting Shot",
+        "effects": "When you use an Ammo item, give it +5 / 10% Crit Chance for the fight.",
+        "startingTier": "Gold",
+        "types": ""
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/d/dc/Icon_Skill_MON_HulkingExperiment_01.png/100px-Icon_Skill_MON_HulkingExperiment_01.png",
+        "name": "Adaptive Ordinance",
+        "effects": "You have ? / ? / ? / ? Regeneration for each Ammo item you have.",
+        "cooldown": "Silver",
+        "ammo": ""
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/7/72/Icon_Skill_VAN_PartingShot.png/100px-Icon_Skill_VAN_PartingShot.png",
+        "name": "Parting Shot",
+        "effects": "When you use an Ammo item, give it +5 / 10% Crit Chance for the fight.",
+        "cooldown": "Gold",
+        "ammo": ""
+      }
+    ]
+  },
+  {
+    "name": "Master Alchemist",
+    "image": "https://thebazaar.wiki.gg/images/thumb/4/45/Monster_MasterAlchemist_Portrait.png/300px-Monster_MasterAlchemist_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/7/72/Icon_Skill_MON_EmergencyReload.png/100px-Icon_Skill_MON_EmergencyReload.png",
+        "name": "Retool",
+        "effects": "When you use a Tool, reload 1 to adjacent items.",
+        "startingTier": "Diamond",
+        "types": "Tool"
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/7/72/Icon_Skill_MON_EmergencyReload.png/100px-Icon_Skill_MON_EmergencyReload.png",
+        "name": "Retool",
+        "effects": "When you use a Tool, reload 1 to adjacent items.",
+        "cooldown": "Diamond",
+        "ammo": "Tool"
+      }
+    ]
+  },
+  {
+    "name": "Property Baron",
+    "image": "https://thebazaar.wiki.gg/images/thumb/9/9b/Monster_PropertyMogul_Portrait.png/300px-Monster_PropertyMogul_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/2/26/Icon_Skill_MasterSalesman.png/100px-Icon_Skill_MasterSalesman.png",
+        "name": "Master Salesman",
+        "effects": "Your items have double value during combat.",
+        "startingTier": "Diamond",
+        "types": ""
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/2/26/Icon_Skill_MasterSalesman.png/100px-Icon_Skill_MasterSalesman.png",
+        "name": "Master Salesman",
+        "effects": "Your items have double value during combat.",
+        "cooldown": "Diamond",
+        "ammo": ""
+      }
+    ]
+  },
+  {
+    "name": "Trash Titan",
+    "image": "https://thebazaar.wiki.gg/images/thumb/1/1d/Monster_TrashTitan_Portrait.png/300px-Monster_TrashTitan_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/8/81/Icon_Skill_HeavyWeaponry.png/100px-Icon_Skill_HeavyWeaponry.png",
+        "name": "Heavy Weaponry",
+        "effects": "Your Large Weapons deal +12 / 36 / 72 / 120 Damage.",
+        "startingTier": "Bronze",
+        "types": "Weapon"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/0/0a/Icon_Skill_MON_TrashTitan_02.png/100px-Icon_Skill_MON_TrashTitan_02.png",
+        "name": "Juggler",
+        "effects": "When you use a small item, Charge a large item for 1.0 second(s).",
+        "startingTier": "Diamond",
+        "types": ""
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/8/81/Icon_Skill_HeavyWeaponry.png/100px-Icon_Skill_HeavyWeaponry.png",
+        "name": "Heavy Weaponry",
+        "effects": "Your Large Weapons deal +12 / 36 / 72 / 120 Damage.",
+        "cooldown": "Bronze",
+        "ammo": "Weapon"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/0/0a/Icon_Skill_MON_TrashTitan_02.png/100px-Icon_Skill_MON_TrashTitan_02.png",
+        "name": "Juggler",
+        "effects": "When you use a small item, Charge a large item for 1.0 second(s).",
+        "cooldown": "Diamond",
+        "ammo": ""
+      }
+    ]
+  },
+  {
+    "name": "Frost Street Champion",
+    "image": "https://thebazaar.wiki.gg/images/thumb/b/b9/Monster_FrostStreetChampion_Portrait.png/300px-Monster_FrostStreetChampion_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/2/29/Icon_Skill_MON_IcicleAmmo_03.png/100px-Icon_Skill_MON_IcicleAmmo_03.png",
+        "name": "Blizzard",
+        "effects": "At the start of each fight, Freeze all non-weapon items for 2 / 3 second(s).",
+        "startingTier": "Gold",
+        "types": ""
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/4/4a/Icon_Skill_InvigoratingCold.png/100px-Icon_Skill_InvigoratingCold.png",
+        "name": "Invigorating Cold",
+        "effects": "The first time you freeze each fight, Haste your items for 3 / 5 second(s).",
+        "startingTier": "Gold",
+        "types": ""
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/2/29/Icon_Skill_MON_IcicleAmmo_03.png/100px-Icon_Skill_MON_IcicleAmmo_03.png",
+        "name": "Blizzard",
+        "effects": "At the start of each fight, Freeze all non-weapon items for 2 / 3 second(s).",
+        "cooldown": "Gold",
+        "ammo": ""
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/4/4a/Icon_Skill_InvigoratingCold.png/100px-Icon_Skill_InvigoratingCold.png",
+        "name": "Invigorating Cold",
+        "effects": "The first time you freeze each fight, Haste your items for 3 / 5 second(s).",
+        "cooldown": "Gold",
+        "ammo": ""
+      }
+    ]
+  },
+  {
+    "name": "Volkas Enforcer",
+    "image": "https://thebazaar.wiki.gg/images/thumb/4/48/Monster_VolkasEnforcer_Portrait.png/299px-Monster_VolkasEnforcer_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/6/60/Icon_Skill_MON_VolkasEnforcer_03.png/100px-Icon_Skill_MON_VolkasEnforcer_03.png",
+        "name": "Cryomastery",
+        "effects": "When you Freeze, your Shield items gain 3 / 5 Shield for the fight.",
+        "startingTier": "Gold",
+        "types": ""
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/1/1e/Icon_Skill_ReachingTheSummit.png/100px-Icon_Skill_ReachingTheSummit.png",
+        "name": "Reaching the Summit",
+        "effects": "When you Freeze, your items gain +2 / 4% Crit Chance for the fight.",
+        "startingTier": "Gold",
+        "types": ""
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/6/60/Icon_Skill_MON_VolkasEnforcer_03.png/100px-Icon_Skill_MON_VolkasEnforcer_03.png",
+        "name": "Cryomastery",
+        "effects": "When you Freeze, your Shield items gain 3 / 5 Shield for the fight.",
+        "cooldown": "Gold",
+        "ammo": ""
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/1/1e/Icon_Skill_ReachingTheSummit.png/100px-Icon_Skill_ReachingTheSummit.png",
+        "name": "Reaching the Summit",
+        "effects": "When you Freeze, your items gain +2 / 4% Crit Chance for the fight.",
+        "cooldown": "Gold",
+        "ammo": ""
+      }
+    ]
+  },
+  {
+    "name": "Lord of the Wastes",
+    "image": "https://thebazaar.wiki.gg/images/thumb/8/82/Monster_LordOfTheWastes_Portrait.png/300px-Monster_LordOfTheWastes_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/f/f7/Icon_Skill_MON_LordOfWastes_01.png/100px-Icon_Skill_MON_LordOfWastes_01.png",
+        "name": "Foreboding Winds",
+        "effects": "When any player uses an item, all items gain 2 / 4% Crit Chance the fight.",
+        "startingTier": "Gold",
+        "types": ""
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/8/81/Icon_Skill_HeavyWeaponry.png/100px-Icon_Skill_HeavyWeaponry.png",
+        "name": "Heavy Weaponry",
+        "effects": "Your Large Weapons deal +12 / 36 / 72 / 120 Damage.",
+        "startingTier": "Bronze",
+        "types": "Weapon"
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/f/f7/Icon_Skill_MON_LordOfWastes_01.png/100px-Icon_Skill_MON_LordOfWastes_01.png",
+        "name": "Foreboding Winds",
+        "effects": "When any player uses an item, all items gain 2 / 4% Crit Chance the fight.",
+        "cooldown": "Gold",
+        "ammo": ""
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/8/81/Icon_Skill_HeavyWeaponry.png/100px-Icon_Skill_HeavyWeaponry.png",
+        "name": "Heavy Weaponry",
+        "effects": "Your Large Weapons deal +12 / 36 / 72 / 120 Damage.",
+        "cooldown": "Bronze",
+        "ammo": "Weapon"
+      }
+    ]
+  },
+  {
+    "name": "Void Golem",
+    "image": "https://thebazaar.wiki.gg/images/thumb/b/ba/Monster_VoidGolem_Portrait.png/300px-Monster_VoidGolem_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/4/40/Icon_Skill_MON_IntotheVoid.png/100px-Icon_Skill_MON_IntotheVoid.png",
+        "name": "Into the Void",
+        "effects": "At the start of each fight, destroy an item on each player's board for the fight.",
+        "startingTier": "Diamond",
+        "types": ""
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/a/a1/Icon_Skill_MON_VoidRender.png/100px-Icon_Skill_MON_VoidRender.png",
+        "name": "Void Render",
+        "effects": "When you destroy an item during combat, your Weapons gain 100 / 200 damage and your burn items gain 10 / 20 Burn for this fight.",
+        "startingTier": "Gold",
+        "types": ""
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/4/40/Icon_Skill_MON_IntotheVoid.png/100px-Icon_Skill_MON_IntotheVoid.png",
+        "name": "Into the Void",
+        "effects": "At the start of each fight, destroy an item on each player's board for the fight.",
+        "cooldown": "Diamond",
+        "ammo": ""
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/a/a1/Icon_Skill_MON_VoidRender.png/100px-Icon_Skill_MON_VoidRender.png",
+        "name": "Void Render",
+        "effects": "When you destroy an item during combat, your Weapons gain 100 / 200 damage and your burn items gain 10 / 20 Burn for this fight.",
+        "cooldown": "Gold",
+        "ammo": ""
+      }
+    ]
+  },
+  {
+    "name": "Awakened District",
+    "image": "https://thebazaar.wiki.gg/images/thumb/a/a4/Monster_AwakenedDistrict_Portrait.png/300px-Monster_AwakenedDistrict_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/a/aa/Icon_Skill_MON_BananaBreak_02.png/100px-Icon_Skill_MON_BananaBreak_02.png",
+        "name": "Prosperity",
+        "effects": "Your Shield items have + Shield equal to the value of your Items.",
+        "startingTier": "Diamond",
+        "types": ""
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/1/12/Toughness.png/100px-Toughness.png",
+        "name": "Toughness",
+        "effects": "Your Shield items have + Shield 2/6/12/20.",
+        "startingTier": "Bronze",
+        "types": ""
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/e/ec/Trickle_Down_Economics.png/100px-Trickle_Down_Economics.png",
+        "name": "Trickle Down Economics",
+        "effects": "When you use a Large item, Haste an item for 4 seconds.",
+        "startingTier": "Gold",
+        "types": ""
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/a/aa/Icon_Skill_MON_BananaBreak_02.png/100px-Icon_Skill_MON_BananaBreak_02.png",
+        "name": "Prosperity",
+        "effects": "Your Shield items have + Shield equal to the value of your Items.",
+        "cooldown": "Diamond",
+        "ammo": ""
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/1/12/Toughness.png/100px-Toughness.png",
+        "name": "Toughness",
+        "effects": "Your Shield items have + Shield 2/6/12/20.",
+        "cooldown": "Bronze",
+        "ammo": ""
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/e/ec/Trickle_Down_Economics.png/100px-Trickle_Down_Economics.png",
+        "name": "Trickle Down Economics",
+        "effects": "When you use a Large item, Haste an item for 4 seconds.",
+        "cooldown": "Gold",
+        "ammo": ""
+      }
+    ]
+  },
+  {
+    "name": "Lord Arken",
+    "image": "https://thebazaar.wiki.gg/images/thumb/c/c3/Monster_LordArken_Portrait.png/300px-Monster_LordArken_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/8/81/Icon_Skill_HeavyWeaponry.png/100px-Icon_Skill_HeavyWeaponry.png",
+        "name": "Heavy Weaponry",
+        "effects": "Your Large Weapons deal +12 / 36 / 72 / 120 Damage.",
+        "startingTier": "Bronze",
+        "types": "Weapon"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/0/0e/Icon_Skill_StandardOrdinance.png/100px-Icon_Skill_StandardOrdinance.png",
+        "name": "Standard Ordnance",
+        "effects": "Your Medium Weapons deal +6 / 18 / 36 / 60 Damage.",
+        "startingTier": "Bronze",
+        "types": "Weapon"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/1/18/Icon_Skill_MON_Unrelenting.png/100px-Icon_Skill_MON_Unrelenting.png",
+        "name": "Unwavering",
+        "effects": "When you use an item, Shield 20 / 40.",
+        "startingTier": "Gold",
+        "types": ""
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/8/81/Icon_Skill_HeavyWeaponry.png/100px-Icon_Skill_HeavyWeaponry.png",
+        "name": "Heavy Weaponry",
+        "effects": "Your Large Weapons deal +12 / 36 / 72 / 120 Damage.",
+        "cooldown": "Bronze",
+        "ammo": "Weapon"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/0/0e/Icon_Skill_StandardOrdinance.png/100px-Icon_Skill_StandardOrdinance.png",
+        "name": "Standard Ordnance",
+        "effects": "Your Medium Weapons deal +6 / 18 / 36 / 60 Damage.",
+        "cooldown": "Bronze",
+        "ammo": "Weapon"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/1/18/Icon_Skill_MON_Unrelenting.png/100px-Icon_Skill_MON_Unrelenting.png",
+        "name": "Unwavering",
+        "effects": "When you use an item, Shield 20 / 40.",
+        "cooldown": "Gold",
+        "ammo": ""
+      }
+    ]
+  },
+  {
+    "name": "Veteran Octopus",
+    "image": "https://thebazaar.wiki.gg/images/thumb/a/ab/Monster_VeteranOctopus_Portrait.png/300px-Monster_VeteranOctopus_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/7/73/Icon_Skill_MON_Lurk_02.png/100px-Icon_Skill_MON_Lurk_02.png",
+        "name": "Arms Race",
+        "effects": "Your items have +1 / 2% Crit Chance for each weapon you have.",
+        "startingTier": "Gold",
+        "types": "Weapon"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/cc/Icon_Skill_MON_Lurk_01.png/100px-Icon_Skill_MON_Lurk_01.png",
+        "name": "Hyper Focus",
+        "effects": "If you have only one medium item, its cooldown is reduced by 30%.",
+        "startingTier": "Diamond",
+        "types": ""
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/7/73/Icon_Skill_MON_Lurk_02.png/100px-Icon_Skill_MON_Lurk_02.png",
+        "name": "Arms Race",
+        "effects": "Your items have +1 / 2% Crit Chance for each weapon you have.",
+        "cooldown": "Gold",
+        "ammo": "Weapon"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/cc/Icon_Skill_MON_Lurk_01.png/100px-Icon_Skill_MON_Lurk_01.png",
+        "name": "Hyper Focus",
+        "effects": "If you have only one medium item, its cooldown is reduced by 30%.",
+        "cooldown": "Diamond",
+        "ammo": ""
+      }
+    ]
+  },
+  {
+    "name": "Void Colossus",
+    "image": "https://thebazaar.wiki.gg/images/thumb/0/0e/Monster_VoidColossus_Portrait.png/300px-Monster_VoidColossus_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/7/7f/Icon_Skill_MON_VoidEnergy01.png/100px-Icon_Skill_MON_VoidEnergy01.png",
+        "name": "Void Energy",
+        "effects": "When you Burn, your Shield items gain 3 / 5 Shield the fight.",
+        "startingTier": "Gold",
+        "types": ""
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c3/Icon_Skill_MON_VoidRake.png/100px-Icon_Skill_MON_VoidRake.png",
+        "name": "Void Rage",
+        "effects": "When you burn, Haste an item for 1 / 2 second(s).",
+        "startingTier": "Gold",
+        "types": ""
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/7/7f/Icon_Skill_MON_VoidEnergy01.png/100px-Icon_Skill_MON_VoidEnergy01.png",
+        "name": "Void Energy",
+        "effects": "When you Burn, your Shield items gain 3 / 5 Shield the fight.",
+        "cooldown": "Gold",
+        "ammo": ""
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c3/Icon_Skill_MON_VoidRake.png/100px-Icon_Skill_MON_VoidRake.png",
+        "name": "Void Rage",
+        "effects": "When you burn, Haste an item for 1 / 2 second(s).",
+        "cooldown": "Gold",
+        "ammo": ""
+      }
+    ]
+  }
+]
