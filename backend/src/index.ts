@@ -1,79 +1,17 @@
-import scrape from './scraper';
+import express from 'express';
+import monsterRouter from './routes/monster';
+import cors from 'cors';
+const app = express();
+app.use(express.json());
+app.use(cors());
+const PORT = 3000;
 
-await scrape([
-  'Banannabal',
-  'Fanged Inglet',
-  'Haunted Kimono',
-  'Coconut Crab',
-  'Giant Mosquito',
-  'Covetous Thief',
-  'Boarrior',
-  'Rogue Scrapper',
-  'Dabbling Apprentice',
-  'Tempest Flamedancer',
-  'Frost Street Challenger',
-  'Eccentric Etherwright',
-  'Scout Trooper',
-  'Boilerroom Brawler',
-  'Outlands Dervish',
-  'Bloodreef Raider',
-  'Retiree',
-  'Deadly Crooner',
-  'Flame Juggler',
-  'Techno Virus',
-  'Hydrodude',
-  'Preening Duelist',
-  'Sabretooth',
-  'Hakurvian Rocket Trooper',
-  'Infernal Envoy',
-  'Gorgon Noble',
-  'Mod Squad',
-  'Trashtown Mayor',
-  'Dire Inglet',
-  'Dire Mosquito',
-  'Zookeeper',
-  'Foreman',
-  'Trash Golem',
-  'Enclave Weeper',
-  'Loan Shark',
-  'Infernal',
-  'Lich',
-  'Sergeant Suds',
-  'Viper Tyrant',
-  'Cosmic Roc',
-  'Joyful Jack',
-  'Thug',
-  'Chilly Charles',
-  'Shock Trooper',
-  'Treasure Turtle',
-  'Radiant Corsair',
-  'Infernal Frigate',
-  'Oasis Guardian',
-  'Car Conductor',
-  'Burninator Bot',
-  'Dr. Vortex',
-  'Robo-Bouncer',
-  'Wandering Shoal',
-  'Bloodreef Captain',
-  'Elite Duelist',
-  'Ferros Khan',
-  'Roaming Isle',
-  'Weapons Platform',
-  'Enclave Revenant',
-  'Death Knight Reaper',
-  'Boss Harrow',
-  'Hulking Experiment',
-  'Master Alchemist',
-  'Property Baron',
-  'Trash Titan',
-  'Frost Street Champion',
-  'Volkas Enforcer',
-  'Lord of the Wastes',
-  'Void Golem',
-  'Awakened District',
-  'Lord Arken',
-  'Veteran Octopus',
-  'Void Colossus',
-]);
+app.get('/api/test', (_req, resp) => {
+  resp.send('working');
+});
 
-process.exit();
+app.use('/api/monsters', monsterRouter);
+
+app.listen(PORT, () => {
+  console.log('server running on', PORT);
+});

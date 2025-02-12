@@ -48,8 +48,6 @@ const fetchSkillsItems = async (monster: string) => {
     throw new Error('No tables to extract, monster: ' + monster);
   }
 
-  console.log('len', tablesLength);
-
   let skillsData: SkillData[] = [];
   if (tablesLength === 2) {
     skillsData = await page.evaluate(() => {
@@ -69,9 +67,12 @@ const fetchSkillsItems = async (monster: string) => {
     });
   }
 
-  const itemsData: itemsData[] = await page.evaluate((tablesLength: number) => {
+  const itemsData: itemsData[] = await page.evaluate(() => {
+    const tables = Object.entries(
+      document.querySelectorAll('.wikitable.sortable')
+    ).length;
     const itemsTable =
-      tablesLength > 1
+      tables > 1
         ? document.querySelectorAll('.wikitable.sortable')[1]
         : document.querySelectorAll('.wikitable.sortable')[0];
     const itemRows = itemsTable.querySelectorAll('tbody tr');
@@ -103,9 +104,6 @@ const fetchSkillsItems = async (monster: string) => {
     items: itemsData,
   };
 
-  // const path = `./data/${monster}_data.json`;
-  // fs.writeFileSync(path, JSON.stringify(data, null, 2));
-
   await browser.close();
   return data;
 };
@@ -131,6 +129,79 @@ const fetchAllMonsterData = async (monsters: string[]) => {
   );
 };
 
-const scrape = async (data: string[]) => await fetchAllMonsterData(data);
-
-export default scrape;
+await fetchAllMonsterData([
+  'Banannabal',
+  'Fanged Inglet',
+  'Haunted Kimono',
+  'Coconut Crab',
+  'Giant Mosquito',
+  'Covetous Thief',
+  'Boarrior',
+  'Rogue Scrapper',
+  'Dabbling Apprentice',
+  'Tempest Flamedancer',
+  'Frost Street Challenger',
+  'Eccentric Etherwright',
+  'Scout Trooper',
+  'Boilerroom Brawler',
+  'Outlands Dervish',
+  'Bloodreef Raider',
+  'Retiree',
+  'Deadly Crooner',
+  'Flame Juggler',
+  'Techno Virus',
+  'Hydrodude',
+  'Preening Duelist',
+  'Sabretooth',
+  'Hakurvian Rocket Trooper',
+  'Infernal Envoy',
+  'Gorgon Noble',
+  'Mod Squad',
+  'Trashtown Mayor',
+  'Dire Inglet',
+  'Dire Mosquito',
+  'Zookeeper',
+  'Foreman',
+  'Trash Golem',
+  'Enclave Weeper',
+  'Loan Shark',
+  'Infernal',
+  'Lich',
+  'Sergeant Suds',
+  'Viper Tyrant',
+  'Cosmic Roc',
+  'Joyful Jack',
+  'Thug',
+  'Chilly Charles',
+  'Shock Trooper',
+  'Treasure Turtle',
+  'Radiant Corsair',
+  'Infernal Frigate',
+  'Oasis Guardian',
+  'Car Conductor',
+  'Burninator Bot',
+  'Dr. Vortex',
+  'Robo-Bouncer',
+  'Wandering Shoal',
+  'Bloodreef Captain',
+  'Elite Duelist',
+  'Ferros Khan',
+  'Roaming Isle',
+  'Weapons Platform',
+  'Enclave Revenant',
+  'Death Knight Reaper',
+  'Boss Harrow',
+  'Hulking Experiment',
+  'Master Alchemist',
+  'Property Baron',
+  'Trash Titan',
+  'Frost Street Champion',
+  'Volkas Enforcer',
+  'Lord of the Wastes',
+  'Void Golem',
+  'Awakened District',
+  'Lord Arken',
+  'Veteran Octopus',
+  'Void Colossus',
+]);
+process.exit();

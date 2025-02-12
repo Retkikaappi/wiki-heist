@@ -38,11 +38,22 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/7/7a/Icon_Skill_DeadlyEye.png/100px-Icon_Skill_DeadlyEye.png",
-        "name": "Deadly Eye",
-        "effects": "Your Weapons have +4 / 6 / 8 / 10% Crit chance.",
-        "cooldown": "Bronze",
-        "ammo": "Weapon"
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c3/Fang.png/51px-Fang.png",
+        "name": "Fang",
+        "effects": "Deal 5/10/20/40 damage.",
+        "cooldown": "4.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/4/45/Pelt.png/51px-Pelt.png",
+        "name": "Pelt",
+        "effects": "Sells for gold. (2 / 4 / 6 / 8)",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
       }
     ]
   },
@@ -85,11 +96,31 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/1/13/Icon_Skill_MON_Withdraw_01.png/100px-Icon_Skill_MON_Withdraw_01.png",
-        "name": "Hard Shell",
-        "effects": "The first time you fall below half health each fight, Shield equal to 20 / 30 / 40 / 50% of your Max Health.",
-        "cooldown": "Bronze",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/2/2f/Coconut.png/51px-Coconut.png",
+        "name": "Coconut",
+        "effects": "When you sell this, gain 10/20/30/40 Max Health",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/cd/Crusher_Claw.png/126px-Crusher_Claw.png",
+        "name": "Crusher Claw",
+        "effects": "Your Shield items gain +2/4/6/8 Shield for the fight.\n Deal Damage equal to the highest Shield value of the items you have.",
+        "cooldown": "8.0 sec",
+        "ammo": "–",
+        "types": "Weapon, Aquatic",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/f/f0/Sea_Shell.png/51px-Sea_Shell.png",
+        "name": "Sea Shell",
+        "effects": "Shield 5 / 10 / 20 / 40 for each Aquatic item you have.",
+        "cooldown": "5.0 sec",
+        "ammo": "–",
+        "types": "Aquatic",
+        "size": "Small"
       }
     ]
   },
@@ -114,18 +145,31 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c8/Icon_Skill_KeenEye.png/100px-Icon_Skill_KeenEye.png",
-        "name": "Keen Eye",
-        "effects": "Your items have 3/6/9/12% Crit Chance.",
-        "cooldown": "Bronze",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/0/01/Amber.png/52px-Amber.png",
+        "name": "Amber",
+        "effects": "Slow 1 item for 1/2/3 seconds.\nYour other Slow items have +1 Slow.",
+        "cooldown": "5.0 sec",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
       },
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/d/dc/Icon_Skill_MON_MegaDrain_01.png/100px-Icon_Skill_MON_MegaDrain_01.png",
-        "name": "Rush",
-        "effects": "At the start of each fight, Haste a weapon 3 / 5 / 7 / 9 second(s).",
-        "cooldown": "Bronze",
-        "ammo": "Weapon"
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/d/d2/Insect_Wing.png/51px-Insect_Wing.png",
+        "name": "Insect Wing",
+        "effects": "When you sell this, reduce your items' Cooldowns by 3/6/9/12%.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/3/39/Proboscis.png/51px-Proboscis.png",
+        "name": "Proboscis",
+        "effects": "When you slow, deal 3 / 6 / 9 / 12 Damage.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Small"
       }
     ]
   },
@@ -150,18 +194,49 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c8/Icon_Skill_KeenEye.png/100px-Icon_Skill_KeenEye.png",
-        "name": "Keen Eye",
-        "effects": "Your items have 3/6/9/12% Crit Chance.",
-        "cooldown": "Bronze",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/9/96/Concealed_Dagger.png/51px-Concealed_Dagger.png",
+        "name": "Concealed Dagger",
+        "effects": "Deal 12/24/48 Damage.\n Gain 1/2/3 Gold.",
+        "cooldown": "8.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Small"
       },
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/3/3f/Icon_Skill_MON_Greed_02.png/100px-Icon_Skill_MON_Greed_02.png",
-        "name": "Pickpocket",
-        "effects": "At the start of each fight, gain 1/2/3/4 Gold.",
-        "cooldown": "Bronze",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/6/69/Grindstone.png/124px-Grindstone.png",
+        "name": "Grindstone",
+        "effects": "Give the weapon to the left of this +10/20/30 Damage for the fight.",
+        "cooldown": "3.0 sec",
+        "ammo": "–",
+        "types": "Tool",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/7/73/Safe.png/124px-Safe.png",
+        "name": "Safe",
+        "effects": "When you sell this, get 3 Spare Change.\nThis has no base value.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/2/21/Shadowed_Cloak.png/124px-Shadowed_Cloak.png",
+        "name": "Shadowed Cloak",
+        "effects": "When you use the item to the right of this, give it Haste for 1/2/3/4 seconds and +3/5/7/9 Damage for the fight.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/a/af/Sharpening_Stone.png/51px-Sharpening_Stone.png",
+        "name": "Sharpening Stone",
+        "effects": "When you sell this, your leftmost Weapon gains 3/6/9/12 Damage.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
       }
     ]
   },
@@ -179,11 +254,67 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/4/4a/Icon_Skill_FrontalShielding.png/100px-Icon_Skill_FrontalShielding.png",
-        "name": "Frontal Shielding",
-        "effects": "Your leftmost Shield item has +5 / 15 / 30 / 50 Shield.",
-        "cooldown": "Bronze",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/e/ef/Hatchet.png/51px-Hatchet.png",
+        "name": "Hatchet",
+        "effects": "Deal 6/12/24/48 damage.\nWhen you buy this, get a Spare Change.",
+        "cooldown": "5.0 sec",
+        "ammo": "–",
+        "types": "Weapon, Tool",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/a/aa/Lumboars.png/120px-Lumboars.png",
+        "name": "Lumboars",
+        "effects": "Deal 5/10/20/40 Damage.\nYour weapons gain 2/4/6/8 Damage for the fight.\nMulticast: 2",
+        "cooldown": "8.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/4/46/Old_Sword.png/51px-Old_Sword.png",
+        "name": "Old Sword",
+        "effects": "Deal 5/10/20/40 damage.\nWhen you sell this, give your leftmost weapon +4 / 6 / 8 / 10 Damage.",
+        "cooldown": "4 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/b/b8/Scrap.png/51px-Scrap.png",
+        "name": "Scrap",
+        "effects": "When you sell this, give your leftmost Shield item +4/8/12/16 Shield.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/a/af/Sharpening_Stone.png/51px-Sharpening_Stone.png",
+        "name": "Sharpening Stone",
+        "effects": "When you sell this, your leftmost Weapon gains 3/6/9/12 Damage.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/f/fb/Shoe_Blade.png/51px-Shoe_Blade.png",
+        "name": "Shoe Blade",
+        "effects": "Deal 10/20/40/80.\n15/30/60/100 % Crit Chance",
+        "cooldown": "6.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/7/7e/Tusked_Helm.png/60px-Tusked_Helm.png",
+        "name": "Tusked Helm",
+        "effects": "Deal 5/10/20/40 Damage.\n Shield 5/10/20/40.\nMulticast: 2",
+        "cooldown": "10.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Small"
       }
     ]
   },
@@ -201,11 +332,58 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/b/b8/Icon_Skill_MON_RogueScrapper_01.png/100px-Icon_Skill_MON_RogueScrapper_01.png",
-        "name": "Rust",
-        "effects": "At the start of each fight, slow an item for 3 / 5 / 7 / 9 second(s).",
-        "cooldown": "Bronze",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/b/b3/Barbed_Wire.png/51px-Barbed_Wire.png",
+        "name": "Barbed Wire",
+        "effects": "Deal 5/10/20 Damage\nWhen you Shield, this gains 5/10/20 Damage for the fight.",
+        "cooldown": "4.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/7/79/Gearnola_Bar.png/51px-Gearnola_Bar.png",
+        "name": "Gearnola Bar",
+        "effects": "Shield 20/40/80/120.\nWhen you sell a Tool, give this +1 Max Ammo.",
+        "cooldown": "4.0 sec",
+        "ammo": "2",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/2/22/Junkyard_Club.png/126px-Junkyard_Club.png",
+        "name": "Junkyard Club",
+        "effects": "Deal 30/60/120/240 Damage.\nWhen you sell this, your weapons gain 4/6/8/10 Damage.",
+        "cooldown": "10.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/6/6a/Junkyard_Repairbot.png/126px-Junkyard_Repairbot.png",
+        "name": "Junkyard Repairbot",
+        "effects": "Heal 30/60/120/240.\nWhen you sell this, give your leftmost Heal item 5/15/30/50 Heal.",
+        "cooldown": "7.0 sec",
+        "ammo": "–",
+        "types": "",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/1/14/Med_Kit.png/51px-Med_Kit.png",
+        "name": "Med Kit",
+        "effects": "When you sell this, your leftmost Heal item gains 5/10/15/20 Heal.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/b/b8/Scrap.png/51px-Scrap.png",
+        "name": "Scrap",
+        "effects": "When you sell this, give your leftmost Shield item +4/8/12/16 Shield.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
       }
     ]
   },
@@ -223,11 +401,40 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/1/17/Icon_Skill_MON_DabblingApprentice_01.png/100px-Icon_Skill_MON_DabblingApprentice_01.png",
-        "name": "Panic",
-        "effects": "The first time you fall below 50% health each fight, reload 2 / 4 / 6 / 8 items.",
-        "cooldown": "Bronze",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/2/20/Bottled_Lightning.png/60px-Bottled_Lightning.png",
+        "name": "Bottled Lightning",
+        "effects": "Deal 25/75/150/250 Damage.\n Burn 4/6/8/10.",
+        "cooldown": "5.0 sec",
+        "ammo": "1",
+        "types": "Potion, Weapon",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/a/a1/Fire_Potion.png/60px-Fire_Potion.png",
+        "name": "Fire Potion",
+        "effects": "Burn 6/9/12/15.",
+        "cooldown": "5.0 sec",
+        "ammo": "1",
+        "types": "Potion",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/f/fe/Tazidian_Dagger.png/60px-Tazidian_Dagger.png",
+        "name": "Tazidian Dagger",
+        "effects": "Deal 5/10/15/20 Damage\nAdjacents Potions have +1 Ammo.",
+        "cooldown": "4.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/9/9e/Vial_of_Blood.png/51px-Vial_of_Blood.png",
+        "name": "Vial of Blood",
+        "effects": "When you sell this, gain 1/2/3 XP.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
       }
     ]
   },
@@ -245,11 +452,40 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/8/8f/Icon_Skill_MON_FlameWall_01.png/100px-Icon_Skill_MON_FlameWall_01.png",
-        "name": "Flamedancer",
-        "effects": "Your Burn items have +2 / 4 / 6 / 8% Crit Chance.",
-        "cooldown": "Bronze",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/f/fb/Bar_of_Gold.png/53px-Bar_of_Gold.png",
+        "name": "Bar of Gold",
+        "effects": "Sells for gold. (5/10/20/40)",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/f/fb/Cinders.png/51px-Cinders.png",
+        "name": "Cinders",
+        "effects": "When you sell this, your leftmost Burn item gains +1/2/4 Burn.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/1/1e/Cutlass.png/126px-Cutlass.png",
+        "name": "Cutlass",
+        "effects": "Deal 6/12/24/48 Damage.\nThis deals double Crit damage.\nMulticast: 2.",
+        "cooldown": "5.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/a/af/Sharpening_Stone.png/51px-Sharpening_Stone.png",
+        "name": "Sharpening Stone",
+        "effects": "When you sell this, your leftmost Weapon gains 3/6/9/12 Damage.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
       }
     ]
   },
@@ -267,11 +503,49 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/4/47/Icon_Skill_MON_TheColdShoulder_01.png/100px-Icon_Skill_MON_TheColdShoulder_01.png",
-        "name": "Snowstorm",
-        "effects": "When you freeze, your weapons gain 2 / 4 / 6 / 8 damage for the fight.",
-        "cooldown": "Bronze",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/2/2f/Frozen_Bludgeon.png/126px-Frozen_Bludgeon.png",
+        "name": "Frozen Bludgeon",
+        "effects": "Deal 10 / 30 / 60 / 100 damage.\nFreeze 1 item for 1 / 2 / 3 / 4 seconds.\nWhen you freeze an item, your weapons gain 4 / 6 / 8 / 10 Damage for the fight.",
+        "cooldown": "12.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/b/bd/Handaxe.png/51px-Handaxe.png",
+        "name": "Handaxe",
+        "effects": "Deal 5 / 15 / 30 / 50 Damage.\nYour weapons have\n+3 / 6 / 9 / 15 Damage",
+        "cooldown": "7.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/2/23/Icicle.png/51px-Icicle.png",
+        "name": "Icicle",
+        "effects": "At the start of each fight, Freeze an item for 3/4/5/6 seconds.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/b/b7/Snow_Globe.png/124px-Snow_Globe.png",
+        "name": "Snow Globe",
+        "effects": "Freeze 1 item for 1 / 2 / 3 seconds.\nThis has +1 Multicast for each adjacent to a Property.",
+        "cooldown": "6.0 sec",
+        "ammo": "–",
+        "types": "Property",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/e/e8/Weights.png/124px-Weights.png",
+        "name": "Weights",
+        "effects": "Your weapons gain 5 / 10 / 15 / 20 Damage and your Heal gain 5 / 10 / 15 / 20 Heal for the fight.\nWhen you heal while at max health, charge this 1.0 / 1.0 / 1.0 / 2.0 second.",
+        "cooldown": "5.0 sec",
+        "ammo": "–",
+        "types": "Tool",
+        "size": "Medium"
       }
     ]
   },
@@ -289,11 +563,40 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/6/6a/Icon_Skill_MON_Rigged.png/100px-Icon_Skill_MON_Rigged.png",
-        "name": "Rigged",
-        "effects": "At the start of each fight, Haste 2 / 3 / 4 / 5 items for 3 second(s).",
-        "cooldown": "Bronze",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/b/b3/Barbed_Wire.png/51px-Barbed_Wire.png",
+        "name": "Barbed Wire",
+        "effects": "Deal 5/10/20 Damage\nWhen you Shield, this gains 5/10/20 Damage for the fight.",
+        "cooldown": "4.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/d/d6/Force_Field.png/199px-Force_Field.png",
+        "name": "Force Field",
+        "effects": "Shield 10/20/40/80\n Deal Damage equal to your Shield.",
+        "cooldown": "4.0 sec",
+        "ammo": "–",
+        "types": "Weapon, Tech",
+        "size": "Large"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/1/1a/Goggles.png/60px-Goggles.png",
+        "name": "Goggles",
+        "effects": "Shield 10/30/60/100.\nWhen this gains Haste, give your items +2/4/6/8% Crit Chance.",
+        "cooldown": "7.0 sec",
+        "ammo": "–",
+        "types": "Tool",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/b/b8/Scrap.png/51px-Scrap.png",
+        "name": "Scrap",
+        "effects": "When you sell this, give your leftmost Shield item +4/8/12/16 Shield.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
       }
     ]
   },
@@ -318,18 +621,67 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/9/93/Icon_Skill_Gunner.png/100px-Icon_Skill_Gunner.png",
-        "name": "Gunner",
-        "effects": "Your items have +1 / 2 / 3 Max Ammo.",
-        "cooldown": "Silver",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/ca/Bolas.png/51px-Bolas.png",
+        "name": "Bolas",
+        "effects": "Deal 20/60/120/160 Damage.\n Slow 1 item for 2/3/4/5 seconds.",
+        "cooldown": "4.0 sec",
+        "ammo": "2",
+        "types": "Weapon",
+        "size": "Small"
       },
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/8/8e/Icon_Skill_SmallWeaponry.png/100px-Icon_Skill_SmallWeaponry.png",
-        "name": "Small Weaponry",
-        "effects": "Your Small Weapons deal +3 / 9 / 18 / 30 Damage.",
-        "cooldown": "Bronze",
-        "ammo": "Weapon"
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c4/Eagle_Talisman.png/51px-Eagle_Talisman.png",
+        "name": "Eagle Talisman",
+        "effects": "When you sell this, give your leftmost item 5/10/15/20 % Crit Chance.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/3/3d/Grappling_Hook.png/51px-Grappling_Hook.png",
+        "name": "Grappling Hook",
+        "effects": "Deal 10 / 20 / 40 Damage.\n Slow 1 item for 3 / 4 / 5 seconds.",
+        "cooldown": "7.0 sec",
+        "ammo": "–",
+        "types": "Weapon, Tool",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/a/ae/Gunpowder.png/51px-Gunpowder.png",
+        "name": "Gunpowder",
+        "effects": "When you sell this, your leftmost Ammo item gains 1/2/3 Max Ammo.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/e/e2/Laser_Pistol.png/51px-Laser_Pistol.png",
+        "name": "Laser Pistol",
+        "effects": "Deal 10/20/40/80 Damage.",
+        "cooldown": "5.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/9/98/Uzi.png/51px-Uzi.png",
+        "name": "Uzi",
+        "effects": "Deal 2/4/8/16",
+        "cooldown": "2.0 sec",
+        "ammo": "12",
+        "types": "Weapon",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/5/5a/Weakpoint_Detector.png/126px-Weakpoint_Detector.png",
+        "name": "Weakpoint Detector",
+        "effects": "Your Weapons gain 3/6/9/12 Damage for the fight.\nWhen you slow, Charge this 2 seconds.",
+        "cooldown": "6.0 sec",
+        "ammo": "–",
+        "types": "Tool",
+        "size": "Medium"
       }
     ]
   },
@@ -354,18 +706,67 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/2/2b/Icon_Skill_FlashyMechanic.png/100px-Icon_Skill_FlashyMechanic.png",
-        "name": "Flashy Mechanic",
-        "effects": "When you use a Tool, items adjacent to it gain 3 / 5 / 10% Crit chance.",
-        "cooldown": "Silver",
-        "ammo": "Tool"
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c4/Eagle_Talisman.png/51px-Eagle_Talisman.png",
+        "name": "Eagle Talisman",
+        "effects": "When you sell this, give your leftmost item 5/10/15/20 % Crit Chance.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
       },
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/1/11/Icon_Skill_MON_TimetoTinker01.png/100px-Icon_Skill_MON_TimetoTinker01.png",
-        "name": "Time to Tinker",
-        "effects": "When you Haste, Shield 10 / 20 / 30 / 40.",
-        "cooldown": "Bronze",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/3/32/Energy_Potion.png/60px-Energy_Potion.png",
+        "name": "Energy Potion",
+        "effects": "Haste your items for 2/4/6/8.",
+        "cooldown": "4.0 sec",
+        "ammo": "1",
+        "types": "Potion",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/1/1a/Goggles.png/60px-Goggles.png",
+        "name": "Goggles",
+        "effects": "Shield 10/30/60/100.\nWhen this gains Haste, give your items +2/4/6/8% Crit Chance.",
+        "cooldown": "7.0 sec",
+        "ammo": "–",
+        "types": "Tool",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/f/f7/Multitool.png/60px-Multitool.png",
+        "name": "Multitool",
+        "effects": "Haste another item for 1/2/3/4 second(s)\n Slow an item for 1/2/3/4) second(s)",
+        "cooldown": "4.0 sec",
+        "ammo": "–",
+        "types": "Tool",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/8/82/Orbital_Polisher.png/60px-Orbital_Polisher.png",
+        "name": "Orbital Polisher",
+        "effects": "Adjacent items gain 5/10 Damage for the fight.\n Adjacent items gain Shield 5/10 for the fight.",
+        "cooldown": "7.0 sec",
+        "ammo": "–",
+        "types": "Tool",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/a/af/Sharpening_Stone.png/51px-Sharpening_Stone.png",
+        "name": "Sharpening Stone",
+        "effects": "When you sell this, your leftmost Weapon gains 3/6/9/12 Damage.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/4/46/Toolbox.png/120px-Toolbox.png",
+        "name": "Toolbox",
+        "effects": "Shield 10/30/50/100\nYour other Tool have their Cooldown reduced by 5/10/15/20%.",
+        "cooldown": "6.0 sec",
+        "ammo": "–",
+        "types": "Tool",
+        "size": "Medium"
       }
     ]
   },
@@ -383,11 +784,31 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c8/Icon_Skill_KeenEye.png/100px-Icon_Skill_KeenEye.png",
-        "name": "Keen Eye",
-        "effects": "Your items have 3/6/9/12% Crit Chance.",
-        "cooldown": "Bronze",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/f/fb/Bar_of_Gold.png/53px-Bar_of_Gold.png",
+        "name": "Bar of Gold",
+        "effects": "Sells for gold. (5/10/20/40)",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/7/79/Clockwork_Blades.png/126px-Clockwork_Blades.png",
+        "name": "Clockwork Blades",
+        "effects": "Deal 20/40/80/160 Damage.\nWhen you sell this, reduce your item's Cooldown by 1/2/3/4%.",
+        "cooldown": "6.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/f/fb/Shoe_Blade.png/51px-Shoe_Blade.png",
+        "name": "Shoe Blade",
+        "effects": "Deal 10/20/40/80.\n15/30/60/100 % Crit Chance",
+        "cooldown": "6.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Small"
       }
     ]
   },
@@ -405,11 +826,58 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/2/2c/Icon_Skill_MON_ToxicAlacrity.png/100px-Icon_Skill_MON_ToxicAlacrity.png",
-        "name": "Ammo Stash",
-        "effects": "Your leftmost Ammo item has +1 / 2 / 3 / 4 Max Ammo.",
-        "cooldown": "Bronze",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/f/fb/Bar_of_Gold.png/53px-Bar_of_Gold.png",
+        "name": "Bar of Gold",
+        "effects": "Sells for gold. (5/10/20/40)",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/f/fa/Cannonball.png/51px-Cannonball.png",
+        "name": "Cannonball",
+        "effects": "Adjacent items have +1/2/3/4 Ammo.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/2/25/Crow%27s_Nest.png/199px-Crow%27s_Nest.png",
+        "name": "Crow's Nest",
+        "effects": "Your Weapons have\n+20/40/60/80 % Crit Chance.\nIf you have exactly one Weapon, that Weapon has Lifesteal.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "Property, Aquatic",
+        "size": "Large"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/1/14/Powder_Flask.png/51px-Powder_Flask.png",
+        "name": "Powder Flask",
+        "effects": "Reload the item to the right of this 1 / 2 / 3 / 4 Ammo.",
+        "cooldown": "4.0 sec",
+        "ammo": "–",
+        "types": "Tool",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/6/6d/Revolver.png/51px-Revolver.png",
+        "name": "Revolver",
+        "effects": "Deal 5/10/20/40 Damage.\nWhen you Crit, reload 2 Ammo.",
+        "cooldown": "4.0 sec",
+        "ammo": "6",
+        "types": "Weapon",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/4/45/Shield_Potion.png/63px-Shield_Potion.png",
+        "name": "Shield Potion",
+        "effects": "Shield40/80/150/300",
+        "cooldown": "4.0 sec",
+        "ammo": "1",
+        "types": "Potion",
+        "size": "Small"
       }
     ]
   },
@@ -427,11 +895,58 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/b/b3/Icon_SKILL_MON_ExtremeComfort.png/100px-Icon_SKILL_MON_ExtremeComfort.png",
-        "name": "Extreme Comfort",
-        "effects": "When you Heal, your Shield items gain 1/2/3/4 Shield for the fight.",
-        "cooldown": "Bronze",
-        "ammo": "Heal, Shield"
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/b/be/Bandages.png/51px-Bandages.png",
+        "name": "Bandages",
+        "effects": "Heal 5/10/20/40\n Shield 5/10/20/40",
+        "cooldown": "4.0 sec",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/2/2c/Bushel.png/124px-Bushel.png",
+        "name": "Bushel",
+        "effects": "Heal 20\nWhen you Shield, Charge this 1 second.",
+        "cooldown": "4.0 sec",
+        "ammo": "–",
+        "types": "",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/d/df/Golf_Clubs.png/124px-Golf_Clubs.png",
+        "name": "Golf Clubs",
+        "effects": "Deal 20/40/80/160 Damage.\nWhen you Heal, this gains 5/10/15/20 Damage for the fight.",
+        "cooldown": "7.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/1/14/Med_Kit.png/51px-Med_Kit.png",
+        "name": "Med Kit",
+        "effects": "When you sell this, your leftmost Heal item gains 5/10/15/20 Heal.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/d/db/Spare_Change.png/51px-Spare_Change.png",
+        "name": "Spare Change",
+        "effects": "Item is worth 1/2/3/4 when sold.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/5/5a/Succulents.png/51px-Succulents.png",
+        "name": "Succulents",
+        "effects": "Heal 1 / 2 / 3 / 4.\n This permanently gains +1 / 2 / 3 / 4 Heal.",
+        "cooldown": "4.0 sec",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
       }
     ]
   },
@@ -449,11 +964,49 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/4/4d/Icon_Skill_LeftHanded.png/100px-Icon_Skill_LeftHanded.png",
-        "name": "Left-Handed",
-        "effects": "Your leftmost Weapon deals +4/12/24/40 Damage.",
-        "cooldown": "Bronze",
-        "ammo": "Weapon"
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c7/Ganjo.png/124px-Ganjo.png",
+        "name": "Ganjo",
+        "effects": "Adjacent weapons gain 5/10/15/20 Damage for the fight.\n Adjacent Heal items gain 5/10/15/20 Heal for the fight.\n Adjacent Shield items gain 5/10/15/20 Shield for the fight.",
+        "cooldown": "4.0 sec",
+        "ammo": "–",
+        "types": "",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/b/bb/Haladie.png/60px-Haladie.png",
+        "name": "Haladie",
+        "effects": "Deal 4/8/16/32 Damage.\nMulticast: 2",
+        "cooldown": "6.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/1/14/Med_Kit.png/51px-Med_Kit.png",
+        "name": "Med Kit",
+        "effects": "When you sell this, your leftmost Heal item gains 5/10/15/20 Heal.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/b/b8/Scrap.png/51px-Scrap.png",
+        "name": "Scrap",
+        "effects": "When you sell this, give your leftmost Shield item +4/8/12/16 Shield.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/5/50/Textiles.png/124px-Textiles.png",
+        "name": "Textiles",
+        "effects": "Shield 10/20/40/80 .\n Heal equal to your Shield.",
+        "cooldown": "4.0 sec",
+        "ammo": "–",
+        "types": "",
+        "size": "Medium"
       }
     ]
   },
@@ -478,18 +1031,31 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/3/38/Icon_Skill_MON_LivingFlame_01.png/100px-Icon_Skill_MON_LivingFlame_01.png",
-        "name": "Burst of Flame",
-        "effects": "The first time your opponent falls below half health, Burn 10 / 15 / 20 / 25.",
-        "cooldown": "Bronze",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/f/fb/Cinders.png/51px-Cinders.png",
+        "name": "Cinders",
+        "effects": "When you sell this, your leftmost Burn item gains +1/2/4 Burn.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
       },
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/2/2f/Icon_Skill_Fiery.png/100px-Icon_Skill_Fiery.png",
-        "name": "Fiery",
-        "effects": "Your Burn items have +1 / 2 / 3 / 4 Burn.",
-        "cooldown": "Bronze",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c4/Lighter.png/51px-Lighter.png",
+        "name": "Lighter",
+        "effects": "Burn 1/2/3/5",
+        "cooldown": "3.0 sec",
+        "ammo": "–",
+        "types": "Tool",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/5/5b/Magma_Core.png/51px-Magma_Core.png",
+        "name": "Magma Core",
+        "effects": "At the start of each fight, Burn 6/9/12/15.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
       }
     ]
   },
@@ -507,11 +1073,40 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c2/Icon_Skill_FlankingToxins.png/100px-Icon_Skill_FlankingToxins.png",
-        "name": "Flanking Toxins",
-        "effects": "The first time you use a Large item each fight, adjacent Poison items gain 4 / 6 / 8 Poison for the fight.",
-        "cooldown": "Silver",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/f/f8/Crypto.png/51px-Crypto.png",
+        "name": "Crypto",
+        "effects": "At the start of each hour, set this item's value to a number between 0 and 5/10/20/40",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/e/ea/Nitro.png/51px-Nitro.png",
+        "name": "Nitro",
+        "effects": "Burn both players 4 / 6 / 8.\nCharge an item 1/2/3 second(s).",
+        "cooldown": "4.0 sec",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/b/bd/Solar_Farm.png/199px-Solar_Farm.png",
+        "name": "Solar Farm",
+        "effects": "Give your other items Haste for 1/2/3 second(s).\nGain 4/8/12 Regeneration for the fight.\nWhen you Burn, Charge this for 2 seconds.",
+        "cooldown": "6.0 sec",
+        "ammo": "–",
+        "types": "Property",
+        "size": "Large"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/1/1d/Virus.png/51px-Virus.png",
+        "name": "Virus",
+        "effects": "Poison 1/2/3.\nDestroy a small item on each player's board for the fight.\nWhen you destroy an item, this gains 5/10/15 Poison for the fight.",
+        "cooldown": "12.0 / 5.0 / 5.0 sec",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
       }
     ]
   },
@@ -536,18 +1131,67 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/8/8c/Icon_Skill_SlowandSteady.png/100px-Icon_Skill_SlowandSteady.png",
-        "name": "Slow and Steady",
-        "effects": "When you Slow, your weapons gain 3 / 6 damage for the fight.",
-        "cooldown": "Gold",
-        "ammo": "Weapon"
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/2/29/Chum.png/51px-Chum.png",
+        "name": "Chum",
+        "effects": "Your Aquatic items gain 2/3/4/5% Crit Chance for the fight.\nWhen you buy this, get a Piranha.",
+        "cooldown": "4.0 sec",
+        "ammo": "–",
+        "types": "Aquatic",
+        "size": "Small"
       },
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/d/d0/Icon_Skill_SlowedTargets.png/100px-Icon_Skill_SlowedTargets.png",
-        "name": "Slowed Targets",
-        "effects": "When you Slow, your items gain +2 / 3% Crit Chance for the fight.",
-        "cooldown": "Gold",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/b/b4/Citrus.png/51px-Citrus.png",
+        "name": "Citrus",
+        "effects": "When you sell this, gain 1/2/3/4 Regeneration.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/2/2f/Coconut.png/51px-Coconut.png",
+        "name": "Coconut",
+        "effects": "When you sell this, gain 10/20/30/40 Max Health",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/e/ed/Electric_Eels.png/199px-Electric_Eels.png",
+        "name": "Electric Eels",
+        "effects": "When your enemy uses a Weapon, deal 5 / 10 / 20 damage.\nWhen your enemy uses a non-Weapon item, Slow it for 1 / 2 / 3 seconds.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "Aquatic, Weapon, Friend",
+        "size": "Large"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/8/8f/IllusoRay.png/51px-IllusoRay.png",
+        "name": "IllusoRay",
+        "effects": "Slow 1 item for\n1 / 2 / 3 / 4 seconds.\nFor each adjacent Friend, this gains 1 Multicast.",
+        "cooldown": "7.0 sec",
+        "ammo": "–",
+        "types": "Aquatic, Friend",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/e/ed/Narwhal.png/51px-Narwhal.png",
+        "name": "Narwhal",
+        "effects": "Deal 4 / 12 / 24 / 40 Damage.",
+        "cooldown": "4.0 sec",
+        "ammo": "–",
+        "types": "Aquatic, Weapon, Friend",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/4/43/Piranha.png/52px-Piranha.png",
+        "name": "Piranha",
+        "effects": "Deal 5/10/20/40 Damage.\nThis deals double Crit damage.",
+        "cooldown": "5.0 sec",
+        "ammo": "–",
+        "types": "Aquatic, Weapon",
+        "size": "Small"
       }
     ]
   },
@@ -565,11 +1209,58 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/8/8e/Icon_Skill_MON_AllTalk_02.png/100px-Icon_Skill_MON_AllTalk_02.png",
-        "name": "All Talk",
-        "effects": "While you have more than half Health, your weapons have +25 / 50 damage.",
-        "cooldown": "Gold",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/f/fa/Cannonball.png/51px-Cannonball.png",
+        "name": "Cannonball",
+        "effects": "Adjacent items have +1/2/3/4 Ammo.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/a/ae/Gunpowder.png/51px-Gunpowder.png",
+        "name": "Gunpowder",
+        "effects": "When you sell this, your leftmost Ammo item gains 1/2/3 Max Ammo.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "Loot",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/1/14/Pistol_Sword.png/126px-Pistol_Sword.png",
+        "name": "Pistol Sword",
+        "effects": "Deal 15 / 30 Damage.\nWhen you use an Ammo item, deal 15 / 30 Damage.",
+        "cooldown": "3.0 sec",
+        "ammo": "3",
+        "types": "Weapon",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/1/14/Powder_Flask.png/51px-Powder_Flask.png",
+        "name": "Powder Flask",
+        "effects": "Reload the item to the right of this 1 / 2 / 3 / 4 Ammo.",
+        "cooldown": "4.0 sec",
+        "ammo": "–",
+        "types": "Tool",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/6/6d/Revolver.png/51px-Revolver.png",
+        "name": "Revolver",
+        "effects": "Deal 5/10/20/40 Damage.\nWhen you Crit, reload 2 Ammo.",
+        "cooldown": "4.0 sec",
+        "ammo": "6",
+        "types": "Weapon",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/f/fa/Throwing_Knives.png/51px-Throwing_Knives.png",
+        "name": "Throwing Knives",
+        "effects": "Deal 5/10/20/40 Damage.\nWhen you Crit, Charge this 1 second.",
+        "cooldown": "3.0 sec",
+        "ammo": "3",
+        "types": "Weapon",
+        "size": "Small"
       }
     ]
   },
@@ -587,11 +1278,22 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/f/f7/Icon_Skill_MON_DiamondFangs.png/100px-Icon_Skill_MON_DiamondFangs.png",
-        "name": "Diamond Fangs",
-        "effects": "Your Small Diamond-tier items have their cooldowns reduced by 30 / 40 / 50%.",
-        "cooldown": "Bronze",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c3/Fang.png/51px-Fang.png",
+        "name": "Fang",
+        "effects": "Deal 5/10/20/40 damage.",
+        "cooldown": "4.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/4/45/Pelt.png/51px-Pelt.png",
+        "name": "Pelt",
+        "effects": "Sells for gold. (2 / 4 / 6 / 8)",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "Loot",
+        "size": "Small"
       }
     ]
   },
@@ -623,25 +1325,58 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/4/40/Icon_Skill_FlashyReload.png/100px-Icon_Skill_FlashyReload.png",
-        "name": "Flashy Reload",
-        "effects": "When you Crit with an item, reload another item +1 / 2 ammo.",
-        "cooldown": "Gold",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c4/Eagle_Talisman.png/51px-Eagle_Talisman.png",
+        "name": "Eagle Talisman",
+        "effects": "When you sell this, give your leftmost item 5/10/15/20 % Crit Chance.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
       },
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/8/81/Icon_Skill_HeavyWeaponry.png/100px-Icon_Skill_HeavyWeaponry.png",
-        "name": "Heavy Weaponry",
-        "effects": "Your Large Weapons deal +12 / 36 / 72 / 120 Damage.",
-        "cooldown": "Bronze",
-        "ammo": "Weapon"
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/1/1a/Goggles.png/60px-Goggles.png",
+        "name": "Goggles",
+        "effects": "Shield 10/30/60/100.\nWhen this gains Haste, give your items +2/4/6/8% Crit Chance.",
+        "cooldown": "7.0 sec",
+        "ammo": "–",
+        "types": "Tool",
+        "size": "Small"
       },
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c8/Icon_Skill_KeenEye.png/100px-Icon_Skill_KeenEye.png",
-        "name": "Keen Eye",
-        "effects": "Your items have 3/6/9/12% Crit Chance.",
-        "cooldown": "Bronze",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/a/ae/Gunpowder.png/51px-Gunpowder.png",
+        "name": "Gunpowder",
+        "effects": "When you sell this, your leftmost Ammo item gains 1/2/3 Max Ammo.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/7/74/Hakurvian_Launcher.png/199px-Hakurvian_Launcher.png",
+        "name": "Hakurvian Launcher",
+        "effects": "Deal 50 / 150 / 300 / 500 damage.\nWhen this gains Haste, it also gains 5 / 10 / 15 / 20% Crit Chance for the fight.",
+        "cooldown": "8.0 sec",
+        "ammo": "2",
+        "types": "Weapon",
+        "size": "Large"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/2/2b/Rocket_Boots.png/126px-Rocket_Boots.png",
+        "name": "Rocket Boots",
+        "effects": "Haste adjacent items for 1/2/3/4.\nWhen you sell this, give your leftmost Haste item +1/2/3/4",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/2/21/Shadowed_Cloak.png/124px-Shadowed_Cloak.png",
+        "name": "Shadowed Cloak",
+        "effects": "When you use the item to the right of this, give it Haste for 1/2/3/4 seconds and +3/5/7/9 Damage for the fight.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Medium"
       }
     ]
   },
@@ -666,18 +1401,31 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/7/70/Icon_Skill_Strenght.png/100px-Icon_Skill_Strenght.png",
-        "name": "Strength",
-        "effects": "Your Weapons deal +2 / 6 / 12 / 20 Damage.",
-        "cooldown": "Bronze",
-        "ammo": "Weapon"
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/f/fb/Cinders.png/51px-Cinders.png",
+        "name": "Cinders",
+        "effects": "When you sell this, your leftmost Burn item gains +1/2/4 Burn.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
       },
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/1/1d/Icon_Skill_MON_DeathWish_02.png/100px-Icon_Skill_MON_DeathWish_02.png",
-        "name": "Vengeance",
-        "effects": "Your leftmost and rightmost items have their cooldowns reduced by 5 / 10 / 15%.",
-        "cooldown": "Silver",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/5/5c/Fire_Claw.png/126px-Fire_Claw.png",
+        "name": "Fire Claw",
+        "effects": "Burn 3/6/9/12.\nThis has +Burn equal to the Burn of your other items.",
+        "cooldown": "6.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/7/7b/Sunlight_Spear.png/126px-Sunlight_Spear.png",
+        "name": "Sunlight Spear",
+        "effects": "Heal 30/60/120 .\n Burn 1.\nWhen you Heal, this gains 2/4/6 Burn for the fight.",
+        "cooldown": "6.0 sec",
+        "ammo": "–",
+        "types": "",
+        "size": "Medium"
       }
     ]
   },
@@ -709,25 +1457,49 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c6/Icon_Skill_InitialDose.png/100px-Icon_Skill_InitialDose.png",
-        "name": "Initial Dose",
-        "effects": "Your leftmost Poison item has +2 / 4 / 6 / 8 Poison.",
-        "cooldown": "Bronze",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/8/88/Basilisk_Fang.png/52px-Basilisk_Fang.png",
+        "name": "Basilisk Fang",
+        "effects": "Deal 10/20 Damage.\nWhen you Poison, this gains 10/20% Crit Chance for the fight.\nLifesteal.",
+        "cooldown": "3.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Small"
       },
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/b/be/Icon_Skill_ParalyticPoison.png/100px-Icon_Skill_ParalyticPoison.png",
-        "name": "Paralytic Poison",
-        "effects": "The first time you Poison each fight, Freeze an item for 3 / 4 / 5 / 6 second(s).",
-        "cooldown": "Bronze",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/6/6c/Black_Rose.png/60px-Black_Rose.png",
+        "name": "Black Rose",
+        "effects": "Heal 15/30/50.\nWhen you Poison, Charge this 1/1/2 second(s).",
+        "cooldown": "6.0 sec",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
       },
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/9/9f/Icon_Skill_MON_PetrifyingGaze_01.png/100px-Icon_Skill_MON_PetrifyingGaze_01.png",
-        "name": "Petrifying Gaze",
-        "effects": "The first time you fall below half health each fight, Freeze all enemy items for 1 / 2 / 3 second(s).",
-        "cooldown": "Silver",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/e/ec/Nightshade.png/126px-Nightshade.png",
+        "name": "Nightshade",
+        "effects": "Poison 1/2/3/4.\n Heal 10/20/30/40.",
+        "cooldown": "4.0 sec",
+        "ammo": "–",
+        "types": "",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/f/f1/Trained_Spider.png/51px-Trained_Spider.png",
+        "name": "Trained Spider",
+        "effects": "Poison 1/2/3/4 .\nWhen you sell this, your leftmost Poison item gains + 1/2/3/4 Poison.",
+        "cooldown": "5.0 sec",
+        "ammo": "–",
+        "types": "Friend",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/9/9e/Vial_of_Blood.png/51px-Vial_of_Blood.png",
+        "name": "Vial of Blood",
+        "effects": "When you sell this, gain 1/2/3 XP.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
       }
     ]
   },
@@ -745,11 +1517,58 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/f/f9/Icon_Skill_DOO_BeautifulFriendship.png/100px-Icon_Skill_DOO_BeautifulFriendship.png",
-        "name": "Beautiful Friendship",
-        "effects": "When you use a Friend, your weapons gain 2 / 4 damage for the fight.",
-        "cooldown": "Gold",
-        "ammo": "Friend, Weapon"
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/2/2e/Bill_Dozer.png/199px-Bill_Dozer.png",
+        "name": "Bill Dozer",
+        "effects": "Deal 20 Damage.\nWhen you use another Friend, this gains 10/20/30 Damage for the fight.\nYour other Friend's cooldowns are reduced by 20/30/40%.",
+        "cooldown": "5.0 sec",
+        "ammo": "–",
+        "types": "Friend, Weapon, Vehicle",
+        "size": "Large"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/d/d1/Bomb_Squad.png/51px-Bomb_Squad.png",
+        "name": "Bomb Squad",
+        "effects": "??\nWhen you use an adjacent Friend, Haste this 2/3/4/5 seconds.",
+        "cooldown": "7.0 sec",
+        "ammo": "–",
+        "types": "Friend",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/d/db/Char_Cole.png/51px-Char_Cole.png",
+        "name": "Char Cole",
+        "effects": "Burn 1/2/3.\nWhen you use another Friend, this gains 1/2/3 Burn for the fight",
+        "cooldown": "8.0 sec",
+        "ammo": "–",
+        "types": "Friend",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/d/da/Chris_Army_Knife.png/51px-Chris_Army_Knife.png",
+        "name": "Chris Army Knife",
+        "effects": "Deal 5/10/20/40 Damage\n Shield 5/10/20/40",
+        "cooldown": "5.0 sec",
+        "ammo": "–",
+        "types": "Friend, Weapon, Tool",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/f/f8/Crypto.png/51px-Crypto.png",
+        "name": "Crypto",
+        "effects": "At the start of each hour, set this item's value to a number between 0 and 5/10/20/40",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/0/04/First_Aiden.png",
+        "name": "First Aiden",
+        "effects": "Heal ?/?/?/80.\nHaste 1 item for 1/2/3/4 seconds.",
+        "cooldown": "6.0 sec",
+        "ammo": "–",
+        "types": "Friend",
+        "size": "Small"
       }
     ]
   },
@@ -774,18 +1593,49 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/7/7c/Icon_SKILL_MON_AugmentedDefenses.png/100px-Icon_SKILL_MON_AugmentedDefenses.png",
-        "name": "Augmented Defenses",
-        "effects": "Your Shield items have +1 Shield. When you sell a small item, increase this bonus by +1/2/3/4 Shield.",
-        "cooldown": "Bronze",
-        "ammo": "Shield"
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/8/8d/Brass_Knuckles.png/60px-Brass_Knuckles.png",
+        "name": "Brass Knuckles",
+        "effects": "Deal 5 / 10 / 20 / 40 damage.\nThis has double Damage.",
+        "cooldown": "8.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Small"
       },
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/4/4e/Icon_SKILL_MON_AugmentedWeaponry.png/100px-Icon_SKILL_MON_AugmentedWeaponry.png",
-        "name": "Augmented Weaponry",
-        "effects": "Your Weapons items have +1 Damage. When you sell a small item, increase this bonus by +1/2/3/4 Damage.",
-        "cooldown": "Bronze",
-        "ammo": "Weapon, Damage"
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/3/35/Dog.png/124px-Dog.png",
+        "name": "Dog",
+        "effects": "Deal 10/20/40/80\nWhen you sell a small item, this gains 3/6/9/12 Damage",
+        "cooldown": "6.0 sec",
+        "ammo": "–",
+        "types": "Weapon, Friend",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/5/58/Pepper_Spray.png/51px-Pepper_Spray.png",
+        "name": "Pepper Spray",
+        "effects": "Deal 5 / 15 / 30 / 50 damage.\nThe first time you fall below half health each fight, Slow all enemy items for 1 / 2 / 3 / 4 seconds.",
+        "cooldown": "5.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/a/af/Sharpening_Stone.png/51px-Sharpening_Stone.png",
+        "name": "Sharpening Stone",
+        "effects": "When you sell this, your leftmost Weapon gains 3/6/9/12 Damage.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/3/30/Temporary_Shelter.png/199px-Temporary_Shelter.png",
+        "name": "Temporary Shelter",
+        "effects": "Shield 10/20/40/80\nWhen you sell a Small item, this gains 5/10/15/20 Shield.",
+        "cooldown": "6.0 sec",
+        "ammo": "–",
+        "types": "Property",
+        "size": "Large"
       }
     ]
   },
@@ -803,11 +1653,49 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/2/27/Icon_Skill_MON_PackLoyalty_04.png/100px-Icon_Skill_MON_PackLoyalty_04.png",
-        "name": "Aggressive",
-        "effects": "When you use a Weapon, give it +2 / 4 / 6 / 8% crit chance the fight.",
-        "cooldown": "Bronze",
-        "ammo": "Weapon"
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/b/b2/Broken_Shackles.png/51px-Broken_Shackles.png",
+        "name": "Broken Shackles",
+        "effects": "Your Weapons gain 2/4/8 Damage.\nWhen you use a Weapon, Charge this 1 second.",
+        "cooldown": "6.0 sec",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/9/91/Claws.png/51px-Claws.png",
+        "name": "Claws",
+        "effects": "Deal 10/20/40/80 Damage.\nThis deals double Crit Damage.",
+        "cooldown": "4.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c4/Eagle_Talisman.png/51px-Eagle_Talisman.png",
+        "name": "Eagle Talisman",
+        "effects": "When you sell this, give your leftmost item 5/10/15/20 % Crit Chance.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c3/Fang.png/51px-Fang.png",
+        "name": "Fang",
+        "effects": "Deal 3 / 9 / 18 / 30 damage.",
+        "cooldown": "4.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/4/45/Pelt.png/51px-Pelt.png",
+        "name": "Pelt",
+        "effects": "Sells for gold.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
       }
     ]
   },
@@ -825,11 +1713,49 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/1/17/Paralyzing_Rush.png/100px-Paralyzing_Rush.png",
-        "name": "Paralyzing Rush",
-        "effects": "When you Slow, Haste a Weapon 1/2 second(s).",
-        "cooldown": "Gold",
-        "ammo": "Weapon"
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/0/01/Amber.png/52px-Amber.png",
+        "name": "Amber",
+        "effects": "Slow 1 item for 1/2/3 seconds.\nYour other Slow items have +1 Slow.",
+        "cooldown": "5.0 sec",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/d/d2/Insect_Wing.png/51px-Insect_Wing.png",
+        "name": "Insect Wing",
+        "effects": "When you sell this, reduce your items' Cooldowns by 3/6/9/12%.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "Loot",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/0/0b/Neural_Toxin.png/51px-Neural_Toxin.png",
+        "name": "Neural Toxin",
+        "effects": "Slow 1 item for 2 second(s).\nWhen you use an adjacent Weapon, Charge this 1/2/3/4 second(s).",
+        "cooldown": "6.0 sec",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/3/39/Proboscis.png/51px-Proboscis.png",
+        "name": "Proboscis",
+        "effects": "When you slow, deal 3 / 6 / 9 / 12 Damage.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/b/b6/Stinger.png/51px-Stinger.png",
+        "name": "Stinger",
+        "effects": "Deal 5/10/20/40 Damage.\n Slow 1 item for 1/2/3/4 seconds.\nLifesteal.",
+        "cooldown": "9.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Small"
       }
     ]
   },
@@ -847,11 +1773,58 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/0/0d/Icon_SKILL_MON_ToxicFriendship.png/100px-Icon_SKILL_MON_ToxicFriendship.png",
-        "name": "Toxic Friendship",
-        "effects": "When you use a Friend, Poison 1 / 2.",
-        "cooldown": "Gold",
-        "ammo": "Friend"
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/cd/Crook.png/124px-Crook.png",
+        "name": "Crook",
+        "effects": "Deal 10 / 20 / 40 damage.\nYour Weapons have +10 / 20 / 40 Damage for each Medium item you have.",
+        "cooldown": "5.0 sec",
+        "ammo": "–",
+        "types": "Tool, Weapon",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/1/11/Dragon_Whelp.png/51px-Dragon_Whelp.png",
+        "name": "Dragon Whelp",
+        "effects": "Deal 1/2/3 Damage.\n Burn equal to this item's damage.",
+        "cooldown": "9.0 sec",
+        "ammo": "–",
+        "types": "Friend, Weapon",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/a/af/Leeches.png/126px-Leeches.png",
+        "name": "Leeches",
+        "effects": "Deal 5/10/20/40 Damage.\nWhen you Poison, this gains 5/10/15/20 Damage for the fight.\nLifesteal.",
+        "cooldown": "6.0 sec",
+        "ammo": "–",
+        "types": "Friend, Weapon",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/4/45/Pelt.png/51px-Pelt.png",
+        "name": "Pelt",
+        "effects": "Sells for gold. (2 / 4 / 6 / 8)",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/0/0c/Salamander_Pup.png/126px-Salamander_Pup.png",
+        "name": "Salamander Pup",
+        "effects": "Burn 4 / 6 / 8 / 10.\nWhen you sell this, your leftmost Burn item gains +3 / 4 / 5 / 6 Burn.",
+        "cooldown": "8.0 sec",
+        "ammo": "–",
+        "types": "Friend",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/f/f1/Trained_Spider.png/51px-Trained_Spider.png",
+        "name": "Trained Spider",
+        "effects": "Poison 1/2/3/4.\nWhen you sell this, your leftmost Poison item gains + 1/2/3/4 Poison.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "Friend",
+        "size": "Small"
       }
     ]
   },
@@ -869,11 +1842,49 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/2/2b/Icon_Skill_FlashyMechanic.png/100px-Icon_Skill_FlashyMechanic.png",
-        "name": "Flashy Mechanic",
-        "effects": "When you use a Tool, items adjacent to it gain 3 / 5 / 10% Crit chance.",
-        "cooldown": "Silver",
-        "ammo": "Tool"
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/d/da/Chris_Army_Knife.png/51px-Chris_Army_Knife.png",
+        "name": "Chris Army Knife",
+        "effects": "Deal 5/10/20/40 Damage\n Shield 5/10/20/40",
+        "cooldown": "5.0 sec",
+        "ammo": "–",
+        "types": "Friend, Weapon, Tool",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/e/ed/Cog.png/51px-Cog.png",
+        "name": "Cog",
+        "effects": "Haste an adjacent item for 2/3/4 seconds.",
+        "cooldown": "4.0 sec",
+        "ammo": "–",
+        "types": "Tool",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/2/20/Crane.png/199px-Crane.png",
+        "name": "Crane",
+        "effects": "Deal 100/200 Damage.\nWhen you use an adjacent Large item, this gains 30/60% Damage for the fight.\nWhen you use an adjacent Medium item, this gains 20/40% Damage for the fight.",
+        "cooldown": "10.0 sec",
+        "ammo": "–",
+        "types": "Vehicle, Weapon, Tool",
+        "size": "Large"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/e/e8/Power_Sander.png/51px-Power_Sander.png",
+        "name": "Power Sander",
+        "effects": "Adjacent Weapons gain 3/6/9/12 for the fight.\n Adjacent Shield items gain 3/6/9/12 for the fight.",
+        "cooldown": "4.0 sec",
+        "ammo": "–",
+        "types": "Tool",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/b/b8/Scrap.png/51px-Scrap.png",
+        "name": "Scrap",
+        "effects": "When you sell this, give your leftmost Shield item +4/8/12/16 Shield.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
       }
     ]
   },
@@ -891,11 +1902,67 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/0/03/Icon_Skill_MON_ALittleOfEverything_01.png/100px-Icon_Skill_MON_ALittleOfEverything_01.png",
-        "name": "Jury Rigger",
-        "effects": "When you use an ammo item, reload 1 / 2 / 3 the item to the left of it.",
-        "cooldown": "Silver",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/3/3a/Grapeshot.png/51px-Grapeshot.png",
+        "name": "Grapeshot",
+        "effects": "Deal 15 / 30 / 50 Damage.\nWhen you use another Ammo item, this reloads 1 Ammo.",
+        "cooldown": "3.0 sec",
+        "ammo": "2",
+        "types": "Weapon",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/f/fb/Grenade.png/51px-Grenade.png",
+        "name": "Grenade",
+        "effects": "Deal 40 / 80 / 150 / 300 Damage.",
+        "cooldown": "4.0 sec",
+        "ammo": "1",
+        "types": "Weapon",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/3/36/Junkyard_Catapult.png/199px-Junkyard_Catapult.png",
+        "name": "Junkyard Catapult",
+        "effects": "Deal 25/50/75 Damage.\n Burn 6/8/10.\n Poison 4/6/8.",
+        "cooldown": "6.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Large"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/4/4c/Noxious_Potion.png/52px-Noxious_Potion.png",
+        "name": "Noxious Potion",
+        "effects": "Poison both players 4/6/8/10",
+        "cooldown": "3.0 sec",
+        "ammo": "1",
+        "types": "Potion",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/d/d8/Plasma_Grenade.png/51px-Plasma_Grenade.png",
+        "name": "Plasma Grenade",
+        "effects": "Burn BOTH players 5/??\n\nSlow enemy items for 1/?? seconds.",
+        "cooldown": "4.0 sec",
+        "ammo": "<span style =\"color:#f9923c; font-weight:bold;\">'''1'''</span>",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/4/4e/Powder_Keg.png/126px-Powder_Keg.png",
+        "name": "Powder Keg",
+        "effects": "Deal Damage equal to 30 / 40 / 50% of your enemy's Max Health and destroy this.\n\nWhen you Burn, charge this 1 second.",
+        "cooldown": "20.0 sec",
+        "ammo": "1",
+        "types": "Weapon",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/b/bd/Rainbow_Potion.png/53px-Rainbow_Potion.png",
+        "name": "Rainbow Potion",
+        "effects": "Burn ?/?/4/?.\n Poison ?/?/2/?.\n Freeze 1 item for ?/?/2/? second(s).\n Slow 1 item for ?/?/4/? seconds(s).",
+        "cooldown": "7.0 sec",
+        "ammo": "1",
+        "types": "Potion",
+        "size": "Small"
       }
     ]
   },
@@ -913,11 +1980,58 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c0/Icon_Skill_ExposingToxins.png/100px-Icon_Skill_ExposingToxins.png",
-        "name": "Exposing Toxins",
-        "effects": "When you Poison, your items gain +2 / 3% Crit Chance for the fight.",
-        "cooldown": "Gold",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/b/be/Bandages.png/51px-Bandages.png",
+        "name": "Bandages",
+        "effects": "Heal 5/10/20/40\n Shield 5/10/20/40",
+        "cooldown": "4.0 sec",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/b/b3/Death_Caps.png/126px-Death_Caps.png",
+        "name": "Death Caps",
+        "effects": "Poison 1/2\nIncrease the Poison of your items by 1/2 for the fight.",
+        "cooldown": "5.0 sec",
+        "ammo": "–",
+        "types": "",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/3/36/Ectoplasm.png/51px-Ectoplasm.png",
+        "name": "Ectoplasm",
+        "effects": "Poison 1/2/3.\n Heal equal to your opponent's Poison.",
+        "cooldown": "6.0 sec",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/e/e4/Extract.png/51px-Extract.png",
+        "name": "Extract",
+        "effects": "When you sell this, your leftmost Poison item gains +1/2/3/4 Poison.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/9/9a/Thurible.png/60px-Thurible.png",
+        "name": "Thurible",
+        "effects": "Gain 2/4/6 Regeneration for the fight.\nWhen you gain Regeneration, Burn 2/3/4.",
+        "cooldown": "8.0 sec",
+        "ammo": "–",
+        "types": "Tool",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/9/9e/Vial_of_Blood.png/51px-Vial_of_Blood.png",
+        "name": "Vial of Blood",
+        "effects": "When you sell this, gain 1/2/3 XP.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
       }
     ]
   },
@@ -942,18 +2056,40 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/a/a9/Icon_Skill_VAN_CrashingWaves.png/100px-Icon_Skill_VAN_CrashingWaves.png",
-        "name": "Crashing Waves",
-        "effects": "When you use an Aquatic item, Haste a weapon for 1 / 2 second(s).",
-        "cooldown": "Gold",
-        "ammo": "Weapon, Aquatic"
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/0/0d/ATM.png/124px-ATM.png",
+        "name": "ATM",
+        "effects": "Gain Shield equal / double / triple / quadruple to your Income.\nWhen you buy this, you gain 1/2/3/5 Income",
+        "cooldown": "3.0 sec",
+        "ammo": "–",
+        "types": "Property",
+        "size": "Medium"
       },
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/7/77/Icon_Skill_MON_MoneyIsPower_02.png/100px-Icon_Skill_MON_MoneyIsPower_02.png",
-        "name": "Power Broker",
-        "effects": "Your weapons have + damage equal to 1x / 2x your income.",
-        "cooldown": "Gold",
-        "ammo": "Weapon"
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/1/1e/Cash_Cannon.png/124px-Cash_Cannon.png",
+        "name": "Cash Cannon",
+        "effects": "Deal 50 / 100 / 200 damage.\nWhen you gain gold, permanently give this +Damage equal to 1x / 2x / 3x the amount of gold gained.",
+        "cooldown": "6.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/b/bb/Sharkclaws.png/126px-Sharkclaws.png",
+        "name": "Sharkclaws",
+        "effects": "Deal 5/10/20/40 Damage.\nYour Weapons gain 3 / 6 / 9 / 12 Damage for the fight.",
+        "cooldown": "4.0 sec",
+        "ammo": "–",
+        "types": "Aquatic, Weapon",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/3/3d/Sharkray.png/126px-Sharkray.png",
+        "name": "Sharkray",
+        "effects": "Deal 20/40 Damage.\nWhen you Haste, this gains 20/40 Damage for the fight.",
+        "cooldown": "7.0 sec",
+        "ammo": "–",
+        "types": "Aquatic, Weapon, Friend",
+        "size": "Medium"
       }
     ]
   },
@@ -985,25 +2121,40 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/2/27/Icon_Skill_MON_DisdainForLife_01.png/100px-Icon_Skill_MON_DisdainForLife_01.png",
-        "name": "Burning Rage",
-        "effects": "When you Burn, your Weapons gain +2 / 4 / 6 / 8 damage the fight.",
-        "cooldown": "Bronze",
-        "ammo": "Weapon"
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/f/fb/Cinders.png/51px-Cinders.png",
+        "name": "Cinders",
+        "effects": "When you sell this, your leftmost Burn item gains +1/2/3/4 Burn.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
       },
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/7/70/Icon_Skill_Strenght.png/100px-Icon_Skill_Strenght.png",
-        "name": "Strength",
-        "effects": "Your Weapons deal +2 / 6 / 12 / 20 Damage.",
-        "cooldown": "Bronze",
-        "ammo": "Weapon"
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/a/a3/Infernal_Greatsword.png/199px-Infernal_Greatsword.png",
+        "name": "Infernal Greatsword",
+        "effects": "Deal 2 Damage.\n Burn equal to this item's damage.\nThis gains Damage equal to your enemy's Burn for the fight.",
+        "cooldown": "8.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Large"
       },
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/6/64/Icon_Skill_TracerFire.png/100px-Icon_Skill_TracerFire.png",
-        "name": "Tracer Fire",
-        "effects": "When you burn, your items gain +2 / 3% Crit Chance for the fight.",
-        "cooldown": "Gold",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/5/5b/Magma_Core.png/51px-Magma_Core.png",
+        "name": "Magma Core",
+        "effects": "At the start of each fight, Burn 6/9/12/15.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/a/a9/Ruby.png/51px-Ruby.png",
+        "name": "Ruby",
+        "effects": "",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
       }
     ]
   },
@@ -1028,18 +2179,67 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/b/b0/Icon_Skill_MON_ChillingTouch.png/100px-Icon_Skill_MON_ChillingTouch.png",
-        "name": "Chilling Touch",
-        "effects": "The first time you Freeze each fight, Slow all your opponent's items for 3 / 5 / 7 second(s).",
-        "cooldown": "Silver",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/3/37/Cauldron.png/126px-Cauldron.png",
+        "name": "Cauldron",
+        "effects": "Burn 2/4/6\n Poison 1/2/3.",
+        "cooldown": "4.0 sec",
+        "ammo": "–",
+        "types": "Tool",
+        "size": "Medium"
       },
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/9/9f/Icon_Skill_MON_PetrifyingGaze_01.png/100px-Icon_Skill_MON_PetrifyingGaze_01.png",
-        "name": "Petrifying Gaze",
-        "effects": "The first time you fall below half health each fight, Freeze all enemy items for 1 / 2 / 3 second(s).",
-        "cooldown": "Silver",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/3/36/Ectoplasm.png/51px-Ectoplasm.png",
+        "name": "Ectoplasm",
+        "effects": "Poison 1/2/3.\n Heal equal to your opponent's Poison.",
+        "cooldown": "6.0 sec",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/6/6a/Emerald.png/60px-Emerald.png",
+        "name": "Emerald",
+        "effects": "Poison 1/2/3.\n Increase your other items' Poison by 1.",
+        "cooldown": "6.0 sec",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/2/23/Icicle.png/51px-Icicle.png",
+        "name": "Icicle",
+        "effects": "At the start of each fight, Freeze an item for 3/4/5/6 seconds.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/7/78/Necronomicon.png/126px-Necronomicon.png",
+        "name": "Necronomicon",
+        "effects": "When ANY non-weapon item is used, Poison 3 and gain 3 Regeneration for the fight.\nYour items have their cooldowns increased by 1 second.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/d/d4/Soul_Ring.png/60px-Soul_Ring.png",
+        "name": "Soul Ring",
+        "effects": "Poison equal to your Regeneration.\n You have +1/2/3 Regeneration.",
+        "cooldown": "8.0 sec",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/5/53/Wand.png/51px-Wand.png",
+        "name": "Wand",
+        "effects": "Charge your other non-weapon items 1/2 seconds.",
+        "cooldown": "5.0 sec",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
       }
     ]
   },
@@ -1057,11 +2257,49 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/b/b7/Icon_SKILL_MON_CleanStorefront.png/100px-Icon_SKILL_MON_CleanStorefront.png",
-        "name": "Clean Storefront",
-        "effects": "Your leftmost item has +15 / 30 / 50 value during combat.",
-        "cooldown": "Silver",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/9/9f/Dishwasher.png/180px-Dishwasher.png",
+        "name": "Dishwasher",
+        "effects": "Haste your Tools for 1/2/3/4 second(s).\n Your Weapons gain 10/20/40/80 Damage for the fight.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "Tool",
+        "size": "Large"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/3/31/Hogwash.png/201px-Hogwash.png",
+        "name": "Hogwash",
+        "effects": "Heal equal to 4 / 8 / 12% of your Max Health.\nWhen you Heal, gain 5 / 15 / 30 Max Health for the fight.",
+        "cooldown": "4.0 sec",
+        "ammo": "–",
+        "types": "Property",
+        "size": "Large"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/e/e7/Hydraulic_Squeezer.png/120px-Hydraulic_Squeezer.png",
+        "name": "Hydraulic Squeezer",
+        "effects": "Deal 26/39/59 Damage.\nWhen you use a Tool, your Weapons gain 2/4 Damage for the fight.",
+        "cooldown": "9.0 sec",
+        "ammo": "–",
+        "types": "Tool, Weapon",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/8/82/Orbital_Polisher.png/60px-Orbital_Polisher.png",
+        "name": "Orbital Polisher",
+        "effects": "Adjacent items gain 5/10 Damage for the fight.\n Adjacent items gain Shield 5/10 for the fight.",
+        "cooldown": "7.0 sec",
+        "ammo": "–",
+        "types": "Tool",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/f/f4/Rivet_Gun.png/52px-Rivet_Gun.png",
+        "name": "Rivet Gun",
+        "effects": "Deal 10/20/30 Damage.\nWhen you use the item to the right of this, Charge the item to the left of this 1/1/2 second(s).",
+        "cooldown": "9.0 sec",
+        "ammo": "–",
+        "types": "Weapon, Tool",
+        "size": "Small"
       }
     ]
   },
@@ -1079,11 +2317,67 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/e/ee/Icon_Skill_MON_RevitalizingToxins.png/100px-Icon_Skill_MON_RevitalizingToxins.png",
-        "name": "Revitalizing Toxins",
-        "effects": "When you Poison, gain 2 / 4 / 6 / 8 Regeneration for the fight.",
-        "cooldown": "Bronze",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/8/88/Basilisk_Fang.png/52px-Basilisk_Fang.png",
+        "name": "Basilisk Fang",
+        "effects": "Deal 10/20 Damage.\nWhen you Poison, this gains 10/20% Crit Chance for the fight.\nLifesteal.",
+        "cooldown": "3.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/a/a7/Copper_Ed.png/51px-Copper_Ed.png",
+        "name": "Copper Ed",
+        "effects": "Poison 1/2/3/4\n Shield 5/10/15/20",
+        "cooldown": "6.0 sec",
+        "ammo": "–",
+        "types": "Friend",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/e/e4/Extract.png/51px-Extract.png",
+        "name": "Extract",
+        "effects": "When you sell this, your leftmost Poison item gains +1/2/4 Poison.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "Loot",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c3/Fang.png/51px-Fang.png",
+        "name": "Fang",
+        "effects": "Deal 5/10/20/40 damage.",
+        "cooldown": "4.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/a/aa/Gland.png/51px-Gland.png",
+        "name": "Gland",
+        "effects": "When you sell this, gain 1/2/3/4 Regeneration.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "Loot",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/4/4c/Noxious_Potion.png/52px-Noxious_Potion.png",
+        "name": "Noxious Potion",
+        "effects": "Poison both players 4/6/8/10",
+        "cooldown": "3.0 sec",
+        "ammo": "1",
+        "types": "Potion",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/8/8a/Venom.png/52px-Venom.png",
+        "name": "Venom",
+        "effects": "When you use an adjacent Weapon, Poison 1/2/3.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
       }
     ]
   },
@@ -1108,18 +2402,40 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/1/1c/Icon_Skill_MON_Skyfall_01.png/100px-Icon_Skill_MON_Skyfall_01.png",
-        "name": "Cosmic Wind",
-        "effects": "When you Crit, Haste an item for 1 / 2 / 3 second(s).",
-        "cooldown": "Silver",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/9/91/Claws.png/51px-Claws.png",
+        "name": "Claws",
+        "effects": "Deal 10/20/40/80 Damage.\nThis deals double Crit Damage.",
+        "cooldown": "4.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Small"
       },
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c8/Icon_Skill_KeenEye.png/100px-Icon_Skill_KeenEye.png",
-        "name": "Keen Eye",
-        "effects": "Your items have 3/6/9/12% Crit Chance.",
-        "cooldown": "Bronze",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/5/5c/Cosmic_Amulet.png/51px-Cosmic_Amulet.png",
+        "name": "Cosmic Amulet",
+        "effects": "Shield 50/100.\nWhen this gains Haste, give your items 3/5% Crit Chance.",
+        "cooldown": "8.0 sec",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/b/b4/Cosmic_Plumage.png/126px-Cosmic_Plumage.png",
+        "name": "Cosmic Plumage",
+        "effects": "Your Shield items gain 4/8/12 and your Weapons +4/8/12 Damage.\nWhen you crit, Charge this 1 second.",
+        "cooldown": "6.0 sec",
+        "ammo": "–",
+        "types": "",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/3/33/Feather.png/51px-Feather.png",
+        "name": "Feather",
+        "effects": "When you sell this, reduce your leftmost item's Cooldown by 4 / 8 / 12 / 16%.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
       }
     ]
   },
@@ -1144,18 +2460,49 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/7/75/Icon_Skill_CriticalAid.png/100px-Icon_Skill_CriticalAid.png",
-        "name": "Critical Aid",
-        "effects": "Your Heal items have +3 / 6 / 9 / 12% Crit chance.",
-        "cooldown": "Bronze",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/6/6c/Black_Rose.png/60px-Black_Rose.png",
+        "name": "Black Rose",
+        "effects": "Heal 15/30/50.\nWhen you Poison, Charge this 1/1/2 second(s).",
+        "cooldown": "6.0 sec",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
       },
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/3/3e/Icon_Skill_RapidReconstruction.png/100px-Icon_Skill_RapidReconstruction.png",
-        "name": "Rapid Thaw",
-        "effects": "When your opponent Freezes your items, reduce the duration by 1 second(s).",
-        "cooldown": "Diamond",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/2/2c/Bushel.png/124px-Bushel.png",
+        "name": "Bushel",
+        "effects": "Heal 10/20/40/80\nWhen you Heal, Charge this 2 seconds.",
+        "cooldown": "5.0 sec",
+        "ammo": "–",
+        "types": "",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/e/e4/Extract.png/51px-Extract.png",
+        "name": "Extract",
+        "effects": "When you sell this, your leftmost Poison item gains +1/2/3/4 Poison.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/2/25/Poppy_Field.png/199px-Poppy_Field.png",
+        "name": "Poppy Field",
+        "effects": "Poison 3/6/9/12.\nIf you have no Weapons, your items have their Cooldowns reduced by 5% / 10% / 15% / 20%.",
+        "cooldown": "6.0 sec",
+        "ammo": "–",
+        "types": "Property",
+        "size": "Large"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/5/5a/Succulents.png/51px-Succulents.png",
+        "name": "Succulents",
+        "effects": "Heal 1 / 2 / 3 / 4.\n This permanently gains +1 / 2 / 3 / 4 Heal.",
+        "cooldown": "4.0 sec",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
       }
     ]
   },
@@ -1187,25 +2534,67 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c2/Icon_Skill_MON_TurnOutYourPockets_03.png/100px-Icon_Skill_MON_TurnOutYourPockets_03.png",
-        "name": "Bonk",
-        "effects": "Enemy cooldowns are increased by 1 second(s).",
-        "cooldown": "Diamond",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c0/Anchor.png/126px-Anchor.png",
+        "name": "Anchor",
+        "effects": "Deal Damage equal to 20/30% of your enemy's Max Health.\nWhen you use an adjacent item, this gains Haste for 2/4 seconds.",
+        "cooldown": "12.0 sec",
+        "ammo": "–",
+        "types": "Aquatic, Weapon",
+        "size": "Medium"
       },
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/8/8e/Icon_Skill_SmallWeaponry.png/100px-Icon_Skill_SmallWeaponry.png",
-        "name": "Small Weaponry",
-        "effects": "Your Small Weapons deal +3 / 9 / 18 / 30 Damage.",
-        "cooldown": "Bronze",
-        "ammo": "Weapon"
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/8/8d/Brass_Knuckles.png/60px-Brass_Knuckles.png",
+        "name": "Brass Knuckles",
+        "effects": "Deal 5 / 10 / 20 / 40 damage.\nThis has double Damage.",
+        "cooldown": "8.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Small"
       },
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/7/70/Icon_Skill_Strenght.png/100px-Icon_Skill_Strenght.png",
-        "name": "Strength",
-        "effects": "Your Weapons deal +2 / 6 / 12 / 20 Damage.",
-        "cooldown": "Bronze",
-        "ammo": "Weapon"
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/9/96/Concealed_Dagger.png/51px-Concealed_Dagger.png",
+        "name": "Concealed Dagger",
+        "effects": "Deal 12/24/48 Damage.\n Gain 1/2/3 Gold.",
+        "cooldown": "8.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/0/06/Improvised_Bludgeon.png/126px-Improvised_Bludgeon.png",
+        "name": "Improvised Bludgeon",
+        "effects": "Deal 20/40/80/160 Damage.\n Slow 2 items 3/4/5/6 seconds.\nWhen you sell this, your leftmost Slow item gains +1/2/3/4 Slow.",
+        "cooldown": "7.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/2/22/Junkyard_Club.png/126px-Junkyard_Club.png",
+        "name": "Junkyard Club",
+        "effects": "Deal 30/60/120/240 Damage.\nWhen you sell this, your weapons gain 4/6/8/10 Damage.",
+        "cooldown": "10.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/9/94/Spices.png/51px-Spices.png",
+        "name": "Spices",
+        "effects": "Your Weapons gain Damage equal to your weakest Weapon's Damage for the fight.",
+        "cooldown": "8.0 sec",
+        "ammo": "1",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/9/9d/Thieves_Guild_Medallion.png/51px-Thieves_Guild_Medallion.png",
+        "name": "Thieves Guild Medallion",
+        "effects": "When you sell this, gain access to the Thieves Guild.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
       }
     ]
   },
@@ -1223,11 +2612,49 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/1/1e/Icon_Skill_ReachingTheSummit.png/100px-Icon_Skill_ReachingTheSummit.png",
-        "name": "Reaching the Summit",
-        "effects": "When you Freeze, your items gain +2 / 4% Crit Chance for the fight.",
-        "cooldown": "Gold",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/d/d3/Hammock.png/126px-Hammock.png",
+        "name": "Hammock",
+        "effects": "Heal 100 / 200.\nThis item's cooldown is reduced by 5 seconds for each adjacent large item.",
+        "cooldown": "12.0 sec",
+        "ammo": "–",
+        "types": "",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/1/1a/Ice_Cream_Truck.png/201px-Ice_Cream_Truck.png",
+        "name": "Ice Cream Truck",
+        "effects": "Freeze 1 item for 1 / 2 / 4 seconds.\nWhen you use another non-weapon item, charge this 1 second.",
+        "cooldown": "6.0 sec",
+        "ammo": "–",
+        "types": "Vehicle",
+        "size": "Large"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/1/15/Ice_Cubes.png/60px-Ice_Cubes.png",
+        "name": "Ice Cubes",
+        "effects": "Freeze 3 small items for 1/2 second(s).",
+        "cooldown": "9.0 sec",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/2/23/Icicle.png/51px-Icicle.png",
+        "name": "Icicle",
+        "effects": "At the start of each fight, Freeze an item for 3/4/5/6 seconds.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/3/3d/Igloo.png/201px-Igloo.png",
+        "name": "Igloo",
+        "effects": "Freeze 1 item for 2 / 3 / 4 seconds.\nWhen you Freeze, Shield 20 / 30 / 40.",
+        "cooldown": "6.0 sec",
+        "ammo": "–",
+        "types": "Property",
+        "size": "Large"
       }
     ]
   },
@@ -1245,11 +2672,67 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/6/64/Icon_Skill_TracerFire.png/100px-Icon_Skill_TracerFire.png",
-        "name": "Tracer Fire",
-        "effects": "When you burn, your items gain +2 / 3% Crit Chance for the fight.",
-        "cooldown": "Gold",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/b/be/Incendiary_Rounds.png/51px-Incendiary_Rounds.png",
+        "name": "Incendiary Rounds",
+        "effects": "When you use an adjacent item, Burn 2.\nAdjacent items have +1 Ammo.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/2/26/Induction_Aegis.png/51px-Induction_Aegis.png",
+        "name": "Induction Aegis",
+        "effects": "Shield 40 / 80.\nBurn 4 / 6.\nSlow your adjacent items for 1 / 1 seconds.",
+        "cooldown": "4.0 sec",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/e/ea/Nitro.png/51px-Nitro.png",
+        "name": "Nitro",
+        "effects": "Burn both players 4 / 6 / 8.\nCharge an item 1.0 / 2.0 / 3.0 seconds.",
+        "cooldown": "4.0 sec",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/d/d8/Plasma_Grenade.png/51px-Plasma_Grenade.png",
+        "name": "Plasma Grenade",
+        "effects": "Burn BOTH players 5/??\n\nSlow enemy items for 1/?? seconds.",
+        "cooldown": "4.0 sec",
+        "ammo": "<span style =\"color:#f9923c; font-weight:bold;\">'''1'''</span>",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/b/b6/Plasma_Rifle.png",
+        "name": "Plasma Rifle",
+        "effects": "Deal 225 Damage\nWhen you Burn, this gains 25/50/75 Damage damage for the fight.",
+        "cooldown": "8.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/3/30/Welding_Helmet.png",
+        "name": "Welding Helmet",
+        "effects": "5/15/24/48\n1/2/3/5",
+        "cooldown": "3.0 sec",
+        "ammo": "–",
+        "types": "",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/5/56/Welding_Torch.png/126px-Welding_Torch.png",
+        "name": "Welding Torch",
+        "effects": "Burn 4 / 6 / 8.\nWhen you Shield, this gains Haste for 1 / 2 / 3 seconds.",
+        "cooldown": "5.0 sec",
+        "ammo": "–",
+        "types": "Tool",
+        "size": "Medium"
       }
     ]
   },
@@ -1274,18 +2757,76 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/7/79/Icon_Skill_MON_GlidedShell_03.png/100px-Icon_Skill_MON_GlidedShell_03.png",
-        "name": "Hunker Down",
-        "effects": "The first time you fall below half health each fight, Shield equal to 30 / 50 / 80% of your Max Health.",
-        "cooldown": "Silver",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/5/50/Bag_of_Jewels.png/51px-Bag_of_Jewels.png",
+        "name": "Bag of Jewels",
+        "effects": "Sells for gold. (3 / 6 / 12 / 24)",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
       },
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/1/12/Toughness.png/100px-Toughness.png",
-        "name": "Toughness",
-        "effects": "Your Shield items have + Shield 2/6/12/20.",
-        "cooldown": "Bronze",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/9/99/Catfish.png/51px-Catfish.png",
+        "name": "Catfish",
+        "effects": "Poison 1/2/3/4 .\nWhen this gains Haste, give it + 1/2/3/4 Poison for the fight.",
+        "cooldown": "8.0 sec",
+        "ammo": "–",
+        "types": "Aquatic, Friend",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/9/99/Clamera.png/51px-Clamera.png",
+        "name": "Clamera",
+        "effects": "Slow 1/2/3/4 item(s) for 1 second.\nAt the start of the fight, use this.",
+        "cooldown": "9.0 sec",
+        "ammo": "–",
+        "types": "Aquatic",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/4/4b/Genie_Lamp.png/51px-Genie_Lamp.png",
+        "name": "Genie Lamp",
+        "effects": "When you sell this, gain access to the Genie Rit.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/7/73/Pearl.png/51px-Pearl.png",
+        "name": "Pearl",
+        "effects": "Shield 10/20/30/40 .\nWhen you use an Aquatic item, Charge this 1 second.",
+        "cooldown": "4.0 sec",
+        "ammo": "–",
+        "types": "Aquatic",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/f/f0/Sea_Shell.png/51px-Sea_Shell.png",
+        "name": "Sea Shell",
+        "effects": "Shield 5 / 10 / 20 / 40 for each Aquatic item you have.",
+        "cooldown": "5.0 sec",
+        "ammo": "–",
+        "types": "Aquatic",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/1/13/Seaweed.png/51px-Seaweed.png",
+        "name": "Seaweed",
+        "effects": "Heal 20.\nWhen you use an Aquatic item, this gains 5/10/15 Heal for the fight.",
+        "cooldown": "6.0 sec",
+        "ammo": "–",
+        "types": "Aquatic",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/5/5e/Turtle_Shell.png/126px-Turtle_Shell.png",
+        "name": "Turtle Shell",
+        "effects": "Give your items\n+10 / 15 / 20 Shield for the fight.\nWhen you use another non Weapon, Charge this 1 second.",
+        "cooldown": "6.0 sec",
+        "ammo": "–",
+        "types": "Aquatic",
+        "size": "Medium"
       }
     ]
   },
@@ -1310,18 +2851,49 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/5/5c/Skill_Fiery_Rebirth.png/100px-Skill_Fiery_Rebirth.png",
-        "name": "Fiery Rebirth",
-        "effects": "The first time you would die each fight, Heal to full, Cleanse your Burn and Poison, and Burn yourself 30.",
-        "cooldown": "Legendary",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c0/Anchor.png/126px-Anchor.png",
+        "name": "Anchor",
+        "effects": "Deal Damage equal to 20/30% of your enemy's Max Health.\nWhen you use an adjacent item, this gains Haste for 2/4 seconds.",
+        "cooldown": "12.0 sec",
+        "ammo": "–",
+        "types": "Aquatic, Weapon",
+        "size": "Medium"
       },
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/8/8f/Icon_Skill_MON_FlameWall_01.png/100px-Icon_Skill_MON_FlameWall_01.png",
-        "name": "Flamedancer",
-        "effects": "Your Burn items have +2 / 4 / 6 / 8% Crit Chance.",
-        "cooldown": "Bronze",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/3/3d/Grappling_Hook.png/51px-Grappling_Hook.png",
+        "name": "Grappling Hook",
+        "effects": "Deal 10 / 20 / 40 Damage.\n Slow 1 item for 3 / 4 / 5 seconds.",
+        "cooldown": "7.0 sec",
+        "ammo": "–",
+        "types": "Weapon, Tool",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/e/e9/Katana.png/126px-Katana.png",
+        "name": "Katana",
+        "effects": "Deal 4 / 12 / 24 / 40 damage.",
+        "cooldown": "2.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/b/be/Lighthouse.png/201px-Lighthouse.png",
+        "name": "Lighthouse",
+        "effects": "Burn 8/12.\nWhen you Slow, Charge this 3 seconds.",
+        "cooldown": "6.0 sec",
+        "ammo": "–",
+        "types": "Property, Aquatic",
+        "size": "Large"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c1/Spyglass.png/126px-Spyglass.png",
+        "name": "Spyglass",
+        "effects": "Adjacent items have\n+ 25 / 50% Crit Chance.\nAt the start of each fight, a random enemy item has its Cooldown increased by\n3 / 6 seconds.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "Tool, Aquatic",
+        "size": "Medium"
       }
     ]
   },
@@ -1339,11 +2911,49 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/7/7f/Icon_Skill_MON_Pyromania_01.png/100px-Icon_Skill_MON_Pyromania_01.png",
-        "name": "Firestarter",
-        "effects": "At the start of each fight, burn 17 / 25 / 35.",
-        "cooldown": "Silver",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/b/be/Incendiary_Rounds.png/51px-Incendiary_Rounds.png",
+        "name": "Incendiary Rounds",
+        "effects": "When you use an adjacent item, Burn 2.\nAdjacent items have +1 Ammo.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c8/Pop_Snappers.png/51px-Pop_Snappers.png",
+        "name": "Pop Snappers",
+        "effects": "Burn 4 / 6 / 8 / 10.",
+        "cooldown": "3.0 sec",
+        "ammo": "3",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/0/05/Rocket_Launcher.png/126px-Rocket_Launcher.png",
+        "name": "Rocket Launcher",
+        "effects": "Deal 10 / 20 / 30 damage.\nBurn 2 / 4 / 6.\nMulticast: 3\nWhile your enemy has Burn, this has double Damage.",
+        "cooldown": "6.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/d/d7/Thrusters.png/51px-Thrusters.png",
+        "name": "Thrusters",
+        "effects": "Burn both players 2/3/4/5.\nAdjacent items have their cooldowns reduced by 6/9/12/15%.",
+        "cooldown": "6.0 sec",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/cf/Trebuchet.png/201px-Trebuchet.png",
+        "name": "Trebuchet",
+        "effects": "Burn 8 / 12 / 16 / 20.\n Deal 10 / 50 / 100 / 200 Damage.\nWhen you use a Weapon or Haste, Charge this for 1 second(s).",
+        "cooldown": "8.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Large"
       }
     ]
   },
@@ -1361,11 +2971,58 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/9/9a/Icon_Skill_MON_WatersofInfinity.png/100px-Icon_Skill_MON_WatersofInfinity.png",
-        "name": "Waters of Infinity",
-        "effects": "You have +8/?/? Regeneration.",
-        "cooldown": "Silver",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/8/89/Fossilized_Femur.png/199px-Fossilized_Femur.png",
+        "name": "Fossilized Femur",
+        "effects": "Deal 200/? Damage.\nWhen you Slow, Charge this 1 second(s).",
+        "cooldown": "12.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Large"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/1/1d/Incense.png/60px-Incense.png",
+        "name": "Incense",
+        "effects": "Slow 1 item for 4/5/6 second(s).\nWhen you Slow, Heal 16/24/32.",
+        "cooldown": "10.0 sec",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/e/ec/Nightshade.png/126px-Nightshade.png",
+        "name": "Nightshade",
+        "effects": "Poison 1/2/3/4.\n Heal 10/20/30/40.",
+        "cooldown": "4.0 sec",
+        "ammo": "–",
+        "types": "",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/3/39/Ouroboros_Statue.png/126px-Ouroboros_Statue.png",
+        "name": "Ouroboros Statue",
+        "effects": "Poison 4/6.\nWhen you Poison, gain 1/2 Regeneration for the fight.",
+        "cooldown": "9.0 sec",
+        "ammo": "–",
+        "types": "",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/b/b3/Sleeping_Potion.png/52px-Sleeping_Potion.png",
+        "name": "Sleeping Potion",
+        "effects": "Slow 2 items for ?/6?/? second(s).",
+        "cooldown": "5.0 sec",
+        "ammo": "1",
+        "types": "Potion",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/4/4b/Venomander.png/60px-Venomander.png",
+        "name": "Venomander",
+        "effects": "Poison 1/2.\nWhen you use the item to the left of this, gain 1/2 Regeneration for the fight.",
+        "cooldown": "8.0 sec",
+        "ammo": "–",
+        "types": "Friend",
+        "size": "Small"
       }
     ]
   },
@@ -1390,18 +3047,58 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/4/4c/Icon_Skill_CommandShip.png/100px-Icon_Skill_CommandShip.png",
-        "name": "Command Ship",
-        "effects": "If you have a vehicle, reduce your non-vehicle items' cooldowns by 5%.\nIf you have a vehicle, reduce your non-vehicle items' cooldowns by 10%.",
-        "cooldown": "Gold",
-        "ammo": "Vehicle"
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/d/df/Captain%27s_Wheel.png/126px-Captain%27s_Wheel.png",
+        "name": "Captain's Wheel",
+        "effects": "Haste adjacent items for 1/2/3 second(s).\nWhen you use a Large item, use this.",
+        "cooldown": "4.0 sec",
+        "ammo": "–",
+        "types": "Aquatic, Tool",
+        "size": "Medium"
       },
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/6/60/Icon_Skill_Flagship.png/100px-Icon_Skill_Flagship.png",
-        "name": "Expert Pilot",
-        "effects": "Your Shield Vehicles gain 30 / 60% Shield.\nYour Weapon Vehicles gain 30 / 60% Damage.",
-        "cooldown": "Gold",
-        "ammo": "Vehicle"
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/e/ed/Cog.png/51px-Cog.png",
+        "name": "Cog",
+        "effects": "Haste an adjacent item for 1/2/3/4 seconds.",
+        "cooldown": "4.0 sec",
+        "ammo": "–",
+        "types": "Tool",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/1/1a/Goggles.png/60px-Goggles.png",
+        "name": "Goggles",
+        "effects": "Shield 10/30/60/100.\nWhen this gains Haste, give your items +2/4/6/8% Crit Chance.",
+        "cooldown": "7.0 sec",
+        "ammo": "–",
+        "types": "Tool",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/6/6c/Propane_Tank.png/120px-Propane_Tank.png",
+        "name": "Propane Tank",
+        "effects": "Haste your vehicules for 2/3/5 seconds.\nWhen you use a vehicule, Burn 2/3/5.",
+        "cooldown": "9.0 sec",
+        "ammo": "–",
+        "types": "Tool",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/0/0f/Race_Carl.png/126px-Race_Carl.png",
+        "name": "Race Carl",
+        "effects": "Haste 1 item for 1/2/3 seconds.\nWhen you Haste, deal 10/20/30 Damage.",
+        "cooldown": "8.0 sec",
+        "ammo": "–",
+        "types": "Friend, Weapon, Vehicle",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c2/Sirens.png/120px-Sirens.png",
+        "name": "Sirens",
+        "effects": "Slow 1 item for 2/4/6 seconds.\nWhen you Slow, Haste a Vehicle for 2/4/6 seconds.",
+        "cooldown": "7.0 sec",
+        "ammo": "–",
+        "types": "",
+        "size": "Medium"
       }
     ]
   },
@@ -1471,11 +3168,49 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/7/71/Icon_Skill_MON_Neophiliac.png/100px-Icon_Skill_MON_Neophiliac.png",
-        "name": "Neophiliac",
-        "effects": "The first time you freeze, burn, slow, poison, and haste each fight, charge an item 2.0 / 4.0 second(s).",
-        "cooldown": "Gold",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/e/ed/Cog.png/51px-Cog.png",
+        "name": "Cog",
+        "effects": "Haste an adjacent item for 2/3/4 seconds.",
+        "cooldown": "4.0 sec",
+        "ammo": "–",
+        "types": "Tool",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/6/6f/Lightbulb.png/51px-Lightbulb.png",
+        "name": "Lightbulb",
+        "effects": "Adjacent items gain 2/4/6/8 % Crit Chance for the fight.",
+        "cooldown": "3.0 sec",
+        "ammo": "–",
+        "types": "Tech",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/6/62/Lightning_Rod.png/180px-Lightning_Rod.png",
+        "name": "Lightning Rod",
+        "effects": "Deal 10/20 Damage\n Shield 10/20\nWhen any player uses an item, this gains 10/20 Damage and 10/20Shield for the fight.",
+        "cooldown": "10.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Large"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/a/ac/Tesla_Coil.png/126px-Tesla_Coil.png",
+        "name": "Tesla Coil",
+        "effects": "Deal 60 Damage.\nWhen you use an adjacent Tech, Charge this 1/2/3/4 seconds.",
+        "cooldown": "6.0 sec",
+        "ammo": "–",
+        "types": "Weapon, Tech",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/f/f5/Weather_Machine.png/180px-Weather_Machine.png",
+        "name": "Weather Machine",
+        "effects": "Burn 2/3\n Freeze one item for 2 seconds\n Slow one item for 1/3 seconds",
+        "cooldown": "3.0 sec",
+        "ammo": "–",
+        "types": "Tool, Vehicle, Property",
+        "size": "Large"
       }
     ]
   },
@@ -1493,11 +3228,58 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/f/f6/Icon_Skill_MON_SharpenedSteel.png/100px-Icon_Skill_MON_SharpenedSteel.png",
-        "name": "Sharpened Steel",
-        "effects": "When you use a Weapon, Adjacent items gain 4 / 8 / 12% Crit Chance the fight.",
-        "cooldown": "Silver",
-        "ammo": "Weapon"
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/4/46/Cybersecurity.png/126px-Cybersecurity.png",
+        "name": "Cybersecurity",
+        "effects": "Deal 20 Damage for each Weapon you have.\nThis deals double/triple/quadruple Damage if it is your only Friend.",
+        "cooldown": "12.0 sec",
+        "ammo": "–",
+        "types": "Friend, Weapon",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/3/36/Gatling_Gun.png/120px-Gatling_Gun.png",
+        "name": "Gatling Gun",
+        "effects": "Deal 10/20 Damage.\n Reduce this item's cooldown by 10/20% for the fight.",
+        "cooldown": "4.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/e/e9/Katana.png/126px-Katana.png",
+        "name": "Katana",
+        "effects": "Deal 4 / 12 / 24 / 40 damage.",
+        "cooldown": "2.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/e/e2/Laser_Pistol.png/51px-Laser_Pistol.png",
+        "name": "Laser Pistol",
+        "effects": "Deal 10/20/40/80 Damage.",
+        "cooldown": "5.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/6/61/Pulse_Rifle.png/126px-Pulse_Rifle.png",
+        "name": "Pulse Rifle",
+        "effects": "Deal 10/20/40/80 damage.\nThis has +1 Multicast if it is adjacent to a Friend. Double this if it is your only Friend.",
+        "cooldown": "4.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/8/8f/Sunderer.png/51px-Sunderer.png",
+        "name": "Sunderer",
+        "effects": "Deal 5/10/20/40 Damage.\n Your ennemy's Shield items lose 5/10/15/20 Shield for the fight.",
+        "cooldown": "4.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Small"
       }
     ]
   },
@@ -1522,18 +3304,67 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/9/90/Icon_Skill_ImprovedToxins.png/100px-Icon_Skill_ImprovedToxins.png",
-        "name": "Improved Toxins",
-        "effects": "Your Poison items have +1 / 2 / 3 / 4 Poison.",
-        "cooldown": "Bronze",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/0/01/Amber.png/52px-Amber.png",
+        "name": "Amber",
+        "effects": "Slow 1 item for 1/2/3 seconds.\nYour other Slow items have +1 Slow.",
+        "cooldown": "5.0 sec",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
       },
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/1/18/Icon_Skill_MON_Smack_01.png/100px-Icon_Skill_MON_Smack_01.png",
-        "name": "Thick Hide",
-        "effects": "When you slow, charge an item 1 second(s).",
-        "cooldown": "Diamond",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/9/99/Catfish.png/51px-Catfish.png",
+        "name": "Catfish",
+        "effects": "Poison 1/2/3/4 .\nWhen this gains Haste, give it + 1/2/3/4 Poison for the fight.",
+        "cooldown": "6.0 sec",
+        "ammo": "–",
+        "types": "Aquatic, Friend",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/e/ed/Electric_Eels.png/199px-Electric_Eels.png",
+        "name": "Electric Eels",
+        "effects": "When your enemy uses a Weapon, deal 5 / 10 / 20 damage.\nWhen your enemy uses a non-Weapon item, Slow it for 1 / 2 / 3 seconds.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "Aquatic, Weapon, Friend",
+        "size": "Large"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/2/22/Jellyfish.png/51px-Jellyfish.png",
+        "name": "Jellyfish",
+        "effects": "Poison 1 / 2 / 3 / 4.\nWhen you use another Aquatic item, this gains Haste for\n1 / 2 / 3 / 4 seconds.",
+        "cooldown": "8.0 sec",
+        "ammo": "–",
+        "types": "Aquatic, Friend",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/4/43/Piranha.png/52px-Piranha.png",
+        "name": "Piranha",
+        "effects": "Deal 5/10/20/40 Damage.\nThis deals double Crit damage.",
+        "cooldown": "5.0 sec",
+        "ammo": "–",
+        "types": "Aquatic, Weapon",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/b/ba/Pufferfish.png/126px-Pufferfish.png",
+        "name": "Pufferfish",
+        "effects": "Poison 6.\nWhen you Haste, Charge this 1/2/3/4 seconds.",
+        "cooldown": "8.0 sec",
+        "ammo": "–",
+        "types": "",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/1/13/Seaweed.png/51px-Seaweed.png",
+        "name": "Seaweed",
+        "effects": "Heal 20.\nWhen you use an Aquatic item, this gains 5/10/15 Heal for the fight.",
+        "cooldown": "6.0 sec",
+        "ammo": "–",
+        "types": "Aquatic",
+        "size": "Small"
       }
     ]
   },
@@ -1551,11 +3382,49 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/5/59/Icon_Skill_MON_HighImpact.png/100px-Icon_Skill_MON_HighImpact.png",
-        "name": "Full Arsenal",
-        "effects": "Your item's cooldowns are reduced by 5 / 10% if you have a Vehicle, reduced by 5 / 10% if you have a Weapon, and reduced by 5 / 10% if you have a Tool.",
-        "cooldown": "Gold",
-        "ammo": "Vehicle, Weapon, Tool"
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/d/df/Captain%27s_Wheel.png/126px-Captain%27s_Wheel.png",
+        "name": "Captain's Wheel",
+        "effects": "Haste adjacent items for 1/2/3 second(s).\nWhen you use a Large item, use this.",
+        "cooldown": "4.0 sec",
+        "ammo": "–",
+        "types": "Aquatic, Tool",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/2/25/Crow%27s_Nest.png/199px-Crow%27s_Nest.png",
+        "name": "Crow's Nest",
+        "effects": "Your Weapons have\n+25/50/75/100 % Crit Chance.\nIf you have exactly one Weapon, that Weapon has Lifesteal.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "Property, Aquatic",
+        "size": "Large"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/4/47/Flagship.png/201px-Flagship.png",
+        "name": "Flagship",
+        "effects": "Deal 25 / 50 / 75 Damage.\nIf you have another Tool, Ammo, Property or Friend this has +1 Multicast for each.",
+        "cooldown": "6.0 sec",
+        "ammo": "–",
+        "types": "Aquatic, Vehicle, Weapon",
+        "size": "Large"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/f/f7/Pesky_Pete.png/51px-Pesky_Pete.png",
+        "name": "Pesky Pete",
+        "effects": "Burn Burn 4/6.\nFor each adjacent Friend or Property, this gains\n+4/8 Burn.",
+        "cooldown": "6.0 sec",
+        "ammo": "–",
+        "types": "Friend",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c8/Pop_Snappers.png/51px-Pop_Snappers.png",
+        "name": "Pop Snappers",
+        "effects": "Burn 4 / 6 / 8 / 10.",
+        "cooldown": "3.0 sec",
+        "ammo": "3",
+        "types": "",
+        "size": "Small"
       }
     ]
   },
@@ -1587,25 +3456,58 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/d/d8/Icon_Skill_MON_ThickSkin_03.png/100px-Icon_Skill_MON_ThickSkin_03.png",
-        "name": "Big Ego",
-        "effects": "Your Weapons have Lifesteal.",
-        "cooldown": "Diamond",
-        "ammo": "Weapon"
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/e/ec/Butterfly_Swords.png/51px-Butterfly_Swords.png",
+        "name": "Butterfly Swords",
+        "effects": "Deal 5 Damage.\nMulticast: 2/3/4",
+        "cooldown": "7.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Small"
       },
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/8/8e/Icon_Skill_SmallWeaponry.png/100px-Icon_Skill_SmallWeaponry.png",
-        "name": "Small Weaponry",
-        "effects": "Your Small Weapons deal +3 / 9 / 18 / 30 Damage.",
-        "cooldown": "Bronze",
-        "ammo": "Weapon"
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/3/30/Holsters.png/51px-Holsters.png",
+        "name": "Holsters",
+        "effects": "At the start of each fight, your Small items gain Haste for 1 / 2 / 3 seconds.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
       },
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/7/70/Icon_Skill_Strenght.png/100px-Icon_Skill_Strenght.png",
-        "name": "Strength",
-        "effects": "Your Weapons deal +10/15/20/25 Damage.",
-        "cooldown": "Bronze",
-        "ammo": "Weapon"
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/4/43/Knife_Set.png/120px-Knife_Set.png",
+        "name": "Knife Set",
+        "effects": "Deal 10 / 20 / 40 / 80 Damage.\nWhen you use a Weapon, Charge this 2 seconds.",
+        "cooldown": "5.0 sec",
+        "ammo": "–",
+        "types": "Weapon, Tool",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/1/14/Powder_Flask.png/51px-Powder_Flask.png",
+        "name": "Powder Flask",
+        "effects": "Reload the item to the right of this 1 / 2 / 3 / 4 Ammo.",
+        "cooldown": "4.0 sec",
+        "ammo": "–",
+        "types": "Tool",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/6/6d/Revolver.png/51px-Revolver.png",
+        "name": "Revolver",
+        "effects": "Deal 5/10/20/40 Damage.\nWhen you Crit, reload 2 Ammo.",
+        "cooldown": "4.0 sec",
+        "ammo": "6",
+        "types": "Weapon",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/9/94/Spices.png/51px-Spices.png",
+        "name": "Spices",
+        "effects": "Your Weapons gain Damage equal to your weakest Weapon's Damage for the fight.",
+        "cooldown": "8.0 sec",
+        "ammo": "1",
+        "types": "",
+        "size": "Small"
       }
     ]
   },
@@ -1637,25 +3539,58 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/4/4d/Icon_Skill_LeftHanded.png/100px-Icon_Skill_LeftHanded.png",
-        "name": "Left-Handed",
-        "effects": "Your leftmost Weapon deals +4/12/24/40 Damage.",
-        "cooldown": "Bronze",
-        "ammo": "Weapon"
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/a/a1/Barrel.png/126px-Barrel.png",
+        "name": "Barrel",
+        "effects": "Shield 10\nWhen you use a non-Weapon item, give this +10/20/30 Shield for this fight.",
+        "cooldown": "4.0 sec",
+        "ammo": "–",
+        "types": "",
+        "size": "Medium"
       },
       {
-        "sprite": "No sprite",
-        "name": "One Shot",
-        "effects": "",
-        "cooldown": "Diamond",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/e/e3/Disguise.png/126px-Disguise.png",
+        "name": "Disguise",
+        "effects": "When you buy this, get a non-Vanessa item.\nYour items from other Heroes have 15/30/50% Crit Chance.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Medium"
       },
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/9/98/Icon_Skill_RightHanded.png/100px-Icon_Skill_RightHanded.png",
-        "name": "Right-Handed",
-        "effects": "Your rightmost Weapon has +4 / 12 / 24 / 40 Damage.",
-        "cooldown": "Bronze",
-        "ammo": "Weapon"
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/3/32/Energy_Potion.png/60px-Energy_Potion.png",
+        "name": "Energy Potion",
+        "effects": "Haste your items for 2/4/6/8.",
+        "cooldown": "4.0 sec",
+        "ammo": "1",
+        "types": "Potion",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/2/21/Shadowed_Cloak.png/124px-Shadowed_Cloak.png",
+        "name": "Shadowed Cloak",
+        "effects": "When you use the item to the right of this, give it Haste for 1/2/3/4 seconds and +3/5/7/9 Damage for the fight.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/4/43/Silencer.png/51px-Silencer.png",
+        "name": "Silencer",
+        "effects": "The Weapon to the left of this has +10 / 20 / 30 / 50 Damage.\nIf you have exactly one Weapon, reduce its Cooldown by 10 / 20 / 30 / 40 %",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/cf/Sniper_Rifle.png/126px-Sniper_Rifle.png",
+        "name": "Sniper Rifle",
+        "effects": "Deal 100 Damage.\nThis deals 3/5/10 times more Damage if it is your only Weapon.",
+        "cooldown": "10.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Medium"
       }
     ]
   },
@@ -1687,25 +3622,67 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/b/b4/Icon_Skill_FirstResponder.png/100px-Icon_Skill_FirstResponder.png",
-        "name": "First Responder",
-        "effects": "Your leftmost Heal item has +6 / 18 / 36 / 60 Heal .",
-        "cooldown": "Bronze",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/9/99/Catfish.png/51px-Catfish.png",
+        "name": "Catfish",
+        "effects": "Poison 1/2/3/4 .\nWhen this gains Haste, give it + 1/2/3/4 Poison for the fight.",
+        "cooldown": "8.0 sec",
+        "ammo": "–",
+        "types": "Aquatic, Friend",
+        "size": "Small"
       },
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c7/Icon_Skill_FollowUpCare.png/100px-Icon_Skill_FollowUpCare.png",
-        "name": "Follow-Up Care",
-        "effects": "Your rightmost Heal item has +6 / 18 / 36 / 60 Heal .",
-        "cooldown": "Bronze",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/9/99/Clamera.png/51px-Clamera.png",
+        "name": "Clamera",
+        "effects": "Slow 1/2/3/4 item(s) for 1 second.\nAt the start of the fight, use this.",
+        "cooldown": "9.0 sec",
+        "ammo": "–",
+        "types": "Aquatic",
+        "size": "Small"
       },
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/4/42/Icon_Skill_MON_RoamingIsle_01.png/100px-Icon_Skill_MON_RoamingIsle_01.png",
-        "name": "Shored Up",
-        "effects": "When you Heal , Shield 100.",
-        "cooldown": "Diamond",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/2/22/Jellyfish.png/51px-Jellyfish.png",
+        "name": "Jellyfish",
+        "effects": "Poison 1 / 2 / 3 / 4.\nWhen you use another Aquatic item, this gains Haste for\n1 / 2 / 3 / 4 seconds.",
+        "cooldown": "8.0 sec",
+        "ammo": "–",
+        "types": "Aquatic, Friend",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/2/2f/Pet_Rock.png/51px-Pet_Rock.png",
+        "name": "Pet Rock",
+        "effects": "Deal 5/10/20/40 Damage.\nIf this is your only Friend, your items have 5 / 10 / 15 / 20% Crit Chance.",
+        "cooldown": "5.0 sec",
+        "ammo": "–",
+        "types": "Weapon, Friend",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/f/f0/Sea_Shell.png/51px-Sea_Shell.png",
+        "name": "Sea Shell",
+        "effects": "Shield 5 / 10 / 20 / 40 for each Aquatic item you have.",
+        "cooldown": "5.0 sec",
+        "ammo": "–",
+        "types": "Aquatic",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/1/13/Seaweed.png/51px-Seaweed.png",
+        "name": "Seaweed",
+        "effects": "Heal 20.\nWhen you use an Aquatic item, this gains 5/10/15 Heal for the fight.",
+        "cooldown": "6.0 sec",
+        "ammo": "–",
+        "types": "Aquatic",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/5/5e/Tropical_Island.png/201px-Tropical_Island.png",
+        "name": "Tropical Island",
+        "effects": "When you Slow, gain 2 / 4 Regeneration for the fight.\nAt the start of each hour, get a Coconut or Citrus.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "Property, Aquatic",
+        "size": "Large"
       }
     ]
   },
@@ -1730,18 +3707,76 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/b/b7/Icon_Skill_DistributedSystems.png/100px-Icon_Skill_DistributedSystems.png",
-        "name": "Distributed Systems",
-        "effects": "When you use a large item, haste 2 / 3 small items for 2 / 3 second(s)",
-        "cooldown": "Gold",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/6/6d/Battery.png/51px-Battery.png",
+        "name": "Battery",
+        "effects": "Charge the item to the left of this 1/2/3/4 seconds.",
+        "cooldown": "4.0 sec",
+        "ammo": "4",
+        "types": "Tool",
+        "size": "Small"
       },
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c8/Icon_Skill_KeenEye.png/100px-Icon_Skill_KeenEye.png",
-        "name": "Keen Eye",
-        "effects": "Your items have 3/6/9/12% Crit Chance.",
-        "cooldown": "Bronze",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/e/ed/Cog.png/51px-Cog.png",
+        "name": "Cog",
+        "effects": "Haste an adjacent item for 1/2/3/4 seconds.",
+        "cooldown": "4.0 sec",
+        "ammo": "–",
+        "types": "Tool",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/4/40/Coolant.png/51px-Coolant.png",
+        "name": "Coolant",
+        "effects": "Freeze 1 item for 1/2/3/4 seconds.\nCleanse half your Burn",
+        "cooldown": "6.0 sec",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/0/04/First_Aiden.png/51px-First_Aiden.png",
+        "name": "First Aiden",
+        "effects": "Heal 10/20/40/80.\nHaste 1 item for 1/2/3/4 second(s).",
+        "cooldown": "6.0 sec",
+        "ammo": "–",
+        "types": "Friend",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/5/5c/Kinetic_Cannon.png/199px-Kinetic_Cannon.png",
+        "name": "Kinetic Cannon",
+        "effects": "Deal 100 Damage.\nWhen you use a Small item, this gains 10/20/40 Damage for the fight.",
+        "cooldown": "8.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Large"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/e/e2/Laser_Pistol.png/51px-Laser_Pistol.png",
+        "name": "Laser Pistol",
+        "effects": "Deal 10/20/40/80 Damage.",
+        "cooldown": "5.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/e/e8/Power_Sander.png/51px-Power_Sander.png",
+        "name": "Power Sander",
+        "effects": "Adjacent Weapons gain 3/6/9/12 for the fight.\n Adjacent Shield items gain 3/6/9/12 for the fight.",
+        "cooldown": "4.0 sec",
+        "ammo": "–",
+        "types": "Tool",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/9/98/Uzi.png/51px-Uzi.png",
+        "name": "Uzi",
+        "effects": "Deal 2/4/8/16",
+        "cooldown": "2.0 sec",
+        "ammo": "12",
+        "types": "Weapon",
+        "size": "Small"
       }
     ]
   },
@@ -1766,18 +3801,76 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c0/Icon_Skill_ExposingToxins.png/100px-Icon_Skill_ExposingToxins.png",
-        "name": "Exposing Toxins",
-        "effects": "When you Poison, your items gain +2 / 3% Crit Chance for the fight.",
-        "cooldown": "Gold",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/b/be/Bandages.png/51px-Bandages.png",
+        "name": "Bandages",
+        "effects": "Heal 5/10/20/40\n Shield 5/10/20/40",
+        "cooldown": "4.0 sec",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
       },
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/9/92/Icon_SKILL_MON_PurifyingFlame.png/100px-Icon_SKILL_MON_PurifyingFlame.png",
-        "name": "Purifying Flame",
-        "effects": "When you gain Regeneration, a Burn item gains 1 / 2 Burn.",
-        "cooldown": "Gold",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/8/88/Basilisk_Fang.png/52px-Basilisk_Fang.png",
+        "name": "Basilisk Fang",
+        "effects": "Deal 10/20 Damage.\nWhen you Poison, this gains 10/20% Crit Chance for the fight.\nLifesteal.",
+        "cooldown": "3.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/3/36/Ectoplasm.png/51px-Ectoplasm.png",
+        "name": "Ectoplasm",
+        "effects": "Poison 1/2/3.\n Heal equal to your opponent's Poison.",
+        "cooldown": "6.0 sec",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/6/6a/Emerald.png/60px-Emerald.png",
+        "name": "Emerald",
+        "effects": "Poison 1/2/3.\n Increase your other items' Poison by 1.",
+        "cooldown": "6.0 sec",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/3/39/Ouroboros_Statue.png/126px-Ouroboros_Statue.png",
+        "name": "Ouroboros Statue",
+        "effects": "Poison 4/6.\nWhen you Poison, gain 2/3 Regeneration for the fight.",
+        "cooldown": "9.0 sec",
+        "ammo": "–",
+        "types": "",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/2/21/Shadowed_Cloak.png/124px-Shadowed_Cloak.png",
+        "name": "Shadowed Cloak",
+        "effects": "When you use the item to the right of this, give it Haste for 1/2/3/4 seconds and +3/5/7/9 Damage for the fight.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/d/d4/Soul_Ring.png/60px-Soul_Ring.png",
+        "name": "Soul Ring",
+        "effects": "Poison equal to your Regeneration.\n You have +1/2/3 Regeneration.",
+        "cooldown": "8.0 sec",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/9/9a/Thurible.png/60px-Thurible.png",
+        "name": "Thurible",
+        "effects": "Gain 2/4/6 Regeneration for the fight.\nWhen you gain Regeneration, Burn 2/3/4.",
+        "cooldown": "8.0 sec",
+        "ammo": "–",
+        "types": "Tool",
+        "size": "Small"
       }
     ]
   },
@@ -1809,25 +3902,49 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/7/7a/Icon_Skill_DeadlyEye.png/100px-Icon_Skill_DeadlyEye.png",
-        "name": "Deadly Eye",
-        "effects": "Your Weapons have +4 / 6 / 8 / 10% Crit chance.",
-        "cooldown": "Bronze",
-        "ammo": "Weapon"
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/4/41/Mortal_Coil.png/126px-Mortal_Coil.png",
+        "name": "Mortal Coil",
+        "effects": "Deal 120/200 Damage.\nThe Weapon to the left of this has lifesteal.",
+        "cooldown": "8.0 sec",
+        "ammo": "–",
+        "types": "",
+        "size": "Medium"
       },
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/5/5f/Icon_Skill_DesperateFreeze.png/100px-Icon_Skill_DesperateFreeze.png",
-        "name": "Desperate Freeze",
-        "effects": "The first time you fall below half health each fight, remove Freeze and Slow from your items and Cleanse half your Burn and Poison.",
-        "cooldown": "Diamond",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/3/3b/Runic_Great_Axe.png/199px-Runic_Great_Axe.png",
+        "name": "Runic Great Axe",
+        "effects": "Deal 10/30/60/100 Damage.\n Your Weapons with lifesteal gain 10/30/60/100 Damage for the fight.\nLifesteal.",
+        "cooldown": "10.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Large"
       },
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c4/Icon_Skill_FinesseWeapon.png/100px-Icon_Skill_FinesseWeapon.png",
-        "name": "Hypnotic Drain",
-        "effects": "When you use a weapon, Freeze a smaller item for 2 second(s).",
-        "cooldown": "Diamond",
-        "ammo": "Weapon"
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/f/f7/Sapphire.png/60px-Sapphire.png",
+        "name": "Sapphire",
+        "effects": "Freeze 1 item for 3/4/5 second(s).\nIncrease your other items' Freeze by 1 second(s).",
+        "cooldown": "8.0 sec",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/cd/Scythe.png/120px-Scythe.png",
+        "name": "Scythe",
+        "effects": "Deal Damage equal to a third of your enemy's Max Health.",
+        "cooldown": "10.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/2/21/Shadowed_Cloak.png/124px-Shadowed_Cloak.png",
+        "name": "Shadowed Cloak",
+        "effects": "When you use the item to the right of this, give it Haste for 1/2/3/4 seconds and +3/5/7/9 Damage for the fight.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Medium"
       }
     ]
   },
@@ -1859,25 +3976,58 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/d/de/Icon_Skill_MON_AssaultFocus.png/100px-Icon_Skill_MON_AssaultFocus.png",
-        "name": "Assault Focus",
-        "effects": "When any non-weapon item is used, slow it for 2 / 4 second(s).",
-        "cooldown": "Gold",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/cd/Bayonet.png/51px-Bayonet.png",
+        "name": "Bayonet",
+        "effects": "When you use the Weapon to the left of this, deal\n5/15/30/50 Damage.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Small"
       },
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c8/Icon_Skill_KeenEye.png/100px-Icon_Skill_KeenEye.png",
-        "name": "Keen Eye",
-        "effects": "Your items have 3/6/9/12% Crit Chance.",
-        "cooldown": "Bronze",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/3/3d/Grappling_Hook.png/51px-Grappling_Hook.png",
+        "name": "Grappling Hook",
+        "effects": "Deal 10 / 20 / 30 Damage.\n Slow 1 item for 3 / 4 / 5 seconds.",
+        "cooldown": "7.0 sec",
+        "ammo": "–",
+        "types": "Weapon, Tool",
+        "size": "Small"
       },
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/7/70/Icon_Skill_Strenght.png/100px-Icon_Skill_Strenght.png",
-        "name": "Strength",
-        "effects": "Your Weapons deal +2 / 6 / 12 / 20 Damage.",
-        "cooldown": "Bronze",
-        "ammo": "Weapon"
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/6/61/Jitte.png/51px-Jitte.png",
+        "name": "Jitte",
+        "effects": "Deal 10 Damage.\n Slow 1 item for 1 / 2 / 3 seconds.\nWhen you Slow, this gains\n5 / 10 / 20 Damage for the fight.",
+        "cooldown": "5.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/e/e9/Katana.png/126px-Katana.png",
+        "name": "Katana",
+        "effects": "Deal 4 / 12 / 24 / 40 damage.",
+        "cooldown": "2.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/6/64/Runic_Double_Bow.png/126px-Runic_Double_Bow.png",
+        "name": "Runic Double Bow",
+        "effects": "Deal 10/30/60/100 Damage.\nThis deals double Crit Chance Damage.\nMulticast: 2",
+        "cooldown": "6.0 sec",
+        "ammo": "–",
+        "types": "",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/5/5a/Weakpoint_Detector.png/126px-Weakpoint_Detector.png",
+        "name": "Weakpoint Detector",
+        "effects": "Your Weapons gain 3/6/9/12 Damage for the fight.\nWhen you slow, Charge this 1/2/3/4 seconds.",
+        "cooldown": "6.0 sec",
+        "ammo": "–",
+        "types": "Tool",
+        "size": "Medium"
       }
     ]
   },
@@ -1902,18 +4052,49 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/d/dc/Icon_Skill_MON_HulkingExperiment_01.png/100px-Icon_Skill_MON_HulkingExperiment_01.png",
-        "name": "Adaptive Ordinance",
-        "effects": "You have ? / ? / ? / ? Regeneration for each Ammo item you have.",
-        "cooldown": "Silver",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/e/ef/Athanor.png/199px-Athanor.png",
+        "name": "Athanor",
+        "effects": "Burn 2/4/6/8 .\n Poison 1/2/3/4 .\n Reload your Potions.",
+        "cooldown": "5.0 sec",
+        "ammo": "–",
+        "types": "Property",
+        "size": "Large"
       },
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/7/72/Icon_Skill_VAN_PartingShot.png/100px-Icon_Skill_VAN_PartingShot.png",
-        "name": "Parting Shot",
-        "effects": "When you use an Ammo item, give it +5 / 10% Crit Chance for the fight.",
-        "cooldown": "Gold",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/2/20/Bottled_Lightning.png/60px-Bottled_Lightning.png",
+        "name": "Bottled Lightning",
+        "effects": "Deal 25/75/150/250 Damage.\n Burn 4/6/8/10.",
+        "cooldown": "5.0 sec",
+        "ammo": "1",
+        "types": "Potion, Weapon",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/3/32/Energy_Potion.png/60px-Energy_Potion.png",
+        "name": "Energy Potion",
+        "effects": "Haste your items for 2/4/6/8.",
+        "cooldown": "4.0 sec",
+        "ammo": "1",
+        "types": "Potion",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/a/a1/Fire_Potion.png/60px-Fire_Potion.png",
+        "name": "Fire Potion",
+        "effects": "Burn 6/9/12/15.",
+        "cooldown": "5.0 sec",
+        "ammo": "1",
+        "types": "Potion",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/b/bd/Rainbow_Potion.png/53px-Rainbow_Potion.png",
+        "name": "Rainbow Potion",
+        "effects": "Burn 4/6.\n Poison 2/3.\n Freeze 1 item for 2/3 second(s).\n Slow 1 item for 4/6 seconds(s).",
+        "cooldown": "7.0 sec",
+        "ammo": "1",
+        "types": "Potion",
+        "size": "Small"
       }
     ]
   },
@@ -1931,11 +4112,49 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/7/72/Icon_Skill_MON_EmergencyReload.png/100px-Icon_Skill_MON_EmergencyReload.png",
-        "name": "Retool",
-        "effects": "When you use a Tool, reload 1 to adjacent items.",
-        "cooldown": "Diamond",
-        "ammo": "Tool"
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/3/37/Cauldron.png/126px-Cauldron.png",
+        "name": "Cauldron",
+        "effects": "Burn 2/4/6\n Poison 1/2/3.",
+        "cooldown": "4.0 sec",
+        "ammo": "–",
+        "types": "Tool",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/3/3d/Mortar_%26_Pestle.png/126px-Mortar_%26_Pestle.png",
+        "name": "Mortar & Pestle",
+        "effects": "Give your Lifesteal Weapons +5/10/15/20 Damage for the fight.\nThe Weapon on the right has Lifesteal.",
+        "cooldown": "8.0 sec",
+        "ammo": "–",
+        "types": "Tool",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/b/bd/Rainbow_Potion.png/53px-Rainbow_Potion.png",
+        "name": "Rainbow Potion",
+        "effects": "Burn 4/6.\n Poison 2/3.\n Freeze 1 item for 2/3 second(s).\n Slow 1 item for 4/6 seconds(s).",
+        "cooldown": "7.0 sec",
+        "ammo": "1",
+        "types": "Potion",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/4/43/Refractor.png/126px-Refractor.png",
+        "name": "Refractor",
+        "effects": "Deal 20 Damage.\nWhen you Slow, Freeze, Burn or Poison, this gains 10/20/30 Damage for the fight.",
+        "cooldown": "7.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/6/66/Weather_Glass.png/126px-Weather_Glass.png",
+        "name": "Weather Glass",
+        "effects": "Burn 4 / 6 / 8.\n Poison 2 / 3 / 4.\nIf you have another item with Burn, Poison, Slow, or Freeze, this has +1 Multicast for each.",
+        "cooldown": "6.0 sec",
+        "ammo": "–",
+        "types": "Tool",
+        "size": "Medium"
       }
     ]
   },
@@ -1953,11 +4172,40 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/2/26/Icon_Skill_MasterSalesman.png/100px-Icon_Skill_MasterSalesman.png",
-        "name": "Master Salesman",
-        "effects": "Your items have double value during combat.",
-        "cooldown": "Diamond",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/9/91/Billboard.png/201px-Billboard.png",
+        "name": "Billboard",
+        "effects": "Your Properties have a +25% Crit Chance.\nAt the start of each day, your items gain 1 value.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "Property",
+        "size": "Large"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/9/9c/Keychain.png/51px-Keychain.png",
+        "name": "Keychain",
+        "effects": "Use a Property.",
+        "cooldown": "12.0 / 8.0 sec",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/f/f4/Skyscraper.png/201px-Skyscraper.png",
+        "name": "Skyscraper",
+        "effects": "Deal damage equal to 3 times the value of your items.\nThis has double value in combat.\nIf you have 4 or fewer items in-play, this has +1 Multicast.",
+        "cooldown": "6.0 sec",
+        "ammo": "–",
+        "types": "Property, Weapon",
+        "size": "Large"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c4/Subscraper.png/201px-Subscraper.png",
+        "name": "Subscraper",
+        "effects": "Heal equal to 4 / 6 times the value of your items.\nYour other items gain +value equal to this item's value in combat.",
+        "cooldown": "4.0 sec",
+        "ammo": "–",
+        "types": "Property",
+        "size": "Large"
       }
     ]
   },
@@ -1982,18 +4230,67 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/8/81/Icon_Skill_HeavyWeaponry.png/100px-Icon_Skill_HeavyWeaponry.png",
-        "name": "Heavy Weaponry",
-        "effects": "Your Large Weapons deal +12 / 36 / 72 / 120 Damage.",
-        "cooldown": "Bronze",
-        "ammo": "Weapon"
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/b/b2/Catalyst.png/53px-Catalyst.png",
+        "name": "Catalyst",
+        "effects": "When you use the item to the left of this, Haste the item to the right of this for ?/?/2/? Seconds",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
       },
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/0/0a/Icon_Skill_MON_TrashTitan_02.png/100px-Icon_Skill_MON_TrashTitan_02.png",
-        "name": "Juggler",
-        "effects": "When you use a small item, Charge a large item for 1.0 second(s).",
-        "cooldown": "Diamond",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/3/36/Ectoplasm.png/51px-Ectoplasm.png",
+        "name": "Ectoplasm",
+        "effects": "Poison 1/2/3.\n Heal equal to your opponent's Poison.",
+        "cooldown": "6.0 sec",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/6/6a/Emerald.png/60px-Emerald.png",
+        "name": "Emerald",
+        "effects": "Poison 1/2/3.\n Increase your other items' Poison by 1.",
+        "cooldown": "6.0 sec",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/b/b6/Hemlock.png/53px-Hemlock.png",
+        "name": "Hemlock",
+        "effects": "Poison 2/3/4/5",
+        "cooldown": "6.0 sec",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/7/7c/Junkyard_Lance.png/199px-Junkyard_Lance.png",
+        "name": "Junkyard Lance",
+        "effects": "Deal 10/30/60/100 Damage for each Small item you have (including Stash).",
+        "cooldown": "10.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Large"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/8/8a/Venom.png/52px-Venom.png",
+        "name": "Venom",
+        "effects": "When you use an adjacent Weapon, Poison 1/?/?.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/4/4b/Venomander.png/60px-Venomander.png",
+        "name": "Venomander",
+        "effects": "Poison 1/2.\nWhen you use the item to the left of this, gain 1/2 Regeneration for the fight.",
+        "cooldown": "8.0 sec",
+        "ammo": "–",
+        "types": "Friend",
+        "size": "Small"
       }
     ]
   },
@@ -2018,18 +4315,58 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/2/29/Icon_Skill_MON_IcicleAmmo_03.png/100px-Icon_Skill_MON_IcicleAmmo_03.png",
-        "name": "Blizzard",
-        "effects": "At the start of each fight, Freeze all non-weapon items for 2 / 3 second(s).",
-        "cooldown": "Gold",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/1/10/Frost_Potion.png/60px-Frost_Potion.png",
+        "name": "Frost Potion",
+        "effects": "Freeze 1/2/3/4 item(s) for 1 second(s).",
+        "cooldown": "5.0 sec",
+        "ammo": "1",
+        "types": "Potion",
+        "size": "Small"
       },
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/4/4a/Icon_Skill_InvigoratingCold.png/100px-Icon_Skill_InvigoratingCold.png",
-        "name": "Invigorating Cold",
-        "effects": "The first time you freeze each fight, Haste your items for 3 / 5 second(s).",
-        "cooldown": "Gold",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/2/2f/Frozen_Bludgeon.png/126px-Frozen_Bludgeon.png",
+        "name": "Frozen Bludgeon",
+        "effects": "Deal 10 / 30 / 60 / 100 damage.\nFreeze 1 item for 1 / 2 / 3 / 4 seconds.\nWhen you freeze an item, your weapons gain 4 / 6 / 8 / 10 Damage for the fight.",
+        "cooldown": "12.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/2/2a/Iceberg.png/201px-Iceberg.png",
+        "name": "Iceberg",
+        "effects": "When your enemy uses an item, Freeze it for 1 second.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "Aquatic, Property",
+        "size": "Large"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/e/ee/Nitrogen_Hammer.png/126px-Nitrogen_Hammer.png",
+        "name": "Nitrogen Hammer",
+        "effects": "Deal 25 / 25 damage.\nFreeze 1 item for 1 / 2 seconds.\nWhen you freeze an item, this gains 25 / 50 Damage for the fight.",
+        "cooldown": "8.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/f/f7/Sapphire.png/60px-Sapphire.png",
+        "name": "Sapphire",
+        "effects": "Freeze 1 item for 3/4/5 second(s).\nIncrease your other items' Freeze by 1 second(s).",
+        "cooldown": "8.0 sec",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/2/27/Snowflake.png/51px-Snowflake.png",
+        "name": "Snowflake",
+        "effects": "When you sell this, Enchant your leftmost item with Icy.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
       }
     ]
   },
@@ -2054,18 +4391,58 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/6/60/Icon_Skill_MON_VolkasEnforcer_03.png/100px-Icon_Skill_MON_VolkasEnforcer_03.png",
-        "name": "Cryomastery",
-        "effects": "When you Freeze, your Shield items gain 3 / 5 Shield for the fight.",
-        "cooldown": "Gold",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/9/96/Cryosleeve.png/126px-Cryosleeve.png",
+        "name": "Cryosleeve",
+        "effects": "Freeze this for 2 seconds.\nWhen ANY item is Frozen, Shield 15/30/45/60.",
+        "cooldown": "3.0 sec",
+        "ammo": "–",
+        "types": "",
+        "size": "Medium"
       },
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/1/1e/Icon_Skill_ReachingTheSummit.png/100px-Icon_Skill_ReachingTheSummit.png",
-        "name": "Reaching the Summit",
-        "effects": "When you Freeze, your items gain +2 / 4% Crit Chance for the fight.",
-        "cooldown": "Gold",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/1/10/Frost_Potion.png/60px-Frost_Potion.png",
+        "name": "Frost Potion",
+        "effects": "Freeze 1/2/3/4 item(s) for 1 second(s).",
+        "cooldown": "5.0 sec",
+        "ammo": "1",
+        "types": "Potion",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/ce/Ice_Pick.png/51px-Ice_Pick.png",
+        "name": "Ice Pick",
+        "effects": "Deal 20/40/80 Damage.\n Freeze 1 item for\n1 / 2 / 3 seconds.\nWhen you Freeze, this gains 5/10/15 Damage for the fight.",
+        "cooldown": "7.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/e/eb/Icebreaker.png/126px-Icebreaker.png",
+        "name": "Icebreaker",
+        "effects": "Deal 40 / 80 / 120 damage.\nRemove Freeze from your items.\nWhen any item gains freeze, charge this +1.0 / 2.0 / 3.0 seconds.\nWhen this item gains Freeze, remove Freeze from it.",
+        "cooldown": "6.0 sec",
+        "ammo": "–",
+        "types": "Weapon, Tool",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/2/23/Icicle.png/51px-Icicle.png",
+        "name": "Icicle",
+        "effects": "At the start of each fight, Freeze an item for 3/4/5/6 seconds.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c6/Stopwatch.png/51px-Stopwatch.png",
+        "name": "Stopwatch",
+        "effects": "Freeze both players' items for 1 / 2 seconds.",
+        "cooldown": "10.0 sec",
+        "ammo": "–",
+        "types": "Tool",
+        "size": "Small"
       }
     ]
   },
@@ -2090,18 +4467,58 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/f/f7/Icon_Skill_MON_LordOfWastes_01.png/100px-Icon_Skill_MON_LordOfWastes_01.png",
-        "name": "Foreboding Winds",
-        "effects": "When any player uses an item, all items gain 2 / 4% Crit Chance the fight.",
-        "cooldown": "Gold",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/5/52/Flamberge.png/199px-Flamberge.png",
+        "name": "Flamberge",
+        "effects": "Deal 200 damage.\nThis deals quadruple crit damage.",
+        "cooldown": "8.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Large"
       },
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/8/81/Icon_Skill_HeavyWeaponry.png/100px-Icon_Skill_HeavyWeaponry.png",
-        "name": "Heavy Weaponry",
-        "effects": "Your Large Weapons deal +12 / 36 / 72 / 120 Damage.",
-        "cooldown": "Bronze",
-        "ammo": "Weapon"
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/4/4b/Genie_Lamp.png/51px-Genie_Lamp.png",
+        "name": "Genie Lamp",
+        "effects": "When you sell this, gain access to the Genie Rit.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/2/25/Magic_Carpet.png/126px-Magic_Carpet.png",
+        "name": "Magic Carpet",
+        "effects": "Deal 4/12/24/40 Damage.\n\n\nWhen you Crit, this gains 4/12/24/40 Damage for the fight.\n10/20/35/50% Crit Chance.",
+        "cooldown": "4.0 sec",
+        "ammo": "–",
+        "types": "Vehicle, Weapon",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/0/0a/Myrrh.png/60px-Myrrh.png",
+        "name": "Myrrh",
+        "effects": "Heal 10/30/60/100 .\nCrit Chance 5/10/15/20%",
+        "cooldown": "5.0 sec",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/a/a8/Pendulum.png/126px-Pendulum.png",
+        "name": "Pendulum",
+        "effects": "Adjacent items have 10/20/30/40% Crit Chance.\nWhen you Crit, Haste an item for 1/2/3/4 second(s).",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "Tool",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/f/fb/Shoe_Blade.png/51px-Shoe_Blade.png",
+        "name": "Shoe Blade",
+        "effects": "Deal 10/30/60/100.",
+        "cooldown": "6.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Small"
       }
     ]
   },
@@ -2126,18 +4543,40 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/4/40/Icon_Skill_MON_IntotheVoid.png/100px-Icon_Skill_MON_IntotheVoid.png",
-        "name": "Into the Void",
-        "effects": "At the start of each fight, destroy an item on each player's board for the fight.",
-        "cooldown": "Diamond",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/3/31/Caltrops.png/124px-Caltrops.png",
+        "name": "Caltrops",
+        "effects": "When your enemy uses an item, deal 1 damage.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Medium"
       },
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/a/a1/Icon_Skill_MON_VoidRender.png/100px-Icon_Skill_MON_VoidRender.png",
-        "name": "Void Render",
-        "effects": "When you destroy an item during combat, your Weapons gain 100 / 200 damage and your burn items gain 10 / 20 Burn for this fight.",
-        "cooldown": "Gold",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/d/d0/Singularity.png/51px-Singularity.png",
+        "name": "Singularity",
+        "effects": "Destroy a Small enemy item for the fight.",
+        "cooldown": "9.0 sec",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/9/94/Spices.png/51px-Spices.png",
+        "name": "Spices",
+        "effects": "Your Weapons gain Damage equal to your weakest Weapon's Damage for the fight.",
+        "cooldown": "8.0 sec",
+        "ammo": "1",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/9/98/Void_Ray.png/126px-Void_Ray.png",
+        "name": "Void Ray",
+        "effects": "Burn 4/6\nWhen you Shield, this gains 1/2 for the fight.\nMulticast: 2",
+        "cooldown": "6.0 sec",
+        "ammo": "–",
+        "types": "",
+        "size": "Medium"
       }
     ]
   },
@@ -2169,25 +4608,40 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/a/aa/Icon_Skill_MON_BananaBreak_02.png/100px-Icon_Skill_MON_BananaBreak_02.png",
-        "name": "Prosperity",
-        "effects": "Your Shield items have + Shield equal to the value of your Items.",
-        "cooldown": "Diamond",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/0/01/Balcony.png/124px-Balcony.png",
+        "name": "Balcony",
+        "effects": "The Property to the left of this has double value in combat and has its Cooldown reduced by 10/20/30%.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "Property",
+        "size": "Medium"
       },
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/1/12/Toughness.png/100px-Toughness.png",
-        "name": "Toughness",
-        "effects": "Your Shield items have + Shield 2/6/12/20.",
-        "cooldown": "Bronze",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/1/17/Landscraper.png/201px-Landscraper.png",
+        "name": "Landscraper",
+        "effects": "When you use an item, Shield equal to 1x/2x/3x this item's value.\nAt the start of each hour, this gains 1 value.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "Property",
+        "size": "Large"
       },
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/e/ec/Trickle_Down_Economics.png/100px-Trickle_Down_Economics.png",
-        "name": "Trickle Down Economics",
-        "effects": "When you use a Large item, Haste an item for 4 seconds.",
-        "cooldown": "Gold",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/a/ab/Soul_of_the_District.png/126px-Soul_of_the_District.png",
+        "name": "Soul of the District",
+        "effects": "Shield equal to your current health.\n Deal Damage equal to your Shield.",
+        "cooldown": "12.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/9/98/Spacescraper.png/180px-Spacescraper.png",
+        "name": "Spacescraper",
+        "effects": "Shield equal to 2/3 times the value of your items.\nThis has triple value in combat.",
+        "cooldown": "4.0 sec",
+        "ammo": "–",
+        "types": "Property",
+        "size": "Large"
       }
     ]
   },
@@ -2219,25 +4673,40 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/8/81/Icon_Skill_HeavyWeaponry.png/100px-Icon_Skill_HeavyWeaponry.png",
-        "name": "Heavy Weaponry",
-        "effects": "Your Large Weapons deal +12 / 36 / 72 / 120 Damage.",
-        "cooldown": "Bronze",
-        "ammo": "Weapon"
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/6/6d/Battery.png/51px-Battery.png",
+        "name": "Battery",
+        "effects": "Charge the item to the left of this 1/2/3/4 seconds.",
+        "cooldown": "4.0 sec",
+        "ammo": "4",
+        "types": "Tool",
+        "size": "Small"
       },
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/0/0e/Icon_Skill_StandardOrdinance.png/100px-Icon_Skill_StandardOrdinance.png",
-        "name": "Standard Ordnance",
-        "effects": "Your Medium Weapons deal +6 / 18 / 36 / 60 Damage.",
-        "cooldown": "Bronze",
-        "ammo": "Weapon"
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/3/36/Gatling_Gun.png/120px-Gatling_Gun.png",
+        "name": "Gatling Gun",
+        "effects": "Deal 10/20 Damage.\n Reduce this item's cooldown by 10/20% for the fight.",
+        "cooldown": "4.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Medium"
       },
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/1/18/Icon_Skill_MON_Unrelenting.png/100px-Icon_Skill_MON_Unrelenting.png",
-        "name": "Unwavering",
-        "effects": "When you use an item, Shield 20 / 40.",
-        "cooldown": "Gold",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/3/33/The_Eclipse.png/199px-The_Eclipse.png",
+        "name": "The Eclipse",
+        "effects": "Use all your other items.\n\n\nWhen you use an item, deal 100 Damage.\nThe first time you fall below half health each fight, use this.",
+        "cooldown": "15.0 sec",
+        "ammo": "–",
+        "types": "Weapon, Vehicle",
+        "size": "Large"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/d/d7/Thrusters.png/51px-Thrusters.png",
+        "name": "Thrusters",
+        "effects": "Burn both players 2/3/4/5.\nAdjacent items have their cooldowns reduced by 6/9/12/15%.",
+        "cooldown": "6.0 sec",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
       }
     ]
   },
@@ -2262,18 +4731,22 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/7/73/Icon_Skill_MON_Lurk_02.png/100px-Icon_Skill_MON_Lurk_02.png",
-        "name": "Arms Race",
-        "effects": "Your items have +1 / 2% Crit Chance for each weapon you have.",
-        "cooldown": "Gold",
-        "ammo": "Weapon"
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/5/5a/Octopus.png/126px-Octopus.png",
+        "name": "Octopus",
+        "effects": "Deal 8 Damage.\nMulticast: 8",
+        "cooldown": "8.0 sec",
+        "ammo": "–",
+        "types": "Aquatic, Weapon, Friend",
+        "size": "Medium"
       },
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/cc/Icon_Skill_MON_Lurk_01.png/100px-Icon_Skill_MON_Lurk_01.png",
-        "name": "Hyper Focus",
-        "effects": "If you have only one medium item, its cooldown is reduced by 30%.",
-        "cooldown": "Diamond",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/e/ea/Tiny_Cutlass.png/51px-Tiny_Cutlass.png",
+        "name": "Tiny Cutlass",
+        "effects": "Deal 6/12/24/48 damage.\nThis deals double Crit damage.\nMulticast x2",
+        "cooldown": "5.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Small"
       }
     ]
   },
@@ -2298,18 +4771,40 @@
     ],
     "items": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/7/7f/Icon_Skill_MON_VoidEnergy01.png/100px-Icon_Skill_MON_VoidEnergy01.png",
-        "name": "Void Energy",
-        "effects": "When you Burn, your Shield items gain 3 / 5 Shield the fight.",
-        "cooldown": "Gold",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/1/12/Eye_of_the_Colossus.png/199px-Eye_of_the_Colossus.png",
+        "name": "Eye of the Colossus",
+        "effects": "Destroy an enemy item for the fight.\nWhen you use an adjacent item, charge this 1.0 second.",
+        "cooldown": "10.0 sec",
+        "ammo": "–",
+        "types": "Tool",
+        "size": "Large"
       },
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c3/Icon_Skill_MON_VoidRake.png/100px-Icon_Skill_MON_VoidRake.png",
-        "name": "Void Rage",
-        "effects": "When you burn, Haste an item for 1 / 2 second(s).",
-        "cooldown": "Gold",
-        "ammo": ""
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/a/a9/Ruby.png/51px-Ruby.png",
+        "name": "Ruby",
+        "effects": "Burn 4/6/8.\n Increase your other items' Burn by 2.",
+        "cooldown": "10.0 sec",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/9/98/Void_Ray.png/126px-Void_Ray.png",
+        "name": "Void Ray",
+        "effects": "4\nMulticast: 2\nWhen you Shield, this gains 1 for the fight.",
+        "cooldown": "6 sec",
+        "ammo": "–",
+        "types": "",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/a/aa/Void_Shield.png/126px-Void_Shield.png",
+        "name": "Void Shield",
+        "effects": "",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Medium"
       }
     ]
   }
