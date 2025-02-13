@@ -5,5 +5,9 @@
   --color-darktile: #5e3a2b;
   --color-slatetile: #332f47;
   --font-display: 'Rubik', 'sans-serif';
+  --color-tooltip: rgba(0, 0, 0, 0.9);
+  --color-bazaarBtn: #0d58a6;
+  --color-bazaarBtnActive: #0085bb;
+  --color-btnBorder: #00fefe;
 }
 

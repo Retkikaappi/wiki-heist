@@ -13,7 +13,7 @@ export type SkillData = {
   types: string;
 };
 
-type itemsData = {
+export type itemsData = {
   sprite: string;
   name: string;
   effects: string;

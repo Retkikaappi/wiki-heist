@@ -5,8 +5,10 @@ import { Day } from '../types';
 const DayBtn = ({ item }: { item: Day }) => (
   <NavLink
     className={({ isActive }: { isActive: boolean }) =>
-      `m-6 p-6 h-18 w-18 rounded-full text-center overflow-hidden ${
-        isActive ? 'bg-amber-600 border-3' : 'bg-neutral-500'
+      `m-6 p-6 h-18 w-18 rounded-full text-center overflow-hidden hover:bg-blue-500 transition ${
+        isActive
+          ? 'bg-bazaarBtnActive border-3 border-btnBorder'
+          : 'bg-bazaarBtn'
       }`
     }
     to={`/day/${item.day}`}

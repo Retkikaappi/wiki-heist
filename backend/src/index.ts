@@ -10,6 +10,8 @@ app.get('/api/test', (_req, resp) => {
   resp.send('working');
 });
 
+app.use(express.static('dist'));
+
 app.use('/api/monsters', monsterRouter);
 
 app.listen(PORT, () => {

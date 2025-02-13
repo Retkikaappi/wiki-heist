@@ -3523,7 +3523,7 @@
         "types": "Weapon"
       },
       {
-        "sprite": "No sprite",
+        "sprite": "https://thebazaar.wiki.gg/images/f/f5/Icon_Skill_MON_RedundantSystems.png",
         "name": "One Shot",
         "effects": "",
         "startingTier": "Diamond",
