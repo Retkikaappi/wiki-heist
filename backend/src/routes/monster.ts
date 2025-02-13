@@ -9,6 +9,11 @@ router.get('/', (_req, resp) => {
   resp.json(data);
 });
 
+router.get('/images', (_req, resp) => {
+  const data = monsterService.allImages();
+  resp.json(data);
+});
+
 router.get('/:monsterName', (req, resp) => {
   const { monsterName } = req.params;
   console.log(monsterName);

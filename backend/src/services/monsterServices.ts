@@ -39,6 +39,11 @@ const loadMonsterData = async () => {
   return monsterData;
 };
 
+const allImages = () => {
+  const mapped = monsterData?.map(({ name, image }) => ({ name, image }));
+  return mapped;
+};
+
 const allMonsters = () => {
   return monsterData;
 };
@@ -52,4 +57,5 @@ export default {
   allMonsters,
   singleMonster,
   loadMonsterData,
+  allImages,
 };

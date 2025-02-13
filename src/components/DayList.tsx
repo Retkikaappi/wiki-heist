@@ -4,7 +4,11 @@ import { Day } from '../types';
 
 const DayBtn = ({ item }: { item: Day }) => (
   <NavLink
-    className={'bg-neutral-500 m-6 p-6 h-18 w-18 rounded-full'}
+    className={({ isActive }: { isActive: boolean }) =>
+      `m-6 p-6 h-18 w-18 rounded-full text-center overflow-hidden ${
+        isActive ? 'bg-amber-600 border-3' : 'bg-neutral-500'
+      }`
+    }
     to={`/day/${item.day}`}
   >
     {item.day}
@@ -15,8 +19,8 @@ const DayList = () => {
   const { monsters } = useMonsters();
 
   return (
-    <div className='flex flex-col justify-center m-20 p-10 bg-linear-to-br from-lighttile to-darktile'>
-      <div>
+    <div className='flex flex-col justify-end bg-linear-to-br from-lighttile to-darktile'>
+      <div className='flex justify-center'>
         {monsters.map((item) => (
           <DayBtn key={item.day} item={item} />
         ))}

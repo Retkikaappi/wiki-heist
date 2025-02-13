@@ -5,7 +5,7 @@ export type Day = {
   gold: string[];
 };
 
-type SkillData = {
+export type SkillData = {
   sprite: string;
   name: string;
   effects: string;
