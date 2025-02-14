@@ -67,14 +67,9 @@ const fetchSkillsItems = async (monster: string) => {
     });
   }
 
-  const itemsData: itemsData[] = await page.evaluate(() => {
-    const tables = Object.entries(
-      document.querySelectorAll('.wikitable.sortable')
-    ).length;
-    const itemsTable =
-      tables > 1
-        ? document.querySelectorAll('.wikitable.sortable')[1]
-        : document.querySelectorAll('.wikitable.sortable')[0];
+  const itemsData: itemsData[] = await page.evaluate((length) => {
+    const tables = document.querySelectorAll('.wikitable.sortable');
+    const itemsTable = length > 1 ? tables[1] : tables[0];
     const itemRows = itemsTable.querySelectorAll('tbody tr');
     return Array.from(itemRows).map((row) => {
       const columns = row.querySelectorAll('td');
@@ -88,7 +83,7 @@ const fetchSkillsItems = async (monster: string) => {
         size: columns[6]?.innerText.trim(),
       };
     });
-  });
+  }, tablesLength);
 
   const monsterImage = await page.evaluate(() => {
     const img = document.querySelector<HTMLImageElement>(
@@ -97,11 +92,21 @@ const fetchSkillsItems = async (monster: string) => {
     return img ? img.src : 'No image found';
   });
 
+  const imgSelector = `img[alt="${monster}'s board"]`;
+
+  await page.waitForSelector(imgSelector);
+
+  const boardImage = await page.evaluate((selector) => {
+    const img = document.querySelector<HTMLImageElement>(selector);
+    return img ? img.src : 'No board found';
+  }, imgSelector);
+
   const data = {
     name: monster,
     image: monsterImage,
     skills: skillsData,
     items: itemsData,
+    boardImage,
   };
 
   await browser.close();
@@ -181,7 +186,7 @@ await fetchAllMonsterData([
   'Car Conductor',
   'Burninator Bot',
   'Dr. Vortex',
-  'Robo-Bouncer',
+  'Bouncertron',
   'Wandering Shoal',
   'Bloodreef Captain',
   'Elite Duelist',

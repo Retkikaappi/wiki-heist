@@ -51,7 +51,7 @@ const monstersByDay: Day[] = [
     day: 8,
     bronze: ['Cosmic Roc', 'Joyful Jack'],
     silver: ['Infernal Frigate', 'Oasis Guardian', 'Car Conductor'],
-    gold: ['Burninator Bot', 'Dr. Vortex', 'Robo-Bouncer', 'Wandering Shoal'],
+    gold: ['Burninator Bot', 'Dr. Vortex', 'Bouncertron', 'Wandering Shoal'],
   },
   {
     day: 9,

@@ -16,13 +16,14 @@
       {
         "sprite": "https://thebazaar.wiki.gg/images/thumb/4/4e/Duct_Tape.png/51px-Duct_Tape.png",
         "name": "Duct Tape",
-        "effects": "Slow 1 item for 1/2/3/4 seconds.\nWhen you use an adjacent item, Shield 5/10/15/20",
+        "effects": "Shield 5/10/15/20\n Slow 1 item for 1/2/3/4 seconds.\nWhen you use an adjacent item, Charge this 1 second.",
         "cooldown": "6.0 sec",
         "ammo": "–",
         "types": "Tool",
         "size": "Small"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/3/3c/Banannabal_board.png/800px-Banannabal_board.png"
   },
   {
     "name": "Fanged Inglet",
@@ -55,7 +56,8 @@
         "types": "",
         "size": "Small"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/8/83/Fanged_Inglet-Board.png"
   },
   {
     "name": "Haunted Kimono",
@@ -80,7 +82,8 @@
         "types": "",
         "size": "Medium"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/d/d0/Haunted_Kimono_Board.png/800px-Haunted_Kimono_Board.png"
   },
   {
     "name": "Coconut Crab",
@@ -122,7 +125,8 @@
         "types": "Aquatic",
         "size": "Small"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/b/b8/Coconut_Crab_board.png/800px-Coconut_Crab_board.png"
   },
   {
     "name": "Giant Mosquito",
@@ -171,7 +175,8 @@
         "types": "Weapon",
         "size": "Small"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/8/86/Giant_Mosquito_board.png/800px-Giant_Mosquito_board.png"
   },
   {
     "name": "Covetous Thief",
@@ -238,7 +243,8 @@
         "types": "",
         "size": "Small"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/7/72/Covetous_Thief_board.png/800px-Covetous_Thief_board.png"
   },
   {
     "name": "Boarrior",
@@ -316,7 +322,8 @@
         "types": "Weapon",
         "size": "Small"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/6/6e/Boarrior_board.png/800px-Boarrior_board.png"
   },
   {
     "name": "Rogue Scrapper",
@@ -385,7 +392,8 @@
         "types": "",
         "size": "Small"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/0/07/Rogue_Scrapper_board.png/800px-Rogue_Scrapper_board.png"
   },
   {
     "name": "Dabbling Apprentice",
@@ -436,7 +444,8 @@
         "types": "",
         "size": "Small"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/3/37/Dabbling_Apprentice_board.png/800px-Dabbling_Apprentice_board.png"
   },
   {
     "name": "Tempest Flamedancer",
@@ -487,7 +496,8 @@
         "types": "",
         "size": "Small"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/2/2c/Tempest_Flamedancer_board.png/800px-Tempest_Flamedancer_board.png"
   },
   {
     "name": "Frost Street Challenger",
@@ -547,7 +557,8 @@
         "types": "Tool",
         "size": "Medium"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/a/ac/Frost_Street_Challenger_board.png/800px-Frost_Street_Challenger_board.png"
   },
   {
     "name": "Eccentric Etherwright",
@@ -598,7 +609,8 @@
         "types": "",
         "size": "Small"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/3/33/Eccentric_Etherwright_board.png/800px-Eccentric_Etherwright_board.png"
   },
   {
     "name": "Scout Trooper",
@@ -683,7 +695,8 @@
         "types": "Tool",
         "size": "Medium"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/a/af/Scout_Trooper_board.png/800px-Scout_Trooper_board.png"
   },
   {
     "name": "Boilerroom Brawler",
@@ -768,7 +781,8 @@
         "types": "Tool",
         "size": "Medium"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/4/49/Boilerroom_Brawler_board.png/800px-Boilerroom_Brawler_board.png"
   },
   {
     "name": "Outlands Dervish",
@@ -810,7 +824,8 @@
         "types": "Weapon",
         "size": "Small"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/a/a0/Outlands_Dervish_board.png/800px-Outlands_Dervish_board.png"
   },
   {
     "name": "Bloodreef Raider",
@@ -879,7 +894,8 @@
         "types": "Potion",
         "size": "Small"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/d/d3/Bloodreef_Raider_board.png/800px-Bloodreef_Raider_board.png"
   },
   {
     "name": "Retiree",
@@ -948,7 +964,8 @@
         "types": "",
         "size": "Small"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/2/21/Retiree_board.png/800px-Retiree_board.png"
   },
   {
     "name": "Deadly Crooner",
@@ -1008,7 +1025,8 @@
         "types": "",
         "size": "Medium"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/a/a4/Deadly_Crooner_board.png/800px-Deadly_Crooner_board.png"
   },
   {
     "name": "Flame Juggler",
@@ -1057,7 +1075,8 @@
         "types": "",
         "size": "Small"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/c/c6/Flame_Juggler_board.png/800px-Flame_Juggler_board.png"
   },
   {
     "name": "Techno Virus",
@@ -1108,7 +1127,8 @@
         "types": "",
         "size": "Small"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/e/e3/Techno_Virus_Board.png/800px-Techno_Virus_Board.png"
   },
   {
     "name": "Hydrodude",
@@ -1193,7 +1213,8 @@
         "types": "Aquatic, Weapon",
         "size": "Small"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/d/d1/Hydrodude_board.png/800px-Hydrodude_board.png"
   },
   {
     "name": "Preening Duelist",
@@ -1262,7 +1283,8 @@
         "types": "Weapon",
         "size": "Small"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/d/d5/Preening_Duelist_board.png/800px-Preening_Duelist_board.png"
   },
   {
     "name": "Sabretooth",
@@ -1295,7 +1317,8 @@
         "types": "Loot",
         "size": "Small"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/f/f9/Sabretooth_board.png/800px-Sabretooth_board.png"
   },
   {
     "name": "Hakurvian Rocket Trooper",
@@ -1378,7 +1401,8 @@
         "types": "",
         "size": "Medium"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/1/1c/Hakurvian_Rocket_Trooper_board.png/800px-Hakurvian_Rocket_Trooper_board.png"
   },
   {
     "name": "Infernal Envoy",
@@ -1427,7 +1451,8 @@
         "types": "",
         "size": "Medium"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/0/0c/Infernal_Envoy_board.png/800px-Infernal_Envoy_board.png"
   },
   {
     "name": "Gorgon Noble",
@@ -1501,7 +1526,8 @@
         "types": "",
         "size": "Small"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/f/fb/Gorgon_Noble_board.png/800px-Gorgon_Noble_board.png"
   },
   {
     "name": "Mod Squad",
@@ -1570,7 +1596,8 @@
         "types": "Friend",
         "size": "Small"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/0/0f/Mod_Squad_board.png/800px-Mod_Squad_board.png"
   },
   {
     "name": "Trashtown Mayor",
@@ -1637,7 +1664,8 @@
         "types": "Property",
         "size": "Large"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/7/7f/Tent_City_Mayor_board.png/800px-Tent_City_Mayor_board.png"
   },
   {
     "name": "Dire Inglet",
@@ -1697,7 +1725,8 @@
         "types": "",
         "size": "Small"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/4/49/Dire_Inglet_board.png/800px-Dire_Inglet_board.png"
   },
   {
     "name": "Dire Mosquito",
@@ -1757,7 +1786,8 @@
         "types": "Weapon",
         "size": "Small"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/2/20/Dire_Mosquito_board.png/800px-Dire_Mosquito_board.png"
   },
   {
     "name": "Zookeeper",
@@ -1826,7 +1856,8 @@
         "types": "Friend",
         "size": "Small"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/e/ed/Zookeeper_board.png/800px-Zookeeper_board.png"
   },
   {
     "name": "Foreman",
@@ -1886,7 +1917,8 @@
         "types": "",
         "size": "Small"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/a/a9/Foreman_board.png/800px-Foreman_board.png"
   },
   {
     "name": "Trash Golem",
@@ -1964,7 +1996,8 @@
         "types": "Potion",
         "size": "Small"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/e/e4/Trash_Golem_board.png/800px-Trash_Golem_board.png"
   },
   {
     "name": "Enclave Weeper",
@@ -2033,7 +2066,8 @@
         "types": "",
         "size": "Small"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/f/f3/Enclave_Weeper_board.png/800px-Enclave_Weeper_board.png"
   },
   {
     "name": "Loan Shark",
@@ -2091,7 +2125,8 @@
         "types": "Aquatic, Weapon, Friend",
         "size": "Medium"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/8/8e/Loan_Shark_board.png/800px-Loan_Shark_board.png"
   },
   {
     "name": "Infernal",
@@ -2156,7 +2191,8 @@
         "types": "",
         "size": "Small"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/5/50/Infernal_board.png/800px-Infernal_board.png"
   },
   {
     "name": "Lich",
@@ -2241,7 +2277,8 @@
         "types": "",
         "size": "Small"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/b/bc/Lich_board.png/800px-Lich_board.png"
   },
   {
     "name": "Sergeant Suds",
@@ -2301,7 +2338,8 @@
         "types": "Weapon, Tool",
         "size": "Small"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/f/fe/Sergeant_Suds_board.png/800px-Sergeant_Suds_board.png"
   },
   {
     "name": "Viper Tyrant",
@@ -2379,7 +2417,8 @@
         "types": "",
         "size": "Small"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/b/b2/Viper_Tyrant_board.png/800px-Viper_Tyrant_board.png"
   },
   {
     "name": "Cosmic Roc",
@@ -2437,7 +2476,8 @@
         "types": "",
         "size": "Small"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/6/6a/Cosmic_Roc_board.png/800px-Cosmic_Roc_board.png"
   },
   {
     "name": "Joyful Jack",
@@ -2504,7 +2544,8 @@
         "types": "",
         "size": "Small"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/8/8a/Joyful_Jack_board.png/800px-Joyful_Jack_board.png"
   },
   {
     "name": "Thug",
@@ -2596,7 +2637,8 @@
         "types": "",
         "size": "Small"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/9/93/Thug_board.png/800px-Thug_board.png"
   },
   {
     "name": "Chilly Charles",
@@ -2656,7 +2698,8 @@
         "types": "Property",
         "size": "Large"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/2/23/Chilly_Charles_board.png/800px-Chilly_Charles_board.png"
   },
   {
     "name": "Shock Trooper",
@@ -2734,7 +2777,8 @@
         "types": "Tool",
         "size": "Medium"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/f/f2/Shock_Trooper_board.png/800px-Shock_Trooper_board.png"
   },
   {
     "name": "Treasure Turtle",
@@ -2828,7 +2872,8 @@
         "types": "Aquatic",
         "size": "Medium"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/8/83/Treasure_Turtle_board.png/800px-Treasure_Turtle_board.png"
   },
   {
     "name": "Radiant Corsair",
@@ -2895,7 +2940,8 @@
         "types": "Tool, Aquatic",
         "size": "Medium"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/d/d9/Radiant_Corsair_Board.png/800px-Radiant_Corsair_Board.png"
   },
   {
     "name": "Infernal Frigate",
@@ -2955,7 +3001,8 @@
         "types": "Weapon",
         "size": "Large"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/f/fa/Infernal_Frigate_board.png/800px-Infernal_Frigate_board.png"
   },
   {
     "name": "Oasis Guardian",
@@ -3024,7 +3071,8 @@
         "types": "Friend",
         "size": "Small"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/0/01/Oasis_Guardian_board.png/800px-Oasis_Guardian_board.png"
   },
   {
     "name": "Car Conductor",
@@ -3100,7 +3148,8 @@
         "types": "",
         "size": "Medium"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/6/60/Car_Conductor_board.png/800px-Car_Conductor_board.png"
   },
   {
     "name": "Burninator Bot",
@@ -3152,7 +3201,8 @@
         "types": "Tool",
         "size": "Medium"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/0/04/Burninator_Bot_board.png/800px-Burninator_Bot_board.png"
   },
   {
     "name": "Dr. Vortex",
@@ -3212,10 +3262,11 @@
         "types": "Tool, Vehicle, Property",
         "size": "Large"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/9/94/Dr._Vortex_board.png/800px-Dr._Vortex_board.png"
   },
   {
-    "name": "Robo-Bouncer",
+    "name": "Bouncertron",
     "image": "https://thebazaar.wiki.gg/images/7/79/Monster_Robo-Bouncer_Portrait.png",
     "skills": [
       {
@@ -3281,7 +3332,8 @@
         "types": "Weapon",
         "size": "Small"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/7/70/Robo-Bouncer_board.png/800px-Robo-Bouncer_board.png"
   },
   {
     "name": "Wandering Shoal",
@@ -3366,7 +3418,8 @@
         "types": "Aquatic",
         "size": "Small"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/4/4f/Wandering_Shoal_board.png/800px-Wandering_Shoal_board.png"
   },
   {
     "name": "Bloodreef Captain",
@@ -3426,7 +3479,8 @@
         "types": "",
         "size": "Small"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/a/ab/Bloodreef_Captain_board.png/800px-Bloodreef_Captain_board.png"
   },
   {
     "name": "Elite Duelist",
@@ -3509,7 +3563,8 @@
         "types": "",
         "size": "Small"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/0/01/Elite_Duelist_board.png/800px-Elite_Duelist_board.png"
   },
   {
     "name": "Ferros Khan",
@@ -3523,11 +3578,11 @@
         "types": "Weapon"
       },
       {
-        "sprite": "https://thebazaar.wiki.gg/images/f/f5/Icon_Skill_MON_RedundantSystems.png",
-        "name": "One Shot",
-        "effects": "",
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/f/f5/Icon_Skill_MON_RedundantSystems.png/100px-Icon_Skill_MON_RedundantSystems.png",
+        "name": "One Shot, One Kill",
+        "effects": "If you only have one weapon, it deals triple damage and has its cooldown increased by 50%.",
         "startingTier": "Diamond",
-        "types": ""
+        "types": "Weapon"
       },
       {
         "sprite": "https://thebazaar.wiki.gg/images/thumb/9/98/Icon_Skill_RightHanded.png/100px-Icon_Skill_RightHanded.png",
@@ -3541,8 +3596,8 @@
       {
         "sprite": "https://thebazaar.wiki.gg/images/thumb/a/a1/Barrel.png/126px-Barrel.png",
         "name": "Barrel",
-        "effects": "Shield 10\nWhen you use a non-Weapon item, give this +10/20/30 Shield for this fight.",
-        "cooldown": "4.0 sec",
+        "effects": "Shield 20\nWhen you use an adjacent non-Weapon item, give this +5/10/15/20 Shield for this fight.",
+        "cooldown": "5.0 sec",
         "ammo": "–",
         "types": "",
         "size": "Medium"
@@ -3553,7 +3608,7 @@
         "effects": "When you buy this, get a non-Vanessa item.\nYour items from other Heroes have 15/30/50% Crit Chance.",
         "cooldown": "–",
         "ammo": "–",
-        "types": "",
+        "types": "Apparel",
         "size": "Medium"
       },
       {
@@ -3571,7 +3626,7 @@
         "effects": "When you use the item to the right of this, give it Haste for 1/2/3/4 seconds and +3/5/7/9 Damage for the fight.",
         "cooldown": "–",
         "ammo": "–",
-        "types": "",
+        "types": "Apparel",
         "size": "Medium"
       },
       {
@@ -3592,7 +3647,8 @@
         "types": "Weapon",
         "size": "Medium"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/2/2b/Ferros_Khan_board.png/800px-Ferros_Khan_board.png"
   },
   {
     "name": "Roaming Isle",
@@ -3684,7 +3740,8 @@
         "types": "Property, Aquatic",
         "size": "Large"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/3/32/Roaming_Isle_board.png/800px-Roaming_Isle_board.png"
   },
   {
     "name": "Weapons Platform",
@@ -3778,7 +3835,8 @@
         "types": "Weapon",
         "size": "Small"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/6/62/Weapons_Platform_board.png/800px-Weapons_Platform_board.png"
   },
   {
     "name": "Enclave Revenant",
@@ -3872,7 +3930,8 @@
         "types": "Tool",
         "size": "Small"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/c/c1/Enclave_Revenant_board.png/800px-Enclave_Revenant_board.png"
   },
   {
     "name": "Death Knight Reaper",
@@ -3946,7 +4005,8 @@
         "types": "",
         "size": "Medium"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/6/6a/Death_Knight_Reaper_Board.png/800px-Death_Knight_Reaper_Board.png"
   },
   {
     "name": "Boss Harrow",
@@ -4029,7 +4089,8 @@
         "types": "Tool",
         "size": "Medium"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/8/87/Boss_Harrow_board.png/800px-Boss_Harrow_board.png"
   },
   {
     "name": "Hulking Experiment",
@@ -4096,7 +4157,8 @@
         "types": "Potion",
         "size": "Small"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/c/c6/Hulking_Experiment_board.png/800px-Hulking_Experiment_board.png"
   },
   {
     "name": "Master Alchemist",
@@ -4156,7 +4218,8 @@
         "types": "Tool",
         "size": "Medium"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/2/2d/Master_Alchemist_board.png/800px-Master_Alchemist_board.png"
   },
   {
     "name": "Property Baron",
@@ -4207,7 +4270,8 @@
         "types": "Property",
         "size": "Large"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/c/c4/Property_Baron_board.png/800px-Property_Baron_board.png"
   },
   {
     "name": "Trash Titan",
@@ -4292,7 +4356,8 @@
         "types": "Friend",
         "size": "Small"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/5/59/Trash_Titan_board.png/800px-Trash_Titan_board.png"
   },
   {
     "name": "Frost Street Champion",
@@ -4368,7 +4433,8 @@
         "types": "",
         "size": "Small"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/7/70/Frost_Street_Champion_board.png/800px-Frost_Street_Champion_board.png"
   },
   {
     "name": "Volkas Enforcer",
@@ -4444,7 +4510,8 @@
         "types": "Tool",
         "size": "Small"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/a/a7/Volkas_Enforcer_board.png/800px-Volkas_Enforcer_board.png"
   },
   {
     "name": "Lord of the Wastes",
@@ -4520,7 +4587,8 @@
         "types": "Weapon",
         "size": "Small"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/1/18/Lord_of_the_Wastes_board.png/800px-Lord_of_the_Wastes_board.png"
   },
   {
     "name": "Void Golem",
@@ -4578,7 +4646,8 @@
         "types": "",
         "size": "Medium"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/3/3a/Void_Golem_board.png/800px-Void_Golem_board.png"
   },
   {
     "name": "Awakened District",
@@ -4643,7 +4712,8 @@
         "types": "Property",
         "size": "Large"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/6/65/Awakened_District%27s_board.png/800px-Awakened_District%27s_board.png"
   },
   {
     "name": "Lord Arken",
@@ -4708,7 +4778,8 @@
         "types": "",
         "size": "Small"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/3/3c/Lord_Arken_board.png/800px-Lord_Arken_board.png"
   },
   {
     "name": "Veteran Octopus",
@@ -4748,7 +4819,8 @@
         "types": "Weapon",
         "size": "Small"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/c/c1/Veteran_Octopus_board.png/800px-Veteran_Octopus_board.png"
   },
   {
     "name": "Void Colossus",
@@ -4806,6 +4878,7 @@
         "types": "",
         "size": "Medium"
       }
-    ]
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/f/f5/Void_Colossus_board.png/800px-Void_Colossus_board.png"
   }
 ]

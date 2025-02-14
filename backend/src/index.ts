@@ -1,5 +1,5 @@
 import express from 'express';
-import monsterRouter from './routes/monster';
+import monsterRouter from './routes/monster.ts';
 import cors from 'cors';
 const app = express();
 app.use(express.json());
@@ -13,6 +13,10 @@ app.get('/api/test', (_req, resp) => {
 app.use(express.static('dist'));
 
 app.use('/api/monsters', monsterRouter);
+
+app.use('*', (_req, resp) => {
+  resp.redirect('/');
+});
 
 app.listen(PORT, () => {
   console.log('server running on', PORT);

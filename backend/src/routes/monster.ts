@@ -1,5 +1,5 @@
 import express from 'express';
-import monsterService from '../services/monsterServices';
+import monsterService from '../services/monsterServices.ts';
 const router = express.Router();
 
 await monsterService.loadMonsterData();

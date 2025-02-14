@@ -11,7 +11,6 @@ type Info = {
 };
 
 const Tooltip = ({ tooltipInfo: { x, y, content } }: { tooltipInfo: Info }) => {
-  console.log('content', content);
   return (
     <div style={{ left: x, top: y }} className='absolute bg-tooltip p-1'>
       <p className='font-bold'>{content.name}</p>
@@ -58,8 +57,6 @@ const SingleMonster = () => {
     event: MouseEvent<HTMLDivElement, globalThis.MouseEvent>,
     e: SkillData | itemsData
   ) => {
-    console.log(event);
-    console.log(e);
     setMouseover(true);
     setTooltipInfo({ x: event.clientX, y: event.clientY, content: e });
   };
@@ -70,34 +67,33 @@ const SingleMonster = () => {
 
   return (
     <>
-      <div className='pt-4 pb-20 flex flex-col items-center bg-neutral-900'>
-        <img src={data.image} alt={data.name} className='h-30 rounded-md' />
-        <p>skills:</p>
-        <div className='flex flex-row gap-4 p-2'>
+      <div className='pt-4 pb-20 flex flex-col items-center bg-linear-to-b from-bazaarDark to-bazaarDarkest'>
+        <img
+          src={data.boardImage}
+          alt={`${data.name}-board`}
+          className='h-60 rounded-xs'
+        />
+        <div className='flex flex-row gap-4 p-2 bg-neutral-700 rounded-xs'>
           {data.skills.map((e) => (
             <div
               key={e.name}
-              className='p-1 text-center bg-neutral-800 rounded-md'
+              className='p-1 text-center'
               onMouseEnter={(r) => enter(r, e as SkillData)}
               onMouseLeave={leave}
             >
               <p>{e.name}</p>
-              <img className='h-30 m-auto rounded-md' src={e.sprite} />
+              <img className='h-24 m-auto rounded-xs' src={e.sprite} />
             </div>
           ))}
         </div>
-        <p>items:</p>
-        <div className='flex flex-row gap-4 p-2'>
+        <div className='flex flex-row gap-4 p-2 bg-neutral-700 rounded-xs'>
           {data.items.map((e) => (
-            <div
-              key={e.name}
-              className='p-1 text-center bg-neutral-800 rounded-md'
-            >
+            <div key={e.name} className='p-1 text-center'>
               <p>{e.name}</p>
               <p>{e.size}</p>
-              <p>{e.types}</p>
+
               <img
-                className='h-40 m-auto rounded-md'
+                className='h-30 m-auto rounded-xs'
                 src={e.sprite}
                 onMouseEnter={(event) => enter(event, e as itemsData)}
                 onMouseLeave={leave}

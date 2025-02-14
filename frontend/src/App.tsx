@@ -6,10 +6,12 @@ import SingleMonster from './components/SingleMonster';
 function App() {
   return (
     <div className='flex flex-col items-center'>
-      <div className=' bg-neutral-800 p-2'>
+      <div className=' bg-bazaarDarkLight p-2'>
         <NavLink
           className={({ isActive }) =>
-            `p-4 ${isActive && 'text-amber-500 underline'}`
+            `p-4 font-bold text-lg hover:text-blue-500 ${
+              isActive && 'text-blue-500 underline'
+            }`
           }
           to='/'
         >
@@ -17,7 +19,9 @@ function App() {
         </NavLink>
         <NavLink
           className={({ isActive }) =>
-            `p-4 ${isActive && 'text-amber-500 underline'}`
+            `p-4 font-bold text-lg hover:text-blue-500 ${
+              isActive && 'text-blue-400 underline'
+            }`
           }
           to='/day'
         >

@@ -9,5 +9,18 @@
   --color-bazaarBtn: #0d58a6;
   --color-bazaarBtnActive: #0085bb;
   --color-btnBorder: #00fefe;
+  --color-bazaarDark: #372f3f;
+  --color-bazaarDarkLight: #3c3343;
+  --color-bazaarDarkest: #28202f;
+  --color-gold: #dba74f;
+  --color-silver: #808790;
+  --color-bronze: #7a4218;
+}
+
+@layer utilities {
+  .btn-texture {
+    background-image: url('https://media.istockphoto.com/id/170958625/photo/dark-blue-grunge-background.jpg?s=612x612&w=0&k=20&c=OaNlUrbNJ9VxS9dAiFBbY3qpDJuHTNrjxA07wFBzkjY=');
+    mix-blend-mode: overlay;
+  }
 }
 
