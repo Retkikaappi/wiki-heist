@@ -30,3 +30,16 @@ export type MonsterInfo = {
   skills: SkillData[];
   items: itemsData[];
 };
+
+export type EventByDay = {
+  name: string;
+  rarity: string;
+  hero: string;
+};
+
+export type EventData = {
+  image: string;
+  description: string;
+  functions: string[];
+  name: string;
+};

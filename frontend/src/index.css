@@ -17,10 +17,18 @@
   --color-bronze: #7a4218;
 }
 
-@layer utilities {
-  .btn-texture {
-    background-image: url('https://media.istockphoto.com/id/170958625/photo/dark-blue-grunge-background.jpg?s=612x612&w=0&k=20&c=OaNlUrbNJ9VxS9dAiFBbY3qpDJuHTNrjxA07wFBzkjY=');
-    mix-blend-mode: overlay;
+@layer components {
+  .backpattern {
+    background-color: #372f3f;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%2328202f' fill-opacity='0.50' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+  }
+  .forepattern {
+    background-color: #372f3f;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%2328202f' fill-opacity='0.8' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+  }
+  .singlepattern {
+    background-color: #372f3f;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3E%3Cg fill='%2328202f' fill-opacity='0.1'%3E%3Cpath fill-rule='evenodd' d='M0 0h4v4H0V0zm4 4h4v4H4V4z'/%3E%3C/g%3E%3C/svg%3E");
   }
 }
 

@@ -13,5 +13,6 @@ export const getMonsterImages = async (): Promise<
   }[]
 > => {
   const resp = await fetch(`${baseUrl}/images`);
+
   return resp.json();
 };

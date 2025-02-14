@@ -16,7 +16,7 @@ router.get('/images', (_req, resp) => {
 
 router.get('/:monsterName', (req, resp) => {
   const { monsterName } = req.params;
-  console.log(monsterName);
+
   if (!monsterName) {
     resp.status(400).json({ error: 'malformed params' });
   }

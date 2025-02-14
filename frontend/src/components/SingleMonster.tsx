@@ -43,11 +43,15 @@ const SingleMonster = () => {
   });
 
   if (isLoading) {
-    return <div className='mt-8 flex flex-col items-center'>Loading...</div>;
+    return (
+      <div className='pt-4 pb-20 flex flex-col h-dvh items-center bg-linear-to-b from-bazaarDark to-bazaarDarkest'>
+        <div className='border-6 border-b-blue-600 animate-spin w-20 h-20 rounded-full'></div>
+      </div>
+    );
   }
   if (isError || !data) {
     return (
-      <div className='mt-8 flex flex-col items-center'>
+      <div className='pt-4 pb-20 flex flex-col h-dvh items-center bg-linear-to-b from-bazaarDark to-bazaarDarkest'>
         Could not find monster
       </div>
     );
@@ -67,13 +71,13 @@ const SingleMonster = () => {
 
   return (
     <>
-      <div className='pt-4 pb-20 flex flex-col items-center bg-linear-to-b from-bazaarDark to-bazaarDarkest'>
+      <div className='pt-4 pb-20 flex flex-col items-center selector'>
         <img
           src={data.boardImage}
           alt={`${data.name}-board`}
           className='h-60 rounded-xs'
         />
-        <div className='flex flex-row gap-4 p-2 bg-neutral-700 rounded-xs'>
+        <div className='flex flex-row gap-4 p-2 singlepattern rounded-xs'>
           {data.skills.map((e) => (
             <div
               key={e.name}
@@ -86,7 +90,7 @@ const SingleMonster = () => {
             </div>
           ))}
         </div>
-        <div className='flex flex-row gap-4 p-2 bg-neutral-700 rounded-xs'>
+        <div className='flex flex-row gap-4 p-2 singlepattern rounded-xs'>
           {data.items.map((e) => (
             <div key={e.name} className='p-1 text-center'>
               <p>{e.name}</p>

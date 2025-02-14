@@ -18,39 +18,38 @@ const MonsterList = () => {
 
   return (
     <>
-      <div className='flex justify-center pb-4'>
-        <div className='flex flex-wrap columns-3 flex-1 flex-row gap-2 justify-center'>
-          {monsterList.bronze.map(
-            (e) =>
-              monsterImages && (
-                <NavLink
-                  to={`/day/${dayIndex}/${e}`}
-                  key={e}
-                  className={({ isActive }: { isActive: boolean }) =>
-                    `w-25 h-25 rounded-md hover:brightness-120 transition ${
-                      isActive &&
-                      'ring-3 bg-linear-to-b from-bronze ring-amber-700'
-                    }`
-                  }
-                >
-                  {findImage(e) ? (
-                    <img className='w-25 h-25 rounded-md' src={findImage(e)} />
-                  ) : (
-                    <button className='w-25 h-25 bg-amber-800 cursor-pointer'>
-                      {e.substring(0, 6)}
-                    </button>
-                  )}
-                </NavLink>
-              )
-          )}
-        </div>
-        <div className='flex flex-wrap columns-3 flex-1 flex-row gap-2 justify-center'>
-          {monsterList.silver.map((e) => (
+      <div className=' self-center flex w-3/4 justify-center pb-4 gap-2'>
+        <div className='flex flex-wrap columns-3 flex-1 flex-row gap-1 justify-center'>
+          {monsterList.bronze.map((e) => (
             <NavLink
               to={`/day/${dayIndex}/${e}`}
               key={e}
               className={({ isActive }: { isActive: boolean }) =>
                 `w-25 h-25 hover:brightness-120 transition rounded-md ${
+                  isActive && 'ring-3 bg-linear-to-b from-bronze ring-amber-700'
+                }`
+              }
+            >
+              {findImage(e) ? (
+                <img
+                  className='w-25 h-25 rounded-md shadow-md shadow-bazaarDarkest'
+                  src={findImage(e)}
+                />
+              ) : (
+                <button className='w-25 h-25 rounded-md bg-amber-800 cursor-pointer text-black'>
+                  {e}
+                </button>
+              )}
+            </NavLink>
+          ))}
+        </div>
+        <div className='flex flex-wrap columns-3 flex-1 flex-row gap-1 justify-center'>
+          {monsterList.silver.map((e) => (
+            <NavLink
+              to={`/day/${dayIndex}/${e}`}
+              key={e}
+              className={({ isActive }: { isActive: boolean }) =>
+                `w-25 h-25 hover:brightness-120 transition rounded-md shadow-md shadow-bazaarDarkest ${
                   isActive && 'ring-3 bg-linear-to-b from-silver ring-zinc-300'
                 }`
               }
@@ -58,20 +57,20 @@ const MonsterList = () => {
               {findImage(e) ? (
                 <img className='w-25 h-25 rounded-md' src={findImage(e)} />
               ) : (
-                <button className='w-25 h-25 rounded-full bg-zinc-500 cursor-pointer'>
-                  {e.substring(0, 6)}
+                <button className='w-25 h-25 rounded-md bg-zinc-500 cursor-pointer text-black'>
+                  {e}
                 </button>
               )}
             </NavLink>
           ))}
         </div>
-        <div className='flex flex-wrap columns-3 flex-1 flex-row gap-2 justify-center'>
+        <div className='flex flex-wrap columns-3 flex-1 flex-row gap-1 justify-center'>
           {monsterList.gold.map((e) => (
             <NavLink
               key={e}
               to={`/day/${dayIndex}/${e}`}
               className={({ isActive }: { isActive: boolean }) =>
-                `w-25 h-25 hover:brightness-130 transition rounded-md ${
+                `w-25 h-25 hover:brightness-130 transition rounded-md shadow-md shadow-bazaarDarkest ${
                   isActive && 'ring-3 bg-linear-to-b from-gold ring-gold'
                 }`
               }
@@ -79,8 +78,8 @@ const MonsterList = () => {
               {findImage(e) ? (
                 <img className='w-25 h-25 rounded-md' src={findImage(e)} />
               ) : (
-                <button className='w-25 h-25 bg-yellow-500 cursor-pointer'>
-                  {e.substring(0, 6)}
+                <button className='w-25 h-25 rounded-md bg-yellow-500 cursor-pointer text-black'>
+                  {e}
                 </button>
               )}
             </NavLink>
