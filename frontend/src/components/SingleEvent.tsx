@@ -22,7 +22,6 @@ const SingleEvent = () => {
   }
 
   const event = data.find((e) => e.name === eventName);
-  console.log(event);
 
   return (
     <div className='m-auto text-center'>

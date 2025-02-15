@@ -68,6 +68,7 @@ const SingleMonster = () => {
   const leave = () => {
     setMouseover(false);
   };
+  console.log(data);
 
   return (
     <>
@@ -77,30 +78,31 @@ const SingleMonster = () => {
           alt={`${data.name}-board`}
           className='h-60 rounded-xs'
         />
-        <div className='flex flex-row gap-4 p-2 px-8 skillsPanel rounded-xs shadow-xl shadow-bazaarDarkest'>
-          {data.skills.map((e) => (
-            <div
-              key={e.name}
-              className='p-1 text-center'
-              onMouseEnter={(r) => enter(r, e as SkillData)}
-              onMouseLeave={leave}
-            >
-              <p>{e.name}</p>
+        {data.skills.length > 0 && (
+          <div className='flex flex-row gap-4 p-2 px-8 skillsPanel rounded-xs shadow-xl shadow-bazaarDarkest'>
+            {data.skills.map((e) => (
+              <div
+                key={e.name}
+                className='p-1 text-center'
+                onMouseEnter={(r) => enter(r, e as SkillData)}
+                onMouseLeave={leave}
+              >
+                <p>{e.name}</p>
 
-              <div className='h-24 rounded-xs'>
-                <img
-                  className='m-auto w-24 h-24 rounded-full ring-1 ring-bazaarDarkest'
-                  src={e.sprite}
-                />
+                <div className='h-24 rounded-xs'>
+                  <img
+                    className='m-auto w-24 h-24 rounded-full ring-1 ring-bazaarDarkest'
+                    src={e.sprite}
+                  />
+                </div>
               </div>
-            </div>
-          ))}
-        </div>
+            ))}
+          </div>
+        )}
         <div className='flex flex-row gap-4 p-2 px-8 itemsPanel rounded-xs shadow-xl shadow-bazaarDarkest'>
           {data.items.map((e) => (
             <div key={e.name} className='p-1 text-center'>
-              <p>{e.name}</p>
-              <p>{e.size}</p>
+              <p className='mb-2'>{e.name}</p>
 
               <div className='h-32 rounded-xs'>
                 <img

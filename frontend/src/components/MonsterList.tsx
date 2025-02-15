@@ -36,7 +36,7 @@ const MonsterList = () => {
                   src={findImage(e)}
                 />
               ) : (
-                <button className='w-25 h-25 rounded-md bg-amber-800 cursor-pointer text-black'>
+                <button className='w-30 h-30 rounded-md bg-amber-800 cursor-pointer text-black'>
                   {e}
                 </button>
               )}
@@ -60,7 +60,7 @@ const MonsterList = () => {
                   src={findImage(e)}
                 />
               ) : (
-                <button className='w-25 h-25 rounded-md bg-zinc-500 cursor-pointer text-black'>
+                <button className='w-30 h-30 rounded-md bg-zinc-500 cursor-pointer text-black'>
                   {e}
                 </button>
               )}
@@ -84,7 +84,7 @@ const MonsterList = () => {
                   src={findImage(e)}
                 />
               ) : (
-                <button className='w-25 h-25 rounded-md bg-yellow-500 cursor-pointer text-black'>
+                <button className='w-30 h-30 rounded-md bg-yellow-500 cursor-pointer text-black'>
                   {e}
                 </button>
               )}

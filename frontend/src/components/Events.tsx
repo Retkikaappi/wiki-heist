@@ -27,7 +27,7 @@ const Events = () => {
   });
 
   return (
-    <div className='forepattern text-center flex flex-col gap-2'>
+    <div className='forepattern text-center flex flex-col gap-2 text-xs'>
       <div className='flex flex-wrap flex-row gap-2 m-auto bg-bazaarDarkLight p-4 shadow-2xl shadow-black rounded-md'>
         {fullData.map(
           (e) =>
@@ -35,16 +35,16 @@ const Events = () => {
             e.rarity.includes('No') && (
               <Link
                 to={`/events/${e.name}`}
-                className='p-2 shadow-md bg-neutral-900 shadow-bazaarDarkest rounded-md text-center w-42 transition relative hover:shadow-lg hover:shadow-black hover:ring-1 ring-black'
+                className='p-2 shadow-md bg-neutral-900 shadow-bazaarDarkest rounded-md text-center w-36 transition relative hover:shadow-lg hover:shadow-black hover:ring-1 ring-black'
                 key={e.name}
               >
-                <p className='text-nowrap overflow-hidden'>
+                <p className='mb-1 text-nowrap overflow-clip'>
                   {e.name.replaceAll('_', ' ')}
                 </p>
 
                 <img
                   src={e.image}
-                  className='flex-1 w-full max-h-32 object-cover rounded-md transition-opacity duration-300 hover:opacity-50'
+                  className='flex-1 w-full max-h-38 object-cover rounded-md transition-opacity duration-300 hover:opacity-50'
                   alt={`image_${e.name}`}
                 />
               </Link>
@@ -59,10 +59,12 @@ const Events = () => {
             e.rarity.includes('Bronze') && (
               <Link
                 to={`/events/${e.name}`}
-                className='p-2 shadow-md bg-neutral-900 shadow-bazaarDarkest rounded-md text-center w-42 transition relative hover:shadow-lg hover:shadow-black hover:ring-1 ring-black'
+                className='p-2 shadow-md bg-neutral-900 shadow-bazaarDarkest rounded-md text-center w-36 transition relative hover:shadow-lg hover:shadow-black hover:ring-1 ring-black'
                 key={e.name}
               >
-                <p>{e.name.replaceAll('_', ' ')}</p>
+                <p className='mb-1 text-nowrap overflow-clip'>
+                  {e.name.replaceAll('_', ' ')}
+                </p>
 
                 <img
                   src={e.image}
@@ -81,10 +83,12 @@ const Events = () => {
             e.rarity.includes('Silver') && (
               <Link
                 to={`/events/${e.name}`}
-                className='p-2 shadow-md bg-neutral-900 shadow-bazaarDarkest rounded-md text-center w-42 transition relative hover:shadow-lg hover:shadow-black hover:ring-1 ring-black'
+                className='p-2 shadow-md bg-neutral-900 shadow-bazaarDarkest rounded-md text-center w-36 transition relative hover:shadow-lg hover:shadow-black hover:ring-1 ring-black'
                 key={e.name}
               >
-                <p>{e.name.replaceAll('_', ' ')}</p>
+                <p className='mb-1 text-nowrap overflow-clip'>
+                  {e.name.replaceAll('_', ' ')}
+                </p>
 
                 <img
                   src={e.image}
@@ -103,10 +107,12 @@ const Events = () => {
             e.rarity.includes('Gold') && (
               <Link
                 to={`/events/${e.name}`}
-                className='p-2 shadow-md bg-neutral-900 shadow-bazaarDarkest rounded-md text-center w-42 transition relative hover:shadow-lg hover:shadow-black hover:ring-1 ring-black'
+                className='p-2 shadow-md bg-neutral-900 shadow-bazaarDarkest rounded-md text-center w-36 transition relative hover:shadow-lg hover:shadow-black hover:ring-1 ring-black'
                 key={e.name}
               >
-                <p>{e.name.replaceAll('_', ' ')}</p>
+                <p className='mb-1 text-nowrap overflow-clip'>
+                  {e.name.replaceAll('_', ' ')}
+                </p>
 
                 <img
                   src={e.image}
@@ -125,10 +131,12 @@ const Events = () => {
             e.rarity.includes('Diamond') && (
               <Link
                 to={`/events/${e.name}`}
-                className='p-2 shadow-md bg-neutral-900 shadow-bazaarDarkest rounded-md text-center w-42 transition relative hover:shadow-lg hover:shadow-black hover:ring-1 ring-black'
+                className='p-2 shadow-md bg-neutral-900 shadow-bazaarDarkest rounded-md text-center w-36 transition relative hover:shadow-lg hover:shadow-black hover:ring-1 ring-black'
                 key={e.name}
               >
-                <p>{e.name.replaceAll('_', ' ')}</p>
+                <p className='mb-1 text-nowrap overflow-clip'>
+                  {e.name.replaceAll('_', ' ')}
+                </p>
 
                 <img
                   src={e.image}
@@ -146,10 +154,12 @@ const Events = () => {
             e.hero !== 'No' && (
               <Link
                 to={`/events/${e.name}`}
-                className='p-2 shadow-md bg-neutral-900 shadow-bazaarDarkest rounded-md text-center w-42 transition relative hover:shadow-lg hover:shadow-black hover:ring-1 ring-black'
+                className='p-2 shadow-md bg-neutral-900 shadow-bazaarDarkest rounded-md text-center w-36 transition relative hover:shadow-lg hover:shadow-black hover:ring-1 ring-black'
                 key={e.name}
               >
-                <p>{e.name.replaceAll('_', ' ')}</p>
+                <p className='mb-1 text-nowrap overflow-clip'>
+                  {e.name.replaceAll('_', ' ')}
+                </p>
 
                 <img
                   src={e.image}
