@@ -1,5 +1,37 @@
 import { Link } from 'react-router-dom';
 import useEvents from '../hooks/useEvents';
+import { EventDataWithRarity } from '../types';
+
+const EventLink = ({ event }: { event: EventDataWithRarity }) => (
+  <Link
+    to={`/events/${event.name}`}
+    className='p-2 shadow-md bg-neutral-900 shadow-bazaarDarkest rounded-md text-center w-36 transition relative hover:shadow-lg hover:shadow-black hover:ring-1 ring-black'
+  >
+    <p className='mb-1 text-nowrap overflow-clip'>
+      {event.name.replaceAll('_', ' ')}
+    </p>
+
+    <img
+      src={event.image}
+      className='flex-1 w-full max-h-32 object-cover rounded-md transition-opacity duration-300 hover:opacity-50'
+      alt={`image_${event.name}`}
+    />
+  </Link>
+);
+
+const EventWrapper = ({
+  styling,
+  children,
+}: {
+  children: React.ReactNode;
+  styling: string;
+}) => (
+  <div
+    className={`flex flex-wrap flex-1 flex-row gap-2 m-auto p-4 shadow-2xl shadow-black rounded-md bg-gradient-to-r ${styling}`}
+  >
+    {children}
+  </div>
+);
 
 const Events = () => {
   const { eventDays, data, isLoading, isError } = useEvents();
@@ -19,7 +51,7 @@ const Events = () => {
     );
   }
 
-  const fullData = data.map((e) => {
+  const fullData: EventDataWithRarity[] = data.map((e) => {
     const match = eventDays.find((r) => e.name === r.name);
     return match
       ? { ...e, rarity: match.rarity, hero: match.hero }
@@ -28,148 +60,51 @@ const Events = () => {
 
   return (
     <div className='forepattern text-center flex flex-col gap-2 text-xs'>
-      <div className='flex flex-wrap flex-row gap-2 m-auto bg-bazaarDarkLight p-4 shadow-2xl shadow-black rounded-md'>
+      <EventWrapper styling='bg-bazaarDarkLight'>
         {fullData.map(
           (e) =>
             e.hero === 'No' &&
-            e.rarity.includes('No') && (
-              <Link
-                to={`/events/${e.name}`}
-                className='p-2 shadow-md bg-neutral-900 shadow-bazaarDarkest rounded-md text-center w-36 transition relative hover:shadow-lg hover:shadow-black hover:ring-1 ring-black'
-                key={e.name}
-              >
-                <p className='mb-1 text-nowrap overflow-clip'>
-                  {e.name.replaceAll('_', ' ')}
-                </p>
-
-                <img
-                  src={e.image}
-                  className='flex-1 w-full max-h-38 object-cover rounded-md transition-opacity duration-300 hover:opacity-50'
-                  alt={`image_${e.name}`}
-                />
-              </Link>
-            )
+            e.rarity.includes('No') && <EventLink key={e.name} event={e} />
         )}
-      </div>
+      </EventWrapper>
 
-      <div className='flex flex-wrap flex-1 flex-row gap-2 m-auto bg-linear-to-r from-bronze via-amber-800 to-bronze p-4 shadow-2xl shadow-black rounded-md'>
+      <EventWrapper styling='from-bronze via-amber-800 to-bronze'>
         {fullData.map(
           (e) =>
             e.hero === 'No' &&
-            e.rarity.includes('Bronze') && (
-              <Link
-                to={`/events/${e.name}`}
-                className='p-2 shadow-md bg-neutral-900 shadow-bazaarDarkest rounded-md text-center w-36 transition relative hover:shadow-lg hover:shadow-black hover:ring-1 ring-black'
-                key={e.name}
-              >
-                <p className='mb-1 text-nowrap overflow-clip'>
-                  {e.name.replaceAll('_', ' ')}
-                </p>
-
-                <img
-                  src={e.image}
-                  className='flex-1 w-full max-h-32 object-cover rounded-md transition-opacity duration-300 hover:opacity-50'
-                  alt={`image_${e.name}`}
-                />
-              </Link>
-            )
+            e.rarity.includes('Bronze') && <EventLink key={e.name} event={e} />
         )}
-      </div>
+      </EventWrapper>
 
-      <div className='flex flex-wrap flex-1 flex-row gap-2 m-auto bg-linear-to-r from-silver via-zinc-500 to-zinc-300 p-4 shadow-2xl shadow-black rounded-md'>
+      <EventWrapper styling='from-silver via-zinc-500 to-zinc-300'>
         {fullData.map(
           (e) =>
             e.hero === 'No' &&
-            e.rarity.includes('Silver') && (
-              <Link
-                to={`/events/${e.name}`}
-                className='p-2 shadow-md bg-neutral-900 shadow-bazaarDarkest rounded-md text-center w-36 transition relative hover:shadow-lg hover:shadow-black hover:ring-1 ring-black'
-                key={e.name}
-              >
-                <p className='mb-1 text-nowrap overflow-clip'>
-                  {e.name.replaceAll('_', ' ')}
-                </p>
-
-                <img
-                  src={e.image}
-                  className='flex-1 w-full max-h-32 object-cover rounded-md transition-opacity duration-300 hover:opacity-50'
-                  alt={`image_${e.name}`}
-                />
-              </Link>
-            )
+            e.rarity.includes('Silver') && <EventLink key={e.name} event={e} />
         )}
-      </div>
+      </EventWrapper>
 
-      <div className='flex flex-wrap flex-1 flex-row gap-2 m-auto bg-linear-to-r from-gold via-yellow-600 to-yellow-500 p-4 shadow-2xl shadow-black rounded-md'>
+      <EventWrapper styling='from-gold via-yellow-600 to-yellow-500'>
         {fullData.map(
           (e) =>
             e.hero === 'No' &&
-            e.rarity.includes('Gold') && (
-              <Link
-                to={`/events/${e.name}`}
-                className='p-2 shadow-md bg-neutral-900 shadow-bazaarDarkest rounded-md text-center w-36 transition relative hover:shadow-lg hover:shadow-black hover:ring-1 ring-black'
-                key={e.name}
-              >
-                <p className='mb-1 text-nowrap overflow-clip'>
-                  {e.name.replaceAll('_', ' ')}
-                </p>
-
-                <img
-                  src={e.image}
-                  className='flex-1 w-full max-h-32 object-cover rounded-md transition-opacity duration-300 hover:opacity-50'
-                  alt={`image_${e.name}`}
-                />
-              </Link>
-            )
+            e.rarity.includes('Gold') && <EventLink key={e.name} event={e} />
         )}
-      </div>
+      </EventWrapper>
 
-      <div className='flex flex-wrap flex-1 flex-row gap-2 m-auto shadow-2xl shadow-black bg-linear-to-r from-diamond via-cyan-500 to-cyan-400 p-4 rounded-md'>
+      <EventWrapper styling='from-diamond via-cyan-500 to-cyan-400'>
         {fullData.map(
           (e) =>
             e.hero === 'No' &&
-            e.rarity.includes('Diamond') && (
-              <Link
-                to={`/events/${e.name}`}
-                className='p-2 shadow-md bg-neutral-900 shadow-bazaarDarkest rounded-md text-center w-36 transition relative hover:shadow-lg hover:shadow-black hover:ring-1 ring-black'
-                key={e.name}
-              >
-                <p className='mb-1 text-nowrap overflow-clip'>
-                  {e.name.replaceAll('_', ' ')}
-                </p>
-
-                <img
-                  src={e.image}
-                  className='flex-1 w-full max-h-32 object-cover rounded-md transition-opacity duration-300 hover:opacity-50'
-                  alt={`image_${e.name}`}
-                />
-              </Link>
-            )
+            e.rarity.includes('Diamond') && <EventLink key={e.name} event={e} />
         )}
-      </div>
+      </EventWrapper>
 
-      <div className='flex pb-4 gap-2 m-auto bg-linear-to-r from-hero to-purple-400 p-4 shadow-2xl shadow-black rounded-md'>
+      <EventWrapper styling='from-hero to-purple-400'>
         {fullData.map(
-          (e) =>
-            e.hero !== 'No' && (
-              <Link
-                to={`/events/${e.name}`}
-                className='p-2 shadow-md bg-neutral-900 shadow-bazaarDarkest rounded-md text-center w-36 transition relative hover:shadow-lg hover:shadow-black hover:ring-1 ring-black'
-                key={e.name}
-              >
-                <p className='mb-1 text-nowrap overflow-clip'>
-                  {e.name.replaceAll('_', ' ')}
-                </p>
-
-                <img
-                  src={e.image}
-                  className='flex-1 w-full max-h-32 object-cover rounded-md transition-opacity duration-300 hover:opacity-50'
-                  alt={`image_${e.name}`}
-                />
-              </Link>
-            )
+          (e) => e.hero !== 'No' && <EventLink key={e.name} event={e} />
         )}
-      </div>
+      </EventWrapper>
     </div>
   );
 };

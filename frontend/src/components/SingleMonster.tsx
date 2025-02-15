@@ -68,7 +68,6 @@ const SingleMonster = () => {
   const leave = () => {
     setMouseover(false);
   };
-  console.log(data);
 
   return (
     <>

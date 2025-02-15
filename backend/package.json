@@ -9,7 +9,8 @@
     "dev": "tsx src/index.ts",
     "lint": "eslint .",
     "start": "node dist/index.js",
-    "build:windows": "@powershell Remove-Item -Recurse -Force dist && cd ../frontend && npm run build && @powershell Copy-Item dist ../backend -Recurse"
+    "build:windows": "@powershell Remove-Item -Recurse -Force dist && cd ../frontend && npm run build && @powershell Copy-Item dist ../backend -Recurse",
+    "build:deploy": "npm run build:windows && npm run tsc && fly deploy"
   },
   "author": "",
   "license": "ISC",
@@ -34,3 +35,4 @@
     "puppeteer": "^24.2.0"
   }
 }
+

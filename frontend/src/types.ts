@@ -43,3 +43,8 @@ export type EventData = {
   functions: string[];
   name: string;
 };
+
+export type EventDataWithRarity = EventData & {
+  hero: string;
+  rarity: string;
+};
