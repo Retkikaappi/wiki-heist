@@ -18,21 +18,21 @@ const MonsterList = () => {
 
   return (
     <>
-      <div className=' self-center flex w-3/4 justify-center pb-4 gap-2'>
+      <div className='self-center flex w-3/4 justify-center pb-4 gap-2'>
         <div className='flex flex-wrap columns-3 flex-1 flex-row gap-1 justify-center'>
           {monsterList.bronze.map((e) => (
             <NavLink
               to={`/day/${dayIndex}/${e}`}
               key={e}
               className={({ isActive }: { isActive: boolean }) =>
-                `w-25 h-25 hover:brightness-120 transition rounded-md ${
-                  isActive && 'ring-3 bg-linear-to-b from-bronze ring-amber-700'
+                `w-30 h-30 hover:brightness-120 transition rounded-md bg-linear-to-b from-bazaarDarkest to-bazaarDark ${
+                  isActive && 'ring-3 from-bronze ring-amber-700'
                 }`
               }
             >
               {findImage(e) ? (
                 <img
-                  className='w-25 h-25 rounded-md shadow-md shadow-bazaarDarkest'
+                  className='w-full h-full object-cover rounded-md'
                   src={findImage(e)}
                 />
               ) : (
@@ -49,13 +49,16 @@ const MonsterList = () => {
               to={`/day/${dayIndex}/${e}`}
               key={e}
               className={({ isActive }: { isActive: boolean }) =>
-                `w-25 h-25 hover:brightness-120 transition rounded-md shadow-md shadow-bazaarDarkest ${
-                  isActive && 'ring-3 bg-linear-to-b from-silver ring-zinc-300'
+                `w-30 h-30 hover:brightness-120 transition rounded-md shadow-md shadow-bazaarDarkest bg-linear-to-b from-bazaarDarkest to-bazaarDark ${
+                  isActive && 'ring-3 from-silver ring-zinc-300'
                 }`
               }
             >
               {findImage(e) ? (
-                <img className='w-25 h-25 rounded-md' src={findImage(e)} />
+                <img
+                  className='w-full h-full object-cover rounded-md'
+                  src={findImage(e)}
+                />
               ) : (
                 <button className='w-25 h-25 rounded-md bg-zinc-500 cursor-pointer text-black'>
                   {e}
@@ -70,13 +73,16 @@ const MonsterList = () => {
               key={e}
               to={`/day/${dayIndex}/${e}`}
               className={({ isActive }: { isActive: boolean }) =>
-                `w-25 h-25 hover:brightness-130 transition rounded-md shadow-md shadow-bazaarDarkest ${
-                  isActive && 'ring-3 bg-linear-to-b from-gold ring-gold'
+                `w-30 h-30 hover:brightness-130 transition rounded-md shadow-md shadow-bazaarDarkest bg-linear-to-b from-bazaarDarkest to-bazaarDark ${
+                  isActive && 'ring-3 from-gold ring-gold'
                 }`
               }
             >
               {findImage(e) ? (
-                <img className='w-25 h-25 rounded-md' src={findImage(e)} />
+                <img
+                  className='w-full h-full object-cover rounded-md'
+                  src={findImage(e)}
+                />
               ) : (
                 <button className='w-25 h-25 rounded-md bg-yellow-500 cursor-pointer text-black'>
                   {e}

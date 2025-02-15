@@ -3,6 +3,7 @@ import { Routes, Route, NavLink } from 'react-router-dom';
 import MonsterList from './components/MonsterList';
 import SingleMonster from './components/SingleMonster';
 import Events from './components/Events';
+import SingleEvent from './components/SingleEvent';
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
             />
           </Route>
         </Route>
+        <Route path='/events/:eventName' element={<SingleEvent />} />
       </Routes>
     </div>
   );

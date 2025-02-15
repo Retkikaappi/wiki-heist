@@ -71,13 +71,13 @@ const SingleMonster = () => {
 
   return (
     <>
-      <div className='pt-4 pb-20 flex flex-col items-center selector'>
+      <div className='pt-4 pb-20 flex flex-col gap-4 items-center selector'>
         <img
           src={data.boardImage}
           alt={`${data.name}-board`}
           className='h-60 rounded-xs'
         />
-        <div className='flex flex-row gap-4 p-2 singlepattern rounded-xs'>
+        <div className='flex flex-row gap-4 p-2 px-8 skillsPanel rounded-xs shadow-xl shadow-bazaarDarkest'>
           {data.skills.map((e) => (
             <div
               key={e.name}
@@ -86,22 +86,30 @@ const SingleMonster = () => {
               onMouseLeave={leave}
             >
               <p>{e.name}</p>
-              <img className='h-24 m-auto rounded-xs' src={e.sprite} />
+
+              <div className='h-24 rounded-xs'>
+                <img
+                  className='m-auto w-24 h-24 rounded-full ring-1 ring-bazaarDarkest'
+                  src={e.sprite}
+                />
+              </div>
             </div>
           ))}
         </div>
-        <div className='flex flex-row gap-4 p-2 singlepattern rounded-xs'>
+        <div className='flex flex-row gap-4 p-2 px-8 itemsPanel rounded-xs shadow-xl shadow-bazaarDarkest'>
           {data.items.map((e) => (
             <div key={e.name} className='p-1 text-center'>
               <p>{e.name}</p>
               <p>{e.size}</p>
 
-              <img
-                className='h-30 m-auto rounded-xs'
-                src={e.sprite}
-                onMouseEnter={(event) => enter(event, e as itemsData)}
-                onMouseLeave={leave}
-              />
+              <div className='h-32 rounded-xs'>
+                <img
+                  className='h-full m-auto rounded-xs ring-1 ring-bazaarDarkest'
+                  src={e.sprite}
+                  onMouseEnter={(event) => enter(event, e as itemsData)}
+                  onMouseLeave={leave}
+                />
+              </div>
             </div>
           ))}
         </div>
