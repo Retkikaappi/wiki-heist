@@ -136,6 +136,9 @@ const fetchAllMonsterData = async (monsters: string[]) => {
 
 await fetchAllMonsterData([
   'Banannabal',
+  'Kyver Drone',
+  'Pyro',
+  'Viper',
   'Fanged Inglet',
   'Haunted Kimono',
   'Coconut Crab',

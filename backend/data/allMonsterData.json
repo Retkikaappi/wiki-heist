@@ -26,6 +26,135 @@
     "boardImage": "https://thebazaar.wiki.gg/images/thumb/3/3c/Banannabal_board.png/800px-Banannabal_board.png"
   },
   {
+    "name": "Kyver Drone",
+    "image": "https://thebazaar.wiki.gg/images/thumb/7/73/Monster_KyverNest_Portrait.png/300px-Monster_KyverNest_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/6/69/Icon_Skill_MON_Trained.png/100px-Icon_Skill_MON_Trained.png",
+        "name": "Trained",
+        "effects": "When you slow, a random weapon gains +5 / 10 / 15 / 20 damage this fight.",
+        "startingTier": "Bronze",
+        "types": "Weapon"
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c4/Eagle_Talisman.png/51px-Eagle_Talisman.png",
+        "name": "Eagle Talisman",
+        "effects": "When you sell this, give your leftmost item 5/10/15/20 % Crit Chance.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/d/d2/Insect_Wing.png/51px-Insect_Wing.png",
+        "name": "Insect Wing",
+        "effects": "When you sell this, reduce your items' Cooldowns by 3/6/9/12%.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/3/37/Langxian.png/126px-Langxian.png",
+        "name": "Langxian",
+        "effects": "Deal\n25/50/75/100 Damage.\nWhen you win a fight with Langxian, this gains\n25/50/75/100 Damage.",
+        "cooldown": "10.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Medium"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/b/b6/Stinger.png/51px-Stinger.png",
+        "name": "Stinger",
+        "effects": "Deal 5/10/20/40 Damage.\n Slow 1 item for 1/2/3/4 seconds.\nLifesteal.",
+        "cooldown": "9.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Small"
+      }
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/c/c0/Kyver_Drone_board.png/800px-Kyver_Drone_board.png"
+  },
+  {
+    "name": "Pyro",
+    "image": "https://thebazaar.wiki.gg/images/4/4c/Monster_Pyro_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/2/2f/Icon_Skill_Fiery.png/100px-Icon_Skill_Fiery.png",
+        "name": "Fiery",
+        "effects": "Your Burn items have +1 / 2 / 3 / 4 Burn.",
+        "startingTier": "Bronze",
+        "types": ""
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/f/fb/Cinders.png/51px-Cinders.png",
+        "name": "Cinders",
+        "effects": "When you sell this, your leftmost Burn item gains +1/2/4 Burn.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c4/Lighter.png/51px-Lighter.png",
+        "name": "Lighter",
+        "effects": "Burn 1/2/3/5",
+        "cooldown": "3.0 sec",
+        "ammo": "–",
+        "types": "Tool",
+        "size": "Small"
+      }
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/d/dc/Pyro_board.png/800px-Pyro_board.png"
+  },
+  {
+    "name": "Viper",
+    "image": "https://thebazaar.wiki.gg/images/thumb/f/f0/Monster_Viper_Portrait.png/300px-Monster_Viper_Portrait.png",
+    "skills": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/2/29/Icon_Skill_MON_LashOut_01.png/100px-Icon_Skill_MON_LashOut_01.png",
+        "name": "Lash Out",
+        "effects": "At the start of each fight, Poison 3 / 6 / 9 / 12.",
+        "startingTier": "Bronze",
+        "types": ""
+      }
+    ],
+    "items": [
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/e/e4/Extract.png/51px-Extract.png",
+        "name": "Extract",
+        "effects": "When you sell this, your leftmost Poison item gains +1/2/4 Poison.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c3/Fang.png/51px-Fang.png",
+        "name": "Fang",
+        "effects": "Deal 5/10/20/40 damage.",
+        "cooldown": "4.0 sec",
+        "ammo": "–",
+        "types": "Weapon",
+        "size": "Small"
+      },
+      {
+        "sprite": "https://thebazaar.wiki.gg/images/thumb/a/aa/Gland.png/51px-Gland.png",
+        "name": "Gland",
+        "effects": "When you sell this, gain 1/2/3/4 Regeneration.",
+        "cooldown": "–",
+        "ammo": "–",
+        "types": "",
+        "size": "Small"
+      }
+    ],
+    "boardImage": "https://thebazaar.wiki.gg/images/thumb/9/99/Viper-Board.png/800px-Viper-Board.png"
+  },
+  {
     "name": "Fanged Inglet",
     "image": "https://thebazaar.wiki.gg/images/thumb/5/5c/Monster_FangedInglet_Portrait.png/300px-Monster_FangedInglet_Portrait.png",
     "skills": [
@@ -441,7 +570,7 @@
         "effects": "When you sell this, gain 1/2/3 XP.",
         "cooldown": "–",
         "ammo": "–",
-        "types": "",
+        "types": "Loot",
         "size": "Small"
       }
     ],
@@ -969,7 +1098,7 @@
   },
   {
     "name": "Deadly Crooner",
-    "image": "https://thebazaar.wiki.gg/images/e/e0/Monster_Deadly_Crooner_Portrait.png",
+    "image": "https://thebazaar.wiki.gg/images/3/3e/Monster_Hellbilly_Portrait.png",
     "skills": [
       {
         "sprite": "https://thebazaar.wiki.gg/images/thumb/4/4d/Icon_Skill_LeftHanded.png/100px-Icon_Skill_LeftHanded.png",
@@ -1080,7 +1209,7 @@
   },
   {
     "name": "Techno Virus",
-    "image": "https://thebazaar.wiki.gg/images/thumb/5/52/Monster_TechnoVirus_Portrait.png/300px-Monster_TechnoVirus_Portrait.png",
+    "image": "https://thebazaar.wiki.gg/images/c/c4/Monster_Ahexa_Portrait.png",
     "skills": [
       {
         "sprite": "https://thebazaar.wiki.gg/images/thumb/c/c2/Icon_Skill_FlankingToxins.png/100px-Icon_Skill_FlankingToxins.png",
@@ -1132,7 +1261,7 @@
   },
   {
     "name": "Hydrodude",
-    "image": "https://thebazaar.wiki.gg/images/thumb/d/dc/Monster_Hydrodude_Portrait.png/299px-Monster_Hydrodude_Portrait.png",
+    "image": "https://thebazaar.wiki.gg/images/1/1b/Monster_PrinceMarianas_Portrait.png",
     "skills": [
       {
         "sprite": "https://thebazaar.wiki.gg/images/thumb/8/8c/Icon_Skill_SlowandSteady.png/100px-Icon_Skill_SlowandSteady.png",
@@ -3020,7 +3149,7 @@
       {
         "sprite": "https://thebazaar.wiki.gg/images/thumb/8/89/Fossilized_Femur.png/199px-Fossilized_Femur.png",
         "name": "Fossilized Femur",
-        "effects": "Deal 200/? Damage.\nWhen you Slow, Charge this 1 second(s).",
+        "effects": "Deal 200/400 Damage.\nWhen you Slow, Charge this 1/2 second(s).",
         "cooldown": "12.0 sec",
         "ammo": "–",
         "types": "Weapon",
@@ -3047,7 +3176,7 @@
       {
         "sprite": "https://thebazaar.wiki.gg/images/thumb/3/39/Ouroboros_Statue.png/126px-Ouroboros_Statue.png",
         "name": "Ouroboros Statue",
-        "effects": "Poison 4/6.\nWhen you Poison, gain 1/2 Regeneration for the fight.",
+        "effects": "Poison 4/6.\nWhen you Poison, gain 2/3 Regeneration for the fight.",
         "cooldown": "9.0 sec",
         "ammo": "–",
         "types": "",
@@ -3056,7 +3185,7 @@
       {
         "sprite": "https://thebazaar.wiki.gg/images/thumb/b/b3/Sleeping_Potion.png/52px-Sleeping_Potion.png",
         "name": "Sleeping Potion",
-        "effects": "Slow 2 items for ?/6?/? second(s).",
+        "effects": "Slow 2 items for 4/6/8/10 second(s).",
         "cooldown": "5.0 sec",
         "ammo": "1",
         "types": "Potion",
@@ -3267,7 +3396,7 @@
   },
   {
     "name": "Bouncertron",
-    "image": "https://thebazaar.wiki.gg/images/7/79/Monster_Robo-Bouncer_Portrait.png",
+    "image": "https://thebazaar.wiki.gg/images/5/57/Monster_Bouncertron_Portrait.png",
     "skills": [
       {
         "sprite": "https://thebazaar.wiki.gg/images/thumb/f/f6/Icon_Skill_MON_SharpenedSteel.png/100px-Icon_Skill_MON_SharpenedSteel.png",
@@ -3437,7 +3566,7 @@
       {
         "sprite": "https://thebazaar.wiki.gg/images/thumb/d/df/Captain%27s_Wheel.png/126px-Captain%27s_Wheel.png",
         "name": "Captain's Wheel",
-        "effects": "Haste adjacent items for 1/2/3 second(s).\nWhen you use a Large item, use this.",
+        "effects": "Haste adjacent items for 2 second(s).\nWhen you use a Vehicle or Large item, Charge this 1/2/3 second(s).",
         "cooldown": "4.0 sec",
         "ammo": "–",
         "types": "Aquatic, Tool",
@@ -3446,7 +3575,7 @@
       {
         "sprite": "https://thebazaar.wiki.gg/images/thumb/2/25/Crow%27s_Nest.png/199px-Crow%27s_Nest.png",
         "name": "Crow's Nest",
-        "effects": "Your Weapons have\n+25/50/75/100 % Crit Chance.\nIf you have exactly one Weapon, that Weapon has Lifesteal.",
+        "effects": "Your Weapons have\n+20/40/60/80 % Crit Chance.\nIf you have exactly one Weapon, that Weapon has Lifesteal.",
         "cooldown": "–",
         "ammo": "–",
         "types": "Property, Aquatic",
@@ -3455,7 +3584,7 @@
       {
         "sprite": "https://thebazaar.wiki.gg/images/thumb/4/47/Flagship.png/201px-Flagship.png",
         "name": "Flagship",
-        "effects": "Deal 25 / 50 / 75 Damage.\nIf you have another Tool, Ammo, Property or Friend this has +1 Multicast for each.",
+        "effects": "Deal 25/50/100 Damage.\nIf you have another Tool, Ammo, Property or Friend this has +1 Multicast for each.",
         "cooldown": "6.0 sec",
         "ammo": "–",
         "types": "Aquatic, Vehicle, Weapon",
@@ -4278,13 +4407,6 @@
     "image": "https://thebazaar.wiki.gg/images/thumb/1/1d/Monster_TrashTitan_Portrait.png/300px-Monster_TrashTitan_Portrait.png",
     "skills": [
       {
-        "sprite": "https://thebazaar.wiki.gg/images/thumb/8/81/Icon_Skill_HeavyWeaponry.png/100px-Icon_Skill_HeavyWeaponry.png",
-        "name": "Heavy Weaponry",
-        "effects": "Your Large Weapons deal +12 / 36 / 72 / 120 Damage.",
-        "startingTier": "Bronze",
-        "types": "Weapon"
-      },
-      {
         "sprite": "https://thebazaar.wiki.gg/images/thumb/0/0a/Icon_Skill_MON_TrashTitan_02.png/100px-Icon_Skill_MON_TrashTitan_02.png",
         "name": "Juggler",
         "effects": "When you use a small item, Charge a large item for 1.0 second(s).",
@@ -4296,7 +4418,7 @@
       {
         "sprite": "https://thebazaar.wiki.gg/images/thumb/b/b2/Catalyst.png/53px-Catalyst.png",
         "name": "Catalyst",
-        "effects": "When you use the item to the left of this, Haste the item to the right of this for ?/?/2/? Seconds",
+        "effects": "When you use the item to the left of this, Haste the item to the right of this for 1/2/3 Seconds",
         "cooldown": "–",
         "ammo": "–",
         "types": "",
@@ -4332,7 +4454,7 @@
       {
         "sprite": "https://thebazaar.wiki.gg/images/thumb/7/7c/Junkyard_Lance.png/199px-Junkyard_Lance.png",
         "name": "Junkyard Lance",
-        "effects": "Deal 10/30/60/100 Damage for each Small item you have (including Stash).",
+        "effects": "Deal 10/30/50/100 Damage for each Small item you have (including Stash).",
         "cooldown": "10.0 sec",
         "ammo": "–",
         "types": "Weapon",
@@ -4341,7 +4463,7 @@
       {
         "sprite": "https://thebazaar.wiki.gg/images/thumb/8/8a/Venom.png/52px-Venom.png",
         "name": "Venom",
-        "effects": "When you use an adjacent Weapon, Poison 1/?/?.",
+        "effects": "When you use an adjacent Weapon, Poison 1/2/3.",
         "cooldown": "–",
         "ammo": "–",
         "types": "",
@@ -4391,7 +4513,7 @@
       {
         "sprite": "https://thebazaar.wiki.gg/images/thumb/2/2f/Frozen_Bludgeon.png/126px-Frozen_Bludgeon.png",
         "name": "Frozen Bludgeon",
-        "effects": "Deal 10 / 30 / 60 / 100 damage.\nFreeze 1 item for 1 / 2 / 3 / 4 seconds.\nWhen you freeze an item, your weapons gain 4 / 6 / 8 / 10 Damage for the fight.",
+        "effects": "Deal 15/30/60/120 damage.\n Freeze 1 item for 1 / 2 / 3 / 4 seconds.\nWhen you Freeze an item, your weapons gain 4 / 6 / 8 / 10 Damage for the fight.",
         "cooldown": "12.0 sec",
         "ammo": "–",
         "types": "Weapon",
@@ -4409,7 +4531,7 @@
       {
         "sprite": "https://thebazaar.wiki.gg/images/thumb/e/ee/Nitrogen_Hammer.png/126px-Nitrogen_Hammer.png",
         "name": "Nitrogen Hammer",
-        "effects": "Deal 25 / 25 damage.\nFreeze 1 item for 1 / 2 seconds.\nWhen you freeze an item, this gains 25 / 50 Damage for the fight.",
+        "effects": "Deal 25/50 damage.\nFreeze 1 item for 1 / 2 seconds.\nWhen you freeze an item, this gains 25 / 50 Damage for the fight.",
         "cooldown": "8.0 sec",
         "ammo": "–",
         "types": "Weapon",
@@ -4427,10 +4549,10 @@
       {
         "sprite": "https://thebazaar.wiki.gg/images/thumb/2/27/Snowflake.png/51px-Snowflake.png",
         "name": "Snowflake",
-        "effects": "When you sell this, Enchant your leftmost item with Icy.",
+        "effects": "When you sell this, give your leftmost Freeze item + 1 second to Freeze.",
         "cooldown": "–",
         "ammo": "–",
-        "types": "",
+        "types": "Loot",
         "size": "Small"
       }
     ],
@@ -4882,3 +5004,4 @@
     "boardImage": "https://thebazaar.wiki.gg/images/thumb/f/f5/Void_Colossus_board.png/800px-Void_Colossus_board.png"
   }
 ]
+

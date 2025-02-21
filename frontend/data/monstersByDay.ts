@@ -2,9 +2,16 @@ import { Day } from '../src/types';
 const monstersByDay: Day[] = [
   {
     day: 1,
-    bronze: ['Banannabal'],
-    silver: ['Fanged Inglet'],
-    gold: ['Haunted Kimono'],
+    bronze: [
+      'Banannabal',
+      'Fanged Inglet',
+      'Kyver Drone',
+      'Pyro',
+      'Viper',
+      'Haunted Kimono',
+    ],
+    silver: [],
+    gold: [],
   },
   {
     day: 2,
