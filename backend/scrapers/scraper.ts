@@ -18,10 +18,18 @@ export type itemsData = {
   types: string;
   size: string;
 };
+
+type MonsterDetails = {
+  name: string;
+  link: string;
+  img: string;
+  rank: string;
+  appearsOn: string;
+};
 const fetchSkillsItems = async (monster: string) => {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
-  await page.goto(`https://thebazaar.wiki.gg/wiki/${monster}`, {
+  await page.goto(monster, {
     waitUntil: 'domcontentloaded',
   });
   await new Promise((resolve) => setTimeout(resolve, 1500));
@@ -92,17 +100,21 @@ const fetchSkillsItems = async (monster: string) => {
     return img ? img.src : 'No image found';
   });
 
-  const imgSelector = `img[alt="${monster}'s board"]`;
-
-  await page.waitForSelector(imgSelector);
-
-  const boardImage = await page.evaluate((selector) => {
-    const img = document.querySelector<HTMLImageElement>(selector);
+  const boardImage = await page.evaluate(() => {
+    const img = document.querySelector<HTMLImageElement>(
+      'div.mw-parser-output > p > a > img'
+    );
     return img ? img.src : 'No board found';
-  }, imgSelector);
+  });
+
+  const monsterName = await page.evaluate(() => {
+    const name = document.querySelector('h1.firstHeading');
+    return name ? name.textContent : 'No name';
+  });
 
   const data = {
-    name: monster,
+    name: monsterName,
+    link: monster,
     image: monsterImage,
     skills: skillsData,
     items: itemsData,
@@ -113,8 +125,12 @@ const fetchSkillsItems = async (monster: string) => {
   return data;
 };
 
-const fetchAllMonsterData = async (monsters: string[]) => {
+const fetchAllMonsterData = async () => {
   const allMonsterData = [];
+
+  const data = fs.readFileSync('./data/monsterDetails.json', 'utf-8');
+  const monstersData = (await JSON.parse(data)) as MonsterDetails[];
+  const monsters = monstersData.map((e) => e.link);
 
   for (const monster of monsters) {
     try {
@@ -134,82 +150,5 @@ const fetchAllMonsterData = async (monsters: string[]) => {
   );
 };
 
-await fetchAllMonsterData([
-  'Banannabal',
-  'Kyver Drone',
-  'Pyro',
-  'Viper',
-  'Fanged Inglet',
-  'Haunted Kimono',
-  'Coconut Crab',
-  'Giant Mosquito',
-  'Covetous Thief',
-  'Boarrior',
-  'Rogue Scrapper',
-  'Dabbling Apprentice',
-  'Tempest Flamedancer',
-  'Frost Street Challenger',
-  'Eccentric Etherwright',
-  'Scout Trooper',
-  'Boilerroom Brawler',
-  'Outlands Dervish',
-  'Bloodreef Raider',
-  'Retiree',
-  'Deadly Crooner',
-  'Flame Juggler',
-  'Techno Virus',
-  'Hydrodude',
-  'Preening Duelist',
-  'Sabretooth',
-  'Hakurvian Rocket Trooper',
-  'Infernal Envoy',
-  'Gorgon Noble',
-  'Mod Squad',
-  'Trashtown Mayor',
-  'Dire Inglet',
-  'Dire Mosquito',
-  'Zookeeper',
-  'Foreman',
-  'Trash Golem',
-  'Enclave Weeper',
-  'Loan Shark',
-  'Infernal',
-  'Lich',
-  'Sergeant Suds',
-  'Viper Tyrant',
-  'Cosmic Roc',
-  'Joyful Jack',
-  'Thug',
-  'Chilly Charles',
-  'Shock Trooper',
-  'Treasure Turtle',
-  'Radiant Corsair',
-  'Infernal Frigate',
-  'Oasis Guardian',
-  'Car Conductor',
-  'Burninator Bot',
-  'Dr. Vortex',
-  'Bouncertron',
-  'Wandering Shoal',
-  'Bloodreef Captain',
-  'Elite Duelist',
-  'Ferros Khan',
-  'Roaming Isle',
-  'Weapons Platform',
-  'Enclave Revenant',
-  'Death Knight Reaper',
-  'Boss Harrow',
-  'Hulking Experiment',
-  'Master Alchemist',
-  'Property Baron',
-  'Trash Titan',
-  'Frost Street Champion',
-  'Volkas Enforcer',
-  'Lord of the Wastes',
-  'Void Golem',
-  'Awakened District',
-  'Lord Arken',
-  'Veteran Octopus',
-  'Void Colossus',
-]);
+await fetchAllMonsterData();
 process.exit();

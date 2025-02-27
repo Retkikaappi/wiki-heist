@@ -5,10 +5,10 @@ const monstersByDay: Day[] = [
     bronze: [
       'Banannabal',
       'Fanged Inglet',
+      'Haunted Kimono',
       'Kyver Drone',
       'Pyro',
       'Viper',
-      'Haunted Kimono',
     ],
     silver: [],
     gold: [],
@@ -22,14 +22,14 @@ const monstersByDay: Day[] = [
   {
     day: 3,
     bronze: ['Dabbling Apprentice', 'Tempest Flamedancer'],
-    silver: ['Frost Street Challenger', 'Rogue Scrapper'],
+    silver: ['Frost Street Challenger', 'Rogue Scrapper', 'Street Gamer'],
     gold: ['Eccentric Etherwright', 'Scout Trooper'],
   },
   {
     day: 4,
     bronze: ['Boilerroom Brawler', 'Outlands Dervish'],
     silver: ['Bloodreef Raider', 'Retiree'],
-    gold: ['Deadly Crooner', 'Flame Juggler', 'Techno Virus', 'Hydrodude'],
+    gold: ['Hellbilly', 'Flame Juggler', 'Ahexa', 'Prince Marianas'],
   },
   {
     day: 5,
@@ -58,7 +58,13 @@ const monstersByDay: Day[] = [
     day: 8,
     bronze: ['Cosmic Roc', 'Joyful Jack'],
     silver: ['Infernal Frigate', 'Oasis Guardian', 'Car Conductor'],
-    gold: ['Burninator Bot', 'Dr. Vortex', 'Bouncertron', 'Wandering Shoal'],
+    gold: [
+      'Burninator Bot',
+      'Dr. Vortex',
+      'Bouncertron',
+      'Wandering Shoal',
+      'Dragon',
+    ],
   },
   {
     day: 9,

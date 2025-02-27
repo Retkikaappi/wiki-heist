@@ -21,6 +21,7 @@ type itemsData = {
 
 export type MonsterInfo = {
   name: string;
+  link: string;
   image: string;
   skills: SkillData[];
   items: itemsData[];
