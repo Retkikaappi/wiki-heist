@@ -19,11 +19,11 @@ export type itemsData = {
   size: string;
 };
 
-type MonsterDetails = {
+export type MonsterDetails = {
   name: string;
   link: string;
   img: string;
-  rank: string;
+  rank: 'Bronze' | 'Silver' | 'Gold+';
   appearsOn: string;
 };
 const fetchSkillsItems = async (monster: string) => {

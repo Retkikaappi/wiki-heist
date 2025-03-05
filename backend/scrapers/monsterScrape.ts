@@ -50,13 +50,12 @@ const scrapeMonsters = async () => {
 
         return Array.from(monsters).map((monster) => {
           const nameEle = monster.querySelector('div > div.thumb > div > a');
-          const linkEle = monster.querySelector(
-            'div > div.gallerytext > p > a'
-          );
+          const linkEle = monster.querySelector('div > div.gallerytext > a');
           const imgEle = nameEle?.querySelector('img');
-          const rankEle = contentDiv.querySelector(
-            'div.mw-collapsible-content > ul > li'
-          );
+          const rankEle =
+            monster.parentElement?.previousElementSibling?.querySelector(
+              'ul > li'
+            );
 
           return {
             name: nameEle ? nameEle.getAttribute('title')?.trim() : 'No name',
