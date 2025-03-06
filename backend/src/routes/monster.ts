@@ -1,7 +1,6 @@
 import express from 'express';
 import monsterService from '../services/monsterServices.ts';
 const router = express.Router();
-import db from '../db/index.ts';
 
 router.get('/', async (_req, resp) => {
   const data = await monsterService.allMonsters();

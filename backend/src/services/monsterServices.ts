@@ -1,10 +1,4 @@
-import { eq } from 'drizzle-orm';
 import db from '../db/index.ts';
-import {
-  monsterDetailsTable,
-  monsterItems,
-  monsterSkills,
-} from '../db/schema.ts';
 
 type SkillData = {
   sprite: string;
