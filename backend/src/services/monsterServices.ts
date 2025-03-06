@@ -1,5 +1,10 @@
-import fs from 'fs';
-let monsterData: MonsterInfo[] | null = null;
+import { eq } from 'drizzle-orm';
+import db from '../db/index.ts';
+import {
+  monsterDetailsTable,
+  monsterItems,
+  monsterSkills,
+} from '../db/schema.ts';
 
 type SkillData = {
   sprite: string;
@@ -27,36 +32,50 @@ export type MonsterInfo = {
   items: itemsData[];
 };
 
-const loadMonsterData = async () => {
-  if (monsterData === null) {
-    try {
-      const data = fs.readFileSync('./data/allMonsterData.json', 'utf-8');
-      monsterData = (await JSON.parse(data)) as MonsterInfo[];
-      console.log(monsterData.length);
-    } catch (e) {
-      console.log('Error loading data ', e);
-    }
+const allImages = async () => {
+  const data = await db.query.monstersTable.findMany({
+    columns: {
+      name: true,
+      img: true,
+    },
+  });
+
+  return data;
+};
+
+const allMonsters = async () => {
+  const data = await db.query.monstersTable.findMany();
+  return data;
+};
+
+const singleMonster = async (name: string) => {
+  const monster = await db
+    .select()
+    .from(monsterDetailsTable)
+    .where(eq(monsterDetailsTable.name, name));
+
+  if (monster.length === 0) {
+    return null;
   }
-  return monsterData;
-};
+  const monsterId = monster[0].id;
+  const skills = await db
+    .select()
+    .from(monsterSkills)
+    .where(eq(monsterSkills.monsterId, monsterId));
+  const items = await db
+    .select()
+    .from(monsterItems)
+    .where(eq(monsterItems.monsterId, monsterId));
 
-const allImages = () => {
-  const mapped = monsterData?.map(({ name, image }) => ({ name, image }));
-  return mapped;
-};
-
-const allMonsters = () => {
-  return monsterData;
-};
-
-const singleMonster = (name: string) => {
-  const monster = monsterData?.find((e) => e.name === name);
-  return monster;
+  return {
+    ...monster[0],
+    skills,
+    items,
+  };
 };
 
 export default {
   allMonsters,
   singleMonster,
-  loadMonsterData,
   allImages,
 };

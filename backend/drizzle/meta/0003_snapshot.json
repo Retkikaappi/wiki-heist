@@ -1,6 +1,6 @@
 {
-  "id": "cd6ce694-9548-471c-90b8-018d164f01d4",
-  "prevId": "00000000-0000-0000-0000-000000000000",
+  "id": "9f1cdd28-915e-4604-b3e3-da8f3afe9555",
+  "prevId": "c04812a8-6d92-43f4-ab74-2dc6782c1284",
   "version": "7",
   "dialect": "postgresql",
   "tables": {
@@ -99,12 +99,6 @@
         },
         "ammo": {
           "name": "ammo",
-          "type": "varchar(255)",
-          "primaryKey": false,
-          "notNull": true
-        },
-        "startingTier": {
-          "name": "startingTier",
           "type": "varchar(255)",
           "primaryKey": false,
           "notNull": true

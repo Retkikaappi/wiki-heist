@@ -13,7 +13,7 @@ const MonsterList = () => {
   const findImage = (name: string) => {
     const monster = monsterImages?.find((e) => name === e.name);
 
-    return monster ? monster.image : undefined;
+    return monster ? monster.img : undefined;
   };
 
   return (

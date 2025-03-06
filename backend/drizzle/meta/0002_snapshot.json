@@ -1,6 +1,6 @@
 {
-  "id": "cd6ce694-9548-471c-90b8-018d164f01d4",
-  "prevId": "00000000-0000-0000-0000-000000000000",
+  "id": "c04812a8-6d92-43f4-ab74-2dc6782c1284",
+  "prevId": "783a1eaa-09f7-493c-b931-dc06d1681e63",
   "version": "7",
   "dialect": "postgresql",
   "tables": {
@@ -41,7 +41,15 @@
       "indexes": {},
       "foreignKeys": {},
       "compositePrimaryKeys": {},
-      "uniqueConstraints": {},
+      "uniqueConstraints": {
+        "monsterDetails_name_unique": {
+          "name": "monsterDetails_name_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "name"
+          ]
+        }
+      },
       "policies": {},
       "checkConstraints": {},
       "isRLSEnabled": false
@@ -99,12 +107,6 @@
         },
         "ammo": {
           "name": "ammo",
-          "type": "varchar(255)",
-          "primaryKey": false,
-          "notNull": true
-        },
-        "startingTier": {
-          "name": "startingTier",
           "type": "varchar(255)",
           "primaryKey": false,
           "notNull": true

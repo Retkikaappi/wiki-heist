@@ -1,5 +1,7 @@
 import puppeteer from 'puppeteer';
-import fs from 'fs';
+import db from '../src/db/index.ts';
+import { monstersTable } from '../src/db/schema.ts';
+import { MonsterDetails } from './scraper.ts';
 
 const scrapeMonsters = async () => {
   const browser = await puppeteer.launch();
@@ -24,16 +26,18 @@ const scrapeMonsters = async () => {
 
   await page.waitForSelector('div.mw-parser-output', { visible: true });
 
-  const content = await page.evaluate(() => {
+  const content = await page.evaluate((): MonsterDetails[] => {
     const sections = document.querySelectorAll('h3');
     if (!content) {
-      return {
-        name: 'No name',
-        link: 'No link',
-        image: 'No image',
-        rank: 'No rank',
-        appearsOn: 'No data',
-      };
+      return [
+        {
+          name: 'No name',
+          link: 'No link',
+          img: 'No image',
+          rank: 'Bronze',
+          appearsOn: 'No data',
+        },
+      ];
     }
 
     return Array.from(sections)
@@ -67,18 +71,15 @@ const scrapeMonsters = async () => {
             img: imgEle ? imgEle.src : 'No image',
             rank: rankEle ? rankEle.textContent?.trim() : 'No rank',
             appearsOn: day,
-          };
+          } as MonsterDetails;
         });
       })
       .flat();
   });
 
   try {
-    fs.writeFileSync(
-      './data/monsterDetails.json',
-      JSON.stringify(content, null, 2)
-    );
-    console.log('data written');
+    await db.insert(monstersTable).values(content);
+    console.log('inserted');
   } catch (error) {
     console.log('Caught error', error);
   }

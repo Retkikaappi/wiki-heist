@@ -79,9 +79,9 @@ const SingleMonster = () => {
         />
         {data.skills.length > 0 && (
           <div className='flex flex-row gap-4 p-2 px-8 skillsPanel rounded-xs shadow-xl shadow-bazaarDarkest'>
-            {data.skills.map((e) => (
+            {data.skills.map((e, index) => (
               <div
-                key={e.name}
+                key={`skill_${e}_${index}`}
                 className='p-1 text-center'
                 onMouseEnter={(r) => enter(r, e as SkillData)}
                 onMouseLeave={leave}
@@ -99,8 +99,8 @@ const SingleMonster = () => {
           </div>
         )}
         <div className='flex flex-row gap-4 p-2 px-8 itemsPanel rounded-xs shadow-xl shadow-bazaarDarkest'>
-          {data.items.map((e) => (
-            <div key={e.name} className='p-1 text-center'>
+          {data.items.map((e, index) => (
+            <div key={`item_${e}_${index}`} className='p-1 text-center'>
               <p className='mb-2'>{e.name}</p>
 
               <div className='h-32 rounded-xs'>

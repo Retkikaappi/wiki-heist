@@ -1,0 +1,1 @@
+ALTER TABLE "monsterItems" DROP COLUMN "startingTier";

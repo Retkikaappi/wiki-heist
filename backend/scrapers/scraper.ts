@@ -1,5 +1,11 @@
 import puppeteer from 'puppeteer';
-import fs from 'fs';
+import db from '../src/db/index.ts';
+import {
+  monsterDetailsTable,
+  monsterItems,
+  monsterSkills,
+  monstersTable,
+} from '../src/db/schema.ts';
 
 export type SkillData = {
   sprite: string;
@@ -19,6 +25,13 @@ export type itemsData = {
   size: string;
 };
 
+export type MonsterDetailTableEntry = {
+  name: string;
+  boardImage: string;
+  skills: SkillData[];
+  items: itemsData[];
+};
+
 export type MonsterDetails = {
   name: string;
   link: string;
@@ -26,7 +39,9 @@ export type MonsterDetails = {
   rank: 'Bronze' | 'Silver' | 'Gold+';
   appearsOn: string;
 };
-const fetchSkillsItems = async (monster: string) => {
+const fetchSkillsItems = async (
+  monster: string
+): Promise<MonsterDetailTableEntry> => {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
   await page.goto(monster, {
@@ -109,7 +124,7 @@ const fetchSkillsItems = async (monster: string) => {
 
   const monsterName = await page.evaluate(() => {
     const name = document.querySelector('h1.firstHeading');
-    return name ? name.textContent : 'No name';
+    return name?.textContent ? name.textContent?.trim() : 'No name';
   });
 
   const data = {
@@ -126,28 +141,41 @@ const fetchSkillsItems = async (monster: string) => {
 };
 
 const fetchAllMonsterData = async () => {
-  const allMonsterData = [];
+  const monsters = await db
+    .select({ link: monstersTable.link })
+    .from(monstersTable);
 
-  const data = fs.readFileSync('./data/monsterDetails.json', 'utf-8');
-  const monstersData = (await JSON.parse(data)) as MonsterDetails[];
-  const monsters = monstersData.map((e) => e.link);
+  await db.delete(monsterSkills);
+  await db.delete(monsterItems);
+  await db.delete(monsterDetailsTable);
 
   for (const monster of monsters) {
     try {
-      console.log('monster: ', monster);
-      const data = await fetchSkillsItems(monster);
-      allMonsterData.push(data);
+      console.log('monster: ', monster.link);
+      const data = await fetchSkillsItems(monster.link);
+      const [{ monsterId }] = await db
+        .insert(monsterDetailsTable)
+        .values({ name: data.name, boardImage: data.boardImage })
+
+        .returning({ monsterId: monsterDetailsTable.id });
+
+      for (const skill of data.skills) {
+        await db.insert(monsterSkills).values({
+          ...skill,
+          monsterId,
+        });
+      }
+
+      for (const item of data.items) {
+        await db.insert(monsterItems).values({
+          ...item,
+          monsterId,
+        });
+      }
     } catch (error) {
       console.log('error', error);
     }
   }
-
-  console.log('all data', allMonsterData.length);
-
-  fs.writeFileSync(
-    './data/allMonsterData.json',
-    JSON.stringify(allMonsterData, null, 2)
-  );
 };
 
 await fetchAllMonsterData();

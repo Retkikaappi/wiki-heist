@@ -25,7 +25,7 @@ export type itemsData = {
 
 export type MonsterInfo = {
   name: string;
-  image: string;
+  img: string;
   boardImage: string;
   skills: SkillData[];
   items: itemsData[];

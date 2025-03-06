@@ -9,7 +9,7 @@ export const getSingleMonster = async (name: string): Promise<MonsterInfo> => {
 export const getMonsterImages = async (): Promise<
   {
     name: string;
-    image: string;
+    img: string;
   }[]
 > => {
   const resp = await fetch(`${baseUrl}/images`);

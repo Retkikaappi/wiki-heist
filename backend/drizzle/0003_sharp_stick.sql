@@ -1,0 +1,1 @@
+ALTER TABLE "monsterDetails" DROP CONSTRAINT "monsterDetails_name_unique";
