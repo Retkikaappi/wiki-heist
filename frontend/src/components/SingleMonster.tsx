@@ -77,9 +77,9 @@ const SingleMonster = () => {
           alt={`${data.name}-board`}
           className='h-60 rounded-xs'
         />
-        {data.skills.length > 0 && (
+        {data.monsterSkills.length > 0 && (
           <div className='flex flex-row gap-4 p-2 px-8 skillsPanel rounded-xs shadow-xl shadow-bazaarDarkest'>
-            {data.skills.map((e, index) => (
+            {data.monsterSkills.map((e, index) => (
               <div
                 key={`skill_${e}_${index}`}
                 className='p-1 text-center'
@@ -99,7 +99,7 @@ const SingleMonster = () => {
           </div>
         )}
         <div className='flex flex-row gap-4 p-2 px-8 itemsPanel rounded-xs shadow-xl shadow-bazaarDarkest'>
-          {data.items.map((e, index) => (
+          {data.monsterItems.map((e, index) => (
             <div key={`item_${e}_${index}`} className='p-1 text-center'>
               <p className='mb-2'>{e.name}</p>
 

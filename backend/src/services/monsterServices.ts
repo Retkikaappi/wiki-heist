@@ -49,29 +49,12 @@ const allMonsters = async () => {
 };
 
 const singleMonster = async (name: string) => {
-  const monster = await db
-    .select()
-    .from(monsterDetailsTable)
-    .where(eq(monsterDetailsTable.name, name));
+  const monster = await db.query.monsterDetailsTable.findFirst({
+    where: (monsterDetailsTable, { eq }) => eq(monsterDetailsTable.name, name),
+    with: { monsterSkills: true, monsterItems: true },
+  });
 
-  if (monster.length === 0) {
-    return null;
-  }
-  const monsterId = monster[0].id;
-  const skills = await db
-    .select()
-    .from(monsterSkills)
-    .where(eq(monsterSkills.monsterId, monsterId));
-  const items = await db
-    .select()
-    .from(monsterItems)
-    .where(eq(monsterItems.monsterId, monsterId));
-
-  return {
-    ...monster[0],
-    skills,
-    items,
-  };
+  return monster;
 };
 
 export default {

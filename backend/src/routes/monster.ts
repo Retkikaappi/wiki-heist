@@ -13,12 +13,6 @@ router.get('/images', async (_req, resp) => {
   resp.json(data);
 });
 
-router.get('/details', async (req, resp) => {
-  const data = await db.query.monstersTable.findMany();
-
-  resp.json(data);
-});
-
 router.get('/:monsterName', async (req, resp) => {
   const { monsterName } = req.params;
 
