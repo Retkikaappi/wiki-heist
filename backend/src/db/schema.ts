@@ -1,5 +1,5 @@
 import { relations } from 'drizzle-orm';
-import { integer, pgTable, varchar } from 'drizzle-orm/pg-core';
+import { integer, pgTable, text, varchar } from 'drizzle-orm/pg-core';
 
 export const monstersTable = pgTable('monsters', {
   id: integer().primaryKey().generatedAlwaysAsIdentity(),
@@ -67,3 +67,21 @@ export const monsterItemRelations = relations(monsterItems, ({ one }) => ({
     references: [monsterDetailsTable.id],
   }),
 }));
+
+export const eventsTable = pgTable('events', {
+  id: integer().primaryKey().generatedAlwaysAsIdentity(),
+  name: varchar({ length: 255 }).notNull(),
+  link: varchar({ length: 255 }).notNull(),
+  img: varchar({ length: 255 }).notNull(),
+  rarity: varchar({ length: 255 }).notNull(),
+  isHeroEvent: varchar({ length: 255 }).notNull(),
+  occurance: varchar({ length: 255 }).notNull(),
+});
+
+export const eventDetailsTable = pgTable('eventDetails', {
+  id: integer().primaryKey().generatedAlwaysAsIdentity(),
+  img: varchar({ length: 255 }).notNull(),
+  name: varchar({ length: 255 }).notNull(),
+  description: varchar({ length: 255 }).notNull(),
+  functions: text().notNull(),
+});

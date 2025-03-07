@@ -29,6 +29,27 @@
       "when": 1741255304852,
       "tag": "0003_sharp_stick",
       "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1741330593524,
+      "tag": "0004_smooth_enchantress",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1741333743407,
+      "tag": "0005_common_warpath",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1741334790706,
+      "tag": "0006_mature_smiling_tiger",
+      "breakpoints": true
     }
   ]
 }

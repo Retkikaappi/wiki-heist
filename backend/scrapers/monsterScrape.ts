@@ -87,4 +87,5 @@ const scrapeMonsters = async () => {
   await browser.close();
 };
 
+await db.delete(monstersTable);
 await scrapeMonsters();
