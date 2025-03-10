@@ -34,17 +34,13 @@ export type MonsterInfo = {
 export type EventByDay = {
   name: string;
   rarity: string;
-  hero: string;
+  img: string;
+  isHeroEvent: string;
 };
 
 export type EventData = {
-  image: string;
+  img: string;
   description: string;
   functions: string[];
   name: string;
-};
-
-export type EventDataWithRarity = EventData & {
-  hero: string;
-  rarity: string;
 };

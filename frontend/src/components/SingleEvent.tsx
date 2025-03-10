@@ -38,21 +38,23 @@ const SingleEvent = () => {
 
           <div className='m-auto h-40 w-40'>
             <img
-              src={event.image}
+              src={event.img}
               className='max-h-1/1 max-w-1/1 m-auto ring-1 ring-bazaarDarkest'
             />
           </div>
 
-          <div className='w-1/2 m-auto shadow-xl shadow-bazaarDarkest'>
-            {event.functions.map((e) => (
-              <p
-                className='p-1 odd:bg-bazaarDarkLight even:bg-bazaarDarkest'
-                key={e}
-              >
-                {e}
-              </p>
-            ))}
-          </div>
+          {event.functions.length > 0 && event.functions[0] !== '' && (
+            <div className='w-1/2 m-auto shadow-xl shadow-bazaarDarkest'>
+              {event.functions.map((e) => (
+                <p
+                  className='p-1 odd:bg-bazaarDarkLight even:bg-bazaarDarkest'
+                  key={e}
+                >
+                  {e}
+                </p>
+              ))}
+            </div>
+          )}
         </div>
       )}
     </div>

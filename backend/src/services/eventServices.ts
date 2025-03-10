@@ -1,27 +1,27 @@
-import fs from 'fs';
-type EventData = {
-  image: string;
-  description: string;
-  functions: string[];
-  name: string;
-};
+import db from '../db/index.ts';
 
-let eventData: EventData[] | null = null;
-
-const loadEventData = async () => {
-  if (eventData === null) {
-    try {
-      const data = fs.readFileSync('./data/eventData.json', 'utf-8');
-      eventData = (await JSON.parse(data)) as EventData[];
-    } catch (e) {
-      console.log('Error loading data ', e);
-    }
+const allEvents = async () => {
+  try {
+    const data = await db.query.eventDetailsTable.findMany();
+    const mappedData = data.map((e) => ({
+      ...e,
+      functions: e.functions.split('--'),
+    }));
+    return mappedData;
+  } catch (error) {
+    console.log('Allevents', error);
+    return;
   }
-  return eventData;
 };
 
-const allEvents = () => {
-  return eventData;
+const eventImages = async () => {
+  try {
+    const data = await db.query.eventsTable.findMany();
+    return data;
+  } catch (error) {
+    console.log('Eventimages', error);
+    return;
+  }
 };
 
-export default { loadEventData, allEvents };
+export default { allEvents, eventImages };
