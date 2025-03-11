@@ -1,10 +1,3 @@
-export type Day = {
-  day: number;
-  bronze: string[];
-  silver: string[];
-  gold: string[];
-};
-
 export type SkillData = {
   sprite: string;
   name: string;
@@ -36,6 +29,15 @@ export type EventByDay = {
   rarity: string;
   img: string;
   isHeroEvent: string;
+};
+
+export type MonsterData = {
+  id: number;
+  name: string;
+  link: string;
+  img: string;
+  rank: string;
+  appearsOn: string;
 };
 
 export type EventData = {

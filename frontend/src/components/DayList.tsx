@@ -1,8 +1,6 @@
 import { NavLink, Outlet } from 'react-router-dom';
-import useMonsters from '../hooks/useMonsters';
-import { Day } from '../types';
 
-const DayBtn = ({ item }: { item: Day }) => (
+const DayBtn = ({ index }: { index: number }) => (
   <NavLink
     className={({ isActive }: { isActive: boolean }) =>
       `m-2 h-12 w-20 rounded-md text-center content-center shadow-sm shadow-black hover:from-blue-400 hover:via-blue-500 hover:to-blue-500 transition ${
@@ -11,20 +9,18 @@ const DayBtn = ({ item }: { item: Day }) => (
           : 'bg-linear-to-br from-blue-900 via-blue-900 to-blue-950'
       }`
     }
-    to={`/day/${item.day}`}
+    to={index === 10 ? `/day/${index}+` : `/day/${index}`}
   >
-    <p className='text-lg'>{item.day}</p>
+    <p className='text-lg'>{index}</p>
   </NavLink>
 );
 
 const DayList = () => {
-  const { monsters } = useMonsters();
-
   return (
     <div className='flex flex-col forepattern'>
       <div className='mb-4 flex flex-wrap justify-center items-center'>
-        {monsters.map((item) => (
-          <DayBtn key={item.day} item={item} />
+        {[...Array(10)].map((_e, index) => (
+          <DayBtn key={`day_${index + 1}`} index={index + 1} />
         ))}
       </div>
       <Outlet />

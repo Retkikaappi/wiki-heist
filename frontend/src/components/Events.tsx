@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import useEvents from '../hooks/useEvents';
 import { EventByDay } from '../types';
+import { ReactNode, useState } from 'react';
 
 const EventLink = ({ event }: { event: EventByDay }) => (
   <Link
@@ -31,7 +32,35 @@ const EventWrapper = ({
   </div>
 );
 
+const EventModal = ({
+  isOpen,
+  setIsOpen,
+  children,
+}: {
+  isOpen: boolean;
+  setIsOpen: React.Dispatch<React.SetStateAction<boolean>>;
+  children: ReactNode;
+}) => {
+  return isOpen ? (
+    <div>
+      <button
+        className='p-2 m-2 bg-blue-500'
+        onClick={() => setIsOpen(!isOpen)}
+      >
+        Click me
+      </button>
+      {children}
+    </div>
+  ) : (
+    <button className='p-2 m-2 bg-blue-500' onClick={() => setIsOpen(!isOpen)}>
+      Click me
+    </button>
+  );
+};
+
 const Events = () => {
+  //maybe handle modals with useref or useimperativehandle
+  const [isOpen, setIsOpen] = useState<boolean>(false);
   const { eventImages, data, isLoading, isError } = useEvents();
 
   if (isLoading || eventImages.isLoading) {
@@ -56,43 +85,56 @@ const Events = () => {
         className='bg-white text-black text-center placeholder-grey mx-auto my-2 p-2'
       />
 
-      <EventWrapper styling='from-bronze via-amber-800 to-bronze'>
-        {eventImages.data.map(
-          (e) =>
-            e.isHeroEvent === 'No' &&
-            e.rarity.includes('Bronze') && <EventLink key={e.name} event={e} />
-        )}
-      </EventWrapper>
-
-      <EventWrapper styling='from-silver via-zinc-500 to-zinc-300'>
-        {eventImages.data.map(
-          (e) =>
-            e.isHeroEvent === 'No' &&
-            e.rarity.includes('Silver') && <EventLink key={e.name} event={e} />
-        )}
-      </EventWrapper>
-
-      <EventWrapper styling='from-gold via-yellow-600 to-yellow-500'>
-        {eventImages.data.map(
-          (e) =>
-            e.isHeroEvent === 'No' &&
-            e.rarity.includes('Gold') && <EventLink key={e.name} event={e} />
-        )}
-      </EventWrapper>
-
-      <EventWrapper styling='from-diamond via-cyan-500 to-cyan-400'>
-        {eventImages.data.map(
-          (e) =>
-            e.isHeroEvent === 'No' &&
-            e.rarity.includes('Diamond') && <EventLink key={e.name} event={e} />
-        )}
-      </EventWrapper>
-
-      <EventWrapper styling='from-hero to-purple-400'>
-        {eventImages.data.map(
-          (e) => e.isHeroEvent !== 'No' && <EventLink key={e.name} event={e} />
-        )}
-      </EventWrapper>
+      <EventModal isOpen={isOpen} setIsOpen={setIsOpen}>
+        <EventWrapper styling='from-bronze via-amber-800 to-bronze'>
+          {eventImages.data.map(
+            (e) =>
+              e.isHeroEvent === 'No' &&
+              e.rarity.includes('Bronze') && (
+                <EventLink key={e.name} event={e} />
+              )
+          )}
+        </EventWrapper>
+      </EventModal>
+      <EventModal isOpen={isOpen} setIsOpen={setIsOpen}>
+        <EventWrapper styling='from-silver via-zinc-500 to-zinc-300'>
+          {eventImages.data.map(
+            (e) =>
+              e.isHeroEvent === 'No' &&
+              e.rarity.includes('Silver') && (
+                <EventLink key={e.name} event={e} />
+              )
+          )}
+        </EventWrapper>
+      </EventModal>
+      <EventModal isOpen={isOpen} setIsOpen={setIsOpen}>
+        <EventWrapper styling='from-gold via-yellow-600 to-yellow-500'>
+          {eventImages.data.map(
+            (e) =>
+              e.isHeroEvent === 'No' &&
+              e.rarity.includes('Gold') && <EventLink key={e.name} event={e} />
+          )}
+        </EventWrapper>
+      </EventModal>
+      <EventModal isOpen={isOpen} setIsOpen={setIsOpen}>
+        <EventWrapper styling='from-diamond via-cyan-500 to-cyan-400'>
+          {eventImages.data.map(
+            (e) =>
+              e.isHeroEvent === 'No' &&
+              e.rarity.includes('Diamond') && (
+                <EventLink key={e.name} event={e} />
+              )
+          )}
+        </EventWrapper>
+      </EventModal>
+      <EventModal isOpen={isOpen} setIsOpen={setIsOpen}>
+        <EventWrapper styling='from-hero to-purple-400'>
+          {eventImages.data.map(
+            (e) =>
+              e.isHeroEvent !== 'No' && <EventLink key={e.name} event={e} />
+          )}
+        </EventWrapper>
+      </EventModal>
     </div>
   );
 };

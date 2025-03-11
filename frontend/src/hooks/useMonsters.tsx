@@ -1,15 +1,16 @@
-import { useState } from 'react';
-import monstersByDay from '../../data/monstersByDay';
 import { useQuery } from '@tanstack/react-query';
-import { getMonsterImages } from '../services/monsterService';
+import { getAllMonsters, getMonsterImages } from '../services/monsterService';
 const useMonsters = () => {
-  const [monsters] = useState(monstersByDay);
-  const { data } = useQuery({
+  const monsters = useQuery({
+    queryKey: ['monsters'],
+    queryFn: getAllMonsters,
+  });
+  const monsterImages = useQuery({
     queryKey: ['images'],
     queryFn: getMonsterImages,
   });
 
-  return { monsters, monsterImages: data };
+  return { monsters, monsterImages };
 };
 
 export default useMonsters;
