@@ -26,7 +26,7 @@ const SingleEvent = () => {
   return (
     <div className='m-auto text-center'>
       <button
-        className='m-2 h-12 w-40 rounded-md text-center content-center shadow-sm shadow-black hover:from-blue-400 hover:via-blue-500 hover:to-blue-500 transition bg-linear-to-br from-blue-900 via-blue-900 to-blue-950 hover:cursor-pointer'
+        className='m-2 h-12 w-50 rounded-md text-center content-center shadow-sm shadow-black hover:from-blue-400 hover:via-blue-500 hover:to-blue-500 transition bg-linear-to-br from-blue-900 via-blue-900 to-blue-950 hover:cursor-pointer'
         onClick={() => nav(-1)}
       >
         Go back
