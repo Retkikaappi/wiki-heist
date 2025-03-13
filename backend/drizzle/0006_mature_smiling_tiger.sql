@@ -1,1 +1,0 @@
-ALTER TABLE "eventDetails" ADD COLUMN "img" varchar(255) NOT NULL;

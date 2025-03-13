@@ -1,3 +1,21 @@
+CREATE TABLE "eventDetails" (
+	"id" integer PRIMARY KEY GENERATED ALWAYS AS IDENTITY (sequence name "eventDetails_id_seq" INCREMENT BY 1 MINVALUE 1 MAXVALUE 2147483647 START WITH 1 CACHE 1),
+	"img" varchar(255) NOT NULL,
+	"name" varchar(255) NOT NULL,
+	"description" varchar(255) NOT NULL,
+	"functions" text NOT NULL
+);
+--> statement-breakpoint
+CREATE TABLE "events" (
+	"id" integer PRIMARY KEY GENERATED ALWAYS AS IDENTITY (sequence name "events_id_seq" INCREMENT BY 1 MINVALUE 1 MAXVALUE 2147483647 START WITH 1 CACHE 1),
+	"name" varchar(255) NOT NULL,
+	"link" varchar(255) NOT NULL,
+	"img" varchar(255) NOT NULL,
+	"rarity" varchar(255) NOT NULL,
+	"isHeroEvent" varchar(255) NOT NULL,
+	"occurance" varchar(255) NOT NULL
+);
+--> statement-breakpoint
 CREATE TABLE "monsterDetails" (
 	"id" integer PRIMARY KEY GENERATED ALWAYS AS IDENTITY (sequence name "monsterDetails_id_seq" INCREMENT BY 1 MINVALUE 1 MAXVALUE 2147483647 START WITH 1 CACHE 1),
 	"name" varchar NOT NULL,
@@ -12,7 +30,6 @@ CREATE TABLE "monsterItems" (
 	"effects" varchar(255) NOT NULL,
 	"cooldown" varchar(255) NOT NULL,
 	"ammo" varchar(255) NOT NULL,
-	"startingTier" varchar(255) NOT NULL,
 	"types" varchar(255) NOT NULL,
 	"size" varchar(255) NOT NULL
 );

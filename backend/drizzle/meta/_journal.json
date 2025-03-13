@@ -5,50 +5,8 @@
     {
       "idx": 0,
       "version": "7",
-      "when": 1741242516223,
-      "tag": "0000_flawless_penance",
-      "breakpoints": true
-    },
-    {
-      "idx": 1,
-      "version": "7",
-      "when": 1741248072278,
-      "tag": "0001_bizarre_true_believers",
-      "breakpoints": true
-    },
-    {
-      "idx": 2,
-      "version": "7",
-      "when": 1741250353233,
-      "tag": "0002_blue_kabuki",
-      "breakpoints": true
-    },
-    {
-      "idx": 3,
-      "version": "7",
-      "when": 1741255304852,
-      "tag": "0003_sharp_stick",
-      "breakpoints": true
-    },
-    {
-      "idx": 4,
-      "version": "7",
-      "when": 1741330593524,
-      "tag": "0004_smooth_enchantress",
-      "breakpoints": true
-    },
-    {
-      "idx": 5,
-      "version": "7",
-      "when": 1741333743407,
-      "tag": "0005_common_warpath",
-      "breakpoints": true
-    },
-    {
-      "idx": 6,
-      "version": "7",
-      "when": 1741334790706,
-      "tag": "0006_mature_smiling_tiger",
+      "when": 1741851085449,
+      "tag": "0000_eager_magdalene",
       "breakpoints": true
     }
   ]
