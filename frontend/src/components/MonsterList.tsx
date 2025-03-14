@@ -11,12 +11,16 @@ const MonsterList = () => {
     monsters.isError ||
     monsterImages.isError
   ) {
-    return <div className='p-4'>No monsters found</div>;
+    return (
+      <div className='pt-4 pb-20 flex flex-col items-center'>
+        <p>No monsters found</p>
+      </div>
+    );
   }
 
   if (monsters.isLoading || monsterImages.isLoading) {
     return (
-      <div className='pt-4 pb-20 flex flex-col h-dvh items-center bg-linear-to-b from-bazaarDark to-bazaarDarkest'>
+      <div className='pt-4 pb-20 flex flex-col items-center'>
         <div className='border-6 border-b-blue-600 animate-spin w-20 h-20 rounded-full'></div>
       </div>
     );

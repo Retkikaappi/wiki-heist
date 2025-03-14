@@ -4,6 +4,7 @@ import MonsterList from './components/MonsterList';
 import SingleMonster from './components/SingleMonster';
 import Events from './components/Events';
 import SingleEvent from './components/SingleEvent';
+import Login from './components/Login';
 
 function App() {
   return (
@@ -29,6 +30,29 @@ function App() {
         >
           Monsters
         </NavLink>
+        <NavLink
+          className={({ isActive }) =>
+            `absolute right-1 place-self-center p-3 rounded-sm font-bold text-lg hover:bg-blue-500 ${
+              isActive && 'bg-blue-800'
+            }`
+          }
+          to='/login'
+        >
+          <svg
+            xmlns='http://www.w3.org/2000/svg'
+            width='24'
+            height='24'
+            viewBox='0 0 24 24'
+            fill='none'
+            stroke='#ffffff'
+            stroke-width='2'
+            stroke-linecap='round'
+            stroke-linejoin='round'
+          >
+            <path d='M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2'></path>
+            <circle cx='12' cy='7' r='4'></circle>
+          </svg>
+        </NavLink>
       </div>
 
       <Routes>
@@ -42,6 +66,7 @@ function App() {
           </Route>
         </Route>
         <Route path='/events/:eventName' element={<SingleEvent />} />
+        <Route path='/login' element={<Login />} />
       </Routes>
     </div>
   );
