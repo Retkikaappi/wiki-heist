@@ -46,3 +46,7 @@ export type EventData = {
   functions: string[];
   name: string;
 };
+
+export type LoginResponse = {
+  token: string;
+};

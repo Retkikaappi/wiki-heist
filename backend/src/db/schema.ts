@@ -85,3 +85,9 @@ export const eventDetailsTable = pgTable('eventDetails', {
   description: varchar({ length: 255 }).notNull(),
   functions: text().notNull(),
 });
+
+export const userTable = pgTable('users', {
+  id: integer().primaryKey().generatedAlwaysAsIdentity(),
+  username: varchar({ length: 255 }).notNull().unique(),
+  password: varchar({ length: 255 }).notNull(),
+});

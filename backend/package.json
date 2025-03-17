@@ -12,8 +12,8 @@
     "start": "node dist/src/index.js",
     "build:windows": "@powershell Remove-Item -Recurse -Force dist && cd ../frontend && npm run build && @powershell Copy-Item dist ../backend -Recurse",
     "build:deploy": "npm run build:windows && npm run tsc && fly deploy",
-    "drizzle:generate": "npx drizzle-kit generate",
-    "drizzle:migrate": "npx drizzle-kit migrate",
+    "drizzle:generate": "cross-env NODE_ENV=dev npx drizzle-kit generate",
+    "drizzle:migrate": "cross-env NODE_ENV=dev npx drizzle-kit migrate",
     "drizzle:check": "npx drizzle-kit check"
   },
   "author": "",
@@ -23,9 +23,11 @@
     "@eslint/js": "^9.20.0",
     "@flydotio/dockerfile": "^0.7.5",
     "@stylistic/eslint-plugin": "^3.1.0",
+    "@types/bcrypt": "^5.0.2",
     "@types/cors": "^2.8.17",
     "@types/eslint__js": "^8.42.3",
     "@types/express": "^5.0.0",
+    "@types/jsonwebtoken": "^9.0.9",
     "@types/pg": "^8.11.11",
     "@types/puppeteer": "^5.4.7",
     "drizzle-kit": "^0.30.5",
@@ -35,14 +37,15 @@
     "typescript-eslint": "^8.24.0"
   },
   "dependencies": {
+    "bcrypt": "^5.1.1",
     "cors": "^2.8.5",
     "cross-env": "^7.0.3",
     "dotenv": "^16.4.7",
     "drizzle-orm": "^0.40.0",
     "express": "^4.21.2",
     "express-async-errors": "^3.1.1",
+    "jsonwebtoken": "^9.0.2",
     "pg": "^8.13.3",
     "puppeteer": "^24.2.0"
   }
 }
-

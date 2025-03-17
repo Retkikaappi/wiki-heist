@@ -6,3 +6,4 @@ const URL =
     : process.env.DB_URL_PROD;
 
 export const DB_URL = URL as string;
+export const SECRET = process.env.SECRET as string;
