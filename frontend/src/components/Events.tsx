@@ -65,7 +65,7 @@ const EventModal = ({
 };
 
 const Events = () => {
-  const { eventImages, data, isLoading, isError } = useEvents();
+  const { eventImages, events } = useEvents();
   const [search, setSearch] = useState<string | null>(null);
 
   const debouncedSearch = useMemo(
@@ -76,14 +76,19 @@ const Events = () => {
     []
   );
 
-  if (isLoading || eventImages.isLoading) {
+  if (events.isLoading || eventImages.isLoading) {
     return (
       <div className='pt-4 pb-20 flex flex-col items-center '>
         <div className='border-6 border-b-blue-600 animate-spin w-20 h-20 rounded-full'></div>
       </div>
     );
   }
-  if (isError || !data || eventImages.isError || !eventImages.data) {
+  if (
+    events.isError ||
+    !events.data ||
+    eventImages.isError ||
+    !eventImages.data
+  ) {
     return (
       <div className='pt-4 pb-20 flex flex-col items-center '>
         Could not find events

@@ -4,16 +4,16 @@ import useEvents from '../hooks/useEvents';
 const SingleEvent = () => {
   const nav = useNavigate();
   const { eventName } = useParams();
-  const { data, isLoading, isError } = useEvents();
+  const { events } = useEvents();
 
-  if (isLoading) {
+  if (events.isLoading) {
     return (
       <div className='pt-4 pb-20 flex flex-col h-dvh items-center bg-linear-to-b from-bazaarDark to-bazaarDarkest'>
         <div className='border-6 border-b-blue-600 animate-spin w-20 h-20 rounded-full'></div>
       </div>
     );
   }
-  if (isError || !data) {
+  if (events.isError || !events.data) {
     return (
       <div className='pt-4 pb-20 flex flex-col h-dvh items-center bg-linear-to-b from-bazaarDark to-bazaarDarkest'>
         Could not find event
@@ -21,7 +21,7 @@ const SingleEvent = () => {
     );
   }
 
-  const event = data.find((e) => e.name === eventName);
+  const event = events.data.find((e) => e.name === eventName);
 
   return (
     <div className='m-auto text-center'>

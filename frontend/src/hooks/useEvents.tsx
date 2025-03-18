@@ -6,12 +6,12 @@ const useEvents = () => {
     queryKey: ['eventImages'],
     queryFn: getEventImages,
   });
-  const { data, isLoading, isError } = useQuery({
+  const events = useQuery({
     queryKey: ['events'],
     queryFn: getEvents,
   });
 
-  return { eventImages, isError, data, isLoading };
+  return { eventImages, events };
 };
 
 export default useEvents;

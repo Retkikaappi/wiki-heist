@@ -1,3 +1,5 @@
+import { UseQueryResult } from '@tanstack/react-query';
+
 export type SkillData = {
   sprite: string;
   name: string;
@@ -40,6 +42,11 @@ export type MonsterData = {
   appearsOn: string;
 };
 
+export type MonsterImage = {
+  name: string;
+  img: string;
+};
+
 export type EventData = {
   img: string;
   description: string;
@@ -47,6 +54,15 @@ export type EventData = {
   name: string;
 };
 
+export type DataDisplay = UseQueryResult<
+  EventData[] | EventByDay[] | MonsterData[] | MonsterImage[]
+>;
+
 export type LoginResponse = {
   token: string;
+};
+
+export type UserContextInit = {
+  user: string | null;
+  setUser: React.Dispatch<React.SetStateAction<string | null>>;
 };

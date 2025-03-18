@@ -7,6 +7,7 @@ import SingleEvent from './components/SingleEvent';
 import Login from './components/Login';
 import { useEffect, useState } from 'react';
 import UserContext from './context/userContext';
+import RoutesDashboard from './components/Login/RoutesDashboard';
 
 function App() {
   const [user, setUser] = useState<string | null>(null);
@@ -63,7 +64,7 @@ function App() {
               isActive && 'bg-blue-800'
             }`
           }
-          to='/login'
+          to='/admin'
         >
           <svg
             xmlns='http://www.w3.org/2000/svg'
@@ -82,7 +83,7 @@ function App() {
         </NavLink>
       </div>
 
-      <UserContext.Provider value={user}>
+      <UserContext.Provider value={{ user, setUser }}>
         <Routes>
           <Route path='/' element={<Events />} />
           <Route path='/day' element={<DayList />}>
@@ -94,7 +95,9 @@ function App() {
             </Route>
           </Route>
           <Route path='/events/:eventName' element={<SingleEvent />} />
-          <Route path='/login' element={<Login setUser={setUser} />} />
+          <Route path='/admin' element={<Login />}>
+            <Route path='/admin/routes' element={<RoutesDashboard />} />
+          </Route>
         </Routes>
       </UserContext.Provider>
     </div>

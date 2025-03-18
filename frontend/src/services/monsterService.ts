@@ -1,4 +1,4 @@
-import { MonsterData, MonsterInfo } from '../types';
+import { MonsterData, MonsterImage, MonsterInfo } from '../types';
 
 const baseUrl = '/api/monsters';
 export const getSingleMonster = async (name: string): Promise<MonsterInfo> => {
@@ -11,12 +11,7 @@ export const getAllMonsters = async (): Promise<MonsterData[]> => {
   return resp.json();
 };
 
-export const getMonsterImages = async (): Promise<
-  {
-    name: string;
-    img: string;
-  }[]
-> => {
+export const getMonsterImages = async (): Promise<MonsterImage[]> => {
   const resp = await fetch(`${baseUrl}/images`);
 
   return resp.json();
