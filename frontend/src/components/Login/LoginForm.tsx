@@ -20,23 +20,26 @@ const LoginForm = () => {
   };
   return (
     <>
-      <p className='mb-4'>Admin login</p>
-      <form onSubmit={handleSubmit} className='flex flex-col gap-4 '>
+      <p className='my-4 text-center font-bold'>Admin login</p>
+      <form
+        onSubmit={handleSubmit}
+        className='flex flex-col gap-4 justify-center items-center'
+      >
         <input
           type='text'
-          className='bg-white placeholder-gray-700 text-black  rounded-xs p-1 text-center'
+          className='bg-white placeholder-gray-700 text-black w-50 rounded-xs p-1 text-center'
           placeholder='username'
           onChange={({ target }) => setUsername(target.value)}
           value={username}
         />
         <input
           type='password'
-          className='bg-white placeholder-gray-700 text-black rounded-xs p-1 text-center'
+          className='bg-white placeholder-gray-700 text-black w-50 rounded-xs p-1 text-center'
           placeholder='password'
           onChange={({ target }) => setPassword(target.value)}
           value={password}
         />
-        <button className='bg-bazaarBtn rounded-xs p-1 cursor-pointer hover:bg-blue-500 transition'>
+        <button className='bg-bazaarBtn rounded-xs p-1 cursor-pointer w-30 hover:bg-blue-500 transition'>
           Login
         </button>
       </form>

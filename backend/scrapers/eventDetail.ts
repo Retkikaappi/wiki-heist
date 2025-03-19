@@ -9,9 +9,13 @@ type EventData = {
   functions: string;
 };
 
-const scrapeEvents = async (link: string) => {
+const eventDetails = async (link: string) => {
+  const ua =
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.3';
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
+  await page.setUserAgent(ua);
+
   await page.goto(link, {
     waitUntil: 'domcontentloaded',
   });
@@ -75,7 +79,7 @@ const scrapeEvents = async (link: string) => {
   return content;
 };
 
-const fetchEvents = async () => {
+const iterateEventDetails = async () => {
   const events = await db.query.eventsTable.findMany({
     columns: {
       link: true,
@@ -83,22 +87,22 @@ const fetchEvents = async () => {
   });
   await db.delete(eventDetailsTable);
   try {
-    const eventData = [];
     for (const event of events) {
       try {
         console.log(event.link);
 
-        const data = await scrapeEvents(event.link);
-        eventData.push(data);
+        const data = await eventDetails(event.link);
+        await db.insert(eventDetailsTable).values(data);
+        console.log(data);
       } catch (error) {
         console.log('error scraping', error);
       }
     }
-    await db.insert(eventDetailsTable).values(eventData);
+
     console.log('done');
   } catch (error) {
     console.log(error);
   }
 };
 
-await fetchEvents();
+await iterateEventDetails();

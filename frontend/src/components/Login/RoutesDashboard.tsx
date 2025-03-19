@@ -4,11 +4,19 @@ import useMonsters from '../../hooks/useMonsters';
 import { DataDisplay } from '../../types';
 
 const DisplayData = ({ data }: { data: DataDisplay }) => {
-  if (data.isError || !data.data) {
-    return <div>Error fetching data</div>;
-  }
   if (data.isLoading) {
-    return <div>Loading data</div>;
+    return (
+      <div className='pt-4 pb-20 flex flex-col items-center '>
+        <div className='border-6 border-b-blue-600 animate-spin w-20 h-20 rounded-full'></div>
+      </div>
+    );
+  }
+  if (data.isError || !data.data) {
+    return (
+      <div className='pt-4 pb-20 flex flex-col items-center '>
+        Could not find events
+      </div>
+    );
   }
 
   return (
@@ -54,7 +62,7 @@ const RoutesDashboard = () => {
 
   return (
     <div className='flex-1'>
-      <div className='border-black border-1 border-b-0 p-2 flex gap-3'>
+      <div className='border-black border-1 border-b-0 border-t-0 p-2 flex gap-3'>
         <button
           onClick={() => setData(events)}
           className={`p-1 font-bold hover:text-blue-500`}

@@ -8,6 +8,7 @@ import Login from './components/Login';
 import { useEffect, useState } from 'react';
 import UserContext from './context/userContext';
 import RoutesDashboard from './components/Login/RoutesDashboard';
+import Scrapers from './components/Login/Scrapers';
 
 function App() {
   const [user, setUser] = useState<string | null>(null);
@@ -97,6 +98,7 @@ function App() {
           <Route path='/events/:eventName' element={<SingleEvent />} />
           <Route path='/admin' element={<Login />}>
             <Route path='/admin/routes' element={<RoutesDashboard />} />
+            <Route path='/admin/scrapers' element={<Scrapers />} />
           </Route>
         </Routes>
       </UserContext.Provider>

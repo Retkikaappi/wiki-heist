@@ -2,9 +2,12 @@ import puppeteer from 'puppeteer';
 import db from '../src/db/index.ts';
 import { eventsTable } from '../src/db/schema.ts';
 
-const scrapeEvents = async () => {
+const eventNames = async () => {
+  const ua =
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.3';
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
+  await page.setUserAgent(ua);
   await page.goto(`https://thebazaar.wiki.gg/wiki/Category:Event`, {
     waitUntil: 'domcontentloaded',
   });
@@ -24,7 +27,7 @@ const scrapeEvents = async () => {
   }
 
   await page.waitForSelector(
-    '#mw-content-text > div.mw-content-ltr.mw-parser-output > table > tbody',
+    '#mw-content-text > div.mw-content-ltr.mw-parser-output > table > tbody > tr',
     { visible: true }
   );
 
@@ -75,4 +78,4 @@ const scrapeEvents = async () => {
 };
 
 await db.delete(eventsTable);
-await scrapeEvents();
+await eventNames();

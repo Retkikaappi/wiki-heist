@@ -56,10 +56,14 @@ const EventModal = ({
     </div>
   ) : (
     <button
-      className={`p-3 text-md font-bold self-center rounded-md w-50 shadow-sm shadow-black cursor-pointer transition hover:saturate-200 bg-gradient-to-r ${styling}`}
+      className={`p-3 text-md font-bold self-center rounded-md w-50 shadow-sm shadow-black cursor-pointer transition hover:ring-1 hover:brightness-150 bg-neutral-900 text-gradient ${styling}`}
       onClick={() => setIsOpen(true)}
     >
-      {label}
+      <span
+        className={`text-lg bg-gradient-to-r ${styling} text-transparent bg-clip-text`}
+      >
+        {label}
+      </span>
     </button>
   );
 };
@@ -119,10 +123,7 @@ const Events = () => {
         )
       ) : (
         <>
-          <EventModal
-            label='Bronze'
-            styling='from-bronze via-amber-800 to-bronze'
-          >
+          <EventModal label='Bronze' styling='from-bronze to-amber-600'>
             <EventWrapper styling='from-bronze via-amber-800 to-bronze'>
               {eventImages.data.map(
                 (e) =>
@@ -133,10 +134,7 @@ const Events = () => {
               )}
             </EventWrapper>
           </EventModal>
-          <EventModal
-            label='Silver'
-            styling='from-silver via-zinc-500 to-zinc-300'
-          >
+          <EventModal label='Silver' styling='from-silver to-zinc-300'>
             <EventWrapper styling='from-silver via-zinc-500 to-zinc-300'>
               {eventImages.data.map(
                 (e) =>
@@ -147,10 +145,7 @@ const Events = () => {
               )}
             </EventWrapper>
           </EventModal>
-          <EventModal
-            label='Gold'
-            styling='from-gold via-yellow-600 to-yellow-500'
-          >
+          <EventModal label='Gold' styling='from-gold to-yellow-500'>
             <EventWrapper styling='from-gold via-yellow-600 to-yellow-500'>
               {eventImages.data.map(
                 (e) =>
@@ -161,10 +156,7 @@ const Events = () => {
               )}
             </EventWrapper>
           </EventModal>
-          <EventModal
-            label='Diamond'
-            styling='from-diamond via-cyan-500 to-cyan-400'
-          >
+          <EventModal label='Diamond' styling='from-diamond to-cyan-400'>
             <EventWrapper styling='from-diamond via-cyan-500 to-cyan-400'>
               {eventImages.data.map(
                 (e) =>
@@ -175,7 +167,7 @@ const Events = () => {
               )}
             </EventWrapper>
           </EventModal>
-          <EventModal label='Hero' styling='from-hero to-purple-400'>
+          <EventModal label='Hero' styling='from-hero to-purple-500'>
             <EventWrapper styling='from-hero to-purple-400'>
               {eventImages.data.map(
                 (e) =>

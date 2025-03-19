@@ -42,8 +42,11 @@ export type MonsterDetails = {
 const fetchSkillsItems = async (
   monster: string
 ): Promise<MonsterDetailTableEntry> => {
+  const ua =
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.3';
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
+  await page.setUserAgent(ua);
   await page.goto(monster, {
     waitUntil: 'domcontentloaded',
   });
@@ -140,7 +143,7 @@ const fetchSkillsItems = async (
   return data;
 };
 
-const fetchAllMonsterData = async () => {
+const monsterDetails = async () => {
   const monsters = await db
     .select({ link: monstersTable.link })
     .from(monstersTable);
@@ -178,5 +181,5 @@ const fetchAllMonsterData = async () => {
   }
 };
 
-await fetchAllMonsterData();
+await monsterDetails();
 process.exit();
