@@ -1,8 +1,8 @@
-import { useParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 import { useQuery } from '@tanstack/react-query';
-import { getSingleMonster } from '../services/monsterService';
+import { getSingleMonster } from '../../services/monsterService';
 import { MouseEvent, useState } from 'react';
-import { SkillData, itemsData } from '../types';
+import { SkillData, itemsData } from '../../types';
 
 type Info = {
   x: number;
@@ -30,6 +30,7 @@ const Tooltip = ({ tooltipInfo: { x, y, content } }: { tooltipInfo: Info }) => {
 };
 
 const SingleMonster = () => {
+  const nav = useNavigate();
   const [mouseOver, setMouseover] = useState<boolean>(false);
   const [tooltipInfo, setTooltipInfo] = useState<Info>({
     x: 0,
@@ -71,6 +72,12 @@ const SingleMonster = () => {
 
   return (
     <>
+      <button
+        className='h-12 w-40 rounded-md self-center text-center content-center shadow-sm shadow-black hover:from-blue-400 hover:via-blue-500 hover:to-blue-500 transition bg-linear-to-br from-blue-900 via-blue-900 to-blue-950 hover:cursor-pointer'
+        onClick={() => nav(-1)}
+      >
+        Go back
+      </button>
       <div className='pt-4 pb-20 flex flex-col gap-4 items-center selector'>
         <img
           src={data.boardImage}

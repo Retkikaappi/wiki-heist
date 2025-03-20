@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
-import useEvents from '../hooks/useEvents';
-import { EventByDay } from '../types';
+import useEvents from '../../hooks/useEvents';
+import { EventByDay } from '../../types';
 import { ReactNode, useMemo, useState } from 'react';
 import debounce from 'lodash.debounce';
 
@@ -110,6 +110,7 @@ const Events = () => {
         placeholder='Search for an event'
         className='bg-white w-50 rounded-md text-black text-center placeholder-grey mx-auto my-2 p-2'
         onChange={({ target }) => debouncedSearch(target.value)}
+        autoFocus
       />
       {search ? (
         filteredEvents && filteredEvents.length > 0 ? (

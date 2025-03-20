@@ -1,5 +1,5 @@
 import { useNavigate, useParams } from 'react-router-dom';
-import useEvents from '../hooks/useEvents';
+import useEvents from '../../hooks/useEvents';
 
 const SingleEvent = () => {
   const nav = useNavigate();

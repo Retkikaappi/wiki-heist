@@ -22,7 +22,14 @@ const DayList = () => {
         {[...Array(10)].map((_e, index) => (
           <DayBtn key={`day_${index + 1}`} index={index + 1} />
         ))}
+        <NavLink
+          className={`m-2 h-12 w-20 rounded-md text-center content-center shadow-sm shadow-black hover:from-blue-400 hover:via-blue-500 hover:to-blue-500 transition bg-linear-to-br from-blue-900 via-blue-900 to-blue-950`}
+          to='/day/'
+        >
+          <p className='text-lg'>All</p>
+        </NavLink>
       </div>
+
       <Outlet />
     </div>
   );

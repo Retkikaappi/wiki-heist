@@ -1,14 +1,17 @@
-import DayList from './components/DayList';
+import DayList from './components/Monster';
 import { Routes, Route, NavLink, useNavigate } from 'react-router-dom';
-import MonsterList from './components/MonsterList';
-import SingleMonster from './components/SingleMonster';
-import Events from './components/Events';
-import SingleEvent from './components/SingleEvent';
+import MonsterList from './components/Monster/MonsterList';
+import SingleMonster from './components/Monster/SingleMonster';
+import Events from './components/Event';
+import SingleEvent from './components/Event/SingleEvent';
 import Login from './components/Login';
 import { useEffect, useState } from 'react';
 import UserContext from './context/userContext';
 import RoutesDashboard from './components/Login/RoutesDashboard';
 import Scrapers from './components/Login/Scrapers';
+import DefaultView from './components/Login/DefaultView';
+import MonsterCards from './components/Monster/MonsterCards';
+import Items from './components/Item';
 
 function App() {
   const [user, setUser] = useState<string | null>(null);
@@ -49,6 +52,16 @@ function App() {
           to='/day'
         >
           Monsters
+        </NavLink>
+        <NavLink
+          className={({ isActive }) =>
+            `p-3 font-bold text-lg hover:text-blue-500 ${
+              isActive && 'text-blue-500 underline '
+            }`
+          }
+          to='/items'
+        >
+          Items
         </NavLink>
 
         {user && (
@@ -94,9 +107,12 @@ function App() {
                 element={<SingleMonster />}
               />
             </Route>
+            <Route path='/day' element={<MonsterCards />} />
           </Route>
           <Route path='/events/:eventName' element={<SingleEvent />} />
+          <Route path='/items' element={<Items />} />
           <Route path='/admin' element={<Login />}>
+            <Route path='/admin' element={<DefaultView />} />
             <Route path='/admin/routes' element={<RoutesDashboard />} />
             <Route path='/admin/scrapers' element={<Scrapers />} />
           </Route>
