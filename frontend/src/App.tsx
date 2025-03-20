@@ -12,10 +12,12 @@ import Scrapers from './components/Login/Scrapers';
 import DefaultView from './components/Login/DefaultView';
 import MonsterCards from './components/Monster/MonsterCards';
 import Items from './components/Item';
+import useEvents from './hooks/useEvents';
 
 function App() {
   const [user, setUser] = useState<string | null>(null);
   const nav = useNavigate();
+  const { eventImages, events } = useEvents();
 
   useEffect(() => {
     const token = localStorage.getItem('bazaar-token');
@@ -99,7 +101,10 @@ function App() {
 
       <UserContext.Provider value={{ user, setUser }}>
         <Routes>
-          <Route path='/' element={<Events />} />
+          <Route
+            path='/'
+            element={<Events events={events} eventImages={eventImages} />}
+          />
           <Route path='/day' element={<DayList />}>
             <Route path='/day/:dayIndex' element={<MonsterList />}>
               <Route
@@ -109,7 +114,10 @@ function App() {
             </Route>
             <Route path='/day' element={<MonsterCards />} />
           </Route>
-          <Route path='/events/:eventName' element={<SingleEvent />} />
+          <Route
+            path='/events/:eventName'
+            element={<SingleEvent events={events} />}
+          />
           <Route path='/items' element={<Items />} />
           <Route path='/admin' element={<Login />}>
             <Route path='/admin' element={<DefaultView />} />

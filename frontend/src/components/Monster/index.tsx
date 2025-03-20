@@ -1,4 +1,5 @@
 import { NavLink, Outlet } from 'react-router-dom';
+import useMonsters from '../../hooks/useMonsters';
 
 const DayBtn = ({ index }: { index: number }) => (
   <NavLink
@@ -16,6 +17,7 @@ const DayBtn = ({ index }: { index: number }) => (
 );
 
 const DayList = () => {
+  const { monsters } = useMonsters();
   return (
     <div className='flex flex-col forepattern'>
       <div className='mb-4 flex flex-wrap justify-center items-center'>
@@ -30,7 +32,7 @@ const DayList = () => {
         </NavLink>
       </div>
 
-      <Outlet />
+      <Outlet context={monsters} />
     </div>
   );
 };

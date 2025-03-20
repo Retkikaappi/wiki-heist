@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
-import useEvents from '../../hooks/useEvents';
-import { EventByDay } from '../../types';
+import { EventByDay, EventData } from '../../types';
 import { ReactNode, useMemo, useState } from 'react';
 import debounce from 'lodash.debounce';
+import { UseQueryResult } from '@tanstack/react-query';
 
 const EventLink = ({ event }: { event: EventByDay }) => (
   <Link
@@ -68,8 +68,13 @@ const EventModal = ({
   );
 };
 
-const Events = () => {
-  const { eventImages, events } = useEvents();
+const Events = ({
+  events,
+  eventImages,
+}: {
+  events: UseQueryResult<EventData[], Error>;
+  eventImages: UseQueryResult<EventByDay[], Error>;
+}) => {
   const [search, setSearch] = useState<string | null>(null);
 
   const debouncedSearch = useMemo(

@@ -1,10 +1,14 @@
 import { useNavigate, useParams } from 'react-router-dom';
-import useEvents from '../../hooks/useEvents';
+import { UseQueryResult } from '@tanstack/react-query';
+import { EventData } from '../../types';
 
-const SingleEvent = () => {
+const SingleEvent = ({
+  events,
+}: {
+  events: UseQueryResult<EventData[], Error>;
+}) => {
   const nav = useNavigate();
   const { eventName } = useParams();
-  const { events } = useEvents();
 
   if (events.isLoading) {
     return (

@@ -1,8 +1,9 @@
-import { NavLink, useMatch } from 'react-router-dom';
-import useMonsters from '../../hooks/useMonsters';
+import { NavLink, useMatch, useOutletContext } from 'react-router-dom';
+import { UseQueryResult } from '@tanstack/react-query';
+import { MonsterData } from '../../types';
 
 const MonsterCards = ({ dayIndex }: { dayIndex?: string }) => {
-  const { monsters } = useMonsters();
+  const monsters = useOutletContext<UseQueryResult<MonsterData[], Error>>();
   const isMonsterView = useMatch('/day/:dayIndex/:monsterName');
 
   if (!monsters.data || monsters.isError) {
