@@ -91,3 +91,15 @@ export const userTable = pgTable('users', {
   username: varchar({ length: 255 }).notNull().unique(),
   password: varchar({ length: 255 }).notNull(),
 });
+
+export const itemTable = pgTable('items', {
+  id: integer().primaryKey().generatedAlwaysAsIdentity(),
+  name: varchar({ length: 255 }).notNull(),
+  img: varchar({ length: 255 }).notNull(),
+  effect: varchar({ length: 255 }).notNull(),
+  cooldown: varchar({ length: 255 }).notNull(),
+  ammo: varchar({ length: 255 }).notNull(),
+  types: varchar({ length: 255 }).notNull(),
+  size: varchar({ length: 255 }).notNull(),
+  hero: varchar({ length: 255 }).notNull(),
+});

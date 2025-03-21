@@ -9,7 +9,6 @@ const LoginForm = () => {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    console.log(username, password);
     const loggedUser = await loginUser({ username, password });
     setUsername('');
     setPassword('');

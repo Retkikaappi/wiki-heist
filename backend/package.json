@@ -14,7 +14,8 @@
     "build:deploy": "npm run build:windows && npm run tsc && fly deploy",
     "drizzle:generate": "cross-env NODE_ENV=dev npx drizzle-kit generate",
     "drizzle:migrate": "cross-env NODE_ENV=dev npx drizzle-kit migrate",
-    "drizzle:check": "npx drizzle-kit check"
+    "drizzle:check": "npx drizzle-kit check",
+    "drizzle:studio": "cross-env NODE_ENV=dev npx drizzle-kit studio"
   },
   "author": "",
   "license": "ISC",
@@ -49,3 +50,4 @@
     "puppeteer": "^24.2.0"
   }
 }
+

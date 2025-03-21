@@ -6,7 +6,6 @@ export const loginUser = async (user: {
   username: string;
   password: string;
 }): Promise<LoginResponse> => {
-  console.log(user);
   const resp = await fetch(baseUrl, {
     headers: { 'Content-Type': 'application/json' },
     method: 'POST',

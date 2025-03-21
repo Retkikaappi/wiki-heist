@@ -2,6 +2,7 @@ import express, { NextFunction, Request, Response } from 'express';
 import monsterRouter from './routes/monster.ts';
 import eventRouter from './routes/event.ts';
 import loginRouter from './routes/login.ts';
+import itemRouter from './routes/item.ts';
 import cors from 'cors';
 
 const app = express();
@@ -24,6 +25,7 @@ app.use(express.static('dist'));
 app.use('/api/monsters', monsterRouter);
 app.use('/api/events', eventRouter);
 app.use('/api/login', loginRouter);
+app.use('/api/items', itemRouter);
 
 app.use('*', (_req, resp) => {
   resp.redirect('/');

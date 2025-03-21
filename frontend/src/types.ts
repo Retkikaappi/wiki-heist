@@ -66,3 +66,15 @@ export type UserContextInit = {
   user: string | null;
   setUser: React.Dispatch<React.SetStateAction<string | null>>;
 };
+
+export type itemsDataNew = {
+  id: number;
+  name: string;
+  img: string;
+  effect: string;
+  cooldown: string;
+  ammo: string;
+  types: string;
+  size: string;
+  hero: string;
+};
