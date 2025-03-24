@@ -1,10 +1,11 @@
 import { useEffect, useState } from 'react';
 import useItems from '../../hooks/useItems';
 import { itemsDataNew } from '../../types';
+import Loading from '../Loading';
 
 const Item = ({ item }: { item: itemsDataNew }) => (
   <div
-    className={`p-2 flex flex-1 hover:brightness-125 hover:ring-1 bg-neutral-900`}
+    className={`p-2 flex flex-1 hover:brightness-125 hover:ring-1 bg-neutral-900 rounded-sm cursor-pointer`}
   >
     <div className='overflow-hidden h-25 content-center'>
       <img src={item.img} className='' />
@@ -20,17 +21,35 @@ const Item = ({ item }: { item: itemsDataNew }) => (
   </div>
 );
 
+const FilterBtn = ({
+  type,
+  handleClick,
+}: {
+  type: string;
+  handleClick: () => void;
+}) => {
+  return (
+    <button
+      onClick={handleClick}
+      className='p-1 m-1 bg-neutral-900 rounded-sm hover:brightness-125 hover:ring-1 cursor-pointer'
+    >
+      {type}
+    </button>
+  );
+};
+
 const Items = () => {
-  const { someItems } = useItems();
+  const [type, setType] = useState<string>('');
+  const { someItems, types, withType } = useItems(type);
   const [items, setItems] = useState<itemsDataNew[] | null>(null);
 
-  useEffect(() => {
-    if (someItems.data) {
-      setItems(someItems.data);
-    }
-  }, [someItems.data]);
+  // useEffect(() => {
+  //   if (someItems.data) {
+  //     setItems(someItems.data);
+  //   }
+  // }, [someItems.data]);
 
-  if (!someItems.data || someItems.isError) {
+  if (!someItems.data || someItems.isError || !types.data || types.isError) {
     return (
       <div className='pt-4 pb-20 flex flex-col items-center'>
         <p>No items found</p>
@@ -38,44 +57,37 @@ const Items = () => {
     );
   }
 
-  if (someItems.isLoading) {
-    return (
-      <div className='pt-4 pb-20 flex flex-col items-center'>
-        <div className='border-6 border-b-blue-600 animate-spin w-20 h-20 rounded-full'></div>
-      </div>
-    );
-  }
-
-  const setSize = (size: number) => {
-    setItems(someItems.data.slice(0, size));
+  const handleClick = (type: string) => {
+    setType(type);
   };
 
   return (
     <div className='text-center'>
-      <button
-        className='p-1 m-1 bg-neutral-900 rounded-sm hover:brightness-125 hover:ring-1 cursor-pointer'
-        onClick={() => setSize(11)}
-      >
-        Filter to 10
-      </button>
-      <button
-        className='p-1 m-1 bg-neutral-900 rounded-sm hover:brightness-125 hover:ring-1 cursor-pointer'
-        onClick={() => setSize(21)}
-      >
-        Filter to 20
-      </button>
-      <button
-        className='p-1 m-1 bg-neutral-900 rounded-sm hover:brightness-125 hover:ring-1 cursor-pointer'
-        onClick={() => setSize(51)}
-      >
-        Filter to 50
-      </button>
+      <div className=''>
+        <input
+          className='m-1 rounded-sm p-1 w-50 bg-white text-center placeholder-gray-700'
+          placeholder='I do nothing yet'
+        />
+        <button className='m-1 p-1 bg-neutral-900 rounded-sm hover:brightness-125 hover:ring-1 cursor-pointer'>
+          Search
+        </button>
+        <br />
+        {types.data.map((e) => (
+          <FilterBtn handleClick={() => handleClick(e)} type={e} key={e} />
+        ))}
+      </div>
 
       <div className='mt-4 mb-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 w-5/6 m-auto'>
-        {items &&
-          items.map((item, index) => (
+        {someItems.isLoading || types.isLoading || withType.isLoading ? (
+          <Loading />
+        ) : withType ? (
+          withType.data?.map((item, index) => (
             <Item item={item} key={`item_${index}`} />
-          ))}
+          ))
+        ) : (
+          items &&
+          items.map((item, index) => <Item item={item} key={`item_${index}`} />)
+        )}
       </div>
     </div>
   );

@@ -4,7 +4,7 @@ import eventRouter from './routes/event.ts';
 import loginRouter from './routes/login.ts';
 import itemRouter from './routes/item.ts';
 import cors from 'cors';
-
+import path from 'path';
 const app = express();
 app.use(express.json());
 app.use(cors());
@@ -28,7 +28,7 @@ app.use('/api/login', loginRouter);
 app.use('/api/items', itemRouter);
 
 app.use('*', (_req, resp) => {
-  resp.redirect('/');
+  resp.sendFile(path.resolve('dist', 'index.html'));
 });
 
 app.listen(PORT, () => {

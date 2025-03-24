@@ -12,4 +12,21 @@ router.get('/some', async (_req, resp) => {
   const data = await itemServices.someItems();
   resp.json(data);
 });
+
+router.get('/types', async (_req, resp) => {
+  const data = await itemServices.types();
+  resp.json(data);
+});
+
+router.get('/types/:type', async (req, resp) => {
+  const { type } = req.params;
+  const data = await itemServices.withType(type);
+  resp.json(data);
+});
+
+router.get('/search/:name', async (req, resp) => {
+  const { name } = req.params;
+  const data = await itemServices.withName(name);
+  resp.json(data);
+});
 export default router;
