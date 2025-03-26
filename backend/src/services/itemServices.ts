@@ -45,7 +45,7 @@ const withName = async (name: string) => {
   const data = await db
     .select()
     .from(itemTable)
-    .where(ilike(itemTable.name, `${name}`));
+    .where(ilike(itemTable.name, `%${name}%`));
   return data;
 };
 export default { allItems, someItems, types, withType, withName };

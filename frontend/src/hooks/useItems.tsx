@@ -2,10 +2,11 @@ import { useQuery } from '@tanstack/react-query';
 import {
   getSomeItems,
   getTypes,
+  searchWithName,
   searchWithType,
 } from '../services/itemService';
 
-const useItems = (type: string) => {
+const useItems = (type: string, name: string) => {
   const someItems = useQuery({
     queryKey: ['items'],
     queryFn: getSomeItems,
@@ -22,7 +23,13 @@ const useItems = (type: string) => {
     enabled: !!type,
   });
 
-  return { someItems, types, withType };
+  const withName = useQuery({
+    queryKey: ['itemsByName', name],
+    queryFn: () => searchWithName(name),
+    enabled: !!name,
+  });
+
+  return { someItems, types, withType, withName };
 };
 
 export default useItems;

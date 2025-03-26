@@ -1,6 +1,7 @@
 import { NavLink, useMatch, useOutletContext } from 'react-router-dom';
 import { UseQueryResult } from '@tanstack/react-query';
 import { MonsterData } from '../../types';
+import ErrorComponent from '../../ErrorComponent';
 
 const MonsterCards = ({ dayIndex }: { dayIndex?: string }) => {
   const monsters = useOutletContext<UseQueryResult<MonsterData[], Error>>();
@@ -9,7 +10,10 @@ const MonsterCards = ({ dayIndex }: { dayIndex?: string }) => {
   if (!monsters.data || monsters.isError) {
     return (
       <div className='pt-4 pb-20 flex flex-col items-center'>
-        <p>No monsters found</p>
+        <ErrorComponent
+          msg='No monsters found'
+          failReason={monsters.failureReason}
+        />
       </div>
     );
   }
