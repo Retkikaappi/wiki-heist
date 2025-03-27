@@ -22,7 +22,7 @@ RUN apt-get update -qq && \
 
 # Install node modules
 COPY package-lock.json package.json ./
-RUN npm ci
+RUN npm ci --omit=dev
 
 # Copy application code
 COPY . .
@@ -31,10 +31,10 @@ COPY . .
 # Final stage for app image
 FROM base
 
-# Install packages needed for deployment
-RUN apt-get update -qq && \
-    apt-get install --no-install-recommends -y chromium chromium-sandbox && \
-    rm -rf /var/lib/apt/lists /var/cache/apt/archives
+# # Install packages needed for deployment
+# RUN apt-get update -qq && \
+#     apt-get install --no-install-recommends -y chromium chromium-sandbox && \
+#     rm -rf /var/lib/apt/lists /var/cache/apt/archives
 
 # Copy built application
 COPY --from=build /app /app

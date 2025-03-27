@@ -42,6 +42,12 @@ export type MonsterData = {
   appearsOn: string;
 };
 
+export type MonsterContext = {
+  monsters: UseQueryResult<MonsterData[], Error>;
+  monsterImages: UseQueryResult<MonsterImage[], Error>;
+  prefetchMonster: (monsterName: string) => void;
+};
+
 export type MonsterImage = {
   name: string;
   img: string;

@@ -17,7 +17,7 @@ const DayBtn = ({ index }: { index: number }) => (
 );
 
 const DayList = () => {
-  const { monsters } = useMonsters();
+  const monsters = useMonsters();
   return (
     <div className='flex flex-col forepattern'>
       <div className='mb-4 flex flex-wrap justify-center items-center'>

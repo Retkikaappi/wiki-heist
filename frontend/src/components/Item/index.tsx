@@ -9,15 +9,18 @@ import debounce from 'lodash.debounce';
 const FilterBtn = ({
   type,
   handleClick,
+  handleOver,
   activeType,
 }: {
   type: string;
-  handleClick: () => void;
+  handleClick: (type: string) => void;
+  handleOver: (type: string) => void;
   activeType: string;
 }) => {
   return (
     <button
-      onClick={handleClick}
+      onClick={() => handleClick(type)}
+      onMouseEnter={() => handleOver(type)}
       className={`p-1 m-1 bg-neutral-900 rounded-sm hover:brightness-125 hover:ring-1 cursor-pointer
         ${activeType === type && 'text-blue-500 underline'}`}
     >
@@ -30,7 +33,10 @@ const Items = () => {
   const [type, setType] = useState<string>('');
   const [name, setName] = useState<string>('');
   const [nameInput, setNameInput] = useState<string>('');
-  const { someItems, types, withType, withName } = useItems(type, name);
+  const { someItems, types, withType, preFetchWithType, withName } = useItems(
+    type,
+    name
+  );
 
   const debouncedSearch = useMemo(
     () =>
@@ -44,6 +50,10 @@ const Items = () => {
     setNameInput('');
     setName('');
     setType(type);
+  };
+
+  const handleOver = (preType: string) => {
+    preFetchWithType(preType);
   };
 
   const handleNameChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -68,7 +78,8 @@ const Items = () => {
           types.data.map((e) => (
             <FilterBtn
               activeType={type}
-              handleClick={() => handleClick(e)}
+              handleClick={handleClick}
+              handleOver={handleOver}
               type={e}
               key={e}
             />
@@ -83,7 +94,9 @@ const Items = () => {
         )}
       </div>
 
-      {withType.isLoading || withName.isLoading || someItems.isLoading ? (
+      {(type !== '' && withType.isLoading) ||
+      withName.isLoading ||
+      someItems.isLoading ? (
         <Loading />
       ) : withName.isError || withType.isError || someItems.isError ? (
         <ErrorComponent

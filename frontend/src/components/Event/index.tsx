@@ -3,6 +3,8 @@ import { EventByDay, EventData } from '../../types';
 import { ReactNode, useMemo, useState } from 'react';
 import debounce from 'lodash.debounce';
 import { UseQueryResult } from '@tanstack/react-query';
+import ErrorComponent from '../../ErrorComponent';
+import LoadingDots from '../Loading/LoadingDots';
 
 const EventLink = ({ event }: { event: EventByDay }) => (
   <Link
@@ -85,28 +87,9 @@ const Events = ({
     []
   );
 
-  if (events.isLoading || eventImages.isLoading) {
-    return (
-      <div className='pt-4 pb-20 flex flex-col items-center '>
-        <div className='border-6 border-b-blue-600 animate-spin w-20 h-20 rounded-full'></div>
-      </div>
-    );
-  }
-  if (
-    events.isError ||
-    !events.data ||
-    eventImages.isError ||
-    !eventImages.data
-  ) {
-    return (
-      <div className='pt-4 pb-20 flex flex-col items-center '>
-        Could not find events
-      </div>
-    );
-  }
-
   const filteredEvents =
     search &&
+    eventImages.data &&
     eventImages.data.filter((e) => e.name.toLowerCase().includes(search));
 
   return (
@@ -127,61 +110,88 @@ const Events = ({
         ) : (
           <div className='items-center text-lg'>Could not find events</div>
         )
-      ) : (
+      ) : events.isLoading || eventImages.isLoading ? (
         <>
           <EventModal label='Bronze' styling='from-bronze to-amber-600'>
-            <EventWrapper styling='from-bronze via-amber-800 to-bronze'>
-              {eventImages.data.map(
-                (e) =>
-                  e.isHeroEvent === 'No' &&
-                  e.rarity.includes('Bronze') && (
-                    <EventLink key={e.name} event={e} />
-                  )
-              )}
-            </EventWrapper>
+            <LoadingDots />
           </EventModal>
           <EventModal label='Silver' styling='from-silver to-zinc-300'>
-            <EventWrapper styling='from-silver via-zinc-500 to-zinc-300'>
-              {eventImages.data.map(
-                (e) =>
-                  e.isHeroEvent === 'No' &&
-                  e.rarity.includes('Silver') && (
-                    <EventLink key={e.name} event={e} />
-                  )
-              )}
-            </EventWrapper>
+            <LoadingDots />
           </EventModal>
           <EventModal label='Gold' styling='from-gold to-yellow-500'>
-            <EventWrapper styling='from-gold via-yellow-600 to-yellow-500'>
-              {eventImages.data.map(
-                (e) =>
-                  e.isHeroEvent === 'No' &&
-                  e.rarity.includes('Gold') && (
-                    <EventLink key={e.name} event={e} />
-                  )
-              )}
-            </EventWrapper>
+            <LoadingDots />
           </EventModal>
           <EventModal label='Diamond' styling='from-diamond to-cyan-400'>
-            <EventWrapper styling='from-diamond via-cyan-500 to-cyan-400'>
-              {eventImages.data.map(
-                (e) =>
-                  e.isHeroEvent === 'No' &&
-                  e.rarity.includes('Diamond') && (
-                    <EventLink key={e.name} event={e} />
-                  )
-              )}
-            </EventWrapper>
+            <LoadingDots />
           </EventModal>
           <EventModal label='Hero' styling='from-hero to-purple-500'>
-            <EventWrapper styling='from-hero to-purple-400'>
-              {eventImages.data.map(
-                (e) =>
-                  e.isHeroEvent !== 'No' && <EventLink key={e.name} event={e} />
-              )}
-            </EventWrapper>
+            <LoadingDots />
           </EventModal>
         </>
+      ) : events.isError || eventImages.isError ? (
+        <ErrorComponent
+          msg='Could not find events'
+          failReason={events.failureReason || eventImages.failureReason}
+        />
+      ) : (
+        eventImages.data && (
+          <>
+            <EventModal label='Bronze' styling='from-bronze to-amber-600'>
+              <EventWrapper styling='from-bronze via-amber-800 to-bronze'>
+                {eventImages.data.map(
+                  (e) =>
+                    e.isHeroEvent === 'No' &&
+                    e.rarity.includes('Bronze') && (
+                      <EventLink key={e.name} event={e} />
+                    )
+                )}
+              </EventWrapper>
+            </EventModal>
+            <EventModal label='Silver' styling='from-silver to-zinc-300'>
+              <EventWrapper styling='from-silver via-zinc-500 to-zinc-300'>
+                {eventImages.data.map(
+                  (e) =>
+                    e.isHeroEvent === 'No' &&
+                    e.rarity.includes('Silver') && (
+                      <EventLink key={e.name} event={e} />
+                    )
+                )}
+              </EventWrapper>
+            </EventModal>
+            <EventModal label='Gold' styling='from-gold to-yellow-500'>
+              <EventWrapper styling='from-gold via-yellow-600 to-yellow-500'>
+                {eventImages.data.map(
+                  (e) =>
+                    e.isHeroEvent === 'No' &&
+                    e.rarity.includes('Gold') && (
+                      <EventLink key={e.name} event={e} />
+                    )
+                )}
+              </EventWrapper>
+            </EventModal>
+            <EventModal label='Diamond' styling='from-diamond to-cyan-400'>
+              <EventWrapper styling='from-diamond via-cyan-500 to-cyan-400'>
+                {eventImages.data.map(
+                  (e) =>
+                    e.isHeroEvent === 'No' &&
+                    e.rarity.includes('Diamond') && (
+                      <EventLink key={e.name} event={e} />
+                    )
+                )}
+              </EventWrapper>
+            </EventModal>
+            <EventModal label='Hero' styling='from-hero to-purple-500'>
+              <EventWrapper styling='from-hero to-purple-400'>
+                {eventImages.data.map(
+                  (e) =>
+                    e.isHeroEvent !== 'No' && (
+                      <EventLink key={e.name} event={e} />
+                    )
+                )}
+              </EventWrapper>
+            </EventModal>
+          </>
+        )
       )}
     </div>
   );
