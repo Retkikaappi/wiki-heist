@@ -1,23 +1,30 @@
 import { itemsDataNew } from '../../types';
 
-const ItemCard = ({ item }: { item: itemsDataNew }) => (
+const ItemCard = ({
+  item,
+  handleMag,
+}: {
+  item: itemsDataNew;
+  handleMag: (item: itemsDataNew) => void;
+}) => (
   <div
-    className={`p-1 gap-1 flex flex-1 hover:brightness-125 hover:ring-1 bg-neutral-900 rounded-sm cursor-pointer`}
+    onClick={() => handleMag(item)}
+    className={`p-1 gap-1 flex flex-1 hover:brightness-125 hover:ring-1 bg-neutral-900 rounded-sm cursor-pointer h-38`}
   >
-    <div className='overflow-hidden flex-2 content-center justify-items-center'>
-      <img src={item.img} className='rounded-sm' />
+    <div className='overflow-hidden flex-1 content-center justify-items-center'>
+      <img src={item.img} className='rounded-sm object-contain h-full w-full' />
     </div>
-    <div className='m-auto flex-4 pr-1'>
+    <div className='flex-4 px-1 pl-1'>
       <div className=''>
         <p>{item.name}</p>
       </div>
-      <div className='ring-1 ring-bronze rounded-sm my-1'>
+      <div className='p-1 ring-1 ring-bronze rounded-sm my-1'>
         <p className='text-sm text-bronze'>{item.effect}</p>
       </div>
-      <div className='ring-1 ring-green-700 rounded-sm my-1'>
+      <div className='p-1 ring-1 ring-green-700 rounded-sm my-1'>
         <p className='text-sm text-green-500'>{item.types}</p>
       </div>
-      <div className='ring-1 ring-hero rounded-sm'>
+      <div className='p-1 ring-1 ring-hero rounded-sm'>
         <p className='text-sm text-hero'>
           {item.hero.split('_')[0]} - {item.size}
         </p>
