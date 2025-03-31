@@ -27,6 +27,7 @@ export type MonsterInfo = {
 };
 
 export type EventByDay = {
+  id: number;
   name: string;
   rarity: string;
   img: string;
@@ -54,15 +55,19 @@ export type MonsterImage = {
 };
 
 export type EventData = {
+  id: number;
   img: string;
   description: string;
   functions: string[];
   name: string;
 };
 
+export type SingleDataDisplay = EventData | MonsterData | ItemsDataNew;
 export type DataDisplay = UseQueryResult<
-  EventData[] | EventByDay[] | MonsterData[] | MonsterImage[]
+  EventData[] | MonsterData[] | ItemsDataNew[]
 >;
+
+export type ActiveData = 'Events' | 'Monsters' | 'SomeItems';
 
 export type LoginResponse = {
   token: string;
@@ -73,7 +78,7 @@ export type UserContextInit = {
   setUser: React.Dispatch<React.SetStateAction<string | null>>;
 };
 
-export type itemsDataNew = {
+export type ItemsDataNew = {
   id: number;
   name: string;
   img: string;

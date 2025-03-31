@@ -1,15 +1,15 @@
-import { itemsDataNew } from '../../types';
+import { ItemsDataNew } from '../../types';
 
 const ItemCard = ({
   item,
   handleMag,
 }: {
-  item: itemsDataNew;
-  handleMag: (item: itemsDataNew) => void;
+  item: ItemsDataNew;
+  handleMag: (item: ItemsDataNew) => void;
 }) => (
   <div
     onClick={() => handleMag(item)}
-    className={`p-1 gap-1 flex flex-1 hover:brightness-125 hover:ring-1 bg-neutral-900 rounded-sm cursor-pointer h-38`}
+    className={`p-1 gap-1 flex flex-1 hover:brightness-125 hover:ring-1 bg-neutral-900 rounded-sm cursor-pointer h-40`}
   >
     <div className='overflow-hidden flex-1 content-center justify-items-center'>
       <img src={item.img} className='rounded-sm object-contain h-full w-full' />
@@ -18,9 +18,17 @@ const ItemCard = ({
       <div className=''>
         <p>{item.name}</p>
       </div>
-      <div className='p-1 ring-1 ring-bronze rounded-sm my-1'>
-        <p className='text-sm text-bronze'>{item.effect}</p>
-      </div>
+      {item.effect.length > 100 ? (
+        <div className='p-1 ring-1 ring-bronze rounded-sm my-1'>
+          <p className='text-sm text-bronze'>
+            {item.effect.substring(0, 100)}...
+          </p>
+        </div>
+      ) : (
+        <div className='p-1 ring-1 ring-bronze rounded-sm my-1'>
+          <p className='text-sm text-bronze'>{item.effect}</p>
+        </div>
+      )}
       <div className='p-1 ring-1 ring-green-700 rounded-sm my-1'>
         <p className='text-sm text-green-500'>{item.types}</p>
       </div>

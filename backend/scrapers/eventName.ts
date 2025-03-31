@@ -69,6 +69,7 @@ const eventNames = async () => {
 
   try {
     await db.insert(eventsTable).values(content);
+    console.log(content);
     console.log('inserted');
   } catch (error) {
     console.log('Caught error', error);

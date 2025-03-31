@@ -1,5 +1,6 @@
-import express from 'express';
+import express, { Request } from 'express';
 import eventServices from '../services/eventServices.ts';
+import { EventDetailsType } from '../db/schema.ts';
 
 const router = express.Router();
 
@@ -13,5 +14,15 @@ router.get('/images', async (req, resp) => {
 
   resp.json(data);
 });
+
+router.put(
+  '/:id',
+  async (req: Request<{ id: string }, unknown, EventDetailsType>, resp) => {
+    const { id } = req.params;
+    const event = req.body;
+    const data = await eventServices.updateEvent(id, event);
+    resp.json(data);
+  }
+);
 
 export default router;

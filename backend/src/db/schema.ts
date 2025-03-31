@@ -1,4 +1,4 @@
-import { relations } from 'drizzle-orm';
+import { InferInsertModel, relations } from 'drizzle-orm';
 import { integer, pgTable, text, varchar } from 'drizzle-orm/pg-core';
 
 export const monstersTable = pgTable('monsters', {
@@ -85,6 +85,8 @@ export const eventDetailsTable = pgTable('eventDetails', {
   description: varchar({ length: 255 }).notNull(),
   functions: text().notNull(),
 });
+
+export type EventDetailsType = InferInsertModel<typeof eventDetailsTable>;
 
 export const userTable = pgTable('users', {
   id: integer().primaryKey().generatedAlwaysAsIdentity(),

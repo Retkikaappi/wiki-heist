@@ -5,7 +5,7 @@ import Loading from '../Loading';
 import ErrorComponent from '../../ErrorComponent';
 import LoadingDots from '../Loading/LoadingDots';
 import debounce from 'lodash.debounce';
-import { itemsDataNew } from '../../types';
+import { ItemsDataNew } from '../../types';
 import LargeItem from './LargeItem';
 
 const FilterBtn = ({
@@ -34,7 +34,7 @@ const FilterBtn = ({
 const Items = () => {
   const [type, setType] = useState<string>('');
   const [name, setName] = useState<string>('');
-  const [largeItem, setLargeItem] = useState<itemsDataNew | null>(null);
+  const [largeItem, setLargeItem] = useState<ItemsDataNew | null>(null);
   const [nameInput, setNameInput] = useState<string>('');
   const { someItems, types, withType, preFetchWithType, withName } = useItems(
     type,
@@ -59,7 +59,7 @@ const Items = () => {
     preFetchWithType(preType);
   };
 
-  const handleMag = (item: itemsDataNew) => {
+  const handleMag = (item: ItemsDataNew) => {
     setLargeItem(item);
   };
 

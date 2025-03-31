@@ -1,4 +1,6 @@
+import { eq } from 'drizzle-orm';
 import db from '../db/index.ts';
+import { eventDetailsTable, EventDetailsType } from '../db/schema.ts';
 
 const allEvents = async () => {
   try {
@@ -24,4 +26,19 @@ const eventImages = async () => {
   }
 };
 
-export default { allEvents, eventImages };
+const updateEvent = async (
+  id: string,
+  { name, img, description, functions }: EventDetailsType
+) => {
+  try {
+    const data = await db
+      .update(eventDetailsTable)
+      .set({ name, img, description, functions })
+      .where(eq(eventDetailsTable.id, Number(id)));
+    return data;
+  } catch (error) {
+    console.log('update error', error);
+  }
+};
+
+export default { allEvents, eventImages, updateEvent };

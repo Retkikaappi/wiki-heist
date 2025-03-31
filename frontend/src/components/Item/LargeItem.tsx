@@ -1,14 +1,12 @@
-import { itemsDataNew } from '../../types';
+import { ItemsDataNew } from '../../types';
 
 const LargeItem = ({
   largeItem,
   setLargeItem,
 }: {
-  largeItem: itemsDataNew | null;
-  setLargeItem: React.Dispatch<React.SetStateAction<itemsDataNew | null>>;
+  largeItem: ItemsDataNew | null;
+  setLargeItem: React.Dispatch<React.SetStateAction<ItemsDataNew | null>>;
 }) => {
-  console.log(largeItem);
-
   if (largeItem) {
     return (
       <div
@@ -19,7 +17,7 @@ const LargeItem = ({
           onClick={(e) => e.stopPropagation()}
           className='z-11 flex justify-center align-center p-10 w-3/4 h-4/6 bg-neutral-800 rounded-md shadow-lg shadow-black'
         >
-          <div className='overflow-hidden flex-2 content-center justify-items-center'>
+          <div className='rounded-lg overflow-hidden flex-2 content-center justify-items-center'>
             <img
               src={largeItem.img}
               className='rounded-sm object-contain w-full h-full'

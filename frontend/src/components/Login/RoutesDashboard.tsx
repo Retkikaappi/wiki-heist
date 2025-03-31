@@ -1,9 +1,17 @@
 import { useState } from 'react';
 import useEvents from '../../hooks/useEvents';
 import useMonsters from '../../hooks/useMonsters';
-import { DataDisplay } from '../../types';
+import { ActiveData, DataDisplay, SingleDataDisplay } from '../../types';
+import useItems from '../../hooks/useItems';
+import EditData from './EditData';
 
-const DisplayData = ({ data }: { data: DataDisplay }) => {
+const DisplayData = ({
+  data,
+  editClick,
+}: {
+  data: DataDisplay;
+  editClick: (data: SingleDataDisplay) => void;
+}) => {
   if (data.isLoading) {
     return (
       <div className='pt-4 pb-20 flex flex-col items-center '>
@@ -45,8 +53,13 @@ const DisplayData = ({ data }: { data: DataDisplay }) => {
                 {t}
               </td>
             ))}
-            <td className='p-1 px-6 text-sm border-1 border-black'>
-              <a>Edit</a>
+            <td className='text-sm border-1 border-black'>
+              <button
+                onClick={() => editClick(e)}
+                className='bg-neutral-800 p-3 px-6 hover:ring-1 hover:cursor-pointer ring-blue-500'
+              >
+                Edit
+              </button>
             </td>
           </tr>
         ))}
@@ -56,39 +69,58 @@ const DisplayData = ({ data }: { data: DataDisplay }) => {
 };
 
 const RoutesDashboard = () => {
-  const { events, eventImages } = useEvents();
-  const { monsters, monsterImages } = useMonsters();
+  const { events } = useEvents();
+  const { monsters } = useMonsters();
+  const { someItems } = useItems('', '');
   const [data, setData] = useState<DataDisplay>(events);
+  const [activeData, setActiveData] = useState<ActiveData>('Events');
+  const [singleData, setSingleData] = useState<SingleDataDisplay | null>(null);
+
+  const handleClick = (dataFor: DataDisplay, dataName: ActiveData) => {
+    setSingleData(null);
+    setData(dataFor);
+    setActiveData(dataName);
+  };
+
+  const editClick = (data: SingleDataDisplay) => {
+    setSingleData(data);
+    console.log(data);
+    console.log(activeData);
+  };
 
   return (
     <div className='flex-1'>
       <div className='border-black border-1 border-b-0 border-t-0 p-2 flex gap-3'>
         <button
-          onClick={() => setData(events)}
-          className={`p-1 font-bold hover:text-blue-500`}
+          onClick={() => handleClick(events, 'Events')}
+          className={`p-1 font-bold hover:text-blue-500 cursor-pointer ${
+            activeData === 'Events' && 'text-blue-500 underline'
+          }`}
         >
           Events
         </button>
         <button
-          onClick={() => setData(eventImages)}
-          className={`p-1 font-bold hover:text-blue-500`}
-        >
-          EventImages
-        </button>
-        <button
-          onClick={() => setData(monsters)}
-          className={`p-1 font-bold hover:text-blue-500`}
+          onClick={() => handleClick(monsters, 'Monsters')}
+          className={`p-1 font-bold hover:text-blue-500 cursor-pointer ${
+            activeData === 'Monsters' && 'text-blue-500 underline'
+          }`}
         >
           Monsters
         </button>
         <button
-          onClick={() => setData(monsterImages)}
-          className={`p-1 font-bold hover:text-blue-500`}
+          onClick={() => handleClick(someItems, 'SomeItems')}
+          className={`p-1 font-bold hover:text-blue-500 cursor-pointer ${
+            activeData === 'SomeItems' && 'text-blue-500 underline'
+          }`}
         >
-          MonsterImages
+          SomeItems
         </button>
       </div>
-      <DisplayData data={data} />
+      {singleData ? (
+        <EditData dataType={activeData} data={singleData} />
+      ) : (
+        <DisplayData data={data} editClick={editClick} />
+      )}
     </div>
   );
 };
