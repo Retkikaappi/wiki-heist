@@ -1,6 +1,6 @@
-import { ilike, notLike, asc } from 'drizzle-orm';
+import { ilike, notLike, asc, eq } from 'drizzle-orm';
 import db from '../db/index.ts';
-import { itemTable } from '../db/schema.ts';
+import { ItemsTableType, itemTable } from '../db/schema.ts';
 
 const allItems = async () => {
   try {
@@ -48,4 +48,16 @@ const withName = async (name: string) => {
     .where(ilike(itemTable.name, `%${name}%`));
   return data;
 };
-export default { allItems, someItems, types, withType, withName };
+
+const updateItem = async (
+  id: string,
+  { name, img, effect, cooldown, ammo, types, size, hero }: ItemsTableType
+) => {
+  const data = await db
+    .update(itemTable)
+    .set({ name, img, effect, cooldown, ammo, types, size, hero })
+    .where(eq(itemTable.id, Number(id)))
+    .returning({ updatedItem: itemTable.id });
+  return data;
+};
+export default { allItems, someItems, types, withType, withName, updateItem };

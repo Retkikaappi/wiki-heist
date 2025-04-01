@@ -1,5 +1,6 @@
-import express from 'express';
+import express, { Request } from 'express';
 import itemServices from '../services/itemServices.ts';
+import { ItemsTableType } from '../db/schema.ts';
 
 const router = express.Router();
 
@@ -29,4 +30,14 @@ router.get('/search/:name', async (req, resp) => {
   const data = await itemServices.withName(name);
   resp.json(data);
 });
+
+router.put(
+  '/:id',
+  async (req: Request<{ id: string }, unknown, ItemsTableType>, resp) => {
+    const { id } = req.params;
+    const item = req.body;
+    const data = await itemServices.updateItem(id, item);
+    resp.json(data);
+  }
+);
 export default router;

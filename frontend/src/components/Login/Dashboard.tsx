@@ -17,7 +17,7 @@ const LinkBtn = ({ children, to }: { children: ReactNode; to: string }) => (
 const Dashboard = () => {
   return (
     <div className='flex flex-row'>
-      <div className='w-1/12 h-dvh bg-neutral-900'>
+      <div className='w-1/12 bg-neutral-900'>
         <div className='flex flex-col justify-center text-center'>
           <LinkBtn to='/admin/routes'>Routes</LinkBtn>
           <LinkBtn to='/admin/scrapers'>Scrapers</LinkBtn>

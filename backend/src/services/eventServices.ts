@@ -34,7 +34,8 @@ const updateEvent = async (
     const data = await db
       .update(eventDetailsTable)
       .set({ name, img, description, functions })
-      .where(eq(eventDetailsTable.id, Number(id)));
+      .where(eq(eventDetailsTable.id, Number(id)))
+      .returning({ updatedEvent: eventDetailsTable.id });
     return data;
   } catch (error) {
     console.log('update error', error);

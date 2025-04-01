@@ -1,6 +1,6 @@
 import { useQuery, useQueryClient } from '@tanstack/react-query';
 import {
-  getSomeItems,
+  getItems,
   getTypes,
   searchWithName,
   searchWithType,
@@ -9,9 +9,9 @@ import {
 const useItems = (type: string, name: string) => {
   const queryClient = useQueryClient();
 
-  const someItems = useQuery({
+  const allItems = useQuery({
     queryKey: ['items'],
-    queryFn: getSomeItems,
+    queryFn: getItems,
   });
 
   const types = useQuery({
@@ -39,7 +39,7 @@ const useItems = (type: string, name: string) => {
     enabled: !!name,
   });
 
-  return { someItems, types, withType, preFetchWithType, withName };
+  return { allItems, types, withType, preFetchWithType, withName };
 };
 
 export default useItems;

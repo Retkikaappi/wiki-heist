@@ -7,8 +7,10 @@ import {
   SingleDataDisplay,
 } from '../../types';
 import { useState } from 'react';
-import { useMutation } from '@tanstack/react-query';
+import { useMutation, useQueryClient } from '@tanstack/react-query';
 import { updateEvent } from '../../services/eventService';
+import { updateItem } from '../../services/itemService';
+import { updateMonster } from '../../services/monsterService';
 
 const EditData = ({
   data,
@@ -17,9 +19,19 @@ const EditData = ({
   data: SingleDataDisplay;
   dataType: ActiveData;
 }) => {
+  const qc = useQueryClient();
   const nav = useNavigate();
   const mutateEvent = useMutation({
     mutationFn: (updatedObj: EventData) => updateEvent(updatedObj),
+    onSuccess: () => qc.invalidateQueries({ queryKey: ['events'] }),
+  });
+  const mutateItem = useMutation({
+    mutationFn: (updatedObj: ItemsDataNew) => updateItem(updatedObj),
+    onSuccess: () => qc.invalidateQueries({ queryKey: ['items'] }),
+  });
+  const mutateMonster = useMutation({
+    mutationFn: (updatedObj: MonsterData) => updateMonster(updatedObj),
+    onSuccess: () => qc.invalidateQueries({ queryKey: ['monsters'] }),
   });
   const [formData, setFormData] = useState(() => ({ ...data }));
 
@@ -31,7 +43,7 @@ const EditData = ({
     case 'Events':
       assertedData = data as EventData;
       break;
-    case 'SomeItems':
+    case 'AllItems':
       assertedData = data as ItemsDataNew;
       break;
     default:
@@ -60,8 +72,12 @@ const EditData = ({
           nav(-1);
           break;
         case 'Monsters':
+          mutateMonster.mutate(formData as MonsterData);
+          nav(-1);
           break;
-        case 'SomeItems':
+        case 'AllItems':
+          mutateItem.mutate(formData as ItemsDataNew);
+          nav(-1);
           break;
         default:
           break;
@@ -88,13 +104,14 @@ const EditData = ({
             <br />
             <textarea
               name={key}
-              className='w-100 min-h-10 h-20 p-1 bg-white text-black'
+              className='w-100 min-h-10 h-20 p-1 bg-white text-black disabled:bg-neutral-400'
               value={
                 (formData as typeof assertedData)?.[
                   key as keyof typeof assertedData
                 ] ?? ''
               }
               onChange={handleChange}
+              disabled={key === 'id'}
             />
           </div>
         ))}

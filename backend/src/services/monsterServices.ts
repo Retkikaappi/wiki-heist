@@ -1,4 +1,6 @@
+import { eq } from 'drizzle-orm';
 import db from '../db/index.ts';
+import { monstersTable, MonstersTableType } from '../db/schema.ts';
 
 type SkillData = {
   sprite: string;
@@ -51,8 +53,21 @@ const singleMonster = async (name: string) => {
   return monster;
 };
 
+const updateMonster = async (
+  id: string,
+  { link, name, img, rank, appearsOn }: MonstersTableType
+) => {
+  const data = await db
+    .update(monstersTable)
+    .set({ link, name, img, rank, appearsOn })
+    .where(eq(monstersTable.id, Number(id)))
+    .returning({ updatedMonster: monstersTable.id });
+  return data;
+};
+
 export default {
   allMonsters,
   singleMonster,
   allImages,
+  updateMonster,
 };

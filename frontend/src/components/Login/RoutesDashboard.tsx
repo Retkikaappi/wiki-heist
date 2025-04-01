@@ -71,7 +71,7 @@ const DisplayData = ({
 const RoutesDashboard = () => {
   const { events } = useEvents();
   const { monsters } = useMonsters();
-  const { someItems } = useItems('', '');
+  const { allItems } = useItems('', '');
   const [data, setData] = useState<DataDisplay>(events);
   const [activeData, setActiveData] = useState<ActiveData>('Events');
   const [singleData, setSingleData] = useState<SingleDataDisplay | null>(null);
@@ -108,12 +108,12 @@ const RoutesDashboard = () => {
           Monsters
         </button>
         <button
-          onClick={() => handleClick(someItems, 'SomeItems')}
+          onClick={() => handleClick(allItems, 'AllItems')}
           className={`p-1 font-bold hover:text-blue-500 cursor-pointer ${
-            activeData === 'SomeItems' && 'text-blue-500 underline'
+            activeData === 'AllItems' && 'text-blue-500 underline'
           }`}
         >
-          SomeItems
+          AllItems
         </button>
       </div>
       {singleData ? (

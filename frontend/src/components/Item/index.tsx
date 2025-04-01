@@ -36,7 +36,7 @@ const Items = () => {
   const [name, setName] = useState<string>('');
   const [largeItem, setLargeItem] = useState<ItemsDataNew | null>(null);
   const [nameInput, setNameInput] = useState<string>('');
-  const { someItems, types, withType, preFetchWithType, withName } = useItems(
+  const { allItems, types, withType, preFetchWithType, withName } = useItems(
     type,
     name
   );
@@ -104,15 +104,15 @@ const Items = () => {
 
         {(type !== '' && withType.isLoading) ||
         withName.isLoading ||
-        someItems.isLoading ? (
+        allItems.isLoading ? (
           <Loading />
-        ) : withName.isError || withType.isError || someItems.isError ? (
+        ) : withName.isError || withType.isError || allItems.isError ? (
           <ErrorComponent
             msg='Error loading item data'
             failReason={
               withName.failureReason ||
               withType.failureReason ||
-              someItems.failureReason
+              allItems.failureReason
             }
           />
         ) : name !== '' ? (
@@ -140,9 +140,9 @@ const Items = () => {
             </div>
           )
         ) : (
-          someItems.data && (
+          allItems.data && (
             <div className='mt-4 mb-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 w-5/6 m-auto'>
-              {someItems.data.map((item, index) => (
+              {allItems.data.map((item, index) => (
                 <ItemCard
                   handleMag={handleMag}
                   item={item}

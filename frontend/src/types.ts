@@ -67,7 +67,7 @@ export type DataDisplay = UseQueryResult<
   EventData[] | MonsterData[] | ItemsDataNew[]
 >;
 
-export type ActiveData = 'Events' | 'Monsters' | 'SomeItems';
+export type ActiveData = 'Events' | 'Monsters' | 'AllItems';
 
 export type LoginResponse = {
   token: string;

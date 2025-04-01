@@ -14,6 +14,8 @@ export const monstersTable = pgTable('monsters', {
   appearsOn: varchar({ length: 255 }).notNull(),
 });
 
+export type MonstersTableType = InferInsertModel<typeof monstersTable>;
+
 export const monsterDetailsTable = pgTable('monsterDetails', {
   id: integer().primaryKey().generatedAlwaysAsIdentity(),
   name: varchar().notNull(),
@@ -105,3 +107,5 @@ export const itemTable = pgTable('items', {
   size: varchar({ length: 255 }).notNull(),
   hero: varchar({ length: 255 }).notNull(),
 });
+
+export type ItemsTableType = InferInsertModel<typeof itemTable>;

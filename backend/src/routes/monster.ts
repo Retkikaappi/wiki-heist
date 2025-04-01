@@ -1,5 +1,6 @@
-import express from 'express';
+import express, { Request } from 'express';
 import monsterService from '../services/monsterServices.ts';
+import { MonstersTableType } from '../db/schema.ts';
 const router = express.Router();
 
 router.get('/', async (_req, resp) => {
@@ -26,5 +27,15 @@ router.get('/:monsterName', async (req, resp) => {
   }
   resp.json(data);
 });
+
+router.put(
+  '/:id',
+  async (req: Request<{ id: string }, unknown, MonstersTableType>, resp) => {
+    const { id } = req.params;
+    const monster = req.body;
+    const data = await monsterService.updateMonster(id, monster);
+    resp.json(data);
+  }
+);
 
 export default router;

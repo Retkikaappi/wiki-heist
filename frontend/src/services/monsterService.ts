@@ -16,3 +16,12 @@ export const getMonsterImages = async (): Promise<MonsterImage[]> => {
 
   return resp.json();
 };
+
+export const updateMonster = async (object: MonsterData) => {
+  const resp = await fetch(`${baseUrl}/${object.id}`, {
+    headers: { 'Content-Type': 'application/json' },
+    method: 'PUT',
+    body: JSON.stringify(object),
+  });
+  return resp.json();
+};
